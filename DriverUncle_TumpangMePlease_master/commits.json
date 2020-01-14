@@ -1,34 +1,17 @@
 {
   "authorDailyContributionsMap": {
-    "Shuyuan": [
-      {
-        "insertions": 555,
-        "deletions": 0,
-        "date": "2020-01-13",
-        "commitResults": [
-          {
-            "hash": "cf5da1c80770128735c4a026b739ba6ef71c94af",
-            "messageTitle": "Create report.md",
-            "messageBody": "",
-            "insertions": 555,
-            "deletions": 0
-          }
-        ]
-      }
-    ]
+    "jamessspanggg": []
   },
   "authorFinalContributionMap": {
-    "Shuyuan": 555
+    "jamessspanggg": 0
   },
   "authorFileTypeContributionMap": {
-    "Shuyuan": {
-      "md": 555
-    }
+    "jamessspanggg": {}
   },
   "authorContributionVariance": {
-    "Shuyuan": 9615.767
+    "jamessspanggg": 0.0
   },
   "authorDisplayNameMap": {
-    "Shuyuan": "Shuyuan"
+    "jamessspanggg": "James Pang"
   }
 }
