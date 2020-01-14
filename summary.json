@@ -1,6 +1,6 @@
 {
   "repoSenseVersion": "v1.10.1",
-  "reportGeneratedTime": "Tue Jan 14 14:39:48 2020 UTC",
+  "reportGeneratedTime": "Tue Jan 14 14:43:23 2020 UTC",
   "repos": [
     {
       "location": {
@@ -11,16 +11,6 @@
       "branch": "master",
       "displayName": "reposense/RepoSense[master]",
       "outputFolderName": "reposense_RepoSense_master"
-    },
-    {
-      "location": {
-        "location": "https://github.com/OpenRefine/OpenRefine.git",
-        "repoName": "OpenRefine",
-        "organization": "OpenRefine"
-      },
-      "branch": "master",
-      "displayName": "OpenRefine/OpenRefine[master]",
-      "outputFolderName": "OpenRefine_OpenRefine_master"
     },
     {
       "location": {
@@ -53,9 +43,14 @@
       "outputFolderName": "DriverUncle_TumpangMePlease_master"
     }
   ],
-  "errorList": [],
-  "sinceDate": "2019-12-14",
+  "errorList": [
+    {
+      "repoName": "OpenRefine/OpenRefine[master]",
+      "errorMessage": "Unexpected error stack trace for https://github.com/OpenRefine/OpenRefine.git:\n\u003ejava.lang.IllegalArgumentException: The provided file type, eclipse-pmd, contains illegal characters.\n\tat reposense.model.FileType.validateFileType(FileType.java:39)\n\tat reposense.model.FileType.\u003cinit\u003e(FileType.java:28)\n\tat reposense.model.FileType.convertStringFormatToFileType(FileType.java:48)\n\tat reposense.model.FileTypeManager.getFileFormat(FileTypeManager.java:51)\n\tat reposense.model.FileTypeManager.getFileType(FileTypeManager.java:28)\n\tat reposense.model.RepoConfiguration.getFileType(RepoConfiguration.java:404)\n\tat reposense.authorship.FileInfoAnalyzer.analyzeFile(FileInfoAnalyzer.java:47)\n\tat reposense.authorship.AuthorshipReporter.lambda$generateAuthorshipSummary$0(AuthorshipReporter.java:24)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1654)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)\n\tat reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:26)\n\tat reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:237)\n\tat reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:195)\n\tat reposense.report.ReportGenerator.cloneAndAnalyzeRepos(ReportGenerator.java:161)\n\tat reposense.report.ReportGenerator.generateReposReport(ReportGenerator.java:99)\n\tat reposense.RepoSense.main(RepoSense.java:63)\n"
+    }
+  ],
+  "sinceDate": "2018-05-03",
   "untilDate": "2020-01-14",
-  "isSinceDateProvided": false,
+  "isSinceDateProvided": true,
   "isUntilDateProvided": false
 }

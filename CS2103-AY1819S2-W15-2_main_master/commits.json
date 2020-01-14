@@ -1,15 +1,1113 @@
 {
   "authorDailyContributionsMap": {
-    "jamessspanggg": []
+    "jamessspanggg": [
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-02-08",
+        "commitResults": [
+          {
+            "hash": "9f6a4f73c490a93b2ce12a87e53a3cd6a65ef525",
+            "messageTitle": "Set theme jekyll-theme-minimal",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "3ff5da4126504a39bedf09708cdafc49184c3027",
+            "messageTitle": "Set theme jekyll-theme-minimal|",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 5,
+        "deletions": 5,
+        "date": "2019-02-15",
+        "commitResults": [
+          {
+            "hash": "3ddd12245f4798986cfe06bd5ce90e3e2bc30bdb",
+            "messageTitle": "Add JamesPang photo",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "7b25d7125d4a06486077411b981ac1b093adf9a3",
+            "messageTitle": "Update photos and GitHub links",
+            "messageBody": "",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "d5b491104d280ef206622817ee6decbaa5f6801a",
+            "messageTitle": "Delete JamesPang.jpg",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "68598f52fbc6e197c500ec9acac9f1fce2c5c9f4",
+            "messageTitle": "Add James Pang\u0027s display photo",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "a2b8a5570a86d1262d6ca9791928d7c61e5ad326",
+            "messageTitle": "Update James\u0027 Photo",
+            "messageBody": "",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 495,
+        "deletions": 185,
+        "date": "2019-03-03",
+        "commitResults": [
+          {
+            "hash": "5620972fb154eb27b62787617b3c5f1a8c1737d6",
+            "messageTitle": "Change PersonCard and PersonListPanel to ExpenseCard and ExpenseListPanel",
+            "messageBody": "",
+            "insertions": 56,
+            "deletions": 60
+          },
+          {
+            "hash": "ca91eabfa7e61f5219b7ac115f2ce4bcad768964",
+            "messageTitle": "Update Expense List Panel and fixed errors",
+            "messageBody": "",
+            "insertions": 11,
+            "deletions": 4
+          },
+          {
+            "hash": "ed6f80102640dc35673e6886cdda41c17082e775",
+            "messageTitle": "Make changes to UI to display expense card",
+            "messageBody": "",
+            "insertions": 6,
+            "deletions": 8
+          },
+          {
+            "hash": "8e0752c940a97a421e0a15c7e69113b548b53eba",
+            "messageTitle": "Add title to expense list panel",
+            "messageBody": "",
+            "insertions": 10,
+            "deletions": 40
+          },
+          {
+            "hash": "51b688992e79999052a888e5d2314f062ffe03c9",
+            "messageTitle": "Add budget and debt list to UI",
+            "messageBody": "",
+            "insertions": 362,
+            "deletions": 0
+          },
+          {
+            "hash": "b4974eeb1ae6d4c3668683684b3494755273d9ba",
+            "messageTitle": "Change width of lists",
+            "messageBody": "",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "8729ebb320c453aff73b841f5998b58992acefb2",
+            "messageTitle": "Modify Expense Card and MainWindow",
+            "messageBody": "",
+            "insertions": 47,
+            "deletions": 70
+          },
+          {
+            "hash": "c59c7e390df78d9af266a78fc4e4fdf1c46dad1a",
+            "messageTitle": "Add new line after EOF",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 264,
+        "deletions": 135,
+        "date": "2019-03-04",
+        "commitResults": [
+          {
+            "hash": "4e90e20ce52531ccf187add2a3eef6e0552ee6a5",
+            "messageTitle": "Change mistake for generic type of getFilteredBudgetList()",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "a3368fffd2672640f653b0e921fdf7251f9e3523",
+            "messageTitle": "Update MainWindow to display Budget and Debt List",
+            "messageBody": "",
+            "insertions": 28,
+            "deletions": 78
+          },
+          {
+            "hash": "ab1e34515c470786718f372dd84722036d15e292",
+            "messageTitle": "Add Recurring Expense List in UI",
+            "messageBody": "",
+            "insertions": 185,
+            "deletions": 30
+          },
+          {
+            "hash": "496185ea884103b8a57120744379cc566ff4e105",
+            "messageTitle": "Re-adjust position of lists in UI",
+            "messageBody": "",
+            "insertions": 39,
+            "deletions": 15
+          },
+          {
+            "hash": "c4dc02ad9ad4d46682319281dd479ab64f7e06f5",
+            "messageTitle": "Add recurring expenses list to UI",
+            "messageBody": "",
+            "insertions": 11,
+            "deletions": 11
+          }
+        ]
+      },
+      {
+        "insertions": 373,
+        "deletions": 297,
+        "date": "2019-03-05",
+        "commitResults": [
+          {
+            "hash": "0aaa0da4b7fa055200e7cb7f008aa91aad5b6ba6",
+            "messageTitle": "Remove trailing whitespaces in Model Manager",
+            "messageBody": "",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "0e0ae92473eb38dc174afcf7ee8e1978d9c14ec3",
+            "messageTitle": "Fix checkstyle errors for all commands",
+            "messageBody": "",
+            "insertions": 192,
+            "deletions": 113
+          },
+          {
+            "hash": "1b501bf485ae1a24b1c093df7b6e6b119dfd7c61",
+            "messageTitle": "Fix checkstyle errors for UI classes",
+            "messageBody": "",
+            "insertions": 31,
+            "deletions": 40
+          },
+          {
+            "hash": "ecce16cb29d3b50a9bda681aacc5102cf26c20b4",
+            "messageTitle": "Fix checkstyle errors for Storage classes",
+            "messageBody": "",
+            "insertions": 6,
+            "deletions": 18
+          },
+          {
+            "hash": "033d236f3ef52b05b5bb09a49f74f1e62fcdc5a6",
+            "messageTitle": "Update Ui Component Class Diagram",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "bd40f237a65e6f533fe07461b2a952b93ac11ad3",
+            "messageTitle": "Update Ui Component Class Diagram and update Developer\u0027s Guide",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "b5daf336640078080e77802476fb71adab7352be",
+            "messageTitle": "Update Budget class to remove checkstyle errors",
+            "messageBody": "",
+            "insertions": 6,
+            "deletions": 2
+          },
+          {
+            "hash": "2dcbf9fc9255bd01633ba8714efb667485ff322f",
+            "messageTitle": "Update fxml names for Debt, Expense and Recurring List Cards.",
+            "messageBody": "",
+            "insertions": 3,
+            "deletions": 3
+          },
+          {
+            "hash": "8ee08fe61777df2746fd56494d4a0077a0129c78",
+            "messageTitle": "Update files that caused errors on checkstyleTest",
+            "messageBody": "",
+            "insertions": 132,
+            "deletions": 119
+          },
+          {
+            "hash": "25763f7c1d492ba3721b577b649f66ba63311897",
+            "messageTitle": "Add blank line",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 962,
+        "deletions": 317,
+        "date": "2019-03-10",
+        "commitResults": [
+          {
+            "hash": "7e327c231978109e7d643ce6cc6f100dc100f66f",
+            "messageTitle": "Rename all display photos to our github usernames",
+            "messageBody": "",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "05cc5898267ed9c166411d23d21376d423de2867",
+            "messageTitle": "Update all gui test cases",
+            "messageBody": "",
+            "insertions": 939,
+            "deletions": 297
+          },
+          {
+            "hash": "8596b18e5cfff56ffb28c978b6ca2a94ad5f028c",
+            "messageTitle": "Fix checkstyle errors for updated tests",
+            "messageBody": "",
+            "insertions": 18,
+            "deletions": 15
+          },
+          {
+            "hash": "d13d17a3363e9469573ffc71b4c4ebd459415992",
+            "messageTitle": "Update UI Component Class Diagram",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-03-14",
+        "commitResults": [
+          {
+            "hash": "339565bbe93e698105321e19fdbcc5ebc69b92ba",
+            "messageTitle": "Update json file to pass JsonSerializableFinanceTrackerTest",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 463,
+        "deletions": 334,
+        "date": "2019-03-15",
+        "commitResults": [
+          {
+            "hash": "609f4eead45bcdf03cca063827670e37b50ef184",
+            "messageTitle": "Refactor add, edit, delete and clear commands",
+            "messageBody": "",
+            "insertions": 356,
+            "deletions": 322
+          },
+          {
+            "hash": "8cdabb9da954beab4f8bb790471213556a4fb760",
+            "messageTitle": "Update browser panel and expense tests",
+            "messageBody": "",
+            "insertions": 107,
+            "deletions": 12
+          }
+        ]
+      },
+      {
+        "insertions": 96,
+        "deletions": 16,
+        "date": "2019-03-16",
+        "commitResults": [
+          {
+            "hash": "501258cb1fdfbc9598d347ec0a37380f41967b3d",
+            "messageTitle": "Update expense list to display expenses in descending order of date",
+            "messageBody": "",
+            "insertions": 58,
+            "deletions": 13
+          },
+          {
+            "hash": "67762b83620598e2462c81c22b5b2e3fa13d62a5",
+            "messageTitle": "add eof line on selectedexpense.html",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "927407d73d36c8ee6eae8248d81da99ceab18d8d",
+            "messageTitle": "Update UI to show category in terms of images",
+            "messageBody": "",
+            "insertions": 36,
+            "deletions": 1
+          },
+          {
+            "hash": "61e1de1e5b527b64fe348939ede08e5600501883",
+            "messageTitle": "Update MainWindow title",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 60,
+        "deletions": 50,
+        "date": "2019-03-17",
+        "commitResults": [
+          {
+            "hash": "00bf089298fa1ae78781ea854a853033571e3593",
+            "messageTitle": "Update undo/redo implementation in DG",
+            "messageBody": "",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "6f169609f7a0a7c298b77617c2e2722550a3410f",
+            "messageTitle": "Refactor List command as ListExpense",
+            "messageBody": "",
+            "insertions": 56,
+            "deletions": 46
+          }
+        ]
+      },
+      {
+        "insertions": 195,
+        "deletions": 23,
+        "date": "2019-03-18",
+        "commitResults": [
+          {
+            "hash": "e92b10cb1dd3d5ad2464696ed3ba6af65c520bea",
+            "messageTitle": "Refactor, update ListExpense command to display in terms of categories",
+            "messageBody": "",
+            "insertions": 195,
+            "deletions": 23
+          }
+        ]
+      },
+      {
+        "insertions": 127,
+        "deletions": 55,
+        "date": "2019-03-19",
+        "commitResults": [
+          {
+            "hash": "03d2d7f82463b329602368bdfc57599c0eceacc7",
+            "messageTitle": "Add listing feature under implementation in developer guide",
+            "messageBody": "",
+            "insertions": 49,
+            "deletions": 12
+          },
+          {
+            "hash": "90155e5044ceab4796762984bc5f558d40830620",
+            "messageTitle": "Update listexpense feature with views: day, week, month, year",
+            "messageBody": "",
+            "insertions": 48,
+            "deletions": 4
+          },
+          {
+            "hash": "1d5704f377c91f14d9c746867b2d2c299e2b730f",
+            "messageTitle": "Refactor isWithin-Day, Week, Month, Year to a method isWithinDuration",
+            "messageBody": "",
+            "insertions": 30,
+            "deletions": 39
+          }
+        ]
+      },
+      {
+        "insertions": 58,
+        "deletions": 7,
+        "date": "2019-03-20",
+        "commitResults": [
+          {
+            "hash": "11ff641bb0449088e54191e73cae7e859b5b029c",
+            "messageTitle": "Add ListExpenseCommandParserTest",
+            "messageBody": "",
+            "insertions": 58,
+            "deletions": 7
+          }
+        ]
+      },
+      {
+        "insertions": 733,
+        "deletions": 398,
+        "date": "2019-03-21",
+        "commitResults": [
+          {
+            "hash": "998171120b5ce1759fbfe301ad0f5923a811d884",
+            "messageTitle": "Remove unnecessary classes from AB4",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 365
+          },
+          {
+            "hash": "00bdd3be4561a9fd845c8f2b570c428023a8cdfb",
+            "messageTitle": "Add ViewTest, modify other tests",
+            "messageBody": "",
+            "insertions": 69,
+            "deletions": 6
+          },
+          {
+            "hash": "3c202c288e52edd9eb2ddb57a7ada9990ef0b8a0",
+            "messageTitle": "Update import statements according to checkstyle error",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "bb3fd7e39ffd3feb0a7d4034760a6be09a6c1ad1",
+            "messageTitle": "Add Occurrence and Frequency tests",
+            "messageBody": "",
+            "insertions": 50,
+            "deletions": 0
+          },
+          {
+            "hash": "f7928970236b2ab8d20db3762718264e7170f082",
+            "messageTitle": "Add all card and list panel tests",
+            "messageBody": "",
+            "insertions": 613,
+            "deletions": 26
+          }
+        ]
+      },
+      {
+        "insertions": 1285,
+        "deletions": 139,
+        "date": "2019-03-22",
+        "commitResults": [
+          {
+            "hash": "05bdcb75523a45a433c041708a7b2bd374712519",
+            "messageTitle": "Add shortcut commands",
+            "messageBody": "",
+            "insertions": 60,
+            "deletions": 16
+          },
+          {
+            "hash": "d951c118e93f7fa18a911da0d1ec91578ec6118e",
+            "messageTitle": "Fix indentation errors",
+            "messageBody": "",
+            "insertions": 13,
+            "deletions": 13
+          },
+          {
+            "hash": "4bb6c4140a5610d12422e20e628e6b0c1a3dbb48",
+            "messageTitle": "Add listing of debts command",
+            "messageBody": "",
+            "insertions": 153,
+            "deletions": 0
+          },
+          {
+            "hash": "76b01f559995ff998f9b54f175f42ecd20c5a8ff",
+            "messageTitle": "Allow read and write to Json files for Budget, Recurring, Debt",
+            "messageBody": "",
+            "insertions": 642,
+            "deletions": 88
+          },
+          {
+            "hash": "172a003817f612f31b9a258a193d53d050111de9",
+            "messageTitle": "Modify to display Budget, Recurring, Debt in Browser Panel",
+            "messageBody": "",
+            "insertions": 417,
+            "deletions": 22
+          }
+        ]
+      },
+      {
+        "insertions": 173,
+        "deletions": 4,
+        "date": "2019-03-24",
+        "commitResults": [
+          {
+            "hash": "d3a7d96b00435d511dad2c156ac7d3696f074975",
+            "messageTitle": "Add tests for ListDebt and ListRecurring, Update BrowserPanelTest",
+            "messageBody": "",
+            "insertions": 173,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 162,
+        "deletions": 90,
+        "date": "2019-03-25",
+        "commitResults": [
+          {
+            "hash": "833033cc43a0f8350fbff5a543ce36a69f7ddb96",
+            "messageTitle": "Fix BudgetTest and EditBudgetCommandTest",
+            "messageBody": "",
+            "insertions": 40,
+            "deletions": 26
+          },
+          {
+            "hash": "fbad89292d4f645b480a65e384ea3d1d6a35d88c",
+            "messageTitle": "Update Developer\u0027s guide",
+            "messageBody": "",
+            "insertions": 18,
+            "deletions": 39
+          },
+          {
+            "hash": "4b29af50869c19eabc8104e69a71119c13a3b4a9",
+            "messageTitle": "Update listing of Budget, Expense, Recurring",
+            "messageBody": "",
+            "insertions": 104,
+            "deletions": 25
+          }
+        ]
+      },
+      {
+        "insertions": 112,
+        "deletions": 101,
+        "date": "2019-03-26",
+        "commitResults": [
+          {
+            "hash": "bc65ed434a9b8ca2c4c4bb366b5736eb15d0ba9d",
+            "messageTitle": "Update Budget UI to display totalPercentageSpent and duration",
+            "messageBody": "",
+            "insertions": 83,
+            "deletions": 75
+          },
+          {
+            "hash": "c3e05654c082ae4b56cd909b98e97e082ac18a82",
+            "messageTitle": "fix checkstyle error",
+            "messageBody": "",
+            "insertions": 29,
+            "deletions": 26
+          }
+        ]
+      },
+      {
+        "insertions": 293,
+        "deletions": 508,
+        "date": "2019-03-29",
+        "commitResults": [
+          {
+            "hash": "5d5fd66a60706b82fe94bbfc8d007ee548f79ec9",
+            "messageTitle": "Update ListDebt to be able to list debts a day/week/month/year within deadline",
+            "messageBody": "",
+            "insertions": 72,
+            "deletions": 7
+          },
+          {
+            "hash": "21cd80db1f06cb738f5de2e007dd615e1e60854f",
+            "messageTitle": "Update Browser Panel and tests involving Browser Panel",
+            "messageBody": "",
+            "insertions": 145,
+            "deletions": 116
+          },
+          {
+            "hash": "691b829cc62bea81c46d50dd4e34254943410ba1",
+            "messageTitle": "Update all html files that will be shown in Browser Panel",
+            "messageBody": "",
+            "insertions": 76,
+            "deletions": 385
+          }
+        ]
+      },
+      {
+        "insertions": 395,
+        "deletions": 132,
+        "date": "2019-03-30",
+        "commitResults": [
+          {
+            "hash": "41c6d55790d799bbebc3671a40fc1b34979d66c5",
+            "messageTitle": "Update alignment of html files",
+            "messageBody": "",
+            "insertions": 9,
+            "deletions": 9
+          },
+          {
+            "hash": "c2a9c34f1ce036c39dfc23559d95a902843b559e",
+            "messageTitle": "Fix JSONSerializableFinanceTrackerTest error",
+            "messageBody": "",
+            "insertions": 28,
+            "deletions": 12
+          },
+          {
+            "hash": "eb8f6d8e42bf708f3092d51cd67de52e06283d32",
+            "messageTitle": "Update DG and UG",
+            "messageBody": "",
+            "insertions": 357,
+            "deletions": 47
+          },
+          {
+            "hash": "30cf44a616b41c9841bb4872fe2ea42f5960ce0b",
+            "messageTitle": "Remove addressbook.json and update output log file\u0027s name to financetracker",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 64
+          }
+        ]
+      },
+      {
+        "insertions": 112,
+        "deletions": 34,
+        "date": "2019-03-31",
+        "commitResults": [
+          {
+            "hash": "fd1045eac807567bd74ecc5d861e261cd801f260",
+            "messageTitle": "Update Personal Portfolio Page",
+            "messageBody": "",
+            "insertions": 77,
+            "deletions": 8
+          },
+          {
+            "hash": "ec90749dfc2bd758fdcc9178376cb332e84914ea",
+            "messageTitle": "Update UI and User Guide",
+            "messageBody": "",
+            "insertions": 26,
+            "deletions": 16
+          },
+          {
+            "hash": "1ebb4f5a400bb6bb8b0ad568520bf5ab2fcc4d3e",
+            "messageTitle": "Update font weight on UI",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "6f17ec8e602d532d66866b6941d208cf14018366",
+            "messageTitle": "Update font weight on UI",
+            "messageBody": "",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "4ebc31564a14e03ba96d3994e720c5bcbc9e6ff8",
+            "messageTitle": "Update Developer Guide",
+            "messageBody": "",
+            "insertions": 3,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 122,
+        "deletions": 201,
+        "date": "2019-04-01",
+        "commitResults": [
+          {
+            "hash": "d2fe935d3db08cc03c1ae7b8ab3bffce389430ed",
+            "messageTitle": "Update validation regex on Amount and Date",
+            "messageBody": "",
+            "insertions": 122,
+            "deletions": 201
+          }
+        ]
+      },
+      {
+        "insertions": 195,
+        "deletions": 89,
+        "date": "2019-04-02",
+        "commitResults": [
+          {
+            "hash": "bdfa8b0935e6a5eca9bf2e33cce6923ec3b9b2a2",
+            "messageTitle": "Update tests to be more extensive",
+            "messageBody": "",
+            "insertions": 154,
+            "deletions": 37
+          },
+          {
+            "hash": "fa75cd70101110e8b82275f86273c86aed3a747d",
+            "messageTitle": "Update code to better code quality",
+            "messageBody": "",
+            "insertions": 41,
+            "deletions": 52
+          }
+        ]
+      },
+      {
+        "insertions": 202,
+        "deletions": 156,
+        "date": "2019-04-06",
+        "commitResults": [
+          {
+            "hash": "8e4f2667c3ca5d9f7cc515fcd0a67274f6de5dc5",
+            "messageTitle": "Update user guide based on discrepancies found in mock test",
+            "messageBody": "",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "d6b77aedbe905045ed5efb01488adbc1d1f7630d",
+            "messageTitle": "Add check to not allow repeated prefixes in all add and edit commands",
+            "messageBody": "",
+            "insertions": 119,
+            "deletions": 0
+          },
+          {
+            "hash": "704d56ca47d1981769a66860576e33720c86829d",
+            "messageTitle": "Remove checkstyle error",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "b6974368154fa5bf18dcbbe4913892dd364c1de5",
+            "messageTitle": "Update parser tests on enforcement for repeated prefixes",
+            "messageBody": "",
+            "insertions": 77,
+            "deletions": 149
+          }
+        ]
+      },
+      {
+        "insertions": 103,
+        "deletions": 24,
+        "date": "2019-04-08",
+        "commitResults": [
+          {
+            "hash": "834d3980974256c3509b7b6691070048ea545d03",
+            "messageTitle": "Add new entries for SampleDataUtil",
+            "messageBody": "",
+            "insertions": 50,
+            "deletions": 7
+          },
+          {
+            "hash": "c00b4a8384158b568e5881608c33cde73b12ff45",
+            "messageTitle": "Fix travis error",
+            "messageBody": "",
+            "insertions": 4,
+            "deletions": 4
+          },
+          {
+            "hash": "226f2e9242f4caa97f505e7fab9283ca12015b87",
+            "messageTitle": "Update extensiveness of tests",
+            "messageBody": "",
+            "insertions": 49,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 462,
+        "deletions": 26,
+        "date": "2019-04-09",
+        "commitResults": [
+          {
+            "hash": "f29b2402bf3e75d9b2fa9c6e7c385f3853cdfa85",
+            "messageTitle": "Update Developer Guide and PPP",
+            "messageBody": "",
+            "insertions": 10,
+            "deletions": 12
+          },
+          {
+            "hash": "54155639d41a336731cd29f3d0aae0dc90088fb9",
+            "messageTitle": "Add new demodata for demo",
+            "messageBody": "",
+            "insertions": 235,
+            "deletions": 0
+          },
+          {
+            "hash": "6ff47793a4be14e4337978c185a8cdf56e469df8",
+            "messageTitle": "Update financetracker.json",
+            "messageBody": "",
+            "insertions": 217,
+            "deletions": 14
+          },
+          {
+            "hash": "25c59e160656a7b31cb1514fc68918f914dc268e",
+            "messageTitle": "Update ListExpenseSequenceDiagram",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "aac8c508957e94b50b3159997c080136923188b6",
+            "messageTitle": "Update ListExpenseSequenceDiagram",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 5,
+        "deletions": 18,
+        "date": "2019-04-10",
+        "commitResults": [
+          {
+            "hash": "b467c1e9c232be3a7a9c7f2d059cf7e8acd17455",
+            "messageTitle": "Update DeveloperGuide based on comments",
+            "messageBody": "",
+            "insertions": 5,
+            "deletions": 18
+          }
+        ]
+      },
+      {
+        "insertions": 127,
+        "deletions": 79,
+        "date": "2019-04-12",
+        "commitResults": [
+          {
+            "hash": "b2f838e0ba57c47a3e6f0bee3926c57e567265bb",
+            "messageTitle": "Update UG, DG and PPP",
+            "messageBody": "",
+            "insertions": 24,
+            "deletions": 2
+          },
+          {
+            "hash": "459d9255e26e76c5677db256836b1db712426954",
+            "messageTitle": "Update Select Commands",
+            "messageBody": "",
+            "insertions": 11,
+            "deletions": 8
+          },
+          {
+            "hash": "a56b1c56f9bd21c6b23d224474c3fcb37b6d2b21",
+            "messageTitle": "Update application icon",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "58c8514fb77a90de5e417906501329180bd038bb",
+            "messageTitle": "Update mistakes in UG, DG and PPP",
+            "messageBody": "",
+            "insertions": 27,
+            "deletions": 28
+          },
+          {
+            "hash": "ca3dd3d8673bc1df7c126d6b1a9a0a31149e90e3",
+            "messageTitle": "Refactor names of variables and remove magic numbers",
+            "messageBody": "",
+            "insertions": 53,
+            "deletions": 35
+          },
+          {
+            "hash": "3527215026fdeb41f183bd168485a26d62e32b46",
+            "messageTitle": "Update UI.png with the latest icon",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "48fa3f4ce7d94854db9e8df360b5ea4feb5dab83",
+            "messageTitle": "Update documentation in PPP, AboutUs and DG",
+            "messageBody": "",
+            "insertions": 11,
+            "deletions": 5
+          }
+        ]
+      },
+      {
+        "insertions": 4,
+        "deletions": 3,
+        "date": "2019-04-14",
+        "commitResults": [
+          {
+            "hash": "38205f898467bd1c8d280cd258ba725a94100073",
+            "messageTitle": "Update PPP",
+            "messageBody": "",
+            "insertions": 4,
+            "deletions": 3
+          }
+        ]
+      },
+      {
+        "insertions": 5,
+        "deletions": 2,
+        "date": "2019-04-15",
+        "commitResults": [
+          {
+            "hash": "04e8216d165fa08dd646f0d3e5e9ec429d875c6a",
+            "messageTitle": "Fix DG errors",
+            "messageBody": "",
+            "insertions": 5,
+            "deletions": 2
+          }
+        ]
+      }
+    ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 0
+    "jamessspanggg": 5541
   },
   "authorFileTypeContributionMap": {
-    "jamessspanggg": {}
+    "jamessspanggg": {
+      "adoc": 5,
+      "yml": 1,
+      "json": 87,
+      "json": 235,
+      "adoc": 8,
+      "adoc": 76,
+      "adoc": 69,
+      "adoc": 72,
+      "json": 6,
+      "java": 2,
+      "java": 1,
+      "java": 4,
+      "java": 9,
+      "java": 10,
+      "java": 6,
+      "java": 16,
+      "java": 1,
+      "java": 10,
+      "java": 2,
+      "java": 17,
+      "java": 122,
+      "java": 1,
+      "java": 52,
+      "java": 5,
+      "java": 7,
+      "java": 21,
+      "java": 122,
+      "java": 1,
+      "java": 2,
+      "java": 1,
+      "java": 12,
+      "java": 1,
+      "java": 5,
+      "java": 40,
+      "java": 95,
+      "java": 38,
+      "java": 1,
+      "java": 13,
+      "java": 15,
+      "java": 13,
+      "java": 19,
+      "java": 39,
+      "java": 21,
+      "java": 8,
+      "java": 29,
+      "java": 40,
+      "java": 14,
+      "java": 19,
+      "java": 24,
+      "java": 54,
+      "java": 10,
+      "java": 1,
+      "java": 69,
+      "java": 57,
+      "java": 19,
+      "java": 1,
+      "java": 14,
+      "java": 82,
+      "java": 86,
+      "java": 95,
+      "java": 3,
+      "java": 121,
+      "java": 30,
+      "java": 2,
+      "java": 140,
+      "java": 62,
+      "java": 72,
+      "java": 67,
+      "java": 72,
+      "java": 18,
+      "java": 20,
+      "java": 28,
+      "java": 67,
+      "java": 78,
+      "java": 2,
+      "java": 1,
+      "fxml": 31,
+      "fxml": 10,
+      "css": 28,
+      "fxml": 34,
+      "fxml": 10,
+      "fxml": 8,
+      "fxml": 4,
+      "fxml": 39,
+      "fxml": 35,
+      "fxml": 10,
+      "html": 1,
+      "html": 22,
+      "html": 21,
+      "html": 21,
+      "html": 23,
+      "json": 58,
+      "json": 4,
+      "json": 4,
+      "json": 176,
+      "java": 4,
+      "java": 49,
+      "java": 42,
+      "java": 62,
+      "java": 42,
+      "java": 62,
+      "java": 25,
+      "java": 4,
+      "java": 62,
+      "java": 159,
+      "java": 7,
+      "java": 1,
+      "java": 9,
+      "java": 4,
+      "java": 1,
+      "java": 2,
+      "java": 17,
+      "java": 96,
+      "java": 4,
+      "java": 17,
+      "java": 5,
+      "java": 32,
+      "java": 51,
+      "java": 2,
+      "java": 80,
+      "java": 7,
+      "java": 18,
+      "java": 78,
+      "java": 25,
+      "java": 3,
+      "java": 21,
+      "java": 3,
+      "java": 23,
+      "java": 3,
+      "java": 55,
+      "java": 39,
+      "java": 9,
+      "java": 27,
+      "java": 65,
+      "java": 3,
+      "java": 5,
+      "java": 10,
+      "java": 7,
+      "java": 23,
+      "java": 25,
+      "java": 27,
+      "java": 44,
+      "java": 6,
+      "java": 12,
+      "java": 7,
+      "java": 5,
+      "java": 9,
+      "java": 3,
+      "java": 7,
+      "java": 3,
+      "java": 1,
+      "java": 6,
+      "java": 2,
+      "java": 7,
+      "java": 2,
+      "java": 36,
+      "java": 3,
+      "java": 39,
+      "java": 66,
+      "java": 99,
+      "java": 3,
+      "java": 73,
+      "java": 103,
+      "java": 14,
+      "java": 34,
+      "java": 2,
+      "java": 73,
+      "java": 108,
+      "java": 85,
+      "java": 28,
+      "java": 5,
+      "java": 4,
+      "java": 1,
+      "java": 3,
+      "java": 25,
+      "java": 10,
+      "java": 23,
+      "java": 42,
+      "java": 6
+    }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 0.0
+    "jamessspanggg": 99058.266
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
