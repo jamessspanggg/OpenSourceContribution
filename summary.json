@@ -1,6 +1,6 @@
 {
   "repoSenseVersion": "3e00359a67",
-  "reportGeneratedTime": "Tue Jan 14 15:54:09 2020 UTC",
+  "reportGeneratedTime": "Tue Jan 14 15:54:40 2020 UTC",
   "repos": [
     {
       "location": {
@@ -51,6 +51,16 @@
       "branch": "master",
       "displayName": "DriverUncle/TumpangMePlease[master]",
       "outputFolderName": "DriverUncle_TumpangMePlease_master"
+    },
+    {
+      "location": {
+        "location": "https://github.com/jamessspanggg/ChairVisE.git",
+        "repoName": "ChairVisE",
+        "organization": "jamessspanggg"
+      },
+      "branch": "master",
+      "displayName": "jamessspanggg/ChairVisE[master]",
+      "outputFolderName": "jamessspanggg_ChairVisE_master"
     }
   ],
   "errorList": [],
