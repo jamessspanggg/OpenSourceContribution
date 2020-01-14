@@ -1,0 +1,254 @@
+{
+  "authorDailyContributionsMap": {
+    "whyboris": [
+      {
+        "insertions": 7,
+        "deletions": 6,
+        "date": "2020-01-01",
+        "commitResults": [
+          {
+            "hash": "9c39f4ba240ea19ca3aa506c2e11bf3f995ee178",
+            "messageTitle": "better statistics layout",
+            "messageBody": "",
+            "insertions": 7,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 12,
+        "deletions": 6,
+        "date": "2020-01-02",
+        "commitResults": [
+          {
+            "hash": "a90159d1a5d07e38de15feeb47daf7b249d2d4fe",
+            "messageTitle": "do not show curently-opened hub",
+            "messageBody": "",
+            "insertions": 12,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 3,
+        "deletions": 6,
+        "date": "2020-01-11",
+        "commitResults": [
+          {
+            "hash": "c8a3f28f1113c3ffee8955498dbe0cece3087dab",
+            "messageTitle": "import settings not blocked by thumbnail size preview",
+            "messageBody": "",
+            "insertions": 3,
+            "deletions": 6
+          }
+        ]
+      }
+    ],
+    "Boris": [
+      {
+        "insertions": 320,
+        "deletions": 201,
+        "date": "2020-01-01",
+        "commitResults": [
+          {
+            "hash": "fa69f9e76e8120a104ab7cbb238cafb88a2380ec",
+            "messageTitle": "Auto tags filter - minimum tags needed before showing (#322)",
+            "messageBody": "* auto tag filter frequency\r\n\r\n* better auto tag layout\r\n\r\n* better\r\n\r\n* doc\r\n",
+            "insertions": 207,
+            "deletions": 137
+          },
+          {
+            "hash": "4fe568a46a18061b1b3082eae4dd2ec538b2a9d4",
+            "messageTitle": "Filepath shown in thumbnail sheet (#323)",
+            "messageBody": "* hide folders not relevant to dev in VSCode\r\n\r\n* move interface to a more-appropriate file\r\n\r\n* show path, click to copy to clipboard\r\n\r\n* better order\r\n\r\n* better variable name\r\n",
+            "insertions": 88,
+            "deletions": 47
+          },
+          {
+            "hash": "777540592ccaf800d865f9b6e4e7b06a0157d2a6",
+            "messageTitle": "video height affects extraction duration (#325)",
+            "messageBody": "* video height affects extraction duration\r\n\r\n* cleaner code\r\n\r\n* one line\r\n",
+            "insertions": 25,
+            "deletions": 17
+          }
+        ]
+      },
+      {
+        "insertions": 143,
+        "deletions": 55,
+        "date": "2020-01-05",
+        "commitResults": [
+          {
+            "hash": "fe5f6c08826c8f2dfa5326b398b585defbe3e889",
+            "messageTitle": "allow to set favorite thumbnail (#327)",
+            "messageBody": "* allow to set favorite thumbnail\r\n\r\n* default screen gets saved on hub close\r\n\r\n* use CSS not boolean to toggle hover\r\n\r\n* respect returnToFirstScreenshot setting\r\n",
+            "insertions": 101,
+            "deletions": 15
+          },
+          {
+            "hash": "97e3ebb368876b1c068e1d387210e95944ce8ac1",
+            "messageTitle": "Gallery padding bottom (#331)",
+            "messageBody": "* padding on bottom of every gallery view\r\n\r\n* use mixin for scrollbar\r\n\r\n* only show one bottom tray at a time, never both\r\n\r\n* trays same height, gallery resizes to accommodate\r\n",
+            "insertions": 42,
+            "deletions": 40
+          }
+        ]
+      },
+      {
+        "insertions": 3350,
+        "deletions": 607,
+        "date": "2020-01-11",
+        "commitResults": [
+          {
+            "hash": "bc383993726362f19e9adbfeaf19260d07e058d8",
+            "messageTitle": "Allow delete videos (#333)",
+            "messageBody": "* install trash\r\n\r\n* first step works\r\n\r\n* right click delete only shows if toggled\r\n",
+            "insertions": 3350,
+            "deletions": 607
+          }
+        ]
+      }
+    ],
+    "basavaraj96": [
+      {
+        "insertions": 3,
+        "deletions": 3,
+        "date": "2020-01-01",
+        "commitResults": [
+          {
+            "hash": "58cc9295568ddd422c58038cc5cf3d3deed8b4b4",
+            "messageTitle": "Issue fixed: Off-by-one error in the number of clip snippets created (#320)",
+            "messageBody": "* Issue fixed: Off-by-one error in the number of clip snippets created\r\n\r\n* Changed preview clips to start from position 1 instead of position 0\r\n",
+            "insertions": 3,
+            "deletions": 3
+          }
+        ]
+      }
+    ],
+    "jamessspanggg": [
+      {
+        "insertions": 1,
+        "deletions": 0,
+        "date": "2020-01-05",
+        "commitResults": [
+          {
+            "hash": "3bf831dd5bea0180630b3a0c96fef22ab4bf7327",
+            "messageTitle": "Reset virtual scroller when views are switched",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 0
+          }
+        ]
+      },
+      {
+        "insertions": 9,
+        "deletions": 0,
+        "date": "2020-01-06",
+        "commitResults": [
+          {
+            "hash": "93fb2993d19e5471574b9dfb0738f2327f335fb3",
+            "messageTitle": "Add removal of all existing tags when switching hubs",
+            "messageBody": "",
+            "insertions": 9,
+            "deletions": 0
+          }
+        ]
+      }
+    ],
+    "Scott": [
+      {
+        "insertions": 44,
+        "deletions": 31,
+        "date": "2020-01-05",
+        "commitResults": [
+          {
+            "hash": "73fcabbb39806a3b244199fc3f206e7690718759",
+            "messageTitle": "Add a scrollbar to the bottom tag tray (#328)",
+            "messageBody": "* Add a scrollbar to the bottom tag tray\r\n\r\n* Remove some empty lines\r\n\r\n* Fix spacing\r\n",
+            "insertions": 44,
+            "deletions": 31
+          }
+        ]
+      }
+    ]
+  },
+  "authorFinalContributionMap": {
+    "whyboris": 93,
+    "Boris": 3690,
+    "basavaraj96": 3,
+    "jamessspanggg": 10,
+    "Scott": 21
+  },
+  "authorFileTypeContributionMap": {
+    "whyboris": {
+      "json": 62,
+      "html": 16,
+      "ts": 1,
+      "html": 1,
+      "html": 7,
+      "html": 2,
+      "ts": 3,
+      "scss": 1
+    },
+    "Boris": {
+      "json": 3,
+      "md": 1,
+      "json": 8,
+      "ts": 10,
+      "ts": 27,
+      "ts": 2,
+      "ts": 1,
+      "ts": 2,
+      "ts": 14,
+      "json": 3237,
+      "json": 4,
+      "ts": 2,
+      "ts": 9,
+      "html": 36,
+      "ts": 32,
+      "html": 4,
+      "scss": 13,
+      "html": 1,
+      "scss": 4,
+      "scss": 3,
+      "html": 23,
+      "scss": 47,
+      "ts": 29,
+      "ts": 1,
+      "ts": 3,
+      "ts": 21,
+      "html": 53,
+      "scss": 21,
+      "ts": 34,
+      "scss": 6,
+      "html": 9,
+      "ts": 13,
+      "ts": 17
+    },
+    "basavaraj96": {
+      "ts": 3
+    },
+    "jamessspanggg": {
+      "ts": 2,
+      "ts": 8
+    },
+    "Scott": {
+      "html": 10,
+      "scss": 11
+    }
+  },
+  "authorContributionVariance": {
+    "whyboris": 17.890606,
+    "Boris": 524638.94,
+    "basavaraj96": 1.1985725,
+    "jamessspanggg": 2.7086797,
+    "Scott": 187.27705
+  },
+  "authorDisplayNameMap": {
+    "whyboris": "whyboris",
+    "Boris": "Boris",
+    "basavaraj96": "basavaraj96",
+    "jamessspanggg": "jamessspanggg",
+    "Scott": "Scott"
+  }
+}

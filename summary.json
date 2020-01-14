@@ -1,6 +1,6 @@
 {
   "repoSenseVersion": "v1.10.1",
-  "reportGeneratedTime": "Mon Dec 30 05:16:50 2019 UTC",
+  "reportGeneratedTime": "Tue Jan 14 14:36:37 2020 UTC",
   "repos": [
     {
       "location": {
@@ -11,11 +11,51 @@
       "branch": "master",
       "displayName": "reposense/RepoSense[master]",
       "outputFolderName": "reposense_RepoSense_master"
+    },
+    {
+      "location": {
+        "location": "https://github.com/OpenRefine/OpenRefine.git",
+        "repoName": "OpenRefine",
+        "organization": "OpenRefine"
+      },
+      "branch": "master",
+      "displayName": "OpenRefine/OpenRefine[master]",
+      "outputFolderName": "OpenRefine_OpenRefine_master"
+    },
+    {
+      "location": {
+        "location": "https://github.com/whyboris/Video-Hub-App.git",
+        "repoName": "Video-Hub-App",
+        "organization": "whyboris"
+      },
+      "branch": "master",
+      "displayName": "whyboris/Video-Hub-App[master]",
+      "outputFolderName": "whyboris_Video-Hub-App_master"
+    },
+    {
+      "location": {
+        "location": "https://github.com/CS2103-AY1819S2-W15-2/main.git",
+        "repoName": "main",
+        "organization": "CS2103-AY1819S2-W15-2"
+      },
+      "branch": "master",
+      "displayName": "CS2103-AY1819S2-W15-2/main[master]",
+      "outputFolderName": "CS2103-AY1819S2-W15-2_main_master"
+    },
+    {
+      "location": {
+        "location": "https://github.com/DriverUncle/TumpangMePlease.git",
+        "repoName": "TumpangMePlease",
+        "organization": "DriverUncle"
+      },
+      "branch": "master",
+      "displayName": "DriverUncle/TumpangMePlease[master]",
+      "outputFolderName": "DriverUncle_TumpangMePlease_master"
     }
   ],
   "errorList": [],
-  "sinceDate": "2019-11-30",
-  "untilDate": "2019-12-30",
+  "sinceDate": "2019-12-14",
+  "untilDate": "2020-01-14",
   "isSinceDateProvided": false,
   "isUntilDateProvided": false
 }
