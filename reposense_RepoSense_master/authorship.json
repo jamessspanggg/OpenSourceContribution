@@ -24328,7 +24328,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "      if (hash.since) {"
+        "content": "      if (hash.since \u0026\u0026 dateFormatRegex.test(hash.since)) {"
       },
       {
         "lineNumber": 350,
@@ -24349,7 +24349,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "      if (hash.until) {"
+        "content": "      if (hash.until \u0026\u0026 dateFormatRegex.test(hash.until)) {"
       },
       {
         "lineNumber": 353,
