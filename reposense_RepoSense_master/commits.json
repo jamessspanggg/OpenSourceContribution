@@ -353,6 +353,9 @@
             "hash": "816bb1a856387ca848504ae279bc2a4b81f4a308",
             "messageTitle": "[#858] Restore authorship tab (#874)",
             "messageBody": "Authorship tab is not restorable after refreshing the page.\r\n\r\nRestoring authorship tab requires the since and until date hashes \r\nwhereas PR #757 has made changes where the date hashes will not \r\nbe captured in the URL if not specified by the user.\r\n\r\nLet\u0027s \r\n- use the window\u0027s since and until date to restore the authorship \r\n  tab if the date hashes are unavailable. \r\n- move the restoring of tab hashes to be executed after \r\n  loadSummary() to ensure that the window\u0027s since and until date is \r\n  available.\r\n- extract the deactivation of tab pane to a method instead of using\r\n  the updated hook as the updated hook will be called repeatedly \r\n  whenever there are data changes that affect the DOM.\r\n",
+            "tags": [
+              "v1.10"
+            ],
             "insertions": 22,
             "deletions": 14
           }
@@ -389,7 +392,7 @@
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 1187
+    "jamessspanggg": 1117
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
@@ -400,7 +403,7 @@
       "pug": 38,
       "pug": 9,
       "scss": 284,
-      "scss": 189,
+      "scss": 119,
       "js": 2,
       "js": 27,
       "js": 47,
