@@ -42,21 +42,45 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 43,
+        "deletions": 1,
+        "date": "2020-01-21",
+        "commitResults": [
+          {
+            "hash": "8d3911556ab5ec1d9ffafb1f95cd71d73c5caad0",
+            "messageTitle": "Add facet for blank values/records per column",
+            "messageBody": "",
+            "insertions": 42,
+            "deletions": 0
+          },
+          {
+            "hash": "df76cb93b7d633060377eca48ccc77004d6ffa68",
+            "messageTitle": "Fix error in calculation of blank records per column",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 44
+    "jamessspanggg": 86
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "java": 4,
       "java": 39,
-      "js": 1
+      "json": 2,
+      "json": 2,
+      "json": 4,
+      "js": 35
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 306.25
+    "jamessspanggg": 216.48888
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
