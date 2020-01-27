@@ -44,8 +44,29 @@
         ]
       },
       {
-        "insertions": 43,
-        "deletions": 1,
+        "insertions": 61,
+        "deletions": 24,
+        "date": "2020-01-20",
+        "commitResults": [
+          {
+            "hash": "90628e6ab0d3ca4c1c4eb6cff4a32c703ada4704",
+            "messageTitle": "Add fill down and blank down operations for all columns",
+            "messageBody": "",
+            "insertions": 33,
+            "deletions": 0
+          },
+          {
+            "hash": "73936183bb88c446c512f8161307a3912b52d5e9",
+            "messageTitle": "Refactor to individual functions",
+            "messageBody": "",
+            "insertions": 28,
+            "deletions": 24
+          }
+        ]
+      },
+      {
+        "insertions": 67,
+        "deletions": 7,
         "date": "2020-01-21",
         "commitResults": [
           {
@@ -61,13 +82,34 @@
             "messageBody": "",
             "insertions": 1,
             "deletions": 1
+          },
+          {
+            "hash": "d7d4731f80c7a25de4bd8a4af8a4b7c634cbe957",
+            "messageTitle": "Utilise callbacks to chain fill/blank down operations",
+            "messageBody": "",
+            "insertions": 24,
+            "deletions": 6
+          }
+        ]
+      },
+      {
+        "insertions": 3,
+        "deletions": 3,
+        "date": "2020-01-27",
+        "commitResults": [
+          {
+            "hash": "a19f859d2e94eb7d337d15e2cfcf34999f2cb521",
+            "messageTitle": "Reverse order of fill down operation",
+            "messageBody": "",
+            "insertions": 3,
+            "deletions": 3
           }
         ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 86
+    "jamessspanggg": 141
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
@@ -76,11 +118,11 @@
       "json": 2,
       "json": 2,
       "json": 4,
-      "js": 35
+      "js": 90
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 216.48888
+    "jamessspanggg": 591.8231
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
