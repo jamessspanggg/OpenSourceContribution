@@ -268,29 +268,9 @@
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "yml": 2,
-      "java": 9,
-      "java": 5,
-      "java": 5,
-      "java": 6,
-      "java": 1,
-      "java": 19,
-      "java": 7,
-      "java": 1,
-      "java": 1,
-      "java": 1,
-      "java": 1,
-      "java": 2,
-      "java": 23,
-      "java": 10,
-      "vue": 42,
-      "vue": 19,
-      "vue": 21,
-      "vue": 25,
-      "vue": 21,
-      "js": 490,
-      "js": 17,
-      "vue": 1,
-      "vue": 32
+      "java": 91,
+      "vue": 161,
+      "js": 507
     }
   },
   "authorContributionVariance": {

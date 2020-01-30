@@ -506,29 +506,10 @@
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "gitignore": 1,
-      "py": 10,
-      "py": 2,
-      "py": 4,
-      "py": 9,
-      "py": 59,
-      "py": 28,
-      "py": 2,
+      "py": 447,
       "css": 110,
-      "html": 43,
-      "html": 70,
-      "html": 35,
-      "html": 175,
-      "html": 42,
-      "html": 27,
-      "html": 35,
-      "html": 67,
-      "html": 65,
-      "html": 193,
-      "html": 110,
-      "py": 333,
-      "sql": 264,
-      "sql": 2,
-      "sql": 19
+      "html": 862,
+      "sql": 285
     }
   },
   "authorContributionVariance": {
