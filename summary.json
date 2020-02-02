@@ -1,6 +1,6 @@
 {
-  "repoSenseVersion": "5b1fb323dc",
-  "reportGeneratedTime": "Sat Feb 1 15:06:27 2020 UTC",
+  "repoSenseVersion": "644af05f28",
+  "reportGeneratedTime": "Sun Feb 2 15:06:41 2020 UTC",
   "repos": [
     {
       "location": {
@@ -60,7 +60,7 @@
     }
   ],
   "sinceDate": "2019-05-31",
-  "untilDate": "2020-02-01",
+  "untilDate": "2020-02-02",
   "isSinceDateProvided": true,
   "isUntilDateProvided": false
 }
