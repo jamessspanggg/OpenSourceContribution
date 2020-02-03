@@ -6515,7 +6515,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "              v-bind:href\u003d\"getRepoSenseVersionLink()\", target \u003d\"_blank\","
+        "content": "              v-bind:href\u003d\"getUserGuideVersionLink()\", target \u003d\"_blank\","
       },
       {
         "lineNumber": 49,
@@ -6529,7 +6529,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "              strong {{ repoSenseVersion }}"
+        "content": "              strong User Guide - {{ repoSenseVersion }}"
       },
       {
         "lineNumber": 51,
@@ -15721,7 +15721,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    getRepoSenseVersionLink() {"
+        "content": "    getUserGuideVersionLink() {"
       },
       {
         "lineNumber": 258,
@@ -15756,35 +15756,35 @@
         "author": {
           "gitId": "-"
         },
-        "content": "      if (version.startsWith(\u0027v\u0027)) {"
+        "content": "      return `https://github.com/reposense/RepoSense/blob/${version}/docs/UserGuide.md`;"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "-"
         },
-        "content": "        return `https://github.com/reposense/RepoSense/releases/tag/${version}`;"
+        "content": "    },"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "-"
         },
-        "content": "      }"
+        "content": ""
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "-"
         },
-        "content": "      return `https://github.com/reposense/RepoSense/commits/${version}`;"
+        "content": "    receiveDates(dates) {"
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "-"
         },
-        "content": "    },"
+        "content": "      const [minDate, maxDate] \u003d dates;"
       },
       {
         "lineNumber": 267,
@@ -15798,91 +15798,91 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    receiveDates(dates) {"
+        "content": "      if (this.tabType \u003d\u003d\u003d \u0027authorship\u0027) {"
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "-"
         },
-        "content": "      const [minDate, maxDate] \u003d dates;"
+        "content": "        this.renderAuthorShipTabHash(minDate, maxDate);"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "      }"
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "-"
         },
-        "content": "      if (this.tabType \u003d\u003d\u003d \u0027authorship\u0027) {"
+        "content": "    },"
       },
       {
         "lineNumber": 272,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.renderAuthorShipTabHash(minDate, maxDate);"
+        "content": "  },"
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "-"
         },
-        "content": "      }"
+        "content": "  components: {"
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "-"
         },
-        "content": "    },"
+        "content": "    v_zoom: window.vZoom,"
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "-"
         },
-        "content": "  },"
+        "content": "    v_summary: window.vSummary,"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "-"
         },
-        "content": "  components: {"
+        "content": "    v_authorship: window.vAuthorship,"
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "-"
         },
-        "content": "    v_zoom: window.vZoom,"
+        "content": "    CircleSpinner: window.VueLoadingSpinner.Circle,"
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "-"
         },
-        "content": "    v_summary: window.vSummary,"
+        "content": "  },"
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "-"
         },
-        "content": "    v_authorship: window.vAuthorship,"
+        "content": "  created() {"
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "-"
         },
-        "content": "    CircleSpinner: window.VueLoadingSpinner.Circle,"
+        "content": "    this.updateReportDir();"
       },
       {
         "lineNumber": 281,
@@ -15896,73 +15896,52 @@
         "author": {
           "gitId": "-"
         },
-        "content": "  created() {"
+        "content": "  updated() {"
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.updateReportDir();"
+        "content": "    this.$nextTick(() \u003d\u003e {"
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "-"
         },
-        "content": "  },"
+        "content": "      if (window.$(\u0027tabs-wrapper\u0027)) {"
       },
       {
         "lineNumber": 285,
         "author": {
           "gitId": "-"
         },
-        "content": "  updated() {"
+        "content": "        window.$(\u0027tabs-wrapper\u0027).style.flex \u003d `0 0 ${flexWidth * 100}%`;"
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.$nextTick(() \u003d\u003e {"
+        "content": "      }"
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "-"
         },
-        "content": "      if (window.$(\u0027tabs-wrapper\u0027)) {"
+        "content": "    });"
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "-"
         },
-        "content": "        window.$(\u0027tabs-wrapper\u0027).style.flex \u003d `0 0 ${flexWidth * 100}%`;"
-      },
-      {
-        "lineNumber": 289,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "      }"
-      },
-      {
-        "lineNumber": 290,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    });"
-      },
-      {
-        "lineNumber": 291,
-        "author": {
-          "gitId": "-"
-        },
         "content": "  },"
       },
       {
-        "lineNumber": 292,
+        "lineNumber": 289,
         "author": {
           "gitId": "-"
         },
@@ -15971,7 +15950,7 @@
     ],
     "authorContributionMap": {
       "jamessspanggg": 27,
-      "-": 265
+      "-": 262
     }
   },
   {
