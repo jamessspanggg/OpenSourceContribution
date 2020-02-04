@@ -29945,7 +29945,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "        this.ignoreGlobList \u003d another.authorAliases;"
+        "content": "        this.ignoreGlobList \u003d another.ignoreGlobList;"
       },
       {
         "lineNumber": 66,
