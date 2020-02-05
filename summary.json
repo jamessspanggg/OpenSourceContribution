@@ -1,6 +1,6 @@
 {
-  "repoSenseVersion": "7669ae7df6",
-  "reportGeneratedTime": "Tue Feb 4 15:07:44 2020 UTC",
+  "repoSenseVersion": "a9fedc6689",
+  "reportGeneratedTime": "Wed Feb 5 15:08:24 2020 UTC",
   "repos": [
     {
       "location": {
@@ -34,6 +34,16 @@
     },
     {
       "location": {
+        "location": "https://github.com/CS2103-AY1819S2-W15-2/main.git",
+        "repoName": "main",
+        "organization": "CS2103-AY1819S2-W15-2"
+      },
+      "branch": "master",
+      "displayName": "CS2103-AY1819S2-W15-2/main[master]",
+      "outputFolderName": "CS2103-AY1819S2-W15-2_main_master"
+    },
+    {
+      "location": {
         "location": "https://github.com/DriverUncle/TumpangMePlease.git",
         "repoName": "TumpangMePlease",
         "organization": "DriverUncle"
@@ -53,14 +63,9 @@
       "outputFolderName": "jamessspanggg_ChairVisE_master"
     }
   ],
-  "errorList": [
-    {
-      "repoName": "CS2103-AY1819S2-W15-2/main[master]",
-      "errorMessage": "Unexpected error stack trace for https://github.com/CS2103-AY1819S2-W15-2/main.git:\n\u003ejava.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6\n\tat reposense.commits.CommitInfoAnalyzer.analyzeCommit(CommitInfoAnalyzer.java:86)\n\tat reposense.commits.CommitInfoAnalyzer.lambda$analyzeCommits$0(CommitInfoAnalyzer.java:57)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1654)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)\n\tat reposense.commits.CommitInfoAnalyzer.analyzeCommits(CommitInfoAnalyzer.java:61)\n\tat reposense.commits.CommitsReporter.generateCommitSummary(CommitsReporter.java:21)\n\tat reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:244)\n\tat reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:203)\n\tat reposense.report.ReportGenerator.cloneAndAnalyzeRepos(ReportGenerator.java:169)\n\tat reposense.report.ReportGenerator.generateReposReport(ReportGenerator.java:98)\n\tat reposense.RepoSense.main(RepoSense.java:68)\n"
-    }
-  ],
-  "sinceDate": "2019-05-31",
-  "untilDate": "2020-02-04",
+  "errorList": [],
+  "sinceDate": "2019-02-08",
+  "untilDate": "2020-02-05",
   "isSinceDateProvided": true,
   "isUntilDateProvided": false
 }
