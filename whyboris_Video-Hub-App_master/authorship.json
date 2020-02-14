@@ -10970,784 +10970,784 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    if (trimmed) {"
+        "content": ""
       },
       {
         "lineNumber": 1568,
         "author": {
           "gitId": "-"
         },
-        "content": "      // don\u0027t include duplicates"
+        "content": "    if (origin \u003d\u003d\u003d 6) {"
       },
       {
         "lineNumber": 1569,
         "author": {
           "gitId": "-"
         },
-        "content": "      if (!this.filters[origin].array.includes(trimmed)) {"
+        "content": "      // the `tags include` search"
       },
       {
         "lineNumber": 1570,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.filters[origin].array.push(trimmed);"
+        "content": "      this.tagTypeAhead \u003d \u0027\u0027;"
       },
       {
         "lineNumber": 1571,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.filters[origin].bool \u003d !this.filters[origin].bool;"
+        "content": "    }"
       },
       {
         "lineNumber": 1572,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.filters[origin].string \u003d \u0027\u0027;"
+        "content": ""
       },
       {
         "lineNumber": 1573,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.scrollToTop();"
+        "content": "    if (trimmed) {"
       },
       {
         "lineNumber": 1574,
         "author": {
           "gitId": "-"
         },
-        "content": "      }"
+        "content": "      // don\u0027t include duplicates"
       },
       {
         "lineNumber": 1575,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "      if (!this.filters[origin].array.includes(trimmed)) {"
       },
       {
         "lineNumber": 1576,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "        this.filters[origin].array.push(trimmed);"
       },
       {
         "lineNumber": 1577,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        this.filters[origin].bool \u003d !this.filters[origin].bool;"
       },
       {
         "lineNumber": 1578,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "        this.filters[origin].string \u003d \u0027\u0027;"
       },
       {
         "lineNumber": 1579,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Removes last-added filter"
+        "content": "        this.scrollToTop();"
       },
       {
         "lineNumber": 1580,
         "author": {
           "gitId": "-"
         },
-        "content": "   * When user presses the `BACKSPACE` key"
+        "content": "      }"
       },
       {
         "lineNumber": 1581,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param origin  -- array from which to .pop()"
+        "content": "    }"
       },
       {
         "lineNumber": 1582,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "  }"
       },
       {
         "lineNumber": 1583,
         "author": {
           "gitId": "-"
         },
-        "content": "  onBackspace(value: string, origin: number): void {"
+        "content": ""
       },
       {
         "lineNumber": 1584,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (value \u003d\u003d\u003d \u0027\u0027 \u0026\u0026 this.filters[origin].array.length \u003e 0) {"
+        "content": "  /**"
       },
       {
         "lineNumber": 1585,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.filters[origin].array.pop();"
+        "content": "   * Removes last-added filter"
       },
       {
         "lineNumber": 1586,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.filters[origin].bool \u003d !this.filters[origin].bool;"
+        "content": "   * When user presses the `BACKSPACE` key"
       },
       {
         "lineNumber": 1587,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "   * @param origin  -- array from which to .pop()"
       },
       {
         "lineNumber": 1588,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   */"
       },
       {
         "lineNumber": 1589,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  onBackspace(value: string, origin: number): void {"
       },
       {
         "lineNumber": 1590,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "    if (value \u003d\u003d\u003d \u0027\u0027 \u0026\u0026 this.filters[origin].array.length \u003e 0) {"
       },
       {
         "lineNumber": 1591,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Removes item from particular search array"
+        "content": "      this.filters[origin].array.pop();"
       },
       {
         "lineNumber": 1592,
         "author": {
           "gitId": "-"
         },
-        "content": "   * When user clicks on a particular search word"
+        "content": "      this.filters[origin].bool \u003d !this.filters[origin].bool;"
       },
       {
         "lineNumber": 1593,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param item    {number}  index within array of search strings"
+        "content": "    }"
       },
       {
         "lineNumber": 1594,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param origin  {number}  index within filters array"
+        "content": "  }"
       },
       {
         "lineNumber": 1595,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": ""
       },
       {
         "lineNumber": 1596,
         "author": {
           "gitId": "-"
         },
-        "content": "  removeThisFilter(item: number, origin: number): void {"
+        "content": "  /**"
       },
       {
         "lineNumber": 1597,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.filters[origin].array.splice(item, 1);"
+        "content": "   * Removes item from particular search array"
       },
       {
         "lineNumber": 1598,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.filters[origin].bool \u003d !this.filters[origin].bool;"
+        "content": "   * When user clicks on a particular search word"
       },
       {
         "lineNumber": 1599,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * @param item    {number}  index within array of search strings"
       },
       {
         "lineNumber": 1600,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * @param origin  {number}  index within filters array"
       },
       {
         "lineNumber": 1601,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   */"
       },
       {
         "lineNumber": 1602,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Toggle the visibility of the settings button"
+        "content": "  removeThisFilter(item: number, origin: number): void {"
       },
       {
         "lineNumber": 1603,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param item  -- index within the searchButtons array to toggle"
+        "content": "    this.filters[origin].array.splice(item, 1);"
       },
       {
         "lineNumber": 1604,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.filters[origin].bool \u003d !this.filters[origin].bool;"
       },
       {
         "lineNumber": 1605,
         "author": {
           "gitId": "-"
         },
-        "content": "  toggleHideButton(item: string): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 1606,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.settingsButtons[item].hidden \u003d !this.settingsButtons[item].hidden;"
+        "content": ""
       },
       {
         "lineNumber": 1607,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "  /**"
       },
       {
         "lineNumber": 1608,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * Toggle the visibility of the settings button"
       },
       {
         "lineNumber": 1609,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   * @param item  -- index within the searchButtons array to toggle"
       },
       {
         "lineNumber": 1610,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Show or hide the settings menu"
+        "content": "   */"
       },
       {
         "lineNumber": 1611,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "  toggleHideButton(item: string): void {"
       },
       {
         "lineNumber": 1612,
         "author": {
           "gitId": "-"
         },
-        "content": "  toggleSettingsMenu(): void {"
+        "content": "    this.settingsButtons[item].hidden \u003d !this.settingsButtons[item].hidden;"
       },
       {
         "lineNumber": 1613,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.appState.menuHidden \u003d !this.appState.menuHidden;"
+        "content": "  }"
       },
       {
         "lineNumber": 1614,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": ""
       },
       {
         "lineNumber": 1615,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  /**"
       },
       {
         "lineNumber": 1616,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   * Show or hide the settings menu"
       },
       {
         "lineNumber": 1617,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Called on screenshot size dropdown select"
+        "content": "   */"
       },
       {
         "lineNumber": 1618,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param pxHeightForImport - string of number of pixels for the height of each screenshot"
+        "content": "  toggleSettingsMenu(): void {"
       },
       {
         "lineNumber": 1619,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.appState.menuHidden \u003d !this.appState.menuHidden;"
       },
       {
         "lineNumber": 1620,
         "author": {
           "gitId": "-"
         },
-        "content": "  selectScreenshotSize(pxHeightForImport: string): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 1621,
         "author": {
           "gitId": "-"
         },
-        "content": "    const height \u003d parseInt(pxHeightForImport, 10);"
+        "content": ""
       },
       {
         "lineNumber": 1622,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.wizard.screenshotSizeForImport \u003d height;"
+        "content": "  /**"
       },
       {
         "lineNumber": 1623,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * Called on screenshot size dropdown select"
       },
       {
         "lineNumber": 1624,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * @param pxHeightForImport - string of number of pixels for the height of each screenshot"
       },
       {
         "lineNumber": 1625,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   */"
       },
       {
         "lineNumber": 1626,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Called on screenshot size dropdown select"
+        "content": "  selectScreenshotSize(pxHeightForImport: string): void {"
       },
       {
         "lineNumber": 1627,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param pxHeightForImport - string of number of pixels for the height of each screenshot"
+        "content": "    const height \u003d parseInt(pxHeightForImport, 10);"
       },
       {
         "lineNumber": 1628,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.wizard.screenshotSizeForImport \u003d height;"
       },
       {
         "lineNumber": 1629,
         "author": {
           "gitId": "-"
         },
-        "content": "  selectClipSize(pxHeightForImport: string): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 1630,
         "author": {
           "gitId": "-"
         },
-        "content": "    const height \u003d parseInt(pxHeightForImport, 10);"
+        "content": ""
       },
       {
         "lineNumber": 1631,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.wizard.clipHeight \u003d height;"
+        "content": "  /**"
       },
       {
         "lineNumber": 1632,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * Called on screenshot size dropdown select"
       },
       {
         "lineNumber": 1633,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * @param pxHeightForImport - string of number of pixels for the height of each screenshot"
       },
       {
         "lineNumber": 1634,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   */"
       },
       {
         "lineNumber": 1635,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Called on screenshot size dropdown select"
+        "content": "  selectClipSize(pxHeightForImport: string): void {"
       },
       {
         "lineNumber": 1636,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param screens - string of number of screenshots per video"
+        "content": "    const height \u003d parseInt(pxHeightForImport, 10);"
       },
       {
         "lineNumber": 1637,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.wizard.clipHeight \u003d height;"
       },
       {
         "lineNumber": 1638,
         "author": {
           "gitId": "-"
         },
-        "content": "  selectNumOfScreens(screens: string): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 1639,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (this.wizard.screensPerVideo) {"
+        "content": ""
       },
       {
         "lineNumber": 1640,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.wizard.ssConstant \u003d parseFloat(screens);"
+        "content": "  /**"
       },
       {
         "lineNumber": 1641,
         "author": {
           "gitId": "-"
         },
-        "content": "    } else {"
+        "content": "   * Called on screenshot size dropdown select"
       },
       {
         "lineNumber": 1642,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.wizard.ssVariable \u003d parseFloat(screens);"
+        "content": "   * @param screens - string of number of screenshots per video"
       },
       {
         "lineNumber": 1643,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "   */"
       },
       {
         "lineNumber": 1644,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "  selectNumOfScreens(screens: string): void {"
       },
       {
         "lineNumber": 1645,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    if (this.wizard.screensPerVideo) {"
       },
       {
         "lineNumber": 1646,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "      this.wizard.ssConstant \u003d parseFloat(screens);"
       },
       {
         "lineNumber": 1647,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Called on screenshot options selection HTML"
+        "content": "    } else {"
       },
       {
         "lineNumber": 1648,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param screens - string of number of snipppets per clip"
+        "content": "      this.wizard.ssVariable \u003d parseFloat(screens);"
       },
       {
         "lineNumber": 1649,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    }"
       },
       {
         "lineNumber": 1650,
         "author": {
           "gitId": "-"
         },
-        "content": "  selectNumOfClipSnippets(screens: string): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 1651,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.wizard.clipSnippets \u003d parseFloat(screens);"
+        "content": ""
       },
       {
         "lineNumber": 1652,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "  /**"
       },
       {
         "lineNumber": 1653,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * Called on screenshot options selection HTML"
       },
       {
         "lineNumber": 1654,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   * @param screens - string of number of snipppets per clip"
       },
       {
         "lineNumber": 1655,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Called on screenshot options selection HTML"
+        "content": "   */"
       },
       {
         "lineNumber": 1656,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param length - string of number of seconds per snippet in each clip"
+        "content": "  selectNumOfClipSnippets(screens: string): void {"
       },
       {
         "lineNumber": 1657,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.wizard.clipSnippets \u003d parseFloat(screens);"
       },
       {
         "lineNumber": 1658,
         "author": {
           "gitId": "-"
         },
-        "content": "  selectLengthOfClipSnippets(length: string): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 1659,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.wizard.clipSnippetLength \u003d parseFloat(length);"
+        "content": ""
       },
       {
         "lineNumber": 1660,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "  /**"
       },
       {
         "lineNumber": 1661,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * Called on screenshot options selection HTML"
       },
       {
         "lineNumber": 1662,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   * @param length - string of number of seconds per snippet in each clip"
       },
       {
         "lineNumber": 1663,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Sets the `screensPerVideo` boolean"
+        "content": "   */"
       },
       {
         "lineNumber": 1664,
         "author": {
           "gitId": "-"
         },
-        "content": "   * true \u003d N screenshots per video"
+        "content": "  selectLengthOfClipSnippets(length: string): void {"
       },
       {
         "lineNumber": 1665,
         "author": {
           "gitId": "-"
         },
-        "content": "   * false \u003d 1 screenshot per N minutes"
+        "content": "    this.wizard.clipSnippetLength \u003d parseFloat(length);"
       },
       {
         "lineNumber": 1666,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param bool boolean"
+        "content": "  }"
       },
       {
         "lineNumber": 1667,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": ""
       },
       {
         "lineNumber": 1668,
         "author": {
           "gitId": "-"
         },
-        "content": "  setScreensPerVideo(bool: boolean): void {"
+        "content": "  /**"
       },
       {
         "lineNumber": 1669,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.wizard.screensPerVideo \u003d bool;"
+        "content": "   * Sets the `screensPerVideo` boolean"
       },
       {
         "lineNumber": 1670,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * true \u003d N screenshots per video"
       },
       {
         "lineNumber": 1671,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * false \u003d 1 screenshot per N minutes"
       },
       {
         "lineNumber": 1672,
         "author": {
           "gitId": "-"
         },
-        "content": "  // ---- HANDLE EXTRACTING AND RESTORING SETTINGS ON OPEN AND BEFORE CLOSE ------"
+        "content": "   * @param bool boolean"
       },
       {
         "lineNumber": 1673,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   */"
       },
       {
         "lineNumber": 1674,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "  setScreensPerVideo(bool: boolean): void {"
       },
       {
         "lineNumber": 1675,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Prepare and return the settings object for saving"
+        "content": "    this.wizard.screensPerVideo \u003d bool;"
       },
       {
         "lineNumber": 1676,
         "author": {
           "gitId": "-"
         },
-        "content": "   * happens right before closing the app !!!"
+        "content": "  }"
       },
       {
         "lineNumber": 1677,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": ""
       },
       {
         "lineNumber": 1678,
         "author": {
           "gitId": "-"
         },
-        "content": "  getSettingsForSave(): any {"
+        "content": "  // ---- HANDLE EXTRACTING AND RESTORING SETTINGS ON OPEN AND BEFORE CLOSE ------"
       },
       {
         "lineNumber": 1679,
@@ -11761,49 +11761,49 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    const buttonSettings \u003d {};"
+        "content": "  /**"
       },
       {
         "lineNumber": 1681,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * Prepare and return the settings object for saving"
       },
       {
         "lineNumber": 1682,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.grabAllSettingsKeys().forEach(element \u003d\u003e {"
+        "content": "   * happens right before closing the app !!!"
       },
       {
         "lineNumber": 1683,
         "author": {
           "gitId": "-"
         },
-        "content": "      buttonSettings[element] \u003d {};"
+        "content": "   */"
       },
       {
         "lineNumber": 1684,
         "author": {
           "gitId": "-"
         },
-        "content": "      buttonSettings[element].toggled \u003d this.settingsButtons[element].toggled;"
+        "content": "  getSettingsForSave(): any {"
       },
       {
         "lineNumber": 1685,
         "author": {
           "gitId": "-"
         },
-        "content": "      buttonSettings[element].hidden \u003d this.settingsButtons[element].hidden;"
+        "content": ""
       },
       {
         "lineNumber": 1686,
         "author": {
           "gitId": "-"
         },
-        "content": "    });"
+        "content": "    const buttonSettings \u003d {};"
       },
       {
         "lineNumber": 1687,
@@ -11817,91 +11817,91 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    // console.log(buttonSettings);"
+        "content": "    this.grabAllSettingsKeys().forEach(element \u003d\u003e {"
       },
       {
         "lineNumber": 1689,
         "author": {
           "gitId": "-"
         },
-        "content": "    return {"
+        "content": "      buttonSettings[element] \u003d {};"
       },
       {
         "lineNumber": 1690,
         "author": {
           "gitId": "-"
         },
-        "content": "      appState: this.appState,"
+        "content": "      buttonSettings[element].toggled \u003d this.settingsButtons[element].toggled;"
       },
       {
         "lineNumber": 1691,
         "author": {
           "gitId": "-"
         },
-        "content": "      buttonSettings: buttonSettings,"
+        "content": "      buttonSettings[element].hidden \u003d this.settingsButtons[element].hidden;"
       },
       {
         "lineNumber": 1692,
         "author": {
           "gitId": "-"
         },
-        "content": "      vhaFileHistory: this.vhaFileHistory,"
+        "content": "    });"
       },
       {
         "lineNumber": 1693,
         "author": {
           "gitId": "-"
         },
-        "content": "    };"
+        "content": ""
       },
       {
         "lineNumber": 1694,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "    // console.log(buttonSettings);"
       },
       {
         "lineNumber": 1695,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    return {"
       },
       {
         "lineNumber": 1696,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "      appState: this.appState,"
       },
       {
         "lineNumber": 1697,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Return all keys from the settings-buttons"
+        "content": "      buttonSettings: buttonSettings,"
       },
       {
         "lineNumber": 1698,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "      vhaFileHistory: this.vhaFileHistory,"
       },
       {
         "lineNumber": 1699,
         "author": {
           "gitId": "-"
         },
-        "content": "  grabAllSettingsKeys(): string[] {"
+        "content": "    };"
       },
       {
         "lineNumber": 1700,
         "author": {
           "gitId": "-"
         },
-        "content": "    const objectKeys: string[] \u003d [];"
+        "content": "  }"
       },
       {
         "lineNumber": 1701,
@@ -11915,35 +11915,35 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    this.settingsButtonsGroups.forEach(element \u003d\u003e {"
+        "content": "  /**"
       },
       {
         "lineNumber": 1703,
         "author": {
           "gitId": "-"
         },
-        "content": "      element.forEach(key \u003d\u003e {"
+        "content": "   * Return all keys from the settings-buttons"
       },
       {
         "lineNumber": 1704,
         "author": {
           "gitId": "-"
         },
-        "content": "        objectKeys.push(key);"
+        "content": "   */"
       },
       {
         "lineNumber": 1705,
         "author": {
           "gitId": "-"
         },
-        "content": "      });"
+        "content": "  grabAllSettingsKeys(): string[] {"
       },
       {
         "lineNumber": 1706,
         "author": {
           "gitId": "-"
         },
-        "content": "    });"
+        "content": "    const objectKeys: string[] \u003d [];"
       },
       {
         "lineNumber": 1707,
@@ -11957,1183 +11957,1183 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    // console.log(objectKeys);"
+        "content": "    this.settingsButtonsGroups.forEach(element \u003d\u003e {"
       },
       {
         "lineNumber": 1709,
         "author": {
           "gitId": "-"
         },
-        "content": "    return (objectKeys);"
+        "content": "      element.forEach(key \u003d\u003e {"
       },
       {
         "lineNumber": 1710,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "        objectKeys.push(key);"
       },
       {
         "lineNumber": 1711,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "      });"
       },
       {
         "lineNumber": 1712,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "    });"
       },
       {
         "lineNumber": 1713,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Restore settings to their default values"
+        "content": ""
       },
       {
         "lineNumber": 1714,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    // console.log(objectKeys);"
       },
       {
         "lineNumber": 1715,
         "author": {
           "gitId": "-"
         },
-        "content": "  resetSettingsToDefault(): void {"
+        "content": "    return (objectKeys);"
       },
       {
         "lineNumber": 1716,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.settingsButtons \u003d JSON.parse(JSON.stringify(this.defaultSettingsButtons));"
+        "content": "  }"
       },
       {
         "lineNumber": 1717,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": ""
       },
       {
         "lineNumber": 1718,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  /**"
       },
       {
         "lineNumber": 1719,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   * Restore settings to their default values"
       },
       {
         "lineNumber": 1720,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Clone default settings in case user wants to reset them later"
+        "content": "   */"
       },
       {
         "lineNumber": 1721,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "  resetSettingsToDefault(): void {"
       },
       {
         "lineNumber": 1722,
         "author": {
           "gitId": "-"
         },
-        "content": "  cloneDefaultButtonSetting(): void {"
+        "content": "    this.settingsButtons \u003d JSON.parse(JSON.stringify(this.defaultSettingsButtons));"
       },
       {
         "lineNumber": 1723,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.defaultSettingsButtons \u003d JSON.parse(JSON.stringify(this.settingsButtons));"
+        "content": "  }"
       },
       {
         "lineNumber": 1724,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": ""
       },
       {
         "lineNumber": 1725,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  /**"
       },
       {
         "lineNumber": 1726,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   * Clone default settings in case user wants to reset them later"
       },
       {
         "lineNumber": 1727,
         "author": {
           "gitId": "-"
         },
-        "content": "   * restore settings from saved file"
+        "content": "   */"
       },
       {
         "lineNumber": 1728,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "  cloneDefaultButtonSetting(): void {"
       },
       {
         "lineNumber": 1729,
         "author": {
           "gitId": "-"
         },
-        "content": "  restoreSettingsFromBefore(settingsObject: SettingsObject): void {"
+        "content": "    this.defaultSettingsButtons \u003d JSON.parse(JSON.stringify(this.settingsButtons));"
       },
       {
         "lineNumber": 1730,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (settingsObject.appState) {"
+        "content": "  }"
       },
       {
         "lineNumber": 1731,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.appState \u003d settingsObject.appState;"
+        "content": ""
       },
       {
         "lineNumber": 1732,
         "author": {
           "gitId": "-"
         },
-        "content": "      if (!settingsObject.appState.currentZoomLevel) {  // catch error \u003c-- old VHA apps didn\u0027t have `currentZoomLevel`"
+        "content": "  /**"
       },
       {
         "lineNumber": 1733,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.currentZoomLevel \u003d 1;             // TODO -- remove whole block -- not needed any more !?!?!?!??!?! -----------------!"
+        "content": "   * restore settings from saved file"
       },
       {
         "lineNumber": 1734,
         "author": {
           "gitId": "-"
         },
-        "content": "      }"
+        "content": "   */"
       },
       {
         "lineNumber": 1735,
         "author": {
           "gitId": "-"
         },
-        "content": "      if (!settingsObject.appState.imgsPerRow) {"
+        "content": "  restoreSettingsFromBefore(settingsObject: SettingsObject): void {"
       },
       {
         "lineNumber": 1736,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.imgsPerRow \u003d defaultImgsPerRow;"
+        "content": "    if (settingsObject.appState) {"
       },
       {
         "lineNumber": 1737,
         "author": {
           "gitId": "-"
         },
-        "content": "      }"
+        "content": "      this.appState \u003d settingsObject.appState;"
       },
       {
         "lineNumber": 1738,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "      if (!settingsObject.appState.currentZoomLevel) {  // catch error \u003c-- old VHA apps didn\u0027t have `currentZoomLevel`"
       },
       {
         "lineNumber": 1739,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.sortType \u003d this.appState.currentSort;"
+        "content": "        this.appState.currentZoomLevel \u003d 1;             // TODO -- remove whole block -- not needed any more !?!?!?!??!?! -----------------!"
       },
       {
         "lineNumber": 1740,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.imgsPerRow \u003d this.appState.imgsPerRow;"
+        "content": "      }"
       },
       {
         "lineNumber": 1741,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.currentImgsPerRow \u003d this.imgsPerRow[this.appState.currentView];"
+        "content": "      if (!settingsObject.appState.imgsPerRow) {"
       },
       {
         "lineNumber": 1742,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.grabAllSettingsKeys().forEach(element \u003d\u003e {"
+        "content": "        this.appState.imgsPerRow \u003d defaultImgsPerRow;"
       },
       {
         "lineNumber": 1743,
         "author": {
           "gitId": "-"
         },
-        "content": "      if (settingsObject.buttonSettings[element]) {"
+        "content": "      }"
       },
       {
         "lineNumber": 1744,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.settingsButtons[element].toggled \u003d settingsObject.buttonSettings[element].toggled;"
+        "content": "    }"
       },
       {
         "lineNumber": 1745,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.settingsButtons[element].hidden \u003d settingsObject.buttonSettings[element].hidden;"
+        "content": "    this.sortType \u003d this.appState.currentSort;"
       },
       {
         "lineNumber": 1746,
         "author": {
           "gitId": "-"
         },
-        "content": "        // retrieving state of buttons for touchBar"
+        "content": "    this.imgsPerRow \u003d this.appState.imgsPerRow;"
       },
       {
         "lineNumber": 1747,
         "author": {
           "gitId": "-"
         },
-        "content": "        if (this.settingsButtons[element].toggled) {"
+        "content": "    this.currentImgsPerRow \u003d this.imgsPerRow[this.appState.currentView];"
       },
       {
         "lineNumber": 1748,
         "author": {
           "gitId": "-"
         },
-        "content": "          this.electronService.ipcRenderer.send(\u0027app-to-touchBar\u0027, element);"
+        "content": "    this.grabAllSettingsKeys().forEach(element \u003d\u003e {"
       },
       {
         "lineNumber": 1749,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "      if (settingsObject.buttonSettings[element]) {"
       },
       {
         "lineNumber": 1750,
         "author": {
           "gitId": "-"
         },
-        "content": "      }"
+        "content": "        this.settingsButtons[element].toggled \u003d settingsObject.buttonSettings[element].toggled;"
       },
       {
         "lineNumber": 1751,
         "author": {
           "gitId": "-"
         },
-        "content": "    });"
+        "content": "        this.settingsButtons[element].hidden \u003d settingsObject.buttonSettings[element].hidden;"
       },
       {
         "lineNumber": 1752,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.computeTextBufferAmount();"
+        "content": "        // retrieving state of buttons for touchBar"
       },
       {
         "lineNumber": 1753,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        if (this.settingsButtons[element].toggled) {"
       },
       {
         "lineNumber": 1754,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.settingsButtons[\u0027showTags\u0027].toggled \u003d false; // never show tags on load (they don\u0027t load right anyway)"
+        "content": "          this.electronService.ipcRenderer.send(\u0027app-to-touchBar\u0027, element);"
       },
       {
         "lineNumber": 1755,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 1756,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (this.settingsButtons[\u0027showTagTray\u0027].toggled) {"
+        "content": "      }"
       },
       {
         "lineNumber": 1757,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.settingsButtons[\u0027showTagTray\u0027].toggled \u003d false;"
+        "content": "    });"
       },
       {
         "lineNumber": 1758,
         "author": {
           "gitId": "-"
         },
-        "content": "      setTimeout(() \u003d\u003e {"
+        "content": "    this.computeTextBufferAmount();"
       },
       {
         "lineNumber": 1759,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.settingsButtons[\u0027showTagTray\u0027].toggled \u003d true; // needs a delay to show up correctly"
+        "content": ""
       },
       {
         "lineNumber": 1760,
         "author": {
           "gitId": "-"
         },
-        "content": "      }, 100);"
+        "content": "    this.settingsButtons[\u0027showTags\u0027].toggled \u003d false; // never show tags on load (they don\u0027t load right anyway)"
       },
       {
         "lineNumber": 1761,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 1762,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "    if (this.settingsButtons[\u0027showTagTray\u0027].toggled) {"
       },
       {
         "lineNumber": 1763,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "      this.settingsButtons[\u0027showTagTray\u0027].toggled \u003d false;"
       },
       {
         "lineNumber": 1764,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "      setTimeout(() \u003d\u003e {"
       },
       {
         "lineNumber": 1765,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Restore the language from settings or try to set it from the user\u0027s locale"
+        "content": "        this.settingsButtons[\u0027showTagTray\u0027].toggled \u003d true; // needs a delay to show up correctly"
       },
       {
         "lineNumber": 1766,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param storedSetting the `language` attribute in AppState"
+        "content": "      }, 100);"
       },
       {
         "lineNumber": 1767,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param locale the string that comes from `app.getLocale()`"
+        "content": "    }"
       },
       {
         "lineNumber": 1768,
         "author": {
           "gitId": "-"
         },
-        "content": "   * List of locales is here: https://github.com/electron/electron/blob/master/docs/api/locales.md"
+        "content": "  }"
       },
       {
         "lineNumber": 1769,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": ""
       },
       {
         "lineNumber": 1770,
         "author": {
           "gitId": "-"
         },
-        "content": "  setOrRestoreLanguage(chosenLanguage: SupportedLanguage, locale: string): void {"
+        "content": "  /**"
       },
       {
         "lineNumber": 1771,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (chosenLanguage) {"
+        "content": "   * Restore the language from settings or try to set it from the user\u0027s locale"
       },
       {
         "lineNumber": 1772,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.changeLanguage(chosenLanguage);"
+        "content": "   * @param storedSetting the `language` attribute in AppState"
       },
       {
         "lineNumber": 1773,
         "author": {
           "gitId": "-"
         },
-        "content": "    } else {"
+        "content": "   * @param locale the string that comes from `app.getLocale()`"
       },
       {
         "lineNumber": 1774,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.changeLanguage(\u003cany\u003elocale.substring(0, 2));"
+        "content": "   * List of locales is here: https://github.com/electron/electron/blob/master/docs/api/locales.md"
       },
       {
         "lineNumber": 1775,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "   */"
       },
       {
         "lineNumber": 1776,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "  setOrRestoreLanguage(chosenLanguage: SupportedLanguage, locale: string): void {"
       },
       {
         "lineNumber": 1777,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    if (chosenLanguage) {"
       },
       {
         "lineNumber": 1778,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "      this.changeLanguage(chosenLanguage);"
       },
       {
         "lineNumber": 1779,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Update the min and max resolution for the resolution filter"
+        "content": "    } else {"
       },
       {
         "lineNumber": 1780,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param selection"
+        "content": "      this.changeLanguage(\u003cany\u003elocale.substring(0, 2));"
       },
       {
         "lineNumber": 1781,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    }"
       },
       {
         "lineNumber": 1782,
         "author": {
           "gitId": "-"
         },
-        "content": "  newResFilterSelected(selection: number[]): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 1783,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.freqLeftBound \u003d selection[0];"
+        "content": ""
       },
       {
         "lineNumber": 1784,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.freqRightBound \u003d selection[1];"
+        "content": "  /**"
       },
       {
         "lineNumber": 1785,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * Update the min and max resolution for the resolution filter"
       },
       {
         "lineNumber": 1786,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * @param selection"
       },
       {
         "lineNumber": 1787,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   */"
       },
       {
         "lineNumber": 1788,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Update the min and max star rating for the star filter"
+        "content": "  newResFilterSelected(selection: number[]): void {"
       },
       {
         "lineNumber": 1789,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param selection"
+        "content": "    this.freqLeftBound \u003d selection[0];"
       },
       {
         "lineNumber": 1790,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.freqRightBound \u003d selection[1];"
       },
       {
         "lineNumber": 1791,
         "author": {
           "gitId": "-"
         },
-        "content": "  newStarFilterSelected(selection: number[]): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 1792,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.starLeftBound \u003d selection[0];"
+        "content": ""
       },
       {
         "lineNumber": 1793,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.starRightBound \u003d selection[1];"
+        "content": "  /**"
       },
       {
         "lineNumber": 1794,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * Update the min and max star rating for the star filter"
       },
       {
         "lineNumber": 1795,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * @param selection"
       },
       {
         "lineNumber": 1796,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   */"
       },
       {
         "lineNumber": 1797,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Handle right-click and `Show similar`"
+        "content": "  newStarFilterSelected(selection: number[]): void {"
       },
       {
         "lineNumber": 1798,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.starLeftBound \u003d selection[0];"
       },
       {
         "lineNumber": 1799,
         "author": {
           "gitId": "-"
         },
-        "content": "  showSimilarNow(): void {"
+        "content": "    this.starRightBound \u003d selection[1];"
       },
       {
         "lineNumber": 1800,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.findMostSimilar \u003d this.currentRightClickedItem.cleanName;"
+        "content": "  }"
       },
       {
         "lineNumber": 1801,
         "author": {
           "gitId": "-"
         },
-        "content": "    // console.log(this.findMostSimilar);"
+        "content": ""
       },
       {
         "lineNumber": 1802,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.showSimilar \u003d true;"
+        "content": "  /**"
       },
       {
         "lineNumber": 1803,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * Handle right-click and `Show similar`"
       },
       {
         "lineNumber": 1804,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   */"
       },
       {
         "lineNumber": 1805,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "  showSimilarNow(): void {"
       },
       {
         "lineNumber": 1806,
         "author": {
           "gitId": "-"
         },
-        "content": "   * handle right-click and `Open folder`"
+        "content": "    this.findMostSimilar \u003d this.currentRightClickedItem.cleanName;"
       },
       {
         "lineNumber": 1807,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Code similar to `openVideo()`"
+        "content": "    // console.log(this.findMostSimilar);"
       },
       {
         "lineNumber": 1808,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.showSimilar \u003d true;"
       },
       {
         "lineNumber": 1809,
         "author": {
           "gitId": "-"
         },
-        "content": "  openContainingFolderNow(): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 1810,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.fullPathToCurrentFile \u003d path.join("
+        "content": ""
       },
       {
         "lineNumber": 1811,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.appState.selectedSourceFolder,"
+        "content": "  /**"
       },
       {
         "lineNumber": 1812,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.currentRightClickedItem.partialPath,"
+        "content": "   * handle right-click and `Open folder`"
       },
       {
         "lineNumber": 1813,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.currentRightClickedItem.fileName"
+        "content": "   * Code similar to `openVideo()`"
       },
       {
         "lineNumber": 1814,
         "author": {
           "gitId": "-"
         },
-        "content": "    );"
+        "content": "   */"
       },
       {
         "lineNumber": 1815,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  openContainingFolderNow(): void {"
       },
       {
         "lineNumber": 1816,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.openInExplorer();"
+        "content": "    this.fullPathToCurrentFile \u003d path.join("
       },
       {
         "lineNumber": 1817,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "      this.appState.selectedSourceFolder,"
       },
       {
         "lineNumber": 1818,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "      this.currentRightClickedItem.partialPath,"
       },
       {
         "lineNumber": 1819,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "      this.currentRightClickedItem.fileName"
       },
       {
         "lineNumber": 1820,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Handle right-click on file and `view folder`"
+        "content": "    );"
       },
       {
         "lineNumber": 1821,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": ""
       },
       {
         "lineNumber": 1822,
         "author": {
           "gitId": "-"
         },
-        "content": "  showOnlyThisFolderNow(): void {"
+        "content": "    this.openInExplorer();"
       },
       {
         "lineNumber": 1823,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.handleFolderWordClicked(this.currentRightClickedItem.partialPath);"
+        "content": "  }"
       },
       {
         "lineNumber": 1824,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": ""
       },
       {
         "lineNumber": 1825,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  /**"
       },
       {
         "lineNumber": 1826,
         "author": {
           "gitId": "-"
         },
-        "content": "  rightMouseClicked(event: MouseEvent, item: ImageElement): void {"
+        "content": "   * Handle right-click on file and `view folder`"
       },
       {
         "lineNumber": 1827,
         "author": {
           "gitId": "-"
         },
-        "content": "    const winWidth: number \u003d window.innerWidth;"
+        "content": "   */"
       },
       {
         "lineNumber": 1828,
         "author": {
           "gitId": "-"
         },
-        "content": "    const clientX: number \u003d event.clientX;"
+        "content": "  showOnlyThisFolderNow(): void {"
       },
       {
         "lineNumber": 1829,
         "author": {
           "gitId": "-"
         },
-        "content": "    const howFarFromRight: number \u003d winWidth - clientX;"
+        "content": "    this.handleFolderWordClicked(this.currentRightClickedItem.partialPath);"
       },
       {
         "lineNumber": 1830,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  }"
       },
       {
         "lineNumber": 1831,
         "author": {
           "gitId": "-"
         },
-        "content": "    // handle top-offset if clicking close to the bottom"
+        "content": ""
       },
       {
         "lineNumber": 1832,
         "author": {
           "gitId": "-"
         },
-        "content": "    const winHeight: number \u003d window.innerHeight;"
+        "content": "  rightMouseClicked(event: MouseEvent, item: ImageElement): void {"
       },
       {
         "lineNumber": 1833,
         "author": {
           "gitId": "-"
         },
-        "content": "    const clientY: number \u003d event.clientY;"
+        "content": "    const winWidth: number \u003d window.innerWidth;"
       },
       {
         "lineNumber": 1834,
         "author": {
           "gitId": "-"
         },
-        "content": "    const howFarFromBottom: number \u003d winHeight - clientY;"
+        "content": "    const clientX: number \u003d event.clientX;"
       },
       {
         "lineNumber": 1835,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    const howFarFromRight: number \u003d winWidth - clientX;"
       },
       {
         "lineNumber": 1836,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.rightClickPosition.x \u003d (howFarFromRight \u003c 150) ? clientX - 150 + (howFarFromRight) : clientX;"
+        "content": ""
       },
       {
         "lineNumber": 1837,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.rightClickPosition.y \u003d (howFarFromBottom \u003c 190) ? clientY - 190 + (howFarFromBottom) : clientY;"
+        "content": "    // handle top-offset if clicking close to the bottom"
       },
       {
         "lineNumber": 1838,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    const winHeight: number \u003d window.innerHeight;"
       },
       {
         "lineNumber": 1839,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.currentRightClickedItem \u003d item;"
+        "content": "    const clientY: number \u003d event.clientY;"
       },
       {
         "lineNumber": 1840,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.rightClickShowing \u003d true;"
+        "content": "    const howFarFromBottom: number \u003d winHeight - clientY;"
       },
       {
         "lineNumber": 1841,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": ""
       },
       {
         "lineNumber": 1842,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    this.rightClickPosition.x \u003d (howFarFromRight \u003c 150) ? clientX - 150 + (howFarFromRight) : clientX;"
       },
       {
         "lineNumber": 1843,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "    this.rightClickPosition.y \u003d (howFarFromBottom \u003c 190) ? clientY - 190 + (howFarFromBottom) : clientY;"
       },
       {
         "lineNumber": 1844,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Opens the thumbnail sheet for the selected video"
+        "content": ""
       },
       {
         "lineNumber": 1845,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.currentRightClickedItem \u003d item;"
       },
       {
         "lineNumber": 1846,
         "author": {
           "gitId": "-"
         },
-        "content": "  openThumbnailSheet(item: ImageElement): void {"
+        "content": "    this.rightClickShowing \u003d true;"
       },
       {
         "lineNumber": 1847,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.sheetItemToDisplay \u003d item;"
+        "content": "  }"
       },
       {
         "lineNumber": 1848,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.sheetOverlayShowing \u003d true;"
+        "content": ""
       },
       {
         "lineNumber": 1849,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "  /**"
       },
       {
         "lineNumber": 1850,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * Opens the thumbnail sheet for the selected video"
       },
       {
         "lineNumber": 1851,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   */"
       },
       {
         "lineNumber": 1852,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Deletes a file (moves to recycling bin / trash)"
+        "content": "  openThumbnailSheet(item: ImageElement): void {"
       },
       {
         "lineNumber": 1853,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.sheetItemToDisplay \u003d item;"
       },
       {
         "lineNumber": 1854,
         "author": {
           "gitId": "-"
         },
-        "content": "  deleteThisFile(item: ImageElement): void {"
+        "content": "    this.sheetOverlayShowing \u003d true;"
       },
       {
         "lineNumber": 1855,
         "author": {
           "gitId": "-"
         },
-        "content": "    console.log(\u0027DELETING !!!\u0027);"
+        "content": "  }"
       },
       {
         "lineNumber": 1856,
         "author": {
           "gitId": "-"
         },
-        "content": "    console.log(item);"
+        "content": ""
       },
       {
         "lineNumber": 1857,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.electronService.ipcRenderer.send(\u0027delete-video-file\u0027, item);"
+        "content": "  /**"
       },
       {
         "lineNumber": 1858,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * Deletes a file (moves to recycling bin / trash)"
       },
       {
         "lineNumber": 1859,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   */"
       },
       {
         "lineNumber": 1860,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "  deleteThisFile(item: ImageElement): void {"
       },
       {
         "lineNumber": 1861,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Opens rename file modal, prepares all the name and extension"
+        "content": "    console.log(\u0027DELETING !!!\u0027);"
       },
       {
         "lineNumber": 1862,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    console.log(item);"
       },
       {
         "lineNumber": 1863,
         "author": {
           "gitId": "-"
         },
-        "content": "  openRenameFileModal(): void {"
+        "content": "    this.electronService.ipcRenderer.send(\u0027delete-video-file\u0027, item);"
       },
       {
         "lineNumber": 1864,
         "author": {
           "gitId": "-"
         },
-        "content": "    // prepare file name without extension:"
+        "content": "  }"
       },
       {
         "lineNumber": 1865,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.renameErrMsg \u003d \u0027\u0027;"
+        "content": ""
       },
       {
         "lineNumber": 1866,
         "author": {
           "gitId": "-"
         },
-        "content": "    const item \u003d this.currentRightClickedItem;"
+        "content": "  /**"
       },
       {
         "lineNumber": 1867,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * Opens rename file modal, prepares all the name and extension"
       },
       {
         "lineNumber": 1868,
         "author": {
           "gitId": "-"
         },
-        "content": "    // .slice() creates a copy"
+        "content": "   */"
       },
       {
         "lineNumber": 1869,
         "author": {
           "gitId": "-"
         },
-        "content": "    const fileName \u003d item.fileName.slice().substr(0, item.fileName.lastIndexOf(\u0027.\u0027));"
+        "content": "  openRenameFileModal(): void {"
       },
       {
         "lineNumber": 1870,
         "author": {
           "gitId": "-"
         },
-        "content": "    const extension \u003d item.fileName.slice().split(\u0027.\u0027).pop();"
+        "content": "    // prepare file name without extension:"
       },
       {
         "lineNumber": 1871,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    this.renameErrMsg \u003d \u0027\u0027;"
       },
       {
         "lineNumber": 1872,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.renamingWIP \u003d fileName;"
+        "content": "    const item \u003d this.currentRightClickedItem;"
       },
       {
         "lineNumber": 1873,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.renamingExtension \u003d extension;"
+        "content": ""
       },
       {
         "lineNumber": 1874,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    // .slice() creates a copy"
       },
       {
         "lineNumber": 1875,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.itemToRename \u003d item;"
+        "content": "    const fileName \u003d item.fileName.slice().substr(0, item.fileName.lastIndexOf(\u0027.\u0027));"
       },
       {
         "lineNumber": 1876,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.renamingNow \u003d true;"
+        "content": "    const extension \u003d item.fileName.slice().split(\u0027.\u0027).pop();"
       },
       {
         "lineNumber": 1877,
@@ -13147,1316 +13147,1316 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    setTimeout(() \u003d\u003e {"
+        "content": "    this.renamingWIP \u003d fileName;"
       },
       {
         "lineNumber": 1879,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.renameFileInput.nativeElement.focus();"
+        "content": "    this.renamingExtension \u003d extension;"
       },
       {
         "lineNumber": 1880,
         "author": {
           "gitId": "-"
         },
-        "content": "    }, 0);"
+        "content": ""
       },
       {
         "lineNumber": 1881,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "    this.itemToRename \u003d item;"
       },
       {
         "lineNumber": 1882,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    this.renamingNow \u003d true;"
       },
       {
         "lineNumber": 1883,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": ""
       },
       {
         "lineNumber": 1884,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Close the thumbnail sheet"
+        "content": "    setTimeout(() \u003d\u003e {"
       },
       {
         "lineNumber": 1885,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "      this.renameFileInput.nativeElement.focus();"
       },
       {
         "lineNumber": 1886,
         "author": {
           "gitId": "-"
         },
-        "content": "  closeSheetOverlay() {"
+        "content": "    }, 0);"
       },
       {
         "lineNumber": 1887,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.sheetOverlayShowing \u003d false;"
+        "content": "  }"
       },
       {
         "lineNumber": 1888,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": ""
       },
       {
         "lineNumber": 1889,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  /**"
       },
       {
         "lineNumber": 1890,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   * Close the thumbnail sheet"
       },
       {
         "lineNumber": 1891,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Close the rename dialog"
+        "content": "   */"
       },
       {
         "lineNumber": 1892,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "  closeSheetOverlay() {"
       },
       {
         "lineNumber": 1893,
         "author": {
           "gitId": "-"
         },
-        "content": "  closeRename() {"
+        "content": "    this.sheetOverlayShowing \u003d false;"
       },
       {
         "lineNumber": 1894,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.renamingNow \u003d false;"
+        "content": "  }"
       },
       {
         "lineNumber": 1895,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.cd.detectChanges();"
+        "content": ""
       },
       {
         "lineNumber": 1896,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "  /**"
       },
       {
         "lineNumber": 1897,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * Close the rename dialog"
       },
       {
         "lineNumber": 1898,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   */"
       },
       {
         "lineNumber": 1899,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Attempt to rename file"
+        "content": "  closeRename() {"
       },
       {
         "lineNumber": 1900,
         "author": {
           "gitId": "-"
         },
-        "content": "   * check for simple errors locally"
+        "content": "    this.renamingNow \u003d false;"
       },
       {
         "lineNumber": 1901,
         "author": {
           "gitId": "-"
         },
-        "content": "   * ask Node to perform rename after"
+        "content": "    this.cd.detectChanges();"
       },
       {
         "lineNumber": 1902,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "  }"
       },
       {
         "lineNumber": 1903,
         "author": {
           "gitId": "-"
         },
-        "content": "  attemptToRename() {"
+        "content": ""
       },
       {
         "lineNumber": 1904,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.nodeRenamingFile \u003d true;"
+        "content": "  /**"
       },
       {
         "lineNumber": 1905,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.renameErrMsg \u003d \u0027\u0027;"
+        "content": "   * Attempt to rename file"
       },
       {
         "lineNumber": 1906,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * check for simple errors locally"
       },
       {
         "lineNumber": 1907,
         "author": {
           "gitId": "-"
         },
-        "content": "    const sourceFolder \u003d this.appState.selectedSourceFolder;"
+        "content": "   * ask Node to perform rename after"
       },
       {
         "lineNumber": 1908,
         "author": {
           "gitId": "-"
         },
-        "content": "    const relativeFilePath \u003d this.currentRightClickedItem.partialPath;"
+        "content": "   */"
       },
       {
         "lineNumber": 1909,
         "author": {
           "gitId": "-"
         },
-        "content": "    const originalFile \u003d this.currentRightClickedItem.fileName;"
+        "content": "  attemptToRename() {"
       },
       {
         "lineNumber": 1910,
         "author": {
           "gitId": "-"
         },
-        "content": "    const newFileName \u003d this.renamingWIP + \u0027.\u0027 + this.renamingExtension;"
+        "content": "    this.nodeRenamingFile \u003d true;"
       },
       {
         "lineNumber": 1911,
         "author": {
           "gitId": "-"
         },
-        "content": "    // check if different first !!!"
+        "content": "    this.renameErrMsg \u003d \u0027\u0027;"
       },
       {
         "lineNumber": 1912,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (originalFile \u003d\u003d\u003d newFileName) {"
+        "content": ""
       },
       {
         "lineNumber": 1913,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.renameErrMsg \u003d \u0027RIGHTCLICK.errorMustBeDifferent\u0027;"
+        "content": "    const sourceFolder \u003d this.appState.selectedSourceFolder;"
       },
       {
         "lineNumber": 1914,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.nodeRenamingFile \u003d false;"
+        "content": "    const relativeFilePath \u003d this.currentRightClickedItem.partialPath;"
       },
       {
         "lineNumber": 1915,
         "author": {
           "gitId": "-"
         },
-        "content": "    } else if (this.renamingWIP.length \u003d\u003d\u003d 0) {"
+        "content": "    const originalFile \u003d this.currentRightClickedItem.fileName;"
       },
       {
         "lineNumber": 1916,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.renameErrMsg \u003d \u0027RIGHTCLICK.errorMustNotBeEmpty\u0027;"
+        "content": "    const newFileName \u003d this.renamingWIP + \u0027.\u0027 + this.renamingExtension;"
       },
       {
         "lineNumber": 1917,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.nodeRenamingFile \u003d false;"
+        "content": "    // check if different first !!!"
       },
       {
         "lineNumber": 1918,
         "author": {
           "gitId": "-"
         },
-        "content": "    } else {"
+        "content": "    if (originalFile \u003d\u003d\u003d newFileName) {"
       },
       {
         "lineNumber": 1919,
         "author": {
           "gitId": "-"
         },
-        "content": "      // try renaming"
+        "content": "      this.renameErrMsg \u003d \u0027RIGHTCLICK.errorMustBeDifferent\u0027;"
       },
       {
         "lineNumber": 1920,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.electronService.ipcRenderer.send("
+        "content": "      this.nodeRenamingFile \u003d false;"
       },
       {
         "lineNumber": 1921,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u0027try-to-rename-this-file\u0027,"
+        "content": "    } else if (this.renamingWIP.length \u003d\u003d\u003d 0) {"
       },
       {
         "lineNumber": 1922,
         "author": {
           "gitId": "-"
         },
-        "content": "        sourceFolder,"
+        "content": "      this.renameErrMsg \u003d \u0027RIGHTCLICK.errorMustNotBeEmpty\u0027;"
       },
       {
         "lineNumber": 1923,
         "author": {
           "gitId": "-"
         },
-        "content": "        relativeFilePath,"
+        "content": "      this.nodeRenamingFile \u003d false;"
       },
       {
         "lineNumber": 1924,
         "author": {
           "gitId": "-"
         },
-        "content": "        originalFile,"
+        "content": "    } else {"
       },
       {
         "lineNumber": 1925,
         "author": {
           "gitId": "-"
         },
-        "content": "        newFileName"
+        "content": "      // try renaming"
       },
       {
         "lineNumber": 1926,
         "author": {
           "gitId": "-"
         },
-        "content": "      );"
+        "content": "      this.electronService.ipcRenderer.send("
       },
       {
         "lineNumber": 1927,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        \u0027try-to-rename-this-file\u0027,"
       },
       {
         "lineNumber": 1928,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "        sourceFolder,"
       },
       {
         "lineNumber": 1929,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        relativeFilePath,"
       },
       {
         "lineNumber": 1930,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "        originalFile,"
       },
       {
         "lineNumber": 1931,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Searches through the `finalArray` and updates the file name and display name"
+        "content": "        newFileName"
       },
       {
         "lineNumber": 1932,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Should not error out if two files have the same name"
+        "content": "      );"
       },
       {
         "lineNumber": 1933,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    }"
       },
       {
         "lineNumber": 1934,
         "author": {
           "gitId": "-"
         },
-        "content": "  replaceFileNameInFinalArray(): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 1935,
         "author": {
           "gitId": "-"
         },
-        "content": "    const oldFileName \u003d this.currentRightClickedItem.fileName;"
+        "content": ""
       },
       {
         "lineNumber": 1936,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  /**"
       },
       {
         "lineNumber": 1937,
         "author": {
           "gitId": "-"
         },
-        "content": "    const i \u003d this.itemToRename.index;"
+        "content": "   * Searches through the `finalArray` and updates the file name and display name"
       },
       {
         "lineNumber": 1938,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * Should not error out if two files have the same name"
       },
       {
         "lineNumber": 1939,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (this.finalArray[i].fileName \u003d\u003d\u003d oldFileName) {"
+        "content": "   */"
       },
       {
         "lineNumber": 1940,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.finalArray[i].fileName \u003d this.renamingWIP + \u0027.\u0027 + this.renamingExtension;"
+        "content": "  replaceFileNameInFinalArray(): void {"
       },
       {
         "lineNumber": 1941,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.finalArray[i].cleanName \u003d this.renamingWIP;"
+        "content": "    const oldFileName \u003d this.currentRightClickedItem.fileName;"
       },
       {
         "lineNumber": 1942,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 1943,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    const i \u003d this.itemToRename.index;"
       },
       {
         "lineNumber": 1944,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.finalArrayNeedsSaving \u003d true;"
+        "content": ""
       },
       {
         "lineNumber": 1945,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "    if (this.finalArray[i].fileName \u003d\u003d\u003d oldFileName) {"
       },
       {
         "lineNumber": 1946,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "      this.finalArray[i].fileName \u003d this.renamingWIP + \u0027.\u0027 + this.renamingExtension;"
       },
       {
         "lineNumber": 1947,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "      this.finalArray[i].cleanName \u003d this.renamingWIP;"
       },
       {
         "lineNumber": 1948,
         "author": {
           "gitId": "-"
         },
-        "content": "   * For ternary in `home.component` template when right-clicking on folder instead of file"
+        "content": "    }"
       },
       {
         "lineNumber": 1949,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": ""
       },
       {
         "lineNumber": 1950,
         "author": {
           "gitId": "-"
         },
-        "content": "  doNothing(): void {"
+        "content": "    this.finalArrayNeedsSaving \u003d true;"
       },
       {
         "lineNumber": 1951,
         "author": {
           "gitId": "-"
         },
-        "content": "    // do nothing"
+        "content": "  }"
       },
       {
         "lineNumber": 1952,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": ""
       },
       {
         "lineNumber": 1953,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  /**"
       },
       {
         "lineNumber": 1954,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   * For ternary in `home.component` template when right-clicking on folder instead of file"
       },
       {
         "lineNumber": 1955,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Add and remove tags from the AutoTagsSaveService"
+        "content": "   */"
       },
       {
         "lineNumber": 1956,
         "author": {
           "gitId": "-"
         },
-        "content": "   * triggered on vha file load"
+        "content": "  doNothing(): void {"
       },
       {
         "lineNumber": 1957,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param addTags"
+        "content": "    // do nothing"
       },
       {
         "lineNumber": 1958,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param removeTags"
+        "content": "  }"
       },
       {
         "lineNumber": 1959,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": ""
       },
       {
         "lineNumber": 1960,
         "author": {
           "gitId": "-"
         },
-        "content": "  setTags(addTags: string[], removeTags: string[]): void {"
+        "content": "  /**"
       },
       {
         "lineNumber": 1961,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.tagsSaveService.restoreSavedTags("
+        "content": "   * Add and remove tags from the AutoTagsSaveService"
       },
       {
         "lineNumber": 1962,
         "author": {
           "gitId": "-"
         },
-        "content": "      addTags ? addTags : [],"
+        "content": "   * triggered on vha file load"
       },
       {
         "lineNumber": 1963,
         "author": {
           "gitId": "-"
         },
-        "content": "      removeTags ? removeTags : []"
+        "content": "   * @param addTags"
       },
       {
         "lineNumber": 1964,
         "author": {
           "gitId": "-"
         },
-        "content": "    );"
+        "content": "   * @param removeTags"
       },
       {
         "lineNumber": 1965,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   */"
       },
       {
         "lineNumber": 1966,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  setTags(addTags: string[], removeTags: string[]): void {"
       },
       {
         "lineNumber": 1967,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "    this.tagsSaveService.restoreSavedTags("
       },
       {
         "lineNumber": 1968,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Change the language via ngx-translate"
+        "content": "      addTags ? addTags : [],"
       },
       {
         "lineNumber": 1969,
         "author": {
           "gitId": "-"
         },
-        "content": "   * `en` is the default"
+        "content": "      removeTags ? removeTags : []"
       },
       {
         "lineNumber": 1970,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param language"
+        "content": "    );"
       },
       {
         "lineNumber": 1971,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "  }"
       },
       {
         "lineNumber": 1972,
         "author": {
           "gitId": "-"
         },
-        "content": "  changeLanguage(language: SupportedLanguage): void {"
+        "content": ""
       },
       {
         "lineNumber": 1973,
         "author": {
           "gitId": "-"
         },
-        "content": "    switch (language) {"
+        "content": "  /**"
       },
       {
         "lineNumber": 1974,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027ru\u0027:"
+        "content": "   * Change the language via ngx-translate"
       },
       {
         "lineNumber": 1975,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027ru\u0027);"
+        "content": "   * `en` is the default"
       },
       {
         "lineNumber": 1976,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027ru\u0027, Russian);"
+        "content": "   * @param language"
       },
       {
         "lineNumber": 1977,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027ru\u0027;"
+        "content": "   */"
       },
       {
         "lineNumber": 1978,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "  changeLanguage(language: SupportedLanguage): void {"
       },
       {
         "lineNumber": 1979,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027fr\u0027:"
+        "content": "    switch (language) {"
       },
       {
         "lineNumber": 1980,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027fr\u0027);"
+        "content": "      case \u0027ru\u0027:"
       },
       {
         "lineNumber": 1981,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027fr\u0027, French);"
+        "content": "        this.translate.use(\u0027ru\u0027);"
       },
       {
         "lineNumber": 1982,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027fr\u0027;"
+        "content": "        this.translate.setTranslation(\u0027ru\u0027, Russian);"
       },
       {
         "lineNumber": 1983,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027ru\u0027;"
       },
       {
         "lineNumber": 1984,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027pt\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 1985,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027pt\u0027);"
+        "content": "      case \u0027fr\u0027:"
       },
       {
         "lineNumber": 1986,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027pt\u0027, Portuguese);"
+        "content": "        this.translate.use(\u0027fr\u0027);"
       },
       {
         "lineNumber": 1987,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027pt\u0027;"
+        "content": "        this.translate.setTranslation(\u0027fr\u0027, French);"
       },
       {
         "lineNumber": 1988,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027fr\u0027;"
       },
       {
         "lineNumber": 1989,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027de\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 1990,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027de\u0027);"
+        "content": "      case \u0027pt\u0027:"
       },
       {
         "lineNumber": 1991,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027de\u0027, German);"
+        "content": "        this.translate.use(\u0027pt\u0027);"
       },
       {
         "lineNumber": 1992,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027de\u0027;"
+        "content": "        this.translate.setTranslation(\u0027pt\u0027, Portuguese);"
       },
       {
         "lineNumber": 1993,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027pt\u0027;"
       },
       {
         "lineNumber": 1994,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027es\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 1995,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027es\u0027);"
+        "content": "      case \u0027de\u0027:"
       },
       {
         "lineNumber": 1996,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027es\u0027, Spanish);"
+        "content": "        this.translate.use(\u0027de\u0027);"
       },
       {
         "lineNumber": 1997,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027es\u0027;"
+        "content": "        this.translate.setTranslation(\u0027de\u0027, German);"
       },
       {
         "lineNumber": 1998,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027de\u0027;"
       },
       {
         "lineNumber": 1999,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027ar\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 2000,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027ar\u0027);"
+        "content": "      case \u0027es\u0027:"
       },
       {
         "lineNumber": 2001,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027ar\u0027, Arabic);"
+        "content": "        this.translate.use(\u0027es\u0027);"
       },
       {
         "lineNumber": 2002,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027ar\u0027;"
+        "content": "        this.translate.setTranslation(\u0027es\u0027, Spanish);"
       },
       {
         "lineNumber": 2003,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027es\u0027;"
       },
       {
         "lineNumber": 2004,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027bn\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 2005,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027bn\u0027);"
+        "content": "      case \u0027ar\u0027:"
       },
       {
         "lineNumber": 2006,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027bn\u0027, Bengali);"
+        "content": "        this.translate.use(\u0027ar\u0027);"
       },
       {
         "lineNumber": 2007,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027bn\u0027;"
+        "content": "        this.translate.setTranslation(\u0027ar\u0027, Arabic);"
       },
       {
         "lineNumber": 2008,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027ar\u0027;"
       },
       {
         "lineNumber": 2009,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027it\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 2010,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027it\u0027);"
+        "content": "      case \u0027bn\u0027:"
       },
       {
         "lineNumber": 2011,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027it\u0027, Italian);"
+        "content": "        this.translate.use(\u0027bn\u0027);"
       },
       {
         "lineNumber": 2012,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027it\u0027;"
+        "content": "        this.translate.setTranslation(\u0027bn\u0027, Bengali);"
       },
       {
         "lineNumber": 2013,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027bn\u0027;"
       },
       {
         "lineNumber": 2014,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027hi\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 2015,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027hi\u0027);"
+        "content": "      case \u0027it\u0027:"
       },
       {
         "lineNumber": 2016,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027hi\u0027, Hindi);"
+        "content": "        this.translate.use(\u0027it\u0027);"
       },
       {
         "lineNumber": 2017,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027hi\u0027;"
+        "content": "        this.translate.setTranslation(\u0027it\u0027, Italian);"
       },
       {
         "lineNumber": 2018,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027it\u0027;"
       },
       {
         "lineNumber": 2019,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027zh\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 2020,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027zh\u0027);"
+        "content": "      case \u0027hi\u0027:"
       },
       {
         "lineNumber": 2021,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027zh\u0027, Chinese);"
+        "content": "        this.translate.use(\u0027hi\u0027);"
       },
       {
         "lineNumber": 2022,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027zh\u0027;"
+        "content": "        this.translate.setTranslation(\u0027hi\u0027, Hindi);"
       },
       {
         "lineNumber": 2023,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027hi\u0027;"
       },
       {
         "lineNumber": 2024,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027ja\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 2025,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027ja\u0027);"
+        "content": "      case \u0027zh\u0027:"
       },
       {
         "lineNumber": 2026,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027ja\u0027, Japanese);"
+        "content": "        this.translate.use(\u0027zh\u0027);"
       },
       {
         "lineNumber": 2027,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027ja\u0027;"
+        "content": "        this.translate.setTranslation(\u0027zh\u0027, Chinese);"
       },
       {
         "lineNumber": 2028,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027zh\u0027;"
       },
       {
         "lineNumber": 2029,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027ko\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 2030,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027ko\u0027);"
+        "content": "      case \u0027ja\u0027:"
       },
       {
         "lineNumber": 2031,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027ko\u0027, Korean);"
+        "content": "        this.translate.use(\u0027ja\u0027);"
       },
       {
         "lineNumber": 2032,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027ko\u0027;"
+        "content": "        this.translate.setTranslation(\u0027ja\u0027, Japanese);"
       },
       {
         "lineNumber": 2033,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027ja\u0027;"
       },
       {
         "lineNumber": 2034,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027ms\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 2035,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027ms\u0027);"
+        "content": "      case \u0027ko\u0027:"
       },
       {
         "lineNumber": 2036,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027ms\u0027, Malay);"
+        "content": "        this.translate.use(\u0027ko\u0027);"
       },
       {
         "lineNumber": 2037,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027ms\u0027;"
+        "content": "        this.translate.setTranslation(\u0027ko\u0027, Korean);"
       },
       {
         "lineNumber": 2038,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027ko\u0027;"
       },
       {
         "lineNumber": 2039,
         "author": {
           "gitId": "-"
         },
-        "content": "      case \u0027uk\u0027:"
+        "content": "        break;"
       },
       {
         "lineNumber": 2040,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027uk\u0027);"
+        "content": "      case \u0027ms\u0027:"
       },
       {
         "lineNumber": 2041,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027uk\u0027, Ukrainian);"
+        "content": "        this.translate.use(\u0027ms\u0027);"
       },
       {
         "lineNumber": 2042,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027uk\u0027;"
+        "content": "        this.translate.setTranslation(\u0027ms\u0027, Malay);"
       },
       {
         "lineNumber": 2043,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027ms\u0027;"
       },
       {
         "lineNumber": 2044,
         "author": {
           "gitId": "-"
         },
-        "content": "      default:"
+        "content": "        break;"
       },
       {
         "lineNumber": 2045,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.use(\u0027en\u0027);"
+        "content": "      case \u0027uk\u0027:"
       },
       {
         "lineNumber": 2046,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.translate.setTranslation(\u0027en\u0027, English);"
+        "content": "        this.translate.use(\u0027uk\u0027);"
       },
       {
         "lineNumber": 2047,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.appState.language \u003d \u0027en\u0027;"
+        "content": "        this.translate.setTranslation(\u0027uk\u0027, Ukrainian);"
       },
       {
         "lineNumber": 2048,
         "author": {
           "gitId": "-"
         },
-        "content": "        break;"
+        "content": "        this.appState.language \u003d \u0027uk\u0027;"
       },
       {
         "lineNumber": 2049,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        break;"
       },
       {
         "lineNumber": 2050,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "      default:"
       },
       {
         "lineNumber": 2051,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.updateSystemMessages();"
+        "content": "        this.translate.use(\u0027en\u0027);"
       },
       {
         "lineNumber": 2052,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "        this.translate.setTranslation(\u0027en\u0027, English);"
       },
       {
         "lineNumber": 2053,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        this.appState.language \u003d \u0027en\u0027;"
       },
       {
         "lineNumber": 2054,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "        break;"
       },
       {
         "lineNumber": 2055,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Update the systemMessages `main.ts`"
+        "content": "    }"
       },
       {
         "lineNumber": 2056,
         "author": {
           "gitId": "-"
         },
-        "content": "   * so that ... i18n everywhere!"
+        "content": ""
       },
       {
         "lineNumber": 2057,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.updateSystemMessages();"
       },
       {
         "lineNumber": 2058,
         "author": {
           "gitId": "-"
         },
-        "content": "  updateSystemMessages() {"
+        "content": "  }"
       },
       {
         "lineNumber": 2059,
         "author": {
           "gitId": "-"
         },
-        "content": "    const newMessages \u003d {};"
+        "content": ""
       },
       {
         "lineNumber": 2060,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  /**"
       },
       {
         "lineNumber": 2061,
         "author": {
           "gitId": "-"
         },
-        "content": "    for (const key in English.SYSTEM) {"
+        "content": "   * Update the systemMessages `main.ts`"
       },
       {
         "lineNumber": 2062,
         "author": {
           "gitId": "-"
         },
-        "content": "      if (English.SYSTEM[key]) {"
+        "content": "   * so that ... i18n everywhere!"
       },
       {
         "lineNumber": 2063,
         "author": {
           "gitId": "-"
         },
-        "content": "        newMessages[key] \u003d this.translate.instant(\u0027SYSTEM.\u0027 + key);"
+        "content": "   */"
       },
       {
         "lineNumber": 2064,
         "author": {
           "gitId": "-"
         },
-        "content": "      }"
+        "content": "  updateSystemMessages() {"
       },
       {
         "lineNumber": 2065,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    const newMessages \u003d {};"
       },
       {
         "lineNumber": 2066,
@@ -14470,1018 +14470,1060 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    this.electronService.ipcRenderer.send("
+        "content": "    for (const key in English.SYSTEM) {"
       },
       {
         "lineNumber": 2068,
         "author": {
           "gitId": "-"
         },
-        "content": "      \u0027system-messages-updated\u0027, newMessages"
+        "content": "      if (English.SYSTEM[key]) {"
       },
       {
         "lineNumber": 2069,
         "author": {
           "gitId": "-"
         },
-        "content": "    );"
+        "content": "        newMessages[key] \u003d this.translate.instant(\u0027SYSTEM.\u0027 + key);"
       },
       {
         "lineNumber": 2070,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "      }"
       },
       {
         "lineNumber": 2071,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 2072,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": ""
       },
       {
         "lineNumber": 2073,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Run when user starts the app for the first time"
+        "content": "    this.electronService.ipcRenderer.send("
       },
       {
         "lineNumber": 2074,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Gets triggered when the settings.json is missing from the app folder"
+        "content": "      \u0027system-messages-updated\u0027, newMessages"
       },
       {
         "lineNumber": 2075,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    );"
       },
       {
         "lineNumber": 2076,
         "author": {
           "gitId": "-"
         },
-        "content": "  firstRunLogic(): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 2077,
         "author": {
           "gitId": "-"
         },
-        "content": "    console.log(\u0027WELCOME TO VIDEO HUB APP!\u0027);"
+        "content": ""
       },
       {
         "lineNumber": 2078,
         "author": {
           "gitId": "-"
         },
-        "content": "    console.log(\u0027this is the first time you are running this app\u0027);"
+        "content": "  /**"
       },
       {
         "lineNumber": 2079,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.isFirstRunEver \u003d true;"
+        "content": "   * Run when user starts the app for the first time"
       },
       {
         "lineNumber": 2080,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * Gets triggered when the settings.json is missing from the app folder"
       },
       {
         "lineNumber": 2081,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   */"
       },
       {
         "lineNumber": 2082,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "  firstRunLogic(): void {"
       },
       {
         "lineNumber": 2083,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Add tag to a particular file"
+        "content": "    console.log(\u0027WELCOME TO VIDEO HUB APP!\u0027);"
       },
       {
         "lineNumber": 2084,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param emission - the type, tag, and uniqe ID of the file (hash)"
+        "content": "    console.log(\u0027this is the first time you are running this app\u0027);"
       },
       {
         "lineNumber": 2085,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.isFirstRunEver \u003d true;"
       },
       {
         "lineNumber": 2086,
         "author": {
           "gitId": "-"
         },
-        "content": "  editFinalArrayTag(emission: TagEmission): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 2087,
         "author": {
           "gitId": "-"
         },
-        "content": "    const position: number \u003d emission.index;"
+        "content": ""
       },
       {
         "lineNumber": 2088,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  /**"
       },
       {
         "lineNumber": 2089,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (emission.type \u003d\u003d\u003d \u0027add\u0027) {"
+        "content": "   * Add tag to a particular file"
       },
       {
         "lineNumber": 2090,
         "author": {
           "gitId": "-"
         },
-        "content": "      if (this.finalArray[position].tags) {"
+        "content": "   * @param emission - the type, tag, and uniqe ID of the file (hash)"
       },
       {
         "lineNumber": 2091,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.finalArray[position].tags.push(emission.tag);"
+        "content": "   */"
       },
       {
         "lineNumber": 2092,
         "author": {
           "gitId": "-"
         },
-        "content": "      } else {"
+        "content": "  editFinalArrayTag(emission: TagEmission): void {"
       },
       {
         "lineNumber": 2093,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.finalArray[position].tags \u003d [emission.tag];"
+        "content": "    const position: number \u003d emission.index;"
       },
       {
         "lineNumber": 2094,
         "author": {
           "gitId": "-"
         },
-        "content": "      }"
+        "content": ""
       },
       {
         "lineNumber": 2095,
         "author": {
           "gitId": "-"
         },
-        "content": "    } else {"
+        "content": "    if (emission.type \u003d\u003d\u003d \u0027add\u0027) {"
       },
       {
         "lineNumber": 2096,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.finalArray[position].tags.splice(this.finalArray[position].tags.indexOf(emission.tag), 1);"
+        "content": "      if (this.finalArray[position].tags) {"
       },
       {
         "lineNumber": 2097,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "        this.finalArray[position].tags.push(emission.tag);"
       },
       {
         "lineNumber": 2098,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "      } else {"
       },
       {
         "lineNumber": 2099,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.finalArrayNeedsSaving \u003d true;"
+        "content": "        this.finalArray[position].tags \u003d [emission.tag];"
       },
       {
         "lineNumber": 2100,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "      }"
       },
       {
         "lineNumber": 2101,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    } else {"
       },
       {
         "lineNumber": 2102,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "      this.finalArray[position].tags.splice(this.finalArray[position].tags.indexOf(emission.tag), 1);"
       },
       {
         "lineNumber": 2103,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Update FinalArray with new star rating for some element"
+        "content": "    }"
       },
       {
         "lineNumber": 2104,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param emission"
+        "content": ""
       },
       {
         "lineNumber": 2105,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.finalArrayNeedsSaving \u003d true;"
       },
       {
         "lineNumber": 2106,
         "author": {
           "gitId": "-"
         },
-        "content": "  editFinalArrayStars(emission: StarEmission): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 2107,
         "author": {
           "gitId": "-"
         },
-        "content": "    const position: number \u003d emission.index;"
+        "content": ""
       },
       {
         "lineNumber": 2108,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.finalArray[position].stars \u003d emission.stars;"
+        "content": "  /**"
       },
       {
         "lineNumber": 2109,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.finalArrayNeedsSaving \u003d true;"
+        "content": "   * Update FinalArray with new star rating for some element"
       },
       {
         "lineNumber": 2110,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.forceStarFilterUpdate \u003d !this.forceStarFilterUpdate;"
+        "content": "   * @param emission"
       },
       {
         "lineNumber": 2111,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   */"
       },
       {
         "lineNumber": 2112,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  editFinalArrayStars(emission: StarEmission): void {"
       },
       {
         "lineNumber": 2113,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "    const position: number \u003d emission.index;"
       },
       {
         "lineNumber": 2114,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Update FinalArray with new year tag for some element"
+        "content": "    this.finalArray[position].stars \u003d emission.stars;"
       },
       {
         "lineNumber": 2115,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param emission"
+        "content": "    this.finalArrayNeedsSaving \u003d true;"
       },
       {
         "lineNumber": 2116,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.forceStarFilterUpdate \u003d !this.forceStarFilterUpdate;"
       },
       {
         "lineNumber": 2117,
         "author": {
           "gitId": "-"
         },
-        "content": "  editFinalArrayYear(emission: YearEmission): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 2118,
         "author": {
           "gitId": "-"
         },
-        "content": "    const position: number \u003d emission.index;"
+        "content": ""
       },
       {
         "lineNumber": 2119,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.finalArray[position].year \u003d emission.year;"
+        "content": "  /**"
       },
       {
         "lineNumber": 2120,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.finalArrayNeedsSaving \u003d true;"
+        "content": "   * Update FinalArray with new year tag for some element"
       },
       {
         "lineNumber": 2121,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * @param emission"
       },
       {
         "lineNumber": 2122,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   */"
       },
       {
         "lineNumber": 2123,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "  editFinalArrayYear(emission: YearEmission): void {"
       },
       {
         "lineNumber": 2124,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Update FinalArray with the default screenshot for some element"
+        "content": "    const position: number \u003d emission.index;"
       },
       {
         "lineNumber": 2125,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param emission"
+        "content": "    this.finalArray[position].year \u003d emission.year;"
       },
       {
         "lineNumber": 2126,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.finalArrayNeedsSaving \u003d true;"
       },
       {
         "lineNumber": 2127,
         "author": {
           "gitId": "-"
         },
-        "content": "  editDefaultScreenshot(emission: DefaultScreenEmission): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 2128,
         "author": {
           "gitId": "-"
         },
-        "content": "    const position: number \u003d emission.index;"
+        "content": ""
       },
       {
         "lineNumber": 2129,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.finalArray[position].defaultScreen \u003d emission.defaultScreen;"
+        "content": "  /**"
       },
       {
         "lineNumber": 2130,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.finalArrayNeedsSaving \u003d true;"
+        "content": "   * Update FinalArray with the default screenshot for some element"
       },
       {
         "lineNumber": 2131,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * @param emission"
       },
       {
         "lineNumber": 2132,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   */"
       },
       {
         "lineNumber": 2133,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "  editDefaultScreenshot(emission: DefaultScreenEmission): void {"
       },
       {
         "lineNumber": 2134,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Select a particular sort order (star rating, number of times played, etc)"
+        "content": "    const position: number \u003d emission.index;"
       },
       {
         "lineNumber": 2135,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param type"
+        "content": "    this.finalArray[position].defaultScreen \u003d emission.defaultScreen;"
       },
       {
         "lineNumber": 2136,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "    this.finalArrayNeedsSaving \u003d true;"
       },
       {
         "lineNumber": 2137,
         "author": {
           "gitId": "-"
         },
-        "content": "  selectFilterOrder(type: SortType): void {"
+        "content": "  }"
       },
       {
         "lineNumber": 2138,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.sortType \u003d type;"
+        "content": ""
       },
       {
         "lineNumber": 2139,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.appState.currentSort \u003d type;"
+        "content": "  /**"
       },
       {
         "lineNumber": 2140,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * Select a particular sort order (star rating, number of times played, etc)"
       },
       {
         "lineNumber": 2141,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * @param type"
       },
       {
         "lineNumber": 2142,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "   */"
       },
       {
         "lineNumber": 2143,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Check type-ahead for the manually-added tags!"
+        "content": "  selectFilterOrder(type: SortType): void {"
       },
       {
         "lineNumber": 2144,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param text     input text to check type-ahead"
+        "content": "    this.sortType \u003d type;"
       },
       {
         "lineNumber": 2145,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param compute  whether or not to perform the lookup"
+        "content": "    this.appState.currentSort \u003d type;"
       },
       {
         "lineNumber": 2146,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "  }"
       },
       {
         "lineNumber": 2147,
         "author": {
           "gitId": "-"
         },
-        "content": "  checkTagTypeahead(text: string, compute: boolean) {"
+        "content": ""
       },
       {
         "lineNumber": 2148,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (compute) {"
+        "content": "  /**"
       },
       {
         "lineNumber": 2149,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.tagTypeAhead \u003d this.manualTagsService.getTypeahead(text);"
+        "content": "   * Check type-ahead for the manually-added tags!"
       },
       {
         "lineNumber": 2150,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "   * @param text     input text to check type-ahead"
       },
       {
         "lineNumber": 2151,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "   * @param compute  whether or not to perform the lookup"
       },
       {
         "lineNumber": 2152,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   */"
       },
       {
         "lineNumber": 2153,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": "  checkTagTypeahead(text: string, compute: boolean) {"
       },
       {
         "lineNumber": 2154,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Add tag to search when pressing tab"
+        "content": "    if (compute) {"
       },
       {
         "lineNumber": 2155,
         "author": {
           "gitId": "-"
         },
-        "content": "   * !!! but only when on the tag search field !!!"
+        "content": "      this.tagTypeAhead \u003d this.manualTagsService.getTypeahead(text);"
       },
       {
         "lineNumber": 2156,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param $event"
+        "content": "    }"
       },
       {
         "lineNumber": 2157,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param execute"
+        "content": "  }"
       },
       {
         "lineNumber": 2158,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param origin -- the `j` in the template, just pass it on to the `onEnterKey`"
+        "content": ""
       },
       {
         "lineNumber": 2159,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "  /**"
       },
       {
         "lineNumber": 2160,
         "author": {
           "gitId": "-"
         },
-        "content": "  typeaheadTabPressed($event, execute: boolean, origin: number): void {"
+        "content": "   * Add tag to search when pressing tab"
       },
       {
         "lineNumber": 2161,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (execute) {"
+        "content": "   * !!! but only when on the tag search field !!!"
       },
       {
         "lineNumber": 2162,
         "author": {
           "gitId": "-"
         },
-        "content": "      if (this.tagTypeAhead !\u003d\u003d \u0027\u0027) {"
+        "content": "   * @param $event"
       },
       {
         "lineNumber": 2163,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.onEnterKey(this.tagTypeAhead, origin);"
+        "content": "   * @param execute"
       },
       {
         "lineNumber": 2164,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.tagTypeAhead \u003d \u0027\u0027;"
+        "content": "   * @param origin -- the `j` in the template, just pass it on to the `onEnterKey`"
       },
       {
         "lineNumber": 2165,
         "author": {
           "gitId": "-"
         },
-        "content": "        $event.preventDefault();"
+        "content": "   */"
       },
       {
         "lineNumber": 2166,
         "author": {
           "gitId": "-"
         },
-        "content": "      }"
+        "content": "  typeaheadTabPressed($event, execute: boolean, origin: number): void {"
       },
       {
         "lineNumber": 2167,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    if (execute) {"
       },
       {
         "lineNumber": 2168,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "      if (this.tagTypeAhead !\u003d\u003d \u0027\u0027) {"
       },
       {
         "lineNumber": 2169,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        this.onEnterKey(this.tagTypeAhead, origin);"
       },
       {
         "lineNumber": 2170,
         "author": {
           "gitId": "-"
         },
-        "content": "  /*"
+        "content": "        this.tagTypeAhead \u003d \u0027\u0027;"
       },
       {
         "lineNumber": 2171,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Update the min and max resolution for the resolution filter"
+        "content": "        $event.preventDefault();"
       },
       {
         "lineNumber": 2172,
         "author": {
           "gitId": "-"
         },
-        "content": "   * hacked to set rightBound to Infinity when close-enough to the right side"
+        "content": "      }"
       },
       {
         "lineNumber": 2173,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param selection"
+        "content": "    }"
       },
       {
         "lineNumber": 2174,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "  }"
       },
       {
         "lineNumber": 2175,
         "author": {
           "gitId": "-"
         },
-        "content": "  newLengthFilterSelected(selection: number[]): void {"
+        "content": ""
       },
       {
         "lineNumber": 2176,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.lengthLeftBound \u003d selection[0];"
+        "content": "  /*"
       },
       {
         "lineNumber": 2177,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * Update the min and max resolution for the resolution filter"
       },
       {
         "lineNumber": 2178,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (selection[1] \u003e this.durationOutlierCutoff - 10) {"
+        "content": "   * hacked to set rightBound to Infinity when close-enough to the right side"
       },
       {
         "lineNumber": 2179,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.lengthRightBound \u003d Infinity;"
+        "content": "   * @param selection"
       },
       {
         "lineNumber": 2180,
         "author": {
           "gitId": "-"
         },
-        "content": "    } else {"
+        "content": "   */"
       },
       {
         "lineNumber": 2181,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.lengthRightBound \u003d selection[1];"
+        "content": "  newLengthFilterSelected(selection: number[]): void {"
       },
       {
         "lineNumber": 2182,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    this.lengthLeftBound \u003d selection[0];"
       },
       {
         "lineNumber": 2183,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": ""
       },
       {
         "lineNumber": 2184,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    if (selection[1] \u003e this.durationOutlierCutoff - 10) {"
       },
       {
         "lineNumber": 2185,
         "author": {
           "gitId": "-"
         },
-        "content": "  setUpDurationFilterValues(finalArray: ImageElement[]): void {"
+        "content": "      this.lengthRightBound \u003d Infinity;"
       },
       {
         "lineNumber": 2186,
         "author": {
           "gitId": "-"
         },
-        "content": "    const durations: number[] \u003d finalArray.map((element) \u003d\u003e { return element.duration; });"
+        "content": "    } else {"
       },
       {
         "lineNumber": 2187,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "      this.lengthRightBound \u003d selection[1];"
       },
       {
         "lineNumber": 2188,
         "author": {
           "gitId": "-"
         },
-        "content": "    const cutoff \u003d this.getOutlierCutoff(durations);"
+        "content": "    }"
       },
       {
         "lineNumber": 2189,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  }"
       },
       {
         "lineNumber": 2190,
         "author": {
           "gitId": "-"
         },
-        "content": "    this.durationOutlierCutoff \u003d Math.floor(cutoff);"
+        "content": ""
       },
       {
         "lineNumber": 2191,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "  setUpDurationFilterValues(finalArray: ImageElement[]): void {"
       },
       {
         "lineNumber": 2192,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    const durations: number[] \u003d finalArray.map((element) \u003d\u003e { return element.duration; });"
       },
       {
         "lineNumber": 2193,
         "author": {
           "gitId": "-"
         },
-        "content": "  /**"
+        "content": ""
       },
       {
         "lineNumber": 2194,
         "author": {
           "gitId": "-"
         },
-        "content": "   * Given an array of numbers"
+        "content": "    const cutoff \u003d this.getOutlierCutoff(durations);"
       },
       {
         "lineNumber": 2195,
         "author": {
           "gitId": "-"
         },
-        "content": "   * returns the cutoff for outliers"
+        "content": ""
       },
       {
         "lineNumber": 2196,
         "author": {
           "gitId": "-"
         },
-        "content": "   * defined unconventionally as \"anything beyond the 3rd quartile + 3 * IQR (the inter-quartile range)\""
+        "content": "    this.durationOutlierCutoff \u003d Math.floor(cutoff);"
       },
       {
         "lineNumber": 2197,
         "author": {
           "gitId": "-"
         },
-        "content": "   *   cutoff may be the max number if the other computation returns a number too high"
+        "content": "  }"
       },
       {
         "lineNumber": 2198,
         "author": {
           "gitId": "-"
         },
-        "content": "   * @param someArray"
+        "content": ""
       },
       {
         "lineNumber": 2199,
         "author": {
           "gitId": "-"
         },
-        "content": "   */"
+        "content": "  /**"
       },
       {
         "lineNumber": 2200,
         "author": {
           "gitId": "-"
         },
-        "content": "  getOutlierCutoff(someArray: number[]): number {"
+        "content": "   * Given an array of numbers"
       },
       {
         "lineNumber": 2201,
         "author": {
           "gitId": "-"
         },
-        "content": "    const values \u003d someArray.slice();"
+        "content": "   * returns the cutoff for outliers"
       },
       {
         "lineNumber": 2202,
         "author": {
           "gitId": "-"
         },
-        "content": "    const max \u003d Math.max(...values);"
+        "content": "   * defined unconventionally as \"anything beyond the 3rd quartile + 3 * IQR (the inter-quartile range)\""
       },
       {
         "lineNumber": 2203,
         "author": {
           "gitId": "-"
         },
-        "content": "    values.sort((a, b) \u003d\u003e { return a - b; });"
+        "content": "   *   cutoff may be the max number if the other computation returns a number too high"
       },
       {
         "lineNumber": 2204,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "   * @param someArray"
       },
       {
         "lineNumber": 2205,
         "author": {
           "gitId": "-"
         },
-        "content": "    const q1 \u003d values[Math.floor((values.length / 4))];"
+        "content": "   */"
       },
       {
         "lineNumber": 2206,
         "author": {
           "gitId": "-"
         },
-        "content": "    const q3 \u003d values[Math.ceil((values.length * (3 / 4)))];"
+        "content": "  getOutlierCutoff(someArray: number[]): number {"
       },
       {
         "lineNumber": 2207,
         "author": {
           "gitId": "-"
         },
-        "content": "    const iqr \u003d q3 - q1;"
+        "content": "    const values \u003d someArray.slice();"
       },
       {
         "lineNumber": 2208,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    const max \u003d Math.max(...values);"
       },
       {
         "lineNumber": 2209,
         "author": {
           "gitId": "-"
         },
-        "content": "    return Math.min((q3 + iqr * 3), max);"
+        "content": "    values.sort((a, b) \u003d\u003e { return a - b; });"
       },
       {
         "lineNumber": 2210,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": ""
       },
       {
         "lineNumber": 2211,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    const q1 \u003d values[Math.floor((values.length / 4))];"
       },
       {
         "lineNumber": 2212,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    const q3 \u003d values[Math.ceil((values.length * (3 / 4)))];"
+      },
+      {
+        "lineNumber": 2213,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    const iqr \u003d q3 - q1;"
+      },
+      {
+        "lineNumber": 2214,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 2215,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    return Math.min((q3 + iqr * 3), max);"
+      },
+      {
+        "lineNumber": 2216,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "  }"
+      },
+      {
+        "lineNumber": 2217,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 2218,
         "author": {
           "gitId": "-"
         },
@@ -15490,7 +15532,7 @@
     ],
     "authorContributionMap": {
       "jamessspanggg": 2,
-      "-": 2210
+      "-": 2216
     }
   },
   {
