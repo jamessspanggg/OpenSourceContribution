@@ -106,7 +106,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "import { WordFrequencyService } from \u0027../pipes/word-frequency.service\u0027;"
+        "content": "import { WordFrequencyService, WordFreqAndHeight } from \u0027../pipes/word-frequency.service\u0027;"
       },
       {
         "lineNumber": 16,
@@ -1863,7 +1863,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "  wordFreqArr: any;"
+        "content": "  wordFreqArr: WordFreqAndHeight[];"
       },
       {
         "lineNumber": 267,
@@ -3494,7 +3494,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "      this.wordFrequencyService.finalMapBehaviorSubject.subscribe((value) \u003d\u003e {"
+        "content": "      this.wordFrequencyService.finalMapBehaviorSubject.subscribe((value: WordFreqAndHeight[]) \u003d\u003e {"
       },
       {
         "lineNumber": 500,
