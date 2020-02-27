@@ -392,7 +392,7 @@
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 1013
+    "jamessspanggg": 997
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
@@ -400,8 +400,8 @@
       "yml": 1,
       "md": 36,
       "pug": 27,
-      "scss": 337,
-      "js": 286,
+      "scss": 322,
+      "js": 285,
       "java": 256
     }
   },
