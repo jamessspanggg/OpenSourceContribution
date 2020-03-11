@@ -5796,1543 +5796,1564 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/duplicates-facet\": \"Duplicates facet\","
+        "content": "    \"core-views/add-id-column\": \"Add entity identifiers column\","
       },
       {
         "lineNumber": 520,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/numeric-log-facet\": \"Numeric log facet\","
+        "content": "    \"core-views/add-id-column2\": \"Add a column containing entity identifiers from items\","
       },
       {
         "lineNumber": 521,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/bounded-log-facet\": \"1-bounded numeric log facet\","
+        "content": "    \"core-views/add-id-col\": \"Add column containing entity identifiers on $1\","
       },
       {
         "lineNumber": 522,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text-length-facet\": \"Text length facet\","
+        "content": "    \"core-views/duplicates-facet\": \"Duplicates facet\","
       },
       {
         "lineNumber": 523,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/log-length-facet\": \"Log of text length facet\","
+        "content": "    \"core-views/numeric-log-facet\": \"Numeric log facet\","
       },
       {
         "lineNumber": 524,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/unicode-facet\": \"Unicode char-code facet\","
+        "content": "    \"core-views/bounded-log-facet\": \"1-bounded numeric log facet\","
       },
       {
         "lineNumber": 525,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-error\": \"Facet by error\","
+        "content": "    \"core-views/text-length-facet\": \"Text length facet\","
       },
       {
         "lineNumber": 526,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-blank\": \"Facet by blank (null or empty string)\","
+        "content": "    \"core-views/log-length-facet\": \"Log of text length facet\","
       },
       {
         "lineNumber": 527,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-null\": \"Facet by null\","
+        "content": "    \"core-views/unicode-facet\": \"Unicode char-code facet\","
       },
       {
         "lineNumber": 528,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-empty-string\": \"Facet by empty string\","
+        "content": "    \"core-views/facet-error\": \"Facet by error\","
       },
       {
         "lineNumber": 529,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text-filter\": \"Text filter\","
+        "content": "    \"core-views/facet-blank\": \"Facet by blank (null or empty string)\","
       },
       {
         "lineNumber": 530,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-col\": \"Add column based on column\","
+        "content": "    \"core-views/facet-null\": \"Facet by null\","
       },
       {
         "lineNumber": 531,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/new-col-name\": \"New column name\","
+        "content": "    \"core-views/facet-empty-string\": \"Facet by empty string\","
       },
       {
         "lineNumber": 532,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/on-error\": \"On error\","
+        "content": "    \"core-views/text-filter\": \"Text filter\","
       },
       {
         "lineNumber": 533,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/set-blank\": \"set to blank\","
+        "content": "    \"core-views/add-col-col\": \"Add column based on column\","
       },
       {
         "lineNumber": 534,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/store-err\": \"store error\","
+        "content": "    \"core-views/new-col-name\": \"New column name\","
       },
       {
         "lineNumber": 535,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/cache-responses\": \"Cache responses\","
+        "content": "    \"core-views/on-error\": \"On error\","
       },
       {
         "lineNumber": 536,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-val\": \"copy value from original column\","
+        "content": "    \"core-views/set-blank\": \"set to blank\","
       },
       {
         "lineNumber": 537,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-col-name\": \"You must enter a column name.\","
+        "content": "    \"core-views/store-err\": \"store error\","
       },
       {
         "lineNumber": 538,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-recon-val\": \"Add columns from reconciled values\","
+        "content": "    \"core-views/cache-responses\": \"Cache responses\","
       },
       {
         "lineNumber": 539,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-recon-col\": \"Add columns from reconciled column\","
+        "content": "    \"core-views/copy-val\": \"copy value from original column\","
       },
       {
         "lineNumber": 540,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-no-property\": \"Please select a property first.\","
+        "content": "    \"core-views/warning-col-name\": \"You must enter a column name.\","
       },
       {
         "lineNumber": 541,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/configure-col\": \"Configure this column\","
+        "content": "    \"core-views/add-col-recon-val\": \"Add columns from reconciled values\","
       },
       {
         "lineNumber": 542,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/remove-prop\": \"remove\","
+        "content": "    \"core-views/add-col-recon-col\": \"Add columns from reconciled column\","
       },
       {
         "lineNumber": 543,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/configure-prop\": \"configure\","
+        "content": "    \"core-views/warning-no-property\": \"Please select a property first.\","
       },
       {
         "lineNumber": 544,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/no-settings\": \"No settings are available for this property.\","
+        "content": "    \"core-views/configure-col\": \"Configure this column\","
       },
       {
         "lineNumber": 545,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/extend-not-reconciled\": \"This operation is only available on reconciled columns.\","
+        "content": "    \"core-views/remove-prop\": \"remove\","
       },
       {
         "lineNumber": 546,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/extend-not-supported\": \"This reconciliation service does not support data extension. Try removing the service and adding it again. If the problem persists, contact the service provider.\","
+        "content": "    \"core-views/configure-prop\": \"configure\","
       },
       {
         "lineNumber": 547,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-fetch\": \"Add column by fetching URLs based on column\","
+        "content": "    \"core-views/no-settings\": \"No settings are available for this property.\","
       },
       {
         "lineNumber": 548,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/throttle-delay\": \"Throttle delay\","
+        "content": "    \"core-views/extend-not-reconciled\": \"This operation is only available on reconciled columns.\","
       },
       {
         "lineNumber": 549,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/milli\": \"milliseconds\","
+        "content": "    \"core-views/extend-not-supported\": \"This reconciliation service does not support data extension. Try removing the service and adding it again. If the problem persists, contact the service provider.\","
       },
       {
         "lineNumber": 550,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/url-fetch\": \"Formulate the URLs to fetch:\","
+        "content": "    \"core-views/add-col-fetch\": \"Add column by fetching URLs based on column\","
       },
       {
         "lineNumber": 551,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/http-headers\": \"HTTP headers to be used when fetching URLs:\","
+        "content": "    \"core-views/throttle-delay\": \"Throttle delay\","
       },
       {
         "lineNumber": 552,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/enter-col-name\": \"Enter new column name\","
+        "content": "    \"core-views/milli\": \"milliseconds\","
       },
       {
         "lineNumber": 553,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/join-col\": \"Join columns\","
+        "content": "    \"core-views/url-fetch\": \"Formulate the URLs to fetch:\","
       },
       {
         "lineNumber": 554,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/split-col\": \"Split column\","
+        "content": "    \"core-views/http-headers\": \"HTTP headers to be used when fetching URLs:\","
       },
       {
         "lineNumber": 555,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/several-col\": \"into several columns\","
+        "content": "    \"core-views/enter-col-name\": \"Enter new column name\","
       },
       {
         "lineNumber": 556,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/how-split\": \"How to Split Column\","
+        "content": "    \"core-views/join-col\": \"Join columns\","
       },
       {
         "lineNumber": 557,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/how-split-cells\": \"How to split multi-valued cells\","
+        "content": "    \"core-views/split-col\": \"Split column\","
       },
       {
         "lineNumber": 558,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/by-sep\": \"by separator\","
+        "content": "    \"core-views/several-col\": \"into several columns\","
       },
       {
         "lineNumber": 559,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/separator\": \"Separator\","
+        "content": "    \"core-views/how-split\": \"How to Split Column\","
       },
       {
         "lineNumber": 560,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reg-exp\": \"regular expression\","
+        "content": "    \"core-views/how-split-cells\": \"How to split multi-valued cells\","
       },
       {
         "lineNumber": 561,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/split-into\": \"Split into\","
+        "content": "    \"core-views/by-sep\": \"by separator\","
       },
       {
         "lineNumber": 562,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/col-at-most\": \"columns at most (leave blank for no limit)\","
+        "content": "    \"core-views/separator\": \"Separator\","
       },
       {
         "lineNumber": 563,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/field-len\": \"by field lengths\","
+        "content": "    \"core-views/reg-exp\": \"regular expression\","
       },
       {
         "lineNumber": 564,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/list-int\": \"List of integers separated by commas, e.g., 5, 7, 15\","
+        "content": "    \"core-views/split-into\": \"Split into\","
       },
       {
         "lineNumber": 565,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/after-split\": \"After Splitting\","
+        "content": "    \"core-views/col-at-most\": \"columns at most (leave blank for no limit)\","
       },
       {
         "lineNumber": 566,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/guess-cell\": \"Guess cell type\","
+        "content": "    \"core-views/field-len\": \"by field lengths\","
       },
       {
         "lineNumber": 567,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/remove-col\": \"Remove this column\","
+        "content": "    \"core-views/list-int\": \"List of integers separated by commas, e.g., 5, 7, 15\","
       },
       {
         "lineNumber": 568,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/specify-sep\": \"Please specify a separator.\","
+        "content": "    \"core-views/after-split\": \"After Splitting\","
       },
       {
         "lineNumber": 569,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-no-length\": \"No field length is specified.\","
+        "content": "    \"core-views/guess-cell\": \"Guess cell type\","
       },
       {
         "lineNumber": 570,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-format\": \"The given field lengths are not properly formatted.\","
+        "content": "    \"core-views/remove-col\": \"Remove this column\","
       },
       {
         "lineNumber": 571,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/check-format\": \"Please check the file format.\","
+        "content": "    \"core-views/specify-sep\": \"Please specify a separator.\","
       },
       {
         "lineNumber": 572,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/split-into-col\": \"Split into several columns\","
+        "content": "    \"core-views/warning-no-length\": \"No field length is specified.\","
       },
       {
         "lineNumber": 573,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-based-col\": \"Add column based on this column\","
+        "content": "    \"core-views/warning-format\": \"The given field lengths are not properly formatted.\","
       },
       {
         "lineNumber": 574,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-by-urls\": \"Add column by fetching URLs\","
+        "content": "    \"core-views/check-format\": \"Please check the file format.\","
       },
       {
         "lineNumber": 575,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/rename-col\": \"Rename this column\","
+        "content": "    \"core-views/split-into-col\": \"Split into several columns\","
       },
       {
         "lineNumber": 576,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-beg\": \"Move column to beginning\","
+        "content": "    \"core-views/add-based-col\": \"Add column based on this column\","
       },
       {
         "lineNumber": 577,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-end\": \"Move column to end\","
+        "content": "    \"core-views/add-by-urls\": \"Add column by fetching URLs\","
       },
       {
         "lineNumber": 578,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-left\": \"Move column left\","
+        "content": "    \"core-views/rename-col\": \"Rename this column\","
       },
       {
         "lineNumber": 579,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-right\": \"Move column right\","
+        "content": "    \"core-views/move-to-beg\": \"Move column to beginning\","
       },
       {
         "lineNumber": 580,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/show-as\": \"Show as\","
+        "content": "    \"core-views/move-to-end\": \"Move column to end\","
       },
       {
         "lineNumber": 581,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/first\": \"first\","
+        "content": "    \"core-views/move-to-left\": \"Move column left\","
       },
       {
         "lineNumber": 582,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/previous\": \"previous\","
+        "content": "    \"core-views/move-to-right\": \"Move column right\","
       },
       {
         "lineNumber": 583,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/next\": \"next\","
+        "content": "    \"core-views/show-as\": \"Show as\","
       },
       {
         "lineNumber": 584,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/last\": \"last\","
+        "content": "    \"core-views/first\": \"first\","
       },
       {
         "lineNumber": 585,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/all\": \"All\","
+        "content": "    \"core-views/previous\": \"previous\","
       },
       {
         "lineNumber": 586,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/table-schema-validate\": \"Validate\","
+        "content": "    \"core-views/next\": \"next\","
       },
       {
         "lineNumber": 587,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-star\": \"Facet by star\","
+        "content": "    \"core-views/last\": \"last\","
       },
       {
         "lineNumber": 588,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/starred-rows\": \"Starred Rows\","
+        "content": "    \"core-views/all\": \"All\","
       },
       {
         "lineNumber": 589,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-flag\": \"Facet by flag\","
+        "content": "    \"core-views/table-schema-validate\": \"Validate\","
       },
       {
         "lineNumber": 590,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/flagged-rows\": \"Flagged Rows\","
+        "content": "    \"core-views/facet-star\": \"Facet by star\","
       },
       {
         "lineNumber": 591,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/blank-rows\": \"Blank Rows\","
+        "content": "    \"core-views/starred-rows\": \"Starred Rows\","
       },
       {
         "lineNumber": 592,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "    \"core-views/blank-values\": \"Blank values per column\","
+        "content": "    \"core-views/facet-flag\": \"Facet by flag\","
       },
       {
         "lineNumber": 593,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "    \"core-views/blank-records\": \"Blank records per column\","
+        "content": "    \"core-views/flagged-rows\": \"Flagged Rows\","
       },
       {
         "lineNumber": 594,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/non-blank-values\": \"Non-blank values per column\","
+        "content": "    \"core-views/blank-rows\": \"Blank Rows\","
       },
       {
         "lineNumber": 595,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
-        "content": "    \"core-views/non-blank-records\": \"Non-blank records per column\","
+        "content": "    \"core-views/blank-values\": \"Blank values per column\","
       },
       {
         "lineNumber": 596,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
-        "content": "    \"core-views/edit-rows\": \"Edit rows\","
+        "content": "    \"core-views/blank-records\": \"Blank records per column\","
       },
       {
         "lineNumber": 597,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/star-rows\": \"Star rows\","
+        "content": "    \"core-views/non-blank-values\": \"Non-blank values per column\","
       },
       {
         "lineNumber": 598,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/unstar-rows\": \"Unstar rows\","
+        "content": "    \"core-views/non-blank-records\": \"Non-blank records per column\","
       },
       {
         "lineNumber": 599,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/flag-rows\": \"Flag rows\","
+        "content": "    \"core-views/edit-rows\": \"Edit rows\","
       },
       {
         "lineNumber": 600,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/unflag-rows\": \"Unflag rows\","
+        "content": "    \"core-views/star-rows\": \"Star rows\","
       },
       {
         "lineNumber": 601,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/remove-matching\": \"Remove matching rows\","
+        "content": "    \"core-views/unstar-rows\": \"Unstar rows\","
       },
       {
         "lineNumber": 602,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/edit-col\": \"Edit columns\","
+        "content": "    \"core-views/flag-rows\": \"Flag rows\","
       },
       {
         "lineNumber": 603,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reorder-remove\": \"Re-order / remove columns\","
+        "content": "    \"core-views/unflag-rows\": \"Unflag rows\","
       },
       {
         "lineNumber": 604,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/view\": \"View\","
+        "content": "    \"core-views/remove-matching\": \"Remove matching rows\","
       },
       {
         "lineNumber": 605,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-all\": \"Collapse all columns\","
+        "content": "    \"core-views/edit-col\": \"Edit columns\","
       },
       {
         "lineNumber": 606,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/expand-all\": \"Expand all columns\","
+        "content": "    \"core-views/reorder-remove\": \"Re-order / remove columns\","
       },
       {
         "lineNumber": 607,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/display-null\": \"Show/Hide \u0027null\u0027 values in cells\","
+        "content": "    \"core-views/view\": \"View\","
       },
       {
         "lineNumber": 608,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reorder-perma\": \"Reorder rows permanently\","
+        "content": "    \"core-views/collapse-all\": \"Collapse all columns\","
       },
       {
         "lineNumber": 609,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/by\": \"By\","
+        "content": "    \"core-views/expand-all\": \"Expand all columns\","
       },
       {
         "lineNumber": 610,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-text-trans\": \"Custom text transform on column\","
+        "content": "    \"core-views/display-null\": \"Show/Hide \u0027null\u0027 values in cells\","
       },
       {
         "lineNumber": 611,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/keep-or\": \"keep original\","
+        "content": "    \"core-views/reorder-perma\": \"Reorder rows permanently\","
       },
       {
         "lineNumber": 612,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/re-trans\": \"Re-transform up to\","
+        "content": "    \"core-views/by\": \"By\","
       },
       {
         "lineNumber": 613,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/times-chang\": \"times until no change\","
+        "content": "    \"core-views/custom-text-trans\": \"Custom text transform on column\","
       },
       {
         "lineNumber": 614,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/enter-separator\": \"Enter separator to use between values\","
+        "content": "    \"core-views/keep-or\": \"keep original\","
       },
       {
         "lineNumber": 615,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/what-separator\": \"What separator currently separates the values?\","
+        "content": "    \"core-views/re-trans\": \"Re-transform up to\","
       },
       {
         "lineNumber": 616,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transform\": \"Transform\","
+        "content": "    \"core-views/times-chang\": \"times until no change\","
       },
       {
         "lineNumber": 617,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/common-transform\": \"Common transforms\","
+        "content": "    \"core-views/enter-separator\": \"Enter separator to use between values\","
       },
       {
         "lineNumber": 618,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/trim-all\": \"Trim leading and trailing whitespace\","
+        "content": "    \"core-views/what-separator\": \"What separator currently separates the values?\","
       },
       {
         "lineNumber": 619,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-white\": \"Collapse consecutive whitespace\","
+        "content": "    \"core-views/transform\": \"Transform\","
       },
       {
         "lineNumber": 620,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/unescape-html\": \"Unescape HTML entities\","
+        "content": "    \"core-views/common-transform\": \"Common transforms\","
       },
       {
         "lineNumber": 621,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/replace-smartquotes\": \"Replace Smart quotes with ascii\","
+        "content": "    \"core-views/trim-all\": \"Trim leading and trailing whitespace\","
       },
       {
         "lineNumber": 622,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/titlecase\": \"To titlecase\","
+        "content": "    \"core-views/collapse-white\": \"Collapse consecutive whitespace\","
       },
       {
         "lineNumber": 623,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/uppercase\": \"To uppercase\","
+        "content": "    \"core-views/unescape-html\": \"Unescape HTML entities\","
       },
       {
         "lineNumber": 624,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/lowercase\": \"To lowercase\","
+        "content": "    \"core-views/replace-smartquotes\": \"Replace Smart quotes with ascii\","
       },
       {
         "lineNumber": 625,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/to-number\": \"To number\","
+        "content": "    \"core-views/titlecase\": \"To titlecase\","
       },
       {
         "lineNumber": 626,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/to-date\": \"To date\","
+        "content": "    \"core-views/uppercase\": \"To uppercase\","
       },
       {
         "lineNumber": 627,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/to-text\": \"To text\","
+        "content": "    \"core-views/lowercase\": \"To lowercase\","
       },
       {
         "lineNumber": 628,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/blank-out\": \"To null\","
+        "content": "    \"core-views/to-number\": \"To number\","
       },
       {
         "lineNumber": 629,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/blank-out-empty\": \"To empty string\","
+        "content": "    \"core-views/to-date\": \"To date\","
       },
       {
         "lineNumber": 630,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/replace\": \"Replace\","
+        "content": "    \"core-views/to-text\": \"To text\","
       },
       {
         "lineNumber": 631,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/fill-down\": \"Fill down\","
+        "content": "    \"core-views/blank-out\": \"To null\","
       },
       {
         "lineNumber": 632,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/blank-down\": \"Blank down\","
+        "content": "    \"core-views/blank-out-empty\": \"To empty string\","
       },
       {
         "lineNumber": 633,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/split-cells\": \"Split multi-valued cells\","
+        "content": "    \"core-views/replace\": \"Replace\","
       },
       {
         "lineNumber": 634,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/join-cells\": \"Join multi-valued cells\","
+        "content": "    \"core-views/fill-down\": \"Fill down\","
       },
       {
         "lineNumber": 635,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/cluster-edit\": \"Cluster and edit\","
+        "content": "    \"core-views/blank-down\": \"Blank down\","
       },
       {
         "lineNumber": 636,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transp-cell\": \"Transpose Cells Across Columns into Rows\","
+        "content": "    \"core-views/split-cells\": \"Split multi-valued cells\","
       },
       {
         "lineNumber": 637,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/from-col\": \"From Column\","
+        "content": "    \"core-views/join-cells\": \"Join multi-valued cells\","
       },
       {
         "lineNumber": 638,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/to-col\": \"To Column\","
+        "content": "    \"core-views/cluster-edit\": \"Cluster and edit\","
       },
       {
         "lineNumber": 639,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transp-into\": \"Transpose into\","
+        "content": "    \"core-views/transp-cell\": \"Transpose Cells Across Columns into Rows\","
       },
       {
         "lineNumber": 640,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/two-new-col\": \"Two new columns\","
+        "content": "    \"core-views/from-col\": \"From Column\","
       },
       {
         "lineNumber": 641,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/key-col\": \"Key Column\","
+        "content": "    \"core-views/to-col\": \"To Column\","
       },
       {
         "lineNumber": 642,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/contain-names\": \"(containing original columns\u0027 names)\","
+        "content": "    \"core-views/transp-into\": \"Transpose into\","
       },
       {
         "lineNumber": 643,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/val-col\": \"Value Column\","
+        "content": "    \"core-views/two-new-col\": \"Two new columns\","
       },
       {
         "lineNumber": 644,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/contain-val\": \"(containing original cells\u0027 values)\","
+        "content": "    \"core-views/key-col\": \"Key Column\","
       },
       {
         "lineNumber": 645,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/one-col\": \"One column\","
+        "content": "    \"core-views/contain-names\": \"(containing original columns\u0027 names)\","
       },
       {
         "lineNumber": 646,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/prepend-name\": \"prepend the original column\u0027s name to each cell\","
+        "content": "    \"core-views/val-col\": \"Value Column\","
       },
       {
         "lineNumber": 647,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/follow-by\": \"followed by\","
+        "content": "    \"core-views/contain-val\": \"(containing original cells\u0027 values)\","
       },
       {
         "lineNumber": 648,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/before-val\": \"before the cell\u0027s value\","
+        "content": "    \"core-views/one-col\": \"One column\","
       },
       {
         "lineNumber": 649,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/ignore-blank\": \"Ignore blank cells\","
+        "content": "    \"core-views/prepend-name\": \"prepend the original column\u0027s name to each cell\","
       },
       {
         "lineNumber": 650,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/fill-other\": \"Fill down in other columns\","
+        "content": "    \"core-views/follow-by\": \"followed by\","
       },
       {
         "lineNumber": 651,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/spec-new-name\": \"Please specify the new key column\u0027s name.\","
+        "content": "    \"core-views/before-val\": \"before the cell\u0027s value\","
       },
       {
         "lineNumber": 652,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/spec-new-val\": \"Please specify the new value column\u0027s name.\","
+        "content": "    \"core-views/ignore-blank\": \"Ignore blank cells\","
       },
       {
         "lineNumber": 653,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/spec-col-name\": \"Please specify the new column\u0027s name.\","
+        "content": "    \"core-views/fill-other\": \"Fill down in other columns\","
       },
       {
         "lineNumber": 654,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/spec-separator\": \"Please specify the separator between original column names and cell values.\","
+        "content": "    \"core-views/spec-new-name\": \"Please specify the new key column\u0027s name.\","
       },
       {
         "lineNumber": 655,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/how-many-rows\": \"How many rows to transpose?\","
+        "content": "    \"core-views/spec-new-val\": \"Please specify the new value column\u0027s name.\","
       },
       {
         "lineNumber": 656,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/expect-two\": \"Expected an integer at least 2.\","
+        "content": "    \"core-views/spec-col-name\": \"Please specify the new column\u0027s name.\","
       },
       {
         "lineNumber": 657,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/columnize\": \"Columnize by Key/Value Columns\","
+        "content": "    \"core-views/spec-separator\": \"Please specify the separator between original column names and cell values.\","
       },
       {
         "lineNumber": 658,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/note-col\": \"Note Column (optional)\","
+        "content": "    \"core-views/how-many-rows\": \"How many rows to transpose?\","
       },
       {
         "lineNumber": 659,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/sel-col-val\": \"Please select one key column and one value column that are different from one another.\","
+        "content": "    \"core-views/expect-two\": \"Expected an integer at least 2.\","
       },
       {
         "lineNumber": 660,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/cannot-same\": \"If specified, the note column cannot be the same as the key column or the value column.\","
+        "content": "    \"core-views/columnize\": \"Columnize by Key/Value Columns\","
       },
       {
         "lineNumber": 661,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transp-cell-row\": \"Transpose cells across columns into rows\","
+        "content": "    \"core-views/note-col\": \"Note Column (optional)\","
       },
       {
         "lineNumber": 662,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transp-cell-col\": \"Transpose cells in rows into columns\","
+        "content": "    \"core-views/sel-col-val\": \"Please select one key column and one value column that are different from one another.\","
       },
       {
         "lineNumber": 663,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/columnize-col\": \"Columnize by key/value columns\","
+        "content": "    \"core-views/cannot-same\": \"If specified, the note column cannot be the same as the key column or the value column.\","
       },
       {
         "lineNumber": 664,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/data-type\": \"Data type:\","
+        "content": "    \"core-views/transp-cell-row\": \"Transpose cells across columns into rows\","
       },
       {
         "lineNumber": 665,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/number\": \"number\","
+        "content": "    \"core-views/transp-cell-col\": \"Transpose cells in rows into columns\","
       },
       {
         "lineNumber": 666,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/boolean\": \"boolean\","
+        "content": "    \"core-views/columnize-col\": \"Columnize by key/value columns\","
       },
       {
         "lineNumber": 667,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/date\": \"date\","
+        "content": "    \"core-views/data-type\": \"Data type:\","
       },
       {
         "lineNumber": 668,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/ctrl-enter\": \"Ctrl-Enter\","
+        "content": "    \"core-views/number\": \"number\","
       },
       {
         "lineNumber": 669,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/rows\": \"rows\","
+        "content": "    \"core-views/boolean\": \"boolean\","
       },
       {
         "lineNumber": 670,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/records\": \"records\","
+        "content": "    \"core-views/date\": \"date\","
       },
       {
         "lineNumber": 671,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/show\": \"Show\","
+        "content": "    \"core-views/ctrl-enter\": \"Ctrl-Enter\","
       },
       {
         "lineNumber": 672,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/hide\": \"Hide\","
+        "content": "    \"core-views/rows\": \"rows\","
       },
       {
         "lineNumber": 673,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text-to-find\": \"Find:\","
+        "content": "    \"core-views/records\": \"records\","
       },
       {
         "lineNumber": 674,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/replacement-text\": \"Replace with:\","
+        "content": "    \"core-views/show\": \"Show\","
       },
       {
         "lineNumber": 675,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/case-insensitive\": \"case insensitive\","
+        "content": "    \"core-views/hide\": \"Hide\","
       },
       {
         "lineNumber": 676,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/whole-word\": \"whole word\","
+        "content": "    \"core-views/text-to-find\": \"Find:\","
       },
       {
         "lineNumber": 677,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/finding-info1\": \"Leave blank to add the replacement string after each character.\","
+        "content": "    \"core-views/replacement-text\": \"Replace with:\","
       },
       {
         "lineNumber": 678,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/finding-info2\": \"Check \\\"regular expression\\\" to find special characters (new lines, tabulations…) or complex patterns.\","
+        "content": "    \"core-views/case-insensitive\": \"case insensitive\","
       },
       {
         "lineNumber": 679,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/replacement-info\": \"If \\\"regular expression\\\" option is checked and finding pattern contains groups delimited with parentheses, $0 will return the complete string matching the pattern, and $1, $2… the 1st, 2nd… group.\","
+        "content": "    \"core-views/whole-word\": \"whole word\","
       },
       {
         "lineNumber": 680,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/replace-dont-escape\": \"use \\\\n for new lines, \\\\t for tabulation, \\\\\\\\n for \\\\n, \\\\\\\\t for \\\\t.\","
+        "content": "    \"core-views/finding-info1\": \"Leave blank to add the replacement string after each character.\","
       },
       {
         "lineNumber": 681,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-regex\": \"Invalid regular expression.\","
+        "content": "    \"core-views/finding-info2\": \"Check \\\"regular expression\\\" to find special characters (new lines, tabulations…) or complex patterns.\","
       },
       {
         "lineNumber": 682,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/use-values-as-identifiers\": \"Use values as identifiers\","
+        "content": "    \"core-views/replacement-info\": \"If \\\"regular expression\\\" option is checked and finding pattern contains groups delimited with parentheses, $0 will return the complete string matching the pattern, and $1, $2… the 1st, 2nd… group.\","
       },
       {
         "lineNumber": 683,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/use-values-as-identifiers2\": \"Mark cells as reconciled with their values as identifiers\","
+        "content": "    \"core-views/replace-dont-escape\": \"use \\\\n for new lines, \\\\t for tabulation, \\\\\\\\n for \\\\n, \\\\\\\\t for \\\\t.\","
       },
       {
         "lineNumber": 684,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/choose-reconciliation-service\": \"Choose a reconciliation service\","
+        "content": "    \"core-views/warning-regex\": \"Invalid regular expression.\","
       },
       {
         "lineNumber": 685,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/choose-reconciliation-service-alert\": \"Please choose a reconciliation service first.\","
+        "content": "    \"core-views/use-values-as-identifiers\": \"Use values as identifiers\","
       },
       {
         "lineNumber": 686,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join\": \"Join columns\","
+        "content": "    \"core-views/use-values-as-identifiers2\": \"Mark cells as reconciled with their values as identifiers\","
       },
       {
         "lineNumber": 687,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join-before-column-picker\": \"Select and order columns to join\","
+        "content": "    \"core-views/choose-reconciliation-service\": \"Choose a reconciliation service\","
       },
       {
         "lineNumber": 688,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join-before-options\": \"Select options\","
+        "content": "    \"core-views/choose-reconciliation-service-alert\": \"Please choose a reconciliation service first.\","
       },
       {
         "lineNumber": 689,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join-field-separator\": \"Separator between the content of each column:\","
+        "content": "    \"core-views/column-join\": \"Join columns\","
       },
       {
         "lineNumber": 690,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join-field-separator-advice\": \"Enter one or more characters, or keep blank to join the columns without separator.\","
+        "content": "    \"core-views/column-join-before-column-picker\": \"Select and order columns to join\","
       },
       {
         "lineNumber": 691,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join-replace-nulls\": \"Replace nulls with…\","
+        "content": "    \"core-views/column-join-before-options\": \"Select options\","
       },
       {
         "lineNumber": 692,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join-skip-nulls\": \"Skip nulls.\","
+        "content": "    \"core-views/column-join-field-separator\": \"Separator between the content of each column:\","
       },
       {
         "lineNumber": 693,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join-replace-nulls-advice\": \"Enter one or more characters, or keep blank to replace nulls with blank strings.\","
+        "content": "    \"core-views/column-join-field-separator-advice\": \"Enter one or more characters, or keep blank to join the columns without separator.\","
       },
       {
         "lineNumber": 694,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join-write-selected-column\": \"Write result in selected column.\","
+        "content": "    \"core-views/column-join-replace-nulls\": \"Replace nulls with…\","
       },
       {
         "lineNumber": 695,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join-copy-to-new-column\": \"Write result in new column named…\","
+        "content": "    \"core-views/column-join-skip-nulls\": \"Skip nulls.\","
       },
       {
         "lineNumber": 696,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join-delete-joined-columns\": \"Delete joined columns.\","
+        "content": "    \"core-views/column-join-replace-nulls-advice\": \"Enter one or more characters, or keep blank to replace nulls with blank strings.\","
       },
       {
         "lineNumber": 697,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/column-join-dont-escape\": \"In separator and nulls substitutes, use \\\\n for new lines, \\\\t for tabulation, \\\\\\\\n for \\\\n, \\\\\\\\t for \\\\t.\","
+        "content": "    \"core-views/column-join-write-selected-column\": \"Write result in selected column.\","
       },
       {
         "lineNumber": 698,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/cancel\": \"Cancel\","
+        "content": "    \"core-views/column-join-copy-to-new-column\": \"Write result in new column named…\","
       },
       {
         "lineNumber": 699,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/ok\": \"\u0026nbsp;\u0026nbsp;OK\u0026nbsp;\u0026nbsp;\","
+        "content": "    \"core-views/column-join-delete-joined-columns\": \"Delete joined columns.\","
       },
       {
         "lineNumber": 700,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/import-proj\": \"Import Project\","
+        "content": "    \"core-views/column-join-dont-escape\": \"In separator and nulls substitutes, use \\\\n for new lines, \\\\t for tabulation, \\\\\\\\n for \\\\n, \\\\\\\\t for \\\\t.\","
       },
       {
         "lineNumber": 701,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/select-all\": \"Select All\","
+        "content": "    \"core-buttons/cancel\": \"Cancel\","
       },
       {
         "lineNumber": 702,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/unselect-all\": \"Unselect All\","
+        "content": "    \"core-buttons/ok\": \"\u0026nbsp;\u0026nbsp;OK\u0026nbsp;\u0026nbsp;\","
       },
       {
         "lineNumber": 703,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/deselect-all\": \"De-select All\","
+        "content": "    \"core-buttons/import-proj\": \"Import Project\","
       },
       {
         "lineNumber": 704,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/select\": \"Select\","
+        "content": "    \"core-buttons/select-all\": \"Select All\","
       },
       {
         "lineNumber": 705,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/unselect\": \"Unselect\","
+        "content": "    \"core-buttons/unselect-all\": \"Unselect All\","
       },
       {
         "lineNumber": 706,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/startover\": \"\u0026laquo; Start Over\","
+        "content": "    \"core-buttons/deselect-all\": \"De-select All\","
       },
       {
         "lineNumber": 707,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/conf-pars-opt\": \"Configure Parsing Options \u0026raquo;\","
+        "content": "    \"core-buttons/select\": \"Select\","
       },
       {
         "lineNumber": 708,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/reselect-files\": \"\u0026laquo; Re-select Files\","
+        "content": "    \"core-buttons/unselect\": \"Unselect\","
       },
       {
         "lineNumber": 709,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/create-project\": \"Create Project \u0026raquo;\","
+        "content": "    \"core-buttons/startover\": \"\u0026laquo; Start Over\","
       },
       {
         "lineNumber": 710,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/next\": \"Next \u0026raquo;\","
+        "content": "    \"core-buttons/conf-pars-opt\": \"Configure Parsing Options \u0026raquo;\","
       },
       {
         "lineNumber": 711,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/add-url\": \"Add Another URL\","
+        "content": "    \"core-buttons/reselect-files\": \"\u0026laquo; Re-select Files\","
       },
       {
         "lineNumber": 712,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/update-preview\": \"Update\u0026nbsp;Preview\","
+        "content": "    \"core-buttons/create-project\": \"Create Project \u0026raquo;\","
       },
       {
         "lineNumber": 713,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/pick-record\": \"Pick Record Elements\","
+        "content": "    \"core-buttons/next\": \"Next \u0026raquo;\","
       },
       {
         "lineNumber": 714,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/merge-cluster\": \"Merge Selected \u0026amp; Re-Cluster\","
+        "content": "    \"core-buttons/add-url\": \"Add Another URL\","
       },
       {
         "lineNumber": 715,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/merge-close\": \"Merge Selected \u0026amp; Close\","
+        "content": "    \"core-buttons/update-preview\": \"Update\u0026nbsp;Preview\","
       },
       {
         "lineNumber": 716,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/export-cluster\": \"Export Clusters\","
+        "content": "    \"core-buttons/pick-record\": \"Pick Record Elements\","
       },
       {
         "lineNumber": 717,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/close\": \"Close\","
+        "content": "    \"core-buttons/merge-cluster\": \"Merge Selected \u0026amp; Re-Cluster\","
       },
       {
         "lineNumber": 718,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/reset-template\": \"Reset Template\","
+        "content": "    \"core-buttons/merge-close\": \"Merge Selected \u0026amp; Close\","
       },
       {
         "lineNumber": 719,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/export\": \"Export\","
+        "content": "    \"core-buttons/export-cluster\": \"Export Clusters\","
       },
       {
         "lineNumber": 720,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/preview\": \"Preview\","
+        "content": "    \"core-buttons/close\": \"Close\","
       },
       {
         "lineNumber": 721,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/download\": \"Download\","
+        "content": "    \"core-buttons/reset-template\": \"Reset Template\","
       },
       {
         "lineNumber": 722,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/upload\": \"Upload\","
+        "content": "    \"core-buttons/export\": \"Export\","
       },
       {
         "lineNumber": 723,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/apply\": \"Apply\","
+        "content": "    \"core-buttons/preview\": \"Preview\","
       },
       {
         "lineNumber": 724,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/enter\": \"Enter\","
+        "content": "    \"core-buttons/download\": \"Download\","
       },
       {
         "lineNumber": 725,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/esc\": \"Esc\","
+        "content": "    \"core-buttons/upload\": \"Upload\","
       },
       {
         "lineNumber": 726,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/refresh\": \"Refresh\","
+        "content": "    \"core-buttons/apply\": \"Apply\","
       },
       {
         "lineNumber": 727,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/reset-all\": \"Reset All\","
+        "content": "    \"core-buttons/enter\": \"Enter\","
       },
       {
         "lineNumber": 728,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/remove-all\": \"Remove All\","
+        "content": "    \"core-buttons/esc\": \"Esc\","
       },
       {
         "lineNumber": 729,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/perform-op\": \"Perform Operations\","
+        "content": "    \"core-buttons/refresh\": \"Refresh\","
       },
       {
         "lineNumber": 730,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/add-std-svc\": \"Add Standard Service\","
+        "content": "    \"core-buttons/reset-all\": \"Reset All\","
       },
       {
         "lineNumber": 731,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/start-recon\": \"Start Reconciling\","
+        "content": "    \"core-buttons/remove-all\": \"Remove All\","
       },
       {
         "lineNumber": 732,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/add-service\": \"Add Service\","
+        "content": "    \"core-buttons/perform-op\": \"Perform Operations\","
       },
       {
         "lineNumber": 733,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/dont-reconcile\": \"Don\u0027t Reconcile Cell\","
+        "content": "    \"core-buttons/add-std-svc\": \"Add Standard Service\","
       },
       {
         "lineNumber": 734,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/new-topic\": \"New Item\","
+        "content": "    \"core-buttons/start-recon\": \"Start Reconciling\","
       },
       {
         "lineNumber": 735,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/match\": \"Match\","
+        "content": "    \"core-buttons/add-service\": \"Add Service\","
       },
       {
         "lineNumber": 736,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/copy\": \"Copy\","
+        "content": "    \"core-buttons/dont-reconcile\": \"Don\u0027t Reconcile Cell\","
       },
       {
         "lineNumber": 737,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/transpose\": \"Transpose\","
+        "content": "    \"core-buttons/new-topic\": \"New Item\","
       },
       {
         "lineNumber": 738,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/apply-to-all\": \"Apply to All Identical Cells\""
+        "content": "    \"core-buttons/match\": \"Match\","
       },
       {
         "lineNumber": 739,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-buttons/copy\": \"Copy\","
+      },
+      {
+        "lineNumber": 740,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-buttons/transpose\": \"Transpose\","
+      },
+      {
+        "lineNumber": 741,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-buttons/apply-to-all\": \"Apply to All Identical Cells\""
+      },
+      {
+        "lineNumber": 742,
         "author": {
           "gitId": "-"
         },
@@ -7341,7 +7362,7 @@
     ],
     "authorContributionMap": {
       "jamessspanggg": 2,
-      "-": 737
+      "-": 740
     }
   },
   {
