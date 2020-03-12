@@ -2744,7 +2744,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-index-import/warning-web-address\": \"You must specify a web address (URL) to import.\","
+        "content": "    \"core-index-import/warning-web-address\": \"You must specify a valid web address (URL) to import.\","
       },
       {
         "lineNumber": 84,
@@ -4641,2719 +4641,2712 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/warning-align\": \"You haven\u0027t done any schema alignment yet,\\nso there is no triple to export.\\n\\nUse the Freebase \u003e Edit Schema Alignment Skeleton…\\ncommand to align your data with Freebase schemas first.\","
+        "content": "    \"core-project/json-invalid\": \"The JSON you pasted is invalid\","
       },
       {
         "lineNumber": 355,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/json-invalid\": \"The JSON you pasted is invalid\","
+        "content": "    \"core-project/undo-history\": \"Infinite undo history\","
       },
       {
         "lineNumber": 356,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/undo-history\": \"Infinite undo history\","
+        "content": "    \"core-project/mistakes\": \"Don\u0027t worry about making mistakes. Every change you make will be shown here, and you can undo your changes anytime.\","
       },
       {
         "lineNumber": 357,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/mistakes\": \"Don\u0027t worry about making mistakes. Every change you make will be shown here, and you can undo your changes anytime.\","
+        "content": "    \"core-project/learn-more\": \"Learn more \u0026raquo;\","
       },
       {
         "lineNumber": 358,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/learn-more\": \"Learn more \u0026raquo;\","
+        "content": "    \"core-project/apply\": \"Apply\u0026hellip;\","
       },
       {
         "lineNumber": 359,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/apply\": \"Apply\u0026hellip;\","
+        "content": "    \"core-project/extract\": \"Extract\u0026hellip;\","
       },
       {
         "lineNumber": 360,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/extract\": \"Extract\u0026hellip;\","
+        "content": "    \"core-project/filter\": \"Filter:\","
       },
       {
         "lineNumber": 361,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/filter\": \"Filter:\","
+        "content": "    \"core-project/extract-history\": \"Extract Operation History\","
       },
       {
         "lineNumber": 362,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/extract-history\": \"Extract Operation History\","
+        "content": "    \"core-project/extract-save\": \"Extract and save parts of your operation history as JSON that you can apply to this or other projects in the future.\","
       },
       {
         "lineNumber": 363,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/extract-save\": \"Extract and save parts of your operation history as JSON that you can apply to this or other projects in the future.\","
+        "content": "    \"core-project/apply-operation\": \"Apply Operation History\","
       },
       {
         "lineNumber": 364,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/apply-operation\": \"Apply Operation History\","
+        "content": "    \"core-project/paste-json\": \"Paste an extracted JSON history of operations to perform:\","
       },
       {
         "lineNumber": 365,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/paste-json\": \"Paste an extracted JSON history of operations to perform:\","
+        "content": "    \"core-project/complete\": \"complete\","
       },
       {
         "lineNumber": 366,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/complete\": \"complete\","
+        "content": "    \"core-project/other-processes\": \"other pending processes\","
       },
       {
         "lineNumber": 367,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/other-processes\": \"other pending processes\","
+        "content": "    \"core-project/other-process\": \"other pending process\","
       },
       {
         "lineNumber": 368,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/other-process\": \"other pending process\","
+        "content": "    \"core-project/cancel-all\": \"Cancel All\","
       },
       {
         "lineNumber": 369,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/cancel-all\": \"Cancel All\","
+        "content": "    \"core-project/cancel\": \"Cancel\","
       },
       {
         "lineNumber": 370,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/cancel\": \"Cancel\","
+        "content": "    \"core-project/canceling\": \"Canceling…\","
       },
       {
         "lineNumber": 371,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/canceling\": \"Canceling…\","
+        "content": "    \"core-project/last-op-er\": \"The last operation encountered some errors\","
       },
       {
         "lineNumber": 372,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/last-op-er\": \"The last operation encountered some errors\","
+        "content": "    \"core-project/continue-remaining\": \"Continue with the remaining operations\","
       },
       {
         "lineNumber": 373,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/continue-remaining\": \"Continue with the remaining operations\","
+        "content": "    \"core-project/undo\": \"Undo\","
       },
       {
         "lineNumber": 374,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/undo\": \"Undo\","
+        "content": "    \"core-recon/add-std-srv\": \"Add standard service\","
       },
       {
         "lineNumber": 375,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/add-std-srv\": \"Add standard service\","
+        "content": "    \"core-recon/access\": \"Access\","
       },
       {
         "lineNumber": 376,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/access\": \"Access\","
+        "content": "    \"core-recon/service-api\": \"Service API\","
       },
       {
         "lineNumber": 377,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/service-api\": \"Service API\","
+        "content": "    \"core-recon/cell-type\": \"Reconcile each cell to an entity of one of these types\","
       },
       {
         "lineNumber": 378,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/cell-type\": \"Reconcile each cell to an entity of one of these types\","
+        "content": "    \"core-recon/col-detail\": \"Also use relevant details from other columns\","
       },
       {
         "lineNumber": 379,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/col-detail\": \"Also use relevant details from other columns\","
+        "content": "    \"core-recon/against-type\": \"Reconcile against type\","
       },
       {
         "lineNumber": 380,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/against-type\": \"Reconcile against type\","
+        "content": "    \"core-recon/no-type\": \"Reconcile against no particular type\","
       },
       {
         "lineNumber": 381,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/no-type\": \"Reconcile against no particular type\","
+        "content": "    \"core-recon/auto-match\": \"Auto-match candidates with high confidence\","
       },
       {
         "lineNumber": 382,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/auto-match\": \"Auto-match candidates with high confidence\","
+        "content": "    \"core-recon/warning-type-sugg\": \"Sorry, we can\u0027t suggest any type for your data. Please specify a type yourself below.\","
       },
       {
         "lineNumber": 383,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/warning-type-sugg\": \"Sorry, we can\u0027t suggest any type for your data. Please specify a type yourself below.\","
+        "content": "    \"core-recon/column\": \"Column\","
       },
       {
         "lineNumber": 384,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/column\": \"Column\","
+        "content": "    \"core-recon/include\": \"Include\","
       },
       {
         "lineNumber": 385,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/include\": \"Include\","
+        "content": "    \"core-recon/as-property\": \"As Property\","
       },
       {
         "lineNumber": 386,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/as-property\": \"As Property\","
+        "content": "    \"core-recon/contact-service\": \"Contacting reconciliation service\","
       },
       {
         "lineNumber": 387,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/contact-service\": \"Contacting reconciliation service\","
+        "content": "    \"core-recon/error-contact\": \"Error contacting recon service\","
       },
       {
         "lineNumber": 388,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/error-contact\": \"Error contacting recon service\","
+        "content": "    \"core-recon/wd-recon-lang\": \"en\","
       },
       {
         "lineNumber": 389,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/wd-recon-lang\": \"en\","
+        "content": "    \"core-recon/recon-col\": \"Reconcile column\","
       },
       {
         "lineNumber": 390,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/recon-col\": \"Reconcile column\","
+        "content": "    \"core-recon/pick-service\": \"Pick a Service or Extension on Left\","
       },
       {
         "lineNumber": 391,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/pick-service\": \"Pick a Service or Extension on Left\","
+        "content": "    \"core-recon/enter-url\": \"Enter the service\u0027s URL\","
       },
       {
         "lineNumber": 392,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/enter-url\": \"Enter the service\u0027s URL\","
+        "content": "    \"core-recon/cell-contains\": \"Each cell contains:\","
       },
       {
         "lineNumber": 393,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/cell-contains\": \"Each cell contains:\","
+        "content": "    \"core-recon/max-candidates\": \"Maximum number of candidates to return\","
       },
       {
         "lineNumber": 394,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/max-candidates\": \"Maximum number of candidates to return\","
+        "content": "    \"core-recon/service-title\": \"Services\","
       },
       {
         "lineNumber": 395,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/service-title\": \"Services\","
+        "content": "    \"core-util-enc/select-enc\": \"Select Encoding\","
       },
       {
         "lineNumber": 396,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/select-enc\": \"Select Encoding\","
+        "content": "    \"core-util-enc/common\": \"Common Encodings\","
       },
       {
         "lineNumber": 397,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/common\": \"Common Encodings\","
+        "content": "    \"core-util-enc/all\": \"All Encodings\","
       },
       {
         "lineNumber": 398,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/all\": \"All Encodings\","
+        "content": "    \"core-util-enc/encoding\": \"Encoding\","
       },
       {
         "lineNumber": 399,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/encoding\": \"Encoding\","
+        "content": "    \"core-util-enc/aliases\": \"Aliases\","
       },
       {
         "lineNumber": 400,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/aliases\": \"Aliases\","
+        "content": "    \"core-util-enc/today\": \"today\","
       },
       {
         "lineNumber": 401,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/today\": \"today\","
+        "content": "    \"core-util-enc/yesterday\": \"yesterday\","
       },
       {
         "lineNumber": 402,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/yesterday\": \"yesterday\","
+        "content": "    \"core-util-enc/days-ago\": \"days ago\","
       },
       {
         "lineNumber": 403,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/days-ago\": \"days ago\","
+        "content": "    \"core-util-enc/week-ago\": \"a week ago\","
       },
       {
         "lineNumber": 404,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/week-ago\": \"a week ago\","
+        "content": "    \"core-util-enc/weeks-ago\": \"weeks ago\","
       },
       {
         "lineNumber": 405,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/weeks-ago\": \"weeks ago\","
+        "content": "    \"core-util-enc/month-ago\": \"a month ago\","
       },
       {
         "lineNumber": 406,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/month-ago\": \"a month ago\","
+        "content": "    \"core-util-enc/months-ago\": \"months ago\","
       },
       {
         "lineNumber": 407,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/months-ago\": \"months ago\","
+        "content": "    \"core-util-enc/year-ago\": \"a year ago\","
       },
       {
         "lineNumber": 408,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/year-ago\": \"a year ago\","
+        "content": "    \"core-util-enc/years-ago\": \"years ago\","
       },
       {
         "lineNumber": 409,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/years-ago\": \"years ago\","
+        "content": "    \"core-util-enc/working\": \"Working\","
       },
       {
         "lineNumber": 410,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/working\": \"Working\","
+        "content": "    \"core-util-enc/invalid-date\": \"Invalid date string\","
       },
       {
         "lineNumber": 411,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/invalid-date\": \"Invalid date string\","
+        "content": "    \"core-views/edit-cell\": \"Edit this cell\","
       },
       {
         "lineNumber": 412,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/edit-cell\": \"Edit this cell\","
+        "content": "    \"core-views/choose-match\": \"Choose new match\","
       },
       {
         "lineNumber": 413,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/choose-match\": \"Choose new match\","
+        "content": "    \"core-views/match-all-cells\": \"Match this item to this and all identical cells\","
       },
       {
         "lineNumber": 414,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-all-cells\": \"Match this item to this and all identical cells\","
+        "content": "    \"core-views/match-this-cell\": \"Match this item to this cell\","
       },
       {
         "lineNumber": 415,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-this-cell\": \"Match this item to this cell\","
+        "content": "    \"core-views/create-topic-cells\": \"Create a new item for this and all identical cells\","
       },
       {
         "lineNumber": 416,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/create-topic-cells\": \"Create a new item for this and all identical cells\","
+        "content": "    \"core-views/create-topic-cell\": \"Create a new item for this cell\","
       },
       {
         "lineNumber": 417,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/create-topic-cell\": \"Create a new item for this cell\","
+        "content": "    \"core-views/create-topic\": \"Create new item\","
       },
       {
         "lineNumber": 418,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/create-topic\": \"Create new item\","
+        "content": "    \"core-views/search-match\": \"Search for match\","
       },
       {
         "lineNumber": 419,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/search-match\": \"Search for match\","
+        "content": "    \"core-views/not-valid-number\": \"Not a valid number.\","
       },
       {
         "lineNumber": 420,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/not-valid-number\": \"Not a valid number.\","
+        "content": "    \"core-views/not-valid-date\": \"Not a valid date.\","
       },
       {
         "lineNumber": 421,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/not-valid-date\": \"Not a valid date.\","
+        "content": "    \"core-views/match-this\": \"Match this cell only\","
       },
       {
         "lineNumber": 422,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-this\": \"Match this cell only\","
+        "content": "    \"core-views/match-other\": \"Match other cells with same content\","
       },
       {
         "lineNumber": 423,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-other\": \"Match other cells with same content\","
+        "content": "    \"core-views/search-for\": \"Search for\","
       },
       {
         "lineNumber": 424,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/search-for\": \"Search for\","
+        "content": "    \"core-views/match-cell\": \"Match this Cell\","
       },
       {
         "lineNumber": 425,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-cell\": \"Match this Cell\","
+        "content": "    \"core-views/match-identical\": \"Match All Identical Cells\","
       },
       {
         "lineNumber": 426,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-identical\": \"Match All Identical Cells\","
+        "content": "    \"core-views/matched\": \"matched\","
       },
       {
         "lineNumber": 427,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/matched\": \"matched\","
+        "content": "    \"core-views/new\": \"new\","
       },
       {
         "lineNumber": 428,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/new\": \"new\","
+        "content": "    \"core-views/to-be-recon\": \"to be reconciled\","
       },
       {
         "lineNumber": 429,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/to-be-recon\": \"to be reconciled\","
+        "content": "    \"core-views/facet\": \"Facet\","
       },
       {
         "lineNumber": 430,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet\": \"Facet\","
+        "content": "    \"core-views/edit-cells\": \"Edit cells\","
       },
       {
         "lineNumber": 431,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/edit-cells\": \"Edit cells\","
+        "content": "    \"core-views/edit-column\": \"Edit column\","
       },
       {
         "lineNumber": 432,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/edit-column\": \"Edit column\","
+        "content": "    \"core-views/transpose\": \"Transpose\","
       },
       {
         "lineNumber": 433,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transpose\": \"Transpose\","
+        "content": "    \"core-views/sort\": \"Sort\","
       },
       {
         "lineNumber": 434,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/sort\": \"Sort\","
+        "content": "    \"core-views/collapse-expand\": \"Collapse/expand columns to make viewing the data more convenient\","
       },
       {
         "lineNumber": 435,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-expand\": \"Collapse/expand columns to make viewing the data more convenient\","
+        "content": "    \"core-views/collapse-this\": \"Collapse this column\","
       },
       {
         "lineNumber": 436,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-this\": \"Collapse this column\","
+        "content": "    \"core-views/collapse-other\": \"Collapse all other columns\","
       },
       {
         "lineNumber": 437,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-other\": \"Collapse all other columns\","
+        "content": "    \"core-views/collapse-left\": \"Collapse all columns to left\","
       },
       {
         "lineNumber": 438,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-left\": \"Collapse all columns to left\","
+        "content": "    \"core-views/collapse-right\": \"Collapse all columns to right\","
       },
       {
         "lineNumber": 439,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-right\": \"Collapse all columns to right\","
+        "content": "    \"core-views/reconcile\": \"Reconcile\","
       },
       {
         "lineNumber": 440,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reconcile\": \"Reconcile\","
+        "content": "    \"core-views/reconcile-tooltip\": \"Match this column\u0027s cells to items from external databases\","
       },
       {
         "lineNumber": 441,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reconcile-tooltip\": \"Match this column\u0027s cells to items from external databases\","
+        "content": "    \"core-views/reverse\": \"Reverse\","
       },
       {
         "lineNumber": 442,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reverse\": \"Reverse\","
+        "content": "    \"core-views/remove-sort\": \"Remove sort\","
       },
       {
         "lineNumber": 443,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/remove-sort\": \"Remove sort\","
+        "content": "    \"core-views/sort-by\": \"Sort by\","
       },
       {
         "lineNumber": 444,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/sort-by\": \"Sort by\","
+        "content": "    \"core-views/sort-cell\": \"Sort cell values as\","
       },
       {
         "lineNumber": 445,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/sort-cell\": \"Sort cell values as\","
+        "content": "    \"core-views/pos-blank\": \"Position blanks and errors\","
       },
       {
         "lineNumber": 446,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/pos-blank\": \"Position blanks and errors\","
+        "content": "    \"core-views/text\": \"text\","
       },
       {
         "lineNumber": 447,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text\": \"text\","
+        "content": "    \"core-views/case-sensitive\": \"case-sensitive\","
       },
       {
         "lineNumber": 448,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/case-sensitive\": \"case-sensitive\","
+        "content": "    \"core-views/numbers\": \"numbers\","
       },
       {
         "lineNumber": 449,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/numbers\": \"numbers\","
+        "content": "    \"core-views/dates\": \"dates\","
       },
       {
         "lineNumber": 450,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/dates\": \"dates\","
+        "content": "    \"core-views/booleans\": \"booleans\","
       },
       {
         "lineNumber": 451,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/booleans\": \"booleans\","
+        "content": "    \"core-views/drag-drop\": \"Drag and drop to re-order\","
       },
       {
         "lineNumber": 452,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/drag-drop\": \"Drag and drop to re-order\","
+        "content": "    \"core-views/forward\": \"forward\","
       },
       {
         "lineNumber": 453,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/forward\": \"forward\","
+        "content": "    \"core-views/sort-by-col\": \"sort by this column alone\","
       },
       {
         "lineNumber": 454,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/sort-by-col\": \"sort by this column alone\","
+        "content": "    \"core-views/smallest-first\": \"smallest first\","
       },
       {
         "lineNumber": 455,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/smallest-first\": \"smallest first\","
+        "content": "    \"core-views/largest-first\": \"largest first\","
       },
       {
         "lineNumber": 456,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/largest-first\": \"largest first\","
+        "content": "    \"core-views/earliest-first\": \"earliest first\","
       },
       {
         "lineNumber": 457,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/earliest-first\": \"earliest first\","
+        "content": "    \"core-views/latest-first\": \"latest first\","
       },
       {
         "lineNumber": 458,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/latest-first\": \"latest first\","
+        "content": "    \"core-views/false-true\": \"false then true\","
       },
       {
         "lineNumber": 459,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/false-true\": \"false then true\","
+        "content": "    \"core-views/true-fasle\": \"true then false\","
       },
       {
         "lineNumber": 460,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/true-fasle\": \"true then false\","
+        "content": "    \"core-views/valid-values\": \"Valid values\","
       },
       {
         "lineNumber": 461,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/valid-values\": \"Valid values\","
+        "content": "    \"core-views/blanks\": \"Blanks\","
       },
       {
         "lineNumber": 462,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/blanks\": \"Blanks\","
+        "content": "    \"core-views/errors\": \"Errors\","
       },
       {
         "lineNumber": 463,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/errors\": \"Errors\","
+        "content": "    \"core-views/search-fb-topic\": \"Search for an item to match all filtered cells:\","
       },
       {
         "lineNumber": 464,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/search-fb-topic\": \"Search for an item to match all filtered cells:\","
+        "content": "    \"core-views/copy-recon-judg\": \"Copy recon judgments from column\","
       },
       {
         "lineNumber": 465,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-recon-judg\": \"Copy recon judgments from column\","
+        "content": "    \"core-views/copy-to-col\": \"Copy to Columns\","
       },
       {
         "lineNumber": 466,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-to-col\": \"Copy to Columns\","
+        "content": "    \"core-views/copy-opt\": \"Copying Options\","
       },
       {
         "lineNumber": 467,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-opt\": \"Copying Options\","
+        "content": "    \"core-views/apply-to-cell\": \"Apply to judged cells\","
       },
       {
         "lineNumber": 468,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/apply-to-cell\": \"Apply to judged cells\","
+        "content": "    \"core-views/what-to-copy\": \"What to copy:\","
       },
       {
         "lineNumber": 469,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/what-to-copy\": \"What to copy:\","
+        "content": "    \"core-views/new-recon\": \"new recon judgments\","
       },
       {
         "lineNumber": 470,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/new-recon\": \"new recon judgments\","
+        "content": "    \"core-views/match-recon\": \"match recon judgments\","
       },
       {
         "lineNumber": 471,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-recon\": \"match recon judgments\","
+        "content": "    \"core-views/warning-other-col\": \"Please select some other column to copy to.\","
       },
       {
         "lineNumber": 472,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-other-col\": \"Please select some other column to copy to.\","
+        "content": "    \"core-views/warning-sel-judg\": \"Please select at least one kind of judgment to copy.\","
       },
       {
         "lineNumber": 473,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-sel-judg\": \"Please select at least one kind of judgment to copy.\","
+        "content": "    \"core-views/start-recon\": \"Start reconciling\","
       },
       {
         "lineNumber": 474,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/start-recon\": \"Start reconciling\","
+        "content": "    \"core-views/recon-text-fb\": \"Reconcile text in this column with items in another data source\","
       },
       {
         "lineNumber": 475,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/recon-text-fb\": \"Reconcile text in this column with items on Freebase\","
+        "content": "    \"core-views/facets\": \"Facets\","
       },
       {
         "lineNumber": 476,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facets\": \"Facets\","
+        "content": "    \"core-views/by-judg\": \"By judgment\","
       },
       {
         "lineNumber": 477,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/by-judg\": \"By judgment\","
+        "content": "    \"core-views/best-score\": \"Best candidate\u0027s score\","
       },
       {
         "lineNumber": 478,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-score\": \"Best candidate\u0027s score\","
+        "content": "    \"core-views/best-cand-score\": \"best candidate\u0027s score\","
       },
       {
         "lineNumber": 479,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand-score\": \"best candidate\u0027s score\","
+        "content": "    \"core-views/best-type-match\": \"Best candidate\u0027s type match\","
       },
       {
         "lineNumber": 480,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-type-match\": \"Best candidate\u0027s type match\","
+        "content": "    \"core-views/best-cand-type-match\": \"best candidate\u0027s types match?\","
       },
       {
         "lineNumber": 481,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand-type-match\": \"best candidate\u0027s types match?\","
+        "content": "    \"core-views/best-name\": \"Best candidate\u0027s name match\","
       },
       {
         "lineNumber": 482,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-name\": \"Best candidate\u0027s name match\","
+        "content": "    \"core-views/best-cand-name\": \"best candidate\u0027s name match?\","
       },
       {
         "lineNumber": 483,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand-name\": \"best candidate\u0027s name match?\","
+        "content": "    \"core-views/best-edit-dist\": \"Best candidate\u0027s name edit distance\","
       },
       {
         "lineNumber": 484,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-edit-dist\": \"Best candidate\u0027s name edit distance\","
+        "content": "    \"core-views/best-cand-edit-dist\": \"best candidate\u0027s name edit distance\","
       },
       {
         "lineNumber": 485,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand-edit-dist\": \"best candidate\u0027s name edit distance\","
+        "content": "    \"core-views/best-word-sim\": \"Best candidate\u0027s name word similarity\","
       },
       {
         "lineNumber": 486,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-word-sim\": \"Best candidate\u0027s name word similarity\","
+        "content": "    \"core-views/best-cand-word-sim\": \"best candidate\u0027s name word similarity\","
       },
       {
         "lineNumber": 487,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand-word-sim\": \"best candidate\u0027s name word similarity\","
+        "content": "    \"core-views/best-type\": \"Best candidate\u0027s types\","
       },
       {
         "lineNumber": 488,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-type\": \"Best candidate\u0027s types\","
+        "content": "    \"core-views/qa-facets\": \"QA facets\","
       },
       {
         "lineNumber": 489,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/qa-facets\": \"QA facets\","
+        "content": "    \"core-views/judg-actions\": \"Judgment action type\","
       },
       {
         "lineNumber": 490,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/judg-actions\": \"Judgment action type\","
+        "content": "    \"core-views/judg-actions2\": \"Judgment Action type\","
       },
       {
         "lineNumber": 491,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/judg-actions2\": \"Judgment Action type\","
+        "content": "    \"core-views/judg-hist\": \"Judgment action timestamp\","
       },
       {
         "lineNumber": 492,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/judg-hist\": \"Judgment action timestamp\","
+        "content": "    \"core-views/hist-entries\": \"Judgment action timestamp\","
       },
       {
         "lineNumber": 493,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/hist-entries\": \"Judgment action timestamp\","
+        "content": "    \"core-views/actions\": \"Actions\","
       },
       {
         "lineNumber": 494,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/actions\": \"Actions\","
+        "content": "    \"core-views/best-cand\": \"Match each cell to its best candidate\","
       },
       {
         "lineNumber": 495,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand\": \"Match each cell to its best candidate\","
+        "content": "    \"core-views/best-cand2\": \"Match each cell to its best candidate in this column for all current filtered rows\","
       },
       {
         "lineNumber": 496,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand2\": \"Match each cell to its best candidate in this column for all current filtered rows\","
+        "content": "    \"core-views/new-topic\": \"Create a new item for each cell\","
       },
       {
         "lineNumber": 497,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/new-topic\": \"Create a new item for each cell\","
+        "content": "    \"core-views/new-topic2\": \"Mark to create one new item for each cell in this column for all current filtered rows\","
       },
       {
         "lineNumber": 498,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/new-topic2\": \"Mark to create one new item for each cell in this column for all current filtered rows\","
+        "content": "    \"core-views/one-topic\": \"Create one new item for similar cells\","
       },
       {
         "lineNumber": 499,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/one-topic\": \"Create one new item for similar cells\","
+        "content": "    \"core-views/one-topic2\": \"Mark to create one new item for each group of similar cells in this column for all current filtered rows\","
       },
       {
         "lineNumber": 500,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/one-topic2\": \"Mark to create one new item for each group of similar cells in this column for all current filtered rows\","
+        "content": "    \"core-views/filtered-cell\": \"Match all filtered cells to…\","
       },
       {
         "lineNumber": 501,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/filtered-cell\": \"Match all filtered cells to…\","
+        "content": "    \"core-views/filtered-cell2\": \"Search for a item to match all filtered cells to\","
       },
       {
         "lineNumber": 502,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/filtered-cell2\": \"Search for a item to match all filtered cells to\","
+        "content": "    \"core-views/discard-judg\": \"Discard reconciliation judgments\","
       },
       {
         "lineNumber": 503,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/discard-judg\": \"Discard reconciliation judgments\","
+        "content": "    \"core-views/discard-judg2\": \"Discard reconciliation judgments in this column for all current filtered rows\","
       },
       {
         "lineNumber": 504,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/discard-judg2\": \"Discard reconciliation judgments in this column for all current filtered rows\","
+        "content": "    \"core-views/clear-recon\": \"Clear reconciliation data\","
       },
       {
         "lineNumber": 505,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/clear-recon\": \"Clear reconciliation data\","
+        "content": "    \"core-views/clear-recon2\": \"Clear reconciliation data in this column for all current filtered rows\","
       },
       {
         "lineNumber": 506,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/clear-recon2\": \"Clear reconciliation data in this column for all current filtered rows\","
+        "content": "    \"core-views/copy-recon\": \"Copy reconciliation data…\","
       },
       {
         "lineNumber": 507,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-recon\": \"Copy reconciliation data…\","
+        "content": "    \"core-views/copy-recon2\": \"Copy this column\u0027s reconciliation data to other columns\","
       },
       {
         "lineNumber": 508,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-recon2\": \"Copy this column\u0027s reconciliation data to other columns\","
+        "content": "    \"core-views/custom-facet\": \"Custom Facet on column\","
       },
       {
         "lineNumber": 509,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-facet\": \"Custom Facet on column\","
+        "content": "    \"core-views/custom-numeric-label\": \"Custom Numeric Facet on column\","
       },
       {
         "lineNumber": 510,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-numeric-label\": \"Custom Numeric Facet on column\","
+        "content": "    \"core-views/custom-numeric\": \"Custom Numeric Facet\","
       },
       {
         "lineNumber": 511,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-numeric\": \"Custom Numeric Facet\","
+        "content": "    \"core-views/text-facet\": \"Text facet\","
       },
       {
         "lineNumber": 512,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text-facet\": \"Text facet\","
+        "content": "    \"core-views/numeric-facet\": \"Numeric facet\","
       },
       {
         "lineNumber": 513,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/numeric-facet\": \"Numeric facet\","
+        "content": "    \"core-views/timeline-facet\": \"Timeline facet\","
       },
       {
         "lineNumber": 514,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/timeline-facet\": \"Timeline facet\","
+        "content": "    \"core-views/scatterplot-facet\": \"Scatterplot facet\","
       },
       {
         "lineNumber": 515,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/scatterplot-facet\": \"Scatterplot facet\","
+        "content": "    \"core-views/custom-text-facet\": \"Custom text facet\","
       },
       {
         "lineNumber": 516,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-text-facet\": \"Custom text facet\","
+        "content": "    \"core-views/custom-facets\": \"Customized facets\","
       },
       {
         "lineNumber": 517,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-facets\": \"Customized facets\","
+        "content": "    \"core-views/word-facet\": \"Word facet\","
       },
       {
         "lineNumber": 518,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/word-facet\": \"Word facet\","
+        "content": "    \"core-views/add-id-column\": \"Add entity identifiers column\","
       },
       {
         "lineNumber": 519,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-id-column\": \"Add entity identifiers column\","
+        "content": "    \"core-views/add-id-column2\": \"Add a column containing entity identifiers from items\","
       },
       {
         "lineNumber": 520,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-id-column2\": \"Add a column containing entity identifiers from items\","
+        "content": "    \"core-views/add-id-col\": \"Add column containing entity identifiers on $1\","
       },
       {
         "lineNumber": 521,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-id-col\": \"Add column containing entity identifiers on $1\","
+        "content": "    \"core-views/duplicates-facet\": \"Duplicates facet\","
       },
       {
         "lineNumber": 522,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/duplicates-facet\": \"Duplicates facet\","
+        "content": "    \"core-views/numeric-log-facet\": \"Numeric log facet\","
       },
       {
         "lineNumber": 523,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/numeric-log-facet\": \"Numeric log facet\","
+        "content": "    \"core-views/bounded-log-facet\": \"1-bounded numeric log facet\","
       },
       {
         "lineNumber": 524,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/bounded-log-facet\": \"1-bounded numeric log facet\","
+        "content": "    \"core-views/text-length-facet\": \"Text length facet\","
       },
       {
         "lineNumber": 525,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text-length-facet\": \"Text length facet\","
+        "content": "    \"core-views/log-length-facet\": \"Log of text length facet\","
       },
       {
         "lineNumber": 526,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/log-length-facet\": \"Log of text length facet\","
+        "content": "    \"core-views/unicode-facet\": \"Unicode char-code facet\","
       },
       {
         "lineNumber": 527,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/unicode-facet\": \"Unicode char-code facet\","
+        "content": "    \"core-views/facet-error\": \"Facet by error\","
       },
       {
         "lineNumber": 528,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-error\": \"Facet by error\","
+        "content": "    \"core-views/facet-blank\": \"Facet by blank (null or empty string)\","
       },
       {
         "lineNumber": 529,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-blank\": \"Facet by blank (null or empty string)\","
+        "content": "    \"core-views/facet-null\": \"Facet by null\","
       },
       {
         "lineNumber": 530,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-null\": \"Facet by null\","
+        "content": "    \"core-views/facet-empty-string\": \"Facet by empty string\","
       },
       {
         "lineNumber": 531,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-empty-string\": \"Facet by empty string\","
+        "content": "    \"core-views/text-filter\": \"Text filter\","
       },
       {
         "lineNumber": 532,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text-filter\": \"Text filter\","
+        "content": "    \"core-views/add-col-col\": \"Add column based on column\","
       },
       {
         "lineNumber": 533,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-col\": \"Add column based on column\","
+        "content": "    \"core-views/new-col-name\": \"New column name\","
       },
       {
         "lineNumber": 534,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/new-col-name\": \"New column name\","
+        "content": "    \"core-views/on-error\": \"On error\","
       },
       {
         "lineNumber": 535,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/on-error\": \"On error\","
+        "content": "    \"core-views/set-blank\": \"set to blank\","
       },
       {
         "lineNumber": 536,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/set-blank\": \"set to blank\","
+        "content": "    \"core-views/store-err\": \"store error\","
       },
       {
         "lineNumber": 537,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/store-err\": \"store error\","
+        "content": "    \"core-views/cache-responses\": \"Cache responses\","
       },
       {
         "lineNumber": 538,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/cache-responses\": \"Cache responses\","
+        "content": "    \"core-views/copy-val\": \"copy value from original column\","
       },
       {
         "lineNumber": 539,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-val\": \"copy value from original column\","
+        "content": "    \"core-views/warning-col-name\": \"You must enter a column name.\","
       },
       {
         "lineNumber": 540,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-col-name\": \"You must enter a column name.\","
+        "content": "    \"core-views/add-col-recon-val\": \"Add columns from reconciled values\","
       },
       {
         "lineNumber": 541,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-recon-val\": \"Add columns from reconciled values\","
+        "content": "    \"core-views/add-col-recon-col\": \"Add columns from reconciled column\","
       },
       {
         "lineNumber": 542,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-recon-col\": \"Add columns from reconciled column\","
+        "content": "    \"core-views/warning-no-property\": \"Please select a property first.\","
       },
       {
         "lineNumber": 543,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-no-property\": \"Please select a property first.\","
+        "content": "    \"core-views/configure-col\": \"Configure this column\","
       },
       {
         "lineNumber": 544,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/configure-col\": \"Configure this column\","
+        "content": "    \"core-views/remove-prop\": \"remove\","
       },
       {
         "lineNumber": 545,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/remove-prop\": \"remove\","
+        "content": "    \"core-views/configure-prop\": \"configure\","
       },
       {
         "lineNumber": 546,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/configure-prop\": \"configure\","
+        "content": "    \"core-views/no-settings\": \"No settings are available for this property.\","
       },
       {
         "lineNumber": 547,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/no-settings\": \"No settings are available for this property.\","
+        "content": "    \"core-views/extend-not-reconciled\": \"This operation is only available on reconciled columns.\","
       },
       {
         "lineNumber": 548,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/extend-not-reconciled\": \"This operation is only available on reconciled columns.\","
+        "content": "    \"core-views/extend-not-supported\": \"This reconciliation service does not support data extension. Try removing the service and adding it again. If the problem persists, contact the service provider.\","
       },
       {
         "lineNumber": 549,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/extend-not-supported\": \"This reconciliation service does not support data extension. Try removing the service and adding it again. If the problem persists, contact the service provider.\","
+        "content": "    \"core-views/add-col-fetch\": \"Add column by fetching URLs based on column\","
       },
       {
         "lineNumber": 550,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-fetch\": \"Add column by fetching URLs based on column\","
+        "content": "    \"core-views/throttle-delay\": \"Throttle delay\","
       },
       {
         "lineNumber": 551,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/throttle-delay\": \"Throttle delay\","
+        "content": "    \"core-views/milli\": \"milliseconds\","
       },
       {
         "lineNumber": 552,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/milli\": \"milliseconds\","
+        "content": "    \"core-views/url-fetch\": \"Formulate the URLs to fetch:\","
       },
       {
         "lineNumber": 553,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/url-fetch\": \"Formulate the URLs to fetch:\","
+        "content": "    \"core-views/http-headers\": \"HTTP headers to be used when fetching URLs:\","
       },
       {
         "lineNumber": 554,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/http-headers\": \"HTTP headers to be used when fetching URLs:\","
+        "content": "    \"core-views/enter-col-name\": \"Enter new column name\","
       },
       {
         "lineNumber": 555,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/enter-col-name\": \"Enter new column name\","
+        "content": "    \"core-views/join-col\": \"Join columns\","
       },
       {
         "lineNumber": 556,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/join-col\": \"Join columns\","
+        "content": "    \"core-views/split-col\": \"Split column\","
       },
       {
         "lineNumber": 557,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/split-col\": \"Split column\","
+        "content": "    \"core-views/several-col\": \"into several columns\","
       },
       {
         "lineNumber": 558,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/several-col\": \"into several columns\","
+        "content": "    \"core-views/how-split\": \"How to Split Column\","
       },
       {
         "lineNumber": 559,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/how-split\": \"How to Split Column\","
+        "content": "    \"core-views/how-split-cells\": \"How to split multi-valued cells\","
       },
       {
         "lineNumber": 560,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/how-split-cells\": \"How to split multi-valued cells\","
+        "content": "    \"core-views/by-sep\": \"by separator\","
       },
       {
         "lineNumber": 561,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/by-sep\": \"by separator\","
+        "content": "    \"core-views/separator\": \"Separator\","
       },
       {
         "lineNumber": 562,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/separator\": \"Separator\","
+        "content": "    \"core-views/reg-exp\": \"regular expression\","
       },
       {
         "lineNumber": 563,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reg-exp\": \"regular expression\","
+        "content": "    \"core-views/split-into\": \"Split into\","
       },
       {
         "lineNumber": 564,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/split-into\": \"Split into\","
+        "content": "    \"core-views/col-at-most\": \"columns at most (leave blank for no limit)\","
       },
       {
         "lineNumber": 565,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/col-at-most\": \"columns at most (leave blank for no limit)\","
+        "content": "    \"core-views/field-len\": \"by field lengths\","
       },
       {
         "lineNumber": 566,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/field-len\": \"by field lengths\","
+        "content": "    \"core-views/list-int\": \"List of integers separated by commas, e.g., 5, 7, 15\","
       },
       {
         "lineNumber": 567,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/list-int\": \"List of integers separated by commas, e.g., 5, 7, 15\","
+        "content": "    \"core-views/after-split\": \"After Splitting\","
       },
       {
         "lineNumber": 568,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/after-split\": \"After Splitting\","
+        "content": "    \"core-views/guess-cell\": \"Guess cell type\","
       },
       {
         "lineNumber": 569,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/guess-cell\": \"Guess cell type\","
+        "content": "    \"core-views/remove-col\": \"Remove this column\","
       },
       {
         "lineNumber": 570,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/remove-col\": \"Remove this column\","
+        "content": "    \"core-views/specify-sep\": \"Please specify a separator.\","
       },
       {
         "lineNumber": 571,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/specify-sep\": \"Please specify a separator.\","
+        "content": "    \"core-views/warning-no-length\": \"No field length is specified.\","
       },
       {
         "lineNumber": 572,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-no-length\": \"No field length is specified.\","
+        "content": "    \"core-views/warning-format\": \"The given field lengths are not properly formatted.\","
       },
       {
         "lineNumber": 573,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-format\": \"The given field lengths are not properly formatted.\","
+        "content": "    \"core-views/check-format\": \"Please check the file format.\","
       },
       {
         "lineNumber": 574,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/check-format\": \"Please check the file format.\","
+        "content": "    \"core-views/split-into-col\": \"Split into several columns\","
       },
       {
         "lineNumber": 575,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/split-into-col\": \"Split into several columns\","
+        "content": "    \"core-views/add-based-col\": \"Add column based on this column\","
       },
       {
         "lineNumber": 576,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-based-col\": \"Add column based on this column\","
+        "content": "    \"core-views/add-by-urls\": \"Add column by fetching URLs\","
       },
       {
         "lineNumber": 577,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-by-urls\": \"Add column by fetching URLs\","
+        "content": "    \"core-views/rename-col\": \"Rename this column\","
       },
       {
         "lineNumber": 578,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/rename-col\": \"Rename this column\","
+        "content": "    \"core-views/move-to-beg\": \"Move column to beginning\","
       },
       {
         "lineNumber": 579,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-beg\": \"Move column to beginning\","
+        "content": "    \"core-views/move-to-end\": \"Move column to end\","
       },
       {
         "lineNumber": 580,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-end\": \"Move column to end\","
+        "content": "    \"core-views/move-to-left\": \"Move column left\","
       },
       {
         "lineNumber": 581,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-left\": \"Move column left\","
+        "content": "    \"core-views/move-to-right\": \"Move column right\","
       },
       {
         "lineNumber": 582,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-right\": \"Move column right\","
+        "content": "    \"core-views/show-as\": \"Show as\","
       },
       {
         "lineNumber": 583,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/show-as\": \"Show as\","
+        "content": "    \"core-views/first\": \"first\","
       },
       {
         "lineNumber": 584,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/first\": \"first\","
+        "content": "    \"core-views/previous\": \"previous\","
       },
       {
         "lineNumber": 585,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/previous\": \"previous\","
+        "content": "    \"core-views/next\": \"next\","
       },
       {
         "lineNumber": 586,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/next\": \"next\","
+        "content": "    \"core-views/last\": \"last\","
       },
       {
         "lineNumber": 587,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/last\": \"last\","
+        "content": "    \"core-views/all\": \"All\","
       },
       {
         "lineNumber": 588,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/all\": \"All\","
+        "content": "    \"core-views/table-schema-validate\": \"Validate\","
       },
       {
         "lineNumber": 589,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/table-schema-validate\": \"Validate\","
+        "content": "    \"core-views/facet-star\": \"Facet by star\","
       },
       {
         "lineNumber": 590,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-star\": \"Facet by star\","
+        "content": "    \"core-views/starred-rows\": \"Starred Rows\","
       },
       {
         "lineNumber": 591,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/starred-rows\": \"Starred Rows\","
+        "content": "    \"core-views/facet-flag\": \"Facet by flag\","
       },
       {
         "lineNumber": 592,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-flag\": \"Facet by flag\","
+        "content": "    \"core-views/flagged-rows\": \"Flagged Rows\","
       },
       {
         "lineNumber": 593,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/flagged-rows\": \"Flagged Rows\","
-      },
-      {
-        "lineNumber": 594,
-        "author": {
-          "gitId": "-"
-        },
         "content": "    \"core-views/blank-rows\": \"Blank Rows\","
       },
       {
-        "lineNumber": 595,
+        "lineNumber": 594,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    \"core-views/blank-values\": \"Blank values per column\","
       },
       {
-        "lineNumber": 596,
+        "lineNumber": 595,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    \"core-views/blank-records\": \"Blank records per column\","
       },
       {
-        "lineNumber": 597,
+        "lineNumber": 596,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/non-blank-values\": \"Non-blank values per column\","
       },
       {
-        "lineNumber": 598,
+        "lineNumber": 597,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/non-blank-records\": \"Non-blank records per column\","
       },
       {
-        "lineNumber": 599,
+        "lineNumber": 598,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/edit-rows\": \"Edit rows\","
       },
       {
-        "lineNumber": 600,
+        "lineNumber": 599,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/star-rows\": \"Star rows\","
       },
       {
-        "lineNumber": 601,
+        "lineNumber": 600,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/unstar-rows\": \"Unstar rows\","
       },
       {
-        "lineNumber": 602,
+        "lineNumber": 601,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/flag-rows\": \"Flag rows\","
       },
       {
-        "lineNumber": 603,
+        "lineNumber": 602,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/unflag-rows\": \"Unflag rows\","
       },
       {
-        "lineNumber": 604,
+        "lineNumber": 603,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/remove-matching\": \"Remove matching rows\","
       },
       {
-        "lineNumber": 605,
+        "lineNumber": 604,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/edit-col\": \"Edit columns\","
       },
       {
-        "lineNumber": 606,
+        "lineNumber": 605,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/reorder-remove\": \"Re-order / remove columns\","
       },
       {
-        "lineNumber": 607,
+        "lineNumber": 606,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/view\": \"View\","
       },
       {
-        "lineNumber": 608,
+        "lineNumber": 607,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/collapse-all\": \"Collapse all columns\","
       },
       {
-        "lineNumber": 609,
+        "lineNumber": 608,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/expand-all\": \"Expand all columns\","
       },
       {
-        "lineNumber": 610,
+        "lineNumber": 609,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/display-null\": \"Show/Hide \u0027null\u0027 values in cells\","
       },
       {
-        "lineNumber": 611,
+        "lineNumber": 610,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/reorder-perma\": \"Reorder rows permanently\","
       },
       {
-        "lineNumber": 612,
+        "lineNumber": 611,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/by\": \"By\","
       },
       {
-        "lineNumber": 613,
+        "lineNumber": 612,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/custom-text-trans\": \"Custom text transform on column\","
       },
       {
-        "lineNumber": 614,
+        "lineNumber": 613,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/keep-or\": \"keep original\","
       },
       {
-        "lineNumber": 615,
+        "lineNumber": 614,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/re-trans\": \"Re-transform up to\","
       },
       {
-        "lineNumber": 616,
+        "lineNumber": 615,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/times-chang\": \"times until no change\","
       },
       {
-        "lineNumber": 617,
+        "lineNumber": 616,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/enter-separator\": \"Enter separator to use between values\","
       },
       {
-        "lineNumber": 618,
+        "lineNumber": 617,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/what-separator\": \"What separator currently separates the values?\","
       },
       {
-        "lineNumber": 619,
+        "lineNumber": 618,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/transform\": \"Transform\","
       },
       {
-        "lineNumber": 620,
+        "lineNumber": 619,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/common-transform\": \"Common transforms\","
       },
       {
-        "lineNumber": 621,
+        "lineNumber": 620,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/trim-all\": \"Trim leading and trailing whitespace\","
       },
       {
-        "lineNumber": 622,
+        "lineNumber": 621,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/collapse-white\": \"Collapse consecutive whitespace\","
       },
       {
-        "lineNumber": 623,
+        "lineNumber": 622,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/unescape-html\": \"Unescape HTML entities\","
       },
       {
-        "lineNumber": 624,
+        "lineNumber": 623,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/replace-smartquotes\": \"Replace Smart quotes with ascii\","
       },
       {
-        "lineNumber": 625,
+        "lineNumber": 624,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/titlecase\": \"To titlecase\","
       },
       {
-        "lineNumber": 626,
+        "lineNumber": 625,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/uppercase\": \"To uppercase\","
       },
       {
-        "lineNumber": 627,
+        "lineNumber": 626,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/lowercase\": \"To lowercase\","
       },
       {
-        "lineNumber": 628,
+        "lineNumber": 627,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/to-number\": \"To number\","
       },
       {
-        "lineNumber": 629,
+        "lineNumber": 628,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/to-date\": \"To date\","
       },
       {
-        "lineNumber": 630,
+        "lineNumber": 629,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/to-text\": \"To text\","
       },
       {
-        "lineNumber": 631,
+        "lineNumber": 630,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/blank-out\": \"To null\","
       },
       {
-        "lineNumber": 632,
+        "lineNumber": 631,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/blank-out-empty\": \"To empty string\","
       },
       {
-        "lineNumber": 633,
+        "lineNumber": 632,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/replace\": \"Replace\","
       },
       {
-        "lineNumber": 634,
+        "lineNumber": 633,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/fill-down\": \"Fill down\","
       },
       {
-        "lineNumber": 635,
+        "lineNumber": 634,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/blank-down\": \"Blank down\","
       },
       {
-        "lineNumber": 636,
+        "lineNumber": 635,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/split-cells\": \"Split multi-valued cells\","
       },
       {
-        "lineNumber": 637,
+        "lineNumber": 636,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/join-cells\": \"Join multi-valued cells\","
       },
       {
-        "lineNumber": 638,
+        "lineNumber": 637,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/cluster-edit\": \"Cluster and edit\","
       },
       {
-        "lineNumber": 639,
+        "lineNumber": 638,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/transp-cell\": \"Transpose Cells Across Columns into Rows\","
       },
       {
-        "lineNumber": 640,
+        "lineNumber": 639,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/from-col\": \"From Column\","
       },
       {
-        "lineNumber": 641,
+        "lineNumber": 640,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/to-col\": \"To Column\","
       },
       {
-        "lineNumber": 642,
+        "lineNumber": 641,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/transp-into\": \"Transpose into\","
       },
       {
-        "lineNumber": 643,
+        "lineNumber": 642,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/two-new-col\": \"Two new columns\","
       },
       {
-        "lineNumber": 644,
+        "lineNumber": 643,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/key-col\": \"Key Column\","
       },
       {
-        "lineNumber": 645,
+        "lineNumber": 644,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/contain-names\": \"(containing original columns\u0027 names)\","
       },
       {
-        "lineNumber": 646,
+        "lineNumber": 645,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/val-col\": \"Value Column\","
       },
       {
-        "lineNumber": 647,
+        "lineNumber": 646,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/contain-val\": \"(containing original cells\u0027 values)\","
       },
       {
-        "lineNumber": 648,
+        "lineNumber": 647,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/one-col\": \"One column\","
       },
       {
-        "lineNumber": 649,
+        "lineNumber": 648,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/prepend-name\": \"prepend the original column\u0027s name to each cell\","
       },
       {
-        "lineNumber": 650,
+        "lineNumber": 649,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/follow-by\": \"followed by\","
       },
       {
-        "lineNumber": 651,
+        "lineNumber": 650,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/before-val\": \"before the cell\u0027s value\","
       },
       {
-        "lineNumber": 652,
+        "lineNumber": 651,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/ignore-blank\": \"Ignore blank cells\","
       },
       {
-        "lineNumber": 653,
+        "lineNumber": 652,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/fill-other\": \"Fill down in other columns\","
       },
       {
-        "lineNumber": 654,
+        "lineNumber": 653,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/spec-new-name\": \"Please specify the new key column\u0027s name.\","
       },
       {
-        "lineNumber": 655,
+        "lineNumber": 654,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/spec-new-val\": \"Please specify the new value column\u0027s name.\","
       },
       {
-        "lineNumber": 656,
+        "lineNumber": 655,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/spec-col-name\": \"Please specify the new column\u0027s name.\","
       },
       {
-        "lineNumber": 657,
+        "lineNumber": 656,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/spec-separator\": \"Please specify the separator between original column names and cell values.\","
       },
       {
-        "lineNumber": 658,
+        "lineNumber": 657,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/how-many-rows\": \"How many rows to transpose?\","
       },
       {
-        "lineNumber": 659,
+        "lineNumber": 658,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/expect-two\": \"Expected an integer at least 2.\","
       },
       {
-        "lineNumber": 660,
+        "lineNumber": 659,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/columnize\": \"Columnize by Key/Value Columns\","
       },
       {
-        "lineNumber": 661,
+        "lineNumber": 660,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/note-col\": \"Note Column (optional)\","
       },
       {
-        "lineNumber": 662,
+        "lineNumber": 661,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/sel-col-val\": \"Please select one key column and one value column that are different from one another.\","
       },
       {
-        "lineNumber": 663,
+        "lineNumber": 662,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/cannot-same\": \"If specified, the note column cannot be the same as the key column or the value column.\","
       },
       {
-        "lineNumber": 664,
+        "lineNumber": 663,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/transp-cell-row\": \"Transpose cells across columns into rows\","
       },
       {
-        "lineNumber": 665,
+        "lineNumber": 664,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/transp-cell-col\": \"Transpose cells in rows into columns\","
       },
       {
-        "lineNumber": 666,
+        "lineNumber": 665,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/columnize-col\": \"Columnize by key/value columns\","
       },
       {
-        "lineNumber": 667,
+        "lineNumber": 666,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/data-type\": \"Data type:\","
       },
       {
-        "lineNumber": 668,
+        "lineNumber": 667,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/number\": \"number\","
       },
       {
-        "lineNumber": 669,
+        "lineNumber": 668,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/boolean\": \"boolean\","
       },
       {
-        "lineNumber": 670,
+        "lineNumber": 669,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/date\": \"date\","
       },
       {
-        "lineNumber": 671,
+        "lineNumber": 670,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/ctrl-enter\": \"Ctrl-Enter\","
       },
       {
-        "lineNumber": 672,
+        "lineNumber": 671,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/rows\": \"rows\","
       },
       {
-        "lineNumber": 673,
+        "lineNumber": 672,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/records\": \"records\","
       },
       {
-        "lineNumber": 674,
+        "lineNumber": 673,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/show\": \"Show\","
       },
       {
-        "lineNumber": 675,
+        "lineNumber": 674,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/hide\": \"Hide\","
       },
       {
-        "lineNumber": 676,
+        "lineNumber": 675,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/text-to-find\": \"Find:\","
       },
       {
-        "lineNumber": 677,
+        "lineNumber": 676,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/replacement-text\": \"Replace with:\","
       },
       {
-        "lineNumber": 678,
+        "lineNumber": 677,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/case-insensitive\": \"case insensitive\","
       },
       {
-        "lineNumber": 679,
+        "lineNumber": 678,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/whole-word\": \"whole word\","
       },
       {
-        "lineNumber": 680,
+        "lineNumber": 679,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/finding-info1\": \"Leave blank to add the replacement string after each character.\","
       },
       {
-        "lineNumber": 681,
+        "lineNumber": 680,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/finding-info2\": \"Check \\\"regular expression\\\" to find special characters (new lines, tabulations…) or complex patterns.\","
       },
       {
-        "lineNumber": 682,
+        "lineNumber": 681,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/replacement-info\": \"If \\\"regular expression\\\" option is checked and finding pattern contains groups delimited with parentheses, $0 will return the complete string matching the pattern, and $1, $2… the 1st, 2nd… group.\","
       },
       {
-        "lineNumber": 683,
+        "lineNumber": 682,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/replace-dont-escape\": \"use \\\\n for new lines, \\\\t for tabulation, \\\\\\\\n for \\\\n, \\\\\\\\t for \\\\t.\","
       },
       {
-        "lineNumber": 684,
+        "lineNumber": 683,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/warning-regex\": \"Invalid regular expression.\","
       },
       {
-        "lineNumber": 685,
+        "lineNumber": 684,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/use-values-as-identifiers\": \"Use values as identifiers\","
       },
       {
-        "lineNumber": 686,
+        "lineNumber": 685,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/use-values-as-identifiers2\": \"Mark cells as reconciled with their values as identifiers\","
       },
       {
-        "lineNumber": 687,
+        "lineNumber": 686,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/choose-reconciliation-service\": \"Choose a reconciliation service\","
       },
       {
-        "lineNumber": 688,
+        "lineNumber": 687,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/choose-reconciliation-service-alert\": \"Please choose a reconciliation service first.\","
       },
       {
-        "lineNumber": 689,
+        "lineNumber": 688,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join\": \"Join columns\","
       },
       {
-        "lineNumber": 690,
+        "lineNumber": 689,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-before-column-picker\": \"Select and order columns to join\","
       },
       {
-        "lineNumber": 691,
+        "lineNumber": 690,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-before-options\": \"Select options\","
       },
       {
-        "lineNumber": 692,
+        "lineNumber": 691,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-field-separator\": \"Separator between the content of each column:\","
       },
       {
-        "lineNumber": 693,
+        "lineNumber": 692,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-field-separator-advice\": \"Enter one or more characters, or keep blank to join the columns without separator.\","
       },
       {
-        "lineNumber": 694,
+        "lineNumber": 693,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-replace-nulls\": \"Replace nulls with…\","
       },
       {
-        "lineNumber": 695,
+        "lineNumber": 694,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-skip-nulls\": \"Skip nulls.\","
       },
       {
-        "lineNumber": 696,
+        "lineNumber": 695,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-replace-nulls-advice\": \"Enter one or more characters, or keep blank to replace nulls with blank strings.\","
       },
       {
-        "lineNumber": 697,
+        "lineNumber": 696,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-write-selected-column\": \"Write result in selected column.\","
       },
       {
-        "lineNumber": 698,
+        "lineNumber": 697,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-copy-to-new-column\": \"Write result in new column named…\","
       },
       {
-        "lineNumber": 699,
+        "lineNumber": 698,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-delete-joined-columns\": \"Delete joined columns.\","
       },
       {
-        "lineNumber": 700,
+        "lineNumber": 699,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-dont-escape\": \"In separator and nulls substitutes, use \\\\n for new lines, \\\\t for tabulation, \\\\\\\\n for \\\\n, \\\\\\\\t for \\\\t.\","
       },
       {
-        "lineNumber": 701,
+        "lineNumber": 700,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/cancel\": \"Cancel\","
       },
       {
-        "lineNumber": 702,
+        "lineNumber": 701,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/ok\": \"\u0026nbsp;\u0026nbsp;OK\u0026nbsp;\u0026nbsp;\","
       },
       {
-        "lineNumber": 703,
+        "lineNumber": 702,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/import-proj\": \"Import Project\","
       },
       {
-        "lineNumber": 704,
+        "lineNumber": 703,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/select-all\": \"Select All\","
       },
       {
-        "lineNumber": 705,
+        "lineNumber": 704,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/unselect-all\": \"Unselect All\","
       },
       {
-        "lineNumber": 706,
+        "lineNumber": 705,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/deselect-all\": \"De-select All\","
       },
       {
-        "lineNumber": 707,
+        "lineNumber": 706,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/select\": \"Select\","
       },
       {
-        "lineNumber": 708,
+        "lineNumber": 707,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/unselect\": \"Unselect\","
       },
       {
-        "lineNumber": 709,
+        "lineNumber": 708,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/startover\": \"\u0026laquo; Start Over\","
       },
       {
-        "lineNumber": 710,
+        "lineNumber": 709,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/conf-pars-opt\": \"Configure Parsing Options \u0026raquo;\","
       },
       {
-        "lineNumber": 711,
+        "lineNumber": 710,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/reselect-files\": \"\u0026laquo; Re-select Files\","
       },
       {
-        "lineNumber": 712,
+        "lineNumber": 711,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/create-project\": \"Create Project \u0026raquo;\","
       },
       {
-        "lineNumber": 713,
+        "lineNumber": 712,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/next\": \"Next \u0026raquo;\","
       },
       {
-        "lineNumber": 714,
+        "lineNumber": 713,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/add-url\": \"Add Another URL\","
       },
       {
-        "lineNumber": 715,
+        "lineNumber": 714,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/update-preview\": \"Update\u0026nbsp;Preview\","
       },
       {
-        "lineNumber": 716,
+        "lineNumber": 715,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/pick-record\": \"Pick Record Elements\","
       },
       {
-        "lineNumber": 717,
+        "lineNumber": 716,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/merge-cluster\": \"Merge Selected \u0026amp; Re-Cluster\","
       },
       {
-        "lineNumber": 718,
+        "lineNumber": 717,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/merge-close\": \"Merge Selected \u0026amp; Close\","
       },
       {
-        "lineNumber": 719,
+        "lineNumber": 718,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/export-cluster\": \"Export Clusters\","
       },
       {
-        "lineNumber": 720,
+        "lineNumber": 719,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/close\": \"Close\","
       },
       {
-        "lineNumber": 721,
+        "lineNumber": 720,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/reset-template\": \"Reset Template\","
       },
       {
-        "lineNumber": 722,
+        "lineNumber": 721,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/export\": \"Export\","
       },
       {
-        "lineNumber": 723,
+        "lineNumber": 722,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/preview\": \"Preview\","
       },
       {
-        "lineNumber": 724,
+        "lineNumber": 723,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/download\": \"Download\","
       },
       {
-        "lineNumber": 725,
+        "lineNumber": 724,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/upload\": \"Upload\","
       },
       {
-        "lineNumber": 726,
+        "lineNumber": 725,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/apply\": \"Apply\","
       },
       {
-        "lineNumber": 727,
+        "lineNumber": 726,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/enter\": \"Enter\","
       },
       {
-        "lineNumber": 728,
+        "lineNumber": 727,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/esc\": \"Esc\","
       },
       {
-        "lineNumber": 729,
+        "lineNumber": 728,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/refresh\": \"Refresh\","
       },
       {
-        "lineNumber": 730,
+        "lineNumber": 729,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/reset-all\": \"Reset All\","
       },
       {
-        "lineNumber": 731,
+        "lineNumber": 730,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/remove-all\": \"Remove All\","
       },
       {
-        "lineNumber": 732,
+        "lineNumber": 731,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/perform-op\": \"Perform Operations\","
       },
       {
-        "lineNumber": 733,
+        "lineNumber": 732,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/add-std-svc\": \"Add Standard Service\","
       },
       {
-        "lineNumber": 734,
+        "lineNumber": 733,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/start-recon\": \"Start Reconciling\","
       },
       {
-        "lineNumber": 735,
+        "lineNumber": 734,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/add-service\": \"Add Service\","
       },
       {
-        "lineNumber": 736,
+        "lineNumber": 735,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/dont-reconcile\": \"Don\u0027t Reconcile Cell\","
       },
       {
-        "lineNumber": 737,
+        "lineNumber": 736,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/new-topic\": \"New Item\","
       },
       {
-        "lineNumber": 738,
+        "lineNumber": 737,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/match\": \"Match\","
       },
       {
-        "lineNumber": 739,
+        "lineNumber": 738,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/copy\": \"Copy\","
       },
       {
-        "lineNumber": 740,
+        "lineNumber": 739,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/transpose\": \"Transpose\","
       },
       {
-        "lineNumber": 741,
+        "lineNumber": 740,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-buttons/apply-to-all\": \"Apply to All Identical Cells\""
       },
       {
-        "lineNumber": 742,
+        "lineNumber": 741,
         "author": {
           "gitId": "-"
         },
@@ -7362,7 +7355,7 @@
     ],
     "authorContributionMap": {
       "jamessspanggg": 2,
-      "-": 740
+      "-": 739
     }
   },
   {
@@ -9859,2719 +9852,2712 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/warning-align\": \"まだ任意のスキーマの配置を行っていないので、\\nエクスポートするトリプルはありません。\\n最初にFreebaseのスキーマで、データを整列するコマンド\\n[Freebase \u003e スキーマのアライメントスケルトンを編集…]\\nを使用してください。\","
+        "content": "    \"core-project/use-to-select\": \"ファセットやフィルターでデータのサブセットを選択できます。各カラムのメニューからファセットとフィルターメソッドを選択してください。\","
       },
       {
         "lineNumber": 357,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/use-to-select\": \"ファセットやフィルターでデータのサブセットを選択できます。各カラムのメニューからファセットとフィルターメソッドを選択してください。\","
+        "content": "    \"core-project/not-sure\": \"使い方がわからない?\","
       },
       {
         "lineNumber": 358,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/not-sure\": \"使い方がわからない?\","
+        "content": "    \"core-project/permalink\": \"パーマリンク\","
       },
       {
         "lineNumber": 359,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/permalink\": \"パーマリンク\","
+        "content": "    \"core-project/learn-more\": \"更に学ぶ \u0026raquo;\","
       },
       {
         "lineNumber": 360,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/learn-more\": \"更に学ぶ \u0026raquo;\","
+        "content": "    \"core-project/other-processes\": \"他の保留中プロセス\","
       },
       {
         "lineNumber": 361,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/other-processes\": \"他の保留中プロセス\","
+        "content": "    \"core-project/project-data-package\": \"データパッケージ・プロジェクト\","
       },
       {
         "lineNumber": 362,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/project-data-package\": \"データパッケージ・プロジェクト\","
+        "content": "    \"core-project/excel-xml\": \"Excel 2007+ (.xlsx)\","
       },
       {
         "lineNumber": 363,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/excel-xml\": \"Excel 2007+ (.xlsx)\","
+        "content": "    \"core-project/custom-tabular\": \"カスタム表形式…\","
       },
       {
         "lineNumber": 364,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/custom-tabular\": \"カスタム表形式…\","
+        "content": "    \"core-project/filter\": \"フィルター:\","
       },
       {
         "lineNumber": 365,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/filter\": \"フィルター:\","
+        "content": "    \"core-project/extensions\": \"エクステンション\","
       },
       {
         "lineNumber": 366,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/extensions\": \"エクステンション\","
+        "content": "    \"core-project/starting\": \"開始\","
       },
       {
         "lineNumber": 367,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/starting\": \"開始\","
+        "content": "    \"core-project/paste-json\": \"操作履歴のJSONを貼り付けてください:\","
       },
       {
         "lineNumber": 368,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/paste-json\": \"操作履歴のJSONを貼り付けてください:\","
+        "content": "    \"core-project/undo-history\": \"履歴保存は無制限\","
       },
       {
         "lineNumber": 369,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-project/undo-history\": \"履歴保存は無制限\","
+        "content": "    \"core-recon/error-contact\": \"照合サービスの接続にエラー\","
       },
       {
         "lineNumber": 370,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/error-contact\": \"照合サービスの接続にエラー\","
+        "content": "    \"core-recon/access\": \"アクセス\","
       },
       {
         "lineNumber": 371,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/access\": \"アクセス\","
+        "content": "    \"core-recon/cell-contains\": \"各セルに含まれる:\","
       },
       {
         "lineNumber": 372,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/cell-contains\": \"各セルに含まれる:\","
+        "content": "    \"core-recon/auto-match\": \"信頼性の高い候補を自動でマッチさせる\","
       },
       {
         "lineNumber": 373,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/auto-match\": \"信頼性の高い候補を自動でマッチさせる\","
+        "content": "    \"core-recon/column\": \"カラム名\","
       },
       {
         "lineNumber": 374,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/column\": \"カラム名\","
+        "content": "    \"core-recon/service-title\": \"サービス名\","
       },
       {
         "lineNumber": 375,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/service-title\": \"サービス名\","
+        "content": "    \"core-recon/against-type\": \"この型だけを照合:\","
       },
       {
         "lineNumber": 376,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/against-type\": \"この型だけを照合:\","
+        "content": "    \"core-recon/recon-col\": \"照合対象カラム:\","
       },
       {
         "lineNumber": 377,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/recon-col\": \"照合対象カラム:\","
+        "content": "    \"core-recon/cell-type\": \"以下の型（Type）に対して照合する\","
       },
       {
         "lineNumber": 378,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/cell-type\": \"以下の型（Type）に対して照合する\","
+        "content": "    \"core-recon/wd-recon-lang\": \"ja\","
       },
       {
         "lineNumber": 379,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/wd-recon-lang\": \"ja\","
+        "content": "    \"core-recon/service-api\": \"照合サービスAPI\","
       },
       {
         "lineNumber": 380,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/service-api\": \"照合サービスAPI\","
+        "content": "    \"core-recon/max-candidates\": \"照合候補の最大数\","
       },
       {
         "lineNumber": 381,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/max-candidates\": \"照合候補の最大数\","
+        "content": "    \"core-recon/no-type\": \"型を問わずに照合する\","
       },
       {
         "lineNumber": 382,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/no-type\": \"型を問わずに照合する\","
+        "content": "    \"core-recon/col-detail\": \"別のカラムを照合のヒントとして利用する\","
       },
       {
         "lineNumber": 383,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/col-detail\": \"別のカラムを照合のヒントとして利用する\","
+        "content": "    \"core-recon/as-property\": \"どの属性として\","
       },
       {
         "lineNumber": 384,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/as-property\": \"どの属性として\","
+        "content": "    \"core-recon/pick-service\": \"　左のサービスかエクステンションを選択\","
       },
       {
         "lineNumber": 385,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/pick-service\": \"　左のサービスかエクステンションを選択\","
+        "content": "    \"core-recon/include\": \"利用\","
       },
       {
         "lineNumber": 386,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/include\": \"利用\","
+        "content": "    \"core-recon/warning-type-sugg\": \"データ内でどの型も見つかりませんでした。手動で型を特定してください。\","
       },
       {
         "lineNumber": 387,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/warning-type-sugg\": \"データ内でどの型も見つかりませんでした。手動で型を特定してください。\","
+        "content": "    \"core-recon/contact-service\": \"照合サービスに接続中\","
       },
       {
         "lineNumber": 388,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/contact-service\": \"照合サービスに接続中\","
+        "content": "    \"core-recon/enter-url\": \"照合サービスのURLを入力してください\","
       },
       {
         "lineNumber": 389,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/enter-url\": \"照合サービスのURLを入力してください\","
+        "content": "    \"core-util-enc/all\": \"すべての文字コード\","
       },
       {
         "lineNumber": 390,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/all\": \"すべての文字コード\","
+        "content": "    \"core-util-enc/years-ago\": \"年前\","
       },
       {
         "lineNumber": 391,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/years-ago\": \"年前\","
+        "content": "    \"core-util-enc/week-ago\": \"1週間前\","
       },
       {
         "lineNumber": 392,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/week-ago\": \"1週間前\","
+        "content": "    \"core-util-enc/working\": \"処理中\","
       },
       {
         "lineNumber": 393,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/working\": \"処理中\","
+        "content": "    \"core-util-enc/encoding\": \"文字コード\","
       },
       {
         "lineNumber": 394,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/encoding\": \"文字コード\","
+        "content": "    \"core-util-enc/months-ago\": \"ヶ月前\","
       },
       {
         "lineNumber": 395,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/months-ago\": \"ヶ月前\","
+        "content": "    \"core-util-enc/yesterday\": \"昨日\","
       },
       {
         "lineNumber": 396,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/yesterday\": \"昨日\","
+        "content": "    \"core-util-enc/invalid-date\": \"無効な日付文字列\","
       },
       {
         "lineNumber": 397,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/invalid-date\": \"無効な日付文字列\","
+        "content": "    \"core-util-enc/days-ago\": \"日前\","
       },
       {
         "lineNumber": 398,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/days-ago\": \"日前\","
+        "content": "    \"core-util-enc/common\": \"一般的な文字コード\","
       },
       {
         "lineNumber": 399,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/common\": \"一般的な文字コード\","
+        "content": "    \"core-util-enc/month-ago\": \"1ヶ月前\","
       },
       {
         "lineNumber": 400,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/month-ago\": \"1ヶ月前\","
+        "content": "    \"core-util-enc/year-ago\": \"1年前\","
       },
       {
         "lineNumber": 401,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/year-ago\": \"1年前\","
+        "content": "    \"core-util-enc/select-enc\": \"文字コードを選択する\","
       },
       {
         "lineNumber": 402,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/select-enc\": \"文字コードを選択する\","
+        "content": "    \"core-util-enc/weeks-ago\": \"週間前\","
       },
       {
         "lineNumber": 403,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/weeks-ago\": \"週間前\","
+        "content": "    \"core-util-enc/today\": \"今日\","
       },
       {
         "lineNumber": 404,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/today\": \"今日\","
+        "content": "    \"core-util-enc/aliases\": \"別名\","
       },
       {
         "lineNumber": 405,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-util-enc/aliases\": \"別名\","
+        "content": "    \"core-views/all\": \"全て\","
       },
       {
         "lineNumber": 406,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/all\": \"全て\","
+        "content": "    \"core-views/custom-facet\": \"カラムのカスタムファセット\","
       },
       {
         "lineNumber": 407,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-facet\": \"カラムのカスタムファセット\","
+        "content": "    \"core-views/copy-recon-judg\": \"照合判断をカラムからコピー\","
       },
       {
         "lineNumber": 408,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-recon-judg\": \"照合判断をカラムからコピー\","
+        "content": "    \"core-views/hist-entries\": \"判断履歴の項目\","
       },
       {
         "lineNumber": 409,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/hist-entries\": \"判断履歴の項目\","
+        "content": "    \"core-views/text\": \"テキスト\","
       },
       {
         "lineNumber": 410,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text\": \"テキスト\","
+        "content": "    \"core-views/match-identical\": \"一致する全セルにマッチ\","
       },
       {
         "lineNumber": 411,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-identical\": \"一致する全セルにマッチ\","
+        "content": "    \"core-views/join-cells\": \"多値のセルを結合\","
       },
       {
         "lineNumber": 412,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/join-cells\": \"多値のセルを結合\","
+        "content": "    \"core-views/actions\": \"アクション\","
       },
       {
         "lineNumber": 413,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/actions\": \"アクション\","
+        "content": "    \"core-views/search-match\": \"マッチを検索\","
       },
       {
         "lineNumber": 414,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/search-match\": \"マッチを検索\","
+        "content": "    \"core-views/filtered-cell\": \"選択したセルとマッチさせる対象は…\","
       },
       {
         "lineNumber": 415,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/filtered-cell\": \"選択したセルとマッチさせる対象は…\","
+        "content": "    \"core-views/bounded-log-facet\": \"対数ファセット（1以上を強制）\","
       },
       {
         "lineNumber": 416,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/bounded-log-facet\": \"対数ファセット（1以上を強制）\","
+        "content": "    \"core-views/remove-col\": \"このカラムを取り除く\","
       },
       {
         "lineNumber": 417,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/remove-col\": \"このカラムを取り除く\","
+        "content": "    \"core-views/new-topic2\": \"選択した行で、各セルから新しい項目を作成する\","
       },
       {
         "lineNumber": 418,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/new-topic2\": \"選択した行で、各セルから新しい項目を作成する\","
+        "content": "    \"core-views/collapse-left\": \"左側をすべてたたむ\","
       },
       {
         "lineNumber": 419,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-left\": \"左側をすべてたたむ\","
+        "content": "    \"core-views/custom-text-trans\": \"式による値の変換：\","
       },
       {
         "lineNumber": 420,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-text-trans\": \"式による値の変換：\","
+        "content": "    \"core-views/configure-prop\": \"環境設定\","
       },
       {
         "lineNumber": 421,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/configure-prop\": \"環境設定\","
+        "content": "    \"core-views/url-fetch\": \"URLを構成:\","
       },
       {
         "lineNumber": 422,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/url-fetch\": \"URLを構成:\","
+        "content": "    \"core-views/previous\": \"前へ\","
       },
       {
         "lineNumber": 423,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/previous\": \"前へ\","
+        "content": "    \"core-views/smallest-first\": \"昇順\","
       },
       {
         "lineNumber": 424,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/smallest-first\": \"昇順\","
+        "content": "    \"core-views/several-col\": \"複数のカラムに分割\","
       },
       {
         "lineNumber": 425,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/several-col\": \"複数のカラムに分割\","
+        "content": "    \"core-views/warning-col-name\": \"カラム名を入力してください.\","
       },
       {
         "lineNumber": 426,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-col-name\": \"カラム名を入力してください.\","
+        "content": "    \"core-views/match-this\": \"このセルだけにマッチ\","
       },
       {
         "lineNumber": 427,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-this\": \"このセルだけにマッチ\","
+        "content": "    \"core-views/one-topic\": \"同内容のセルの、新しい項目を作成\","
       },
       {
         "lineNumber": 428,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/one-topic\": \"同内容のセルの、新しい項目を作成\","
+        "content": "    \"core-views/sort-cell\": \"セル値の扱い\","
       },
       {
         "lineNumber": 429,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/sort-cell\": \"セル値の扱い\","
+        "content": "    \"core-views/add-col-recon-col\": \"照合カラムから新しいカラムを作る:\","
       },
       {
         "lineNumber": 430,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-recon-col\": \"照合カラムから新しいカラムを作る:\","
+        "content": "    \"core-views/create-topic-cells\": \"このセルと同じ全セルにマッチする新項目を作成\","
       },
       {
         "lineNumber": 431,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/create-topic-cells\": \"このセルと同じ全セルにマッチする新項目を作成\","
+        "content": "    \"core-views/add-based-col\": \"このカラムに基づいてカラムを追加\","
       },
       {
         "lineNumber": 432,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-based-col\": \"このカラムに基づいてカラムを追加\","
+        "content": "    \"core-views/rename-col\": \"カラム名を変更する\","
       },
       {
         "lineNumber": 433,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/rename-col\": \"カラム名を変更する\","
+        "content": "    \"core-views/facet-empty-string\": \"空の文字列ファセット\","
       },
       {
         "lineNumber": 434,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-empty-string\": \"空の文字列ファセット\","
+        "content": "    \"core-views/by-judg\": \"照合判断(judgement)\","
       },
       {
         "lineNumber": 435,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/by-judg\": \"照合判断(judgement)\","
+        "content": "    \"core-views/scatterplot-facet\": \"散布図ファセット\","
       },
       {
         "lineNumber": 436,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/scatterplot-facet\": \"散布図ファセット\","
+        "content": "    \"core-views/contain-val\": \"（中身は元の値になります）\","
       },
       {
         "lineNumber": 437,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/contain-val\": \"（中身は元の値になります）\","
+        "content": "    \"core-views/columnize-col\": \"行を列に転置（値に応じた横持ち化）\","
       },
       {
         "lineNumber": 438,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/columnize-col\": \"行を列に転置（値に応じた横持ち化）\","
+        "content": "    \"core-views/milli\": \"ミリ秒\","
       },
       {
         "lineNumber": 439,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/milli\": \"ミリ秒\","
+        "content": "    \"core-views/booleans\": \"論理値\","
       },
       {
         "lineNumber": 440,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/booleans\": \"論理値\","
+        "content": "    \"core-views/specify-sep\": \"区切り文字を指定してください。\","
       },
       {
         "lineNumber": 441,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/specify-sep\": \"区切り文字を指定してください。\","
+        "content": "    \"core-views/valid-values\": \"有効な値\","
       },
       {
         "lineNumber": 442,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/valid-values\": \"有効な値\","
+        "content": "    \"core-views/create-topic\": \"新しい項目を作成\","
       },
       {
         "lineNumber": 443,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/create-topic\": \"新しい項目を作成\","
+        "content": "    \"core-views/star-rows\": \"星を付ける\","
       },
       {
         "lineNumber": 444,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/star-rows\": \"星を付ける\","
+        "content": "    \"core-views/blank-down\": \"下方向に空白にする\","
       },
       {
         "lineNumber": 445,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/blank-down\": \"下方向に空白にする\","
+        "content": "    \"core-views/spec-new-name\": \"新しいキーカラム名を指定してください。\","
       },
       {
         "lineNumber": 446,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/spec-new-name\": \"新しいキーカラム名を指定してください。\","
+        "content": "    \"core-views/qa-results\": \"QA結果\","
       },
       {
         "lineNumber": 447,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/qa-results\": \"QA結果\","
+        "content": "    \"core-views/apply-to-cell\": \"照合判断に適用\","
       },
       {
         "lineNumber": 448,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/apply-to-cell\": \"照合判断に適用\","
+        "content": "    \"core-views/matched\": \"マッチ\","
       },
       {
         "lineNumber": 449,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/matched\": \"マッチ\","
+        "content": "    \"core-views/case-sensitive\": \"大小文字の区別\","
       },
       {
         "lineNumber": 450,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/case-sensitive\": \"大小文字の区別\","
+        "content": "    \"core-views/clear-recon2\": \"選択した行で、このカラムの照合データをクリアする\","
       },
       {
         "lineNumber": 451,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/clear-recon2\": \"選択した行で、このカラムの照合データをクリアする\","
+        "content": "    \"core-views/times-chang\": \"回（変化しなくなるまで）\","
       },
       {
         "lineNumber": 452,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/times-chang\": \"回（変化しなくなるまで）\","
+        "content": "    \"core-views/facets\": \"ファセット\","
       },
       {
         "lineNumber": 453,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facets\": \"ファセット\","
+        "content": "    \"core-views/choose-match\": \"新しいマッチを選択\","
       },
       {
         "lineNumber": 454,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/choose-match\": \"新しいマッチを選択\","
+        "content": "    \"core-views/largest-first\": \"降順\","
       },
       {
         "lineNumber": 455,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/largest-first\": \"降順\","
+        "content": "    \"core-views/create-topic-cell\": \"このセルに対する新項目を作成\","
       },
       {
         "lineNumber": 456,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/create-topic-cell\": \"このセルに対する新項目を作成\","
+        "content": "    \"core-views/move-to-left\": \"左にカラムを移動\","
       },
       {
         "lineNumber": 457,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-left\": \"左にカラムを移動\","
+        "content": "    \"core-views/keep-or\": \"オリジナルを保持\","
       },
       {
         "lineNumber": 458,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/keep-or\": \"オリジナルを保持\","
+        "content": "    \"core-views/qa-facets\": \"QAファセット\","
       },
       {
         "lineNumber": 459,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/qa-facets\": \"QAファセット\","
+        "content": "    \"core-views/discard-judg2\": \"選択した行で、このカラムの照合判断を捨てる\","
       },
       {
         "lineNumber": 460,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/discard-judg2\": \"選択した行で、このカラムの照合判断を捨てる\","
+        "content": "    \"core-views/list-int\": \"カンマ区切りの数値をリストに (例: 5,7,15)\","
       },
       {
         "lineNumber": 461,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/list-int\": \"カンマ区切りの数値をリストに (例: 5,7,15)\","
+        "content": "    \"core-views/flag-rows\": \"旗を立てる\","
       },
       {
         "lineNumber": 462,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/flag-rows\": \"旗を立てる\","
+        "content": "    \"core-views/after-split\": \"分割後\","
       },
       {
         "lineNumber": 463,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/after-split\": \"分割後\","
+        "content": "    \"core-views/one-col\": \"１カラム化：列の名前\","
       },
       {
         "lineNumber": 464,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/one-col\": \"１カラム化：列の名前\","
+        "content": "    \"core-views/best-name\": \"最良候補の名前のマッチ\","
       },
       {
         "lineNumber": 465,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-name\": \"最良候補の名前のマッチ\","
+        "content": "    \"core-views/collapse-expand\": \"データを見やすくするためにカラムをたたむ/開く\","
       },
       {
         "lineNumber": 466,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-expand\": \"データを見やすくするためにカラムをたたむ/開く\","
+        "content": "    \"core-views/val-col\": \"値カラム名\","
       },
       {
         "lineNumber": 467,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/val-col\": \"値カラム名\","
+        "content": "    \"core-views/uppercase\": \"大文字に\","
       },
       {
         "lineNumber": 468,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/uppercase\": \"大文字に\","
+        "content": "    \"core-views/table-schema-validate\": \"認証\","
       },
       {
         "lineNumber": 469,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/table-schema-validate\": \"認証\","
+        "content": "    \"core-views/remove-matching\": \"マッチした行を削除\","
       },
       {
         "lineNumber": 470,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/remove-matching\": \"マッチした行を削除\","
+        "content": "    \"core-views/warning-no-length\": \"フィールド長が指定されてません.\","
       },
       {
         "lineNumber": 471,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-no-length\": \"フィールド長が指定されてません.\","
+        "content": "    \"core-views/discard-judg\": \"照合判断を捨てる\","
       },
       {
         "lineNumber": 472,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/discard-judg\": \"照合判断を捨てる\","
+        "content": "    \"core-views/blank-out\": \"セルをnullに\","
       },
       {
         "lineNumber": 473,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/blank-out\": \"セルをnullに\","
+        "content": "    \"core-views/best-cand-type-match\": \"最良候補の型はマッチ？\","
       },
       {
         "lineNumber": 474,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand-type-match\": \"最良候補の型はマッチ？\","
+        "content": "    \"core-views/sort-by-col\": \"このカラムだけでソート\","
       },
       {
         "lineNumber": 475,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/sort-by-col\": \"このカラムだけでソート\","
+        "content": "    \"core-views/enter-col-name\": \"新しいカラム名を入力してください\","
       },
       {
         "lineNumber": 476,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/enter-col-name\": \"新しいカラム名を入力してください\","
+        "content": "    \"core-views/text-facet\": \"テキストファセット\","
       },
       {
         "lineNumber": 477,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text-facet\": \"テキストファセット\","
+        "content": "    \"core-views/warning-format\": \"フィールド長が適切にフォーマットされていません.\","
       },
       {
         "lineNumber": 478,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-format\": \"フィールド長が適切にフォーマットされていません.\","
+        "content": "    \"core-views/copy-opt\": \"オプションをコピー\","
       },
       {
         "lineNumber": 479,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-opt\": \"オプションをコピー\","
+        "content": "    \"core-views/best-word-sim\": \"最良候補の名前の単語類似率\","
       },
       {
         "lineNumber": 480,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-word-sim\": \"最良候補の名前の単語類似率\","
+        "content": "    \"core-views/copy-val\": \"カラムから値をコピー\","
       },
       {
         "lineNumber": 481,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-val\": \"カラムから値をコピー\","
+        "content": "    \"core-views/edit-column\": \"カラム編集\","
       },
       {
         "lineNumber": 482,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/edit-column\": \"カラム編集\","
+        "content": "    \"core-views/pos-blank\": \"空白とエラー値の順序\","
       },
       {
         "lineNumber": 483,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/pos-blank\": \"空白とエラー値の順序\","
+        "content": "    \"core-views/errors\": \"エラー\","
       },
       {
         "lineNumber": 484,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/errors\": \"エラー\","
+        "content": "    \"core-views/hide\": \"隠す\","
       },
       {
         "lineNumber": 485,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/hide\": \"隠す\","
+        "content": "    \"core-views/drag-drop\": \"ドラッグ\u0026ドロップできます\","
       },
       {
         "lineNumber": 486,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/drag-drop\": \"ドラッグ\u0026ドロップできます\","
+        "content": "    \"core-views/collapse-white\": \"連続した空白を縮める\","
       },
       {
         "lineNumber": 487,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-white\": \"連続した空白を縮める\","
+        "content": "    \"core-views/fill-other\": \"変換対象ではないカラムは直上の値で満たす\","
       },
       {
         "lineNumber": 488,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/fill-other\": \"変換対象ではないカラムは直上の値で満たす\","
+        "content": "    \"core-views/two-new-col\": \"２カラム化\","
       },
       {
         "lineNumber": 489,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/two-new-col\": \"２カラム化\","
+        "content": "    \"core-views/collapse-other\": \"これ以外のカラムをたたむ\","
       },
       {
         "lineNumber": 490,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-other\": \"これ以外のカラムをたたむ\","
+        "content": "    \"core-views/reorder-remove\": \"カラムの並べ替え・削除\","
       },
       {
         "lineNumber": 491,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reorder-remove\": \"カラムの並べ替え・削除\","
+        "content": "    \"core-views/copy-recon2\": \"このカラムの照合データを他のカラムにコピー\","
       },
       {
         "lineNumber": 492,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-recon2\": \"このカラムの照合データを他のカラムにコピー\","
+        "content": "    \"core-views/field-len\": \"フィールド長で\","
       },
       {
         "lineNumber": 493,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/field-len\": \"フィールド長で\","
+        "content": "    \"core-views/unstar-rows\": \"星を外す\","
       },
       {
         "lineNumber": 494,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/unstar-rows\": \"星を外す\","
+        "content": "    \"core-views/move-to-right\": \"右にカラムを移動\","
       },
       {
         "lineNumber": 495,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-right\": \"右にカラムを移動\","
+        "content": "    \"core-views/reorder-perma\": \"行を永続的に並び替える\","
       },
       {
         "lineNumber": 496,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reorder-perma\": \"行を永続的に並び替える\","
+        "content": "    \"core-views/new\": \"新規\","
       },
       {
         "lineNumber": 497,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/new\": \"新規\","
+        "content": "    \"core-views/custom-numeric-label\": \"カラムのカスタム数値ファセット\","
       },
       {
         "lineNumber": 498,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-numeric-label\": \"カラムのカスタム数値ファセット\","
+        "content": "    \"core-views/log-length-facet\": \"文字数対数ファセット\","
       },
       {
         "lineNumber": 499,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/log-length-facet\": \"文字数対数ファセット\","
+        "content": "    \"core-views/custom-numeric\": \"カスタム数値ファセット\","
       },
       {
         "lineNumber": 500,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-numeric\": \"カスタム数値ファセット\","
+        "content": "    \"core-views/best-type\": \"最良候補の型\","
       },
       {
         "lineNumber": 501,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-type\": \"最良候補の型\","
+        "content": "    \"core-views/custom-text-facet\": \"カスタムテキストファセット\","
       },
       {
         "lineNumber": 502,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-text-facet\": \"カスタムテキストファセット\","
+        "content": "    \"core-views/match-other\": \"同じ内容の他のセルもマッチ\","
       },
       {
         "lineNumber": 503,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-other\": \"同じ内容の他のセルもマッチ\","
+        "content": "    \"core-views/search-fb-topic\": \"絞り込んだセルにマッチする項目を検索:\","
       },
       {
         "lineNumber": 504,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/search-fb-topic\": \"絞り込んだセルにマッチする項目を検索:\","
+        "content": "    \"core-views/from-col\": \"この列から\","
       },
       {
         "lineNumber": 505,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/from-col\": \"この列から\","
+        "content": "    \"core-views/cluster-edit\": \"クラスタと編集\","
       },
       {
         "lineNumber": 506,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/cluster-edit\": \"クラスタと編集\","
+        "content": "    \"core-views/start-recon\": \"照合(reconcile)を開始\","
       },
       {
         "lineNumber": 507,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/start-recon\": \"照合(reconcile)を開始\","
+        "content": "    \"core-views/facet-flag\": \"旗ファセット\","
       },
       {
         "lineNumber": 508,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-flag\": \"旗ファセット\","
+        "content": "    \"core-views/show-as\": \"表示\","
       },
       {
         "lineNumber": 509,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/show-as\": \"表示\","
+        "content": "    \"core-views/transpose\": \"行列転置\","
       },
       {
         "lineNumber": 510,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transpose\": \"行列転置\","
+        "content": "    \"core-views/columnize\": \"行を列に転置\","
       },
       {
         "lineNumber": 511,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/columnize\": \"行を列に転置\","
+        "content": "    \"core-views/add-col-fetch\": \"URLフェッチでカラムを作る\","
       },
       {
         "lineNumber": 512,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-fetch\": \"URLフェッチでカラムを作る\","
+        "content": "    \"core-views/facet-blank\": \"空白ファセット（null/空）\","
       },
       {
         "lineNumber": 513,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-blank\": \"空白ファセット（null/空）\","
+        "content": "    \"core-views/best-cand-edit-dist\": \"最良候補の名前の編集距離\","
       },
       {
         "lineNumber": 514,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand-edit-dist\": \"最良候補の名前の編集距離\","
+        "content": "    \"core-views/spec-separator\": \"カラム名とセル値の区切り文字を指定してください。\","
       },
       {
         "lineNumber": 515,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/spec-separator\": \"カラム名とセル値の区切り文字を指定してください。\","
+        "content": "    \"core-views/by\": \"基準\","
       },
       {
         "lineNumber": 516,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/by\": \"基準\","
+        "content": "    \"core-views/true-fasle\": \"trueが先\","
       },
       {
         "lineNumber": 517,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/true-fasle\": \"trueが先\","
+        "content": "    \"core-views/move-to-end\": \"末尾にカラムを移動\","
       },
       {
         "lineNumber": 518,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-end\": \"末尾にカラムを移動\","
+        "content": "    \"core-views/before-val\": \"+ セルの値\","
       },
       {
         "lineNumber": 519,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/before-val\": \"+ セルの値\","
+        "content": "    \"core-views/dates\": \"日付\","
       },
       {
         "lineNumber": 520,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/dates\": \"日付\","
+        "content": "    \"core-views/last\": \"最後\","
       },
       {
         "lineNumber": 521,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/last\": \"最後\","
+        "content": "    \"core-views/reverse\": \"反転\","
       },
       {
         "lineNumber": 522,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reverse\": \"反転\","
+        "content": "    \"core-views/expect-two\": \"少なくとも２以上の数字をいれてください。\","
       },
       {
         "lineNumber": 523,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/expect-two\": \"少なくとも２以上の数字をいれてください。\","
+        "content": "    \"core-views/add-col-recon-val\": \"照合値からカラムを作る\","
       },
       {
         "lineNumber": 524,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-recon-val\": \"照合値からカラムを作る\","
+        "content": "    \"core-views/best-cand2\": \"選択した行で、最良候補と各セルをマッチさせる\","
       },
       {
         "lineNumber": 525,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand2\": \"選択した行で、最良候補と各セルをマッチさせる\","
+        "content": "    \"core-views/throttle-delay\": \"フェッチ間隔の遅延\","
       },
       {
         "lineNumber": 526,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/throttle-delay\": \"フェッチ間隔の遅延\","
+        "content": "    \"core-views/new-recon\": \"新しい照合判断\","
       },
       {
         "lineNumber": 527,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/new-recon\": \"新しい照合判断\","
+        "content": "    \"core-views/what-to-copy\": \"コピーするもの:\","
       },
       {
         "lineNumber": 528,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/what-to-copy\": \"コピーするもの:\","
+        "content": "    \"core-views/separator\": \"区切り文字\","
       },
       {
         "lineNumber": 529,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/separator\": \"区切り文字\","
+        "content": "    \"core-views/ctrl-enter\": \"Ctrl-Enter\","
       },
       {
         "lineNumber": 530,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/ctrl-enter\": \"Ctrl-Enter\","
+        "content": "    \"core-views/view\": \"ビュー\","
       },
       {
         "lineNumber": 531,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/view\": \"ビュー\","
+        "content": "    \"core-views/extend-not-supported\": \"この照合サービスはこの拡張子に対応していません.\","
       },
       {
         "lineNumber": 532,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/extend-not-supported\": \"この照合サービスはこの拡張子に対応していません.\","
+        "content": "    \"core-views/to-text\": \"テキストに\","
       },
       {
         "lineNumber": 533,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/to-text\": \"テキストに\","
+        "content": "    \"core-views/first\": \"最初\","
       },
       {
         "lineNumber": 534,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/first\": \"最初\","
+        "content": "    \"core-views/word-facet\": \"単語ファセット\","
       },
       {
         "lineNumber": 535,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/word-facet\": \"単語ファセット\","
+        "content": "    \"core-views/check-format\": \"ファイルのフォーマットを確認してください。\","
       },
       {
         "lineNumber": 536,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/check-format\": \"ファイルのフォーマットを確認してください。\","
+        "content": "    \"core-views/recon-text-fb\": \"照合サービスの項目とカラムのテキストを照合する\","
       },
       {
         "lineNumber": 537,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/recon-text-fb\": \"照合サービスの項目とカラムのテキストを照合する\","
+        "content": "    \"core-views/clear-recon\": \"照合データをクリア\","
       },
       {
         "lineNumber": 538,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/clear-recon\": \"照合データをクリア\","
+        "content": "    \"core-views/earliest-first\": \"早いもの順\","
       },
       {
         "lineNumber": 539,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/earliest-first\": \"早いもの順\","
+        "content": "    \"core-views/facet-null\": \"nullファセット\","
       },
       {
         "lineNumber": 540,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-null\": \"nullファセット\","
+        "content": "    \"core-views/duplicates-facet\": \"重複ファセット\","
       },
       {
         "lineNumber": 541,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/duplicates-facet\": \"重複ファセット\","
+        "content": "    \"core-views/number\": \"数値\","
       },
       {
         "lineNumber": 542,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/number\": \"数値\","
+        "content": "    \"core-views/best-edit-dist\": \"最良候補の名前の編集距離\","
       },
       {
         "lineNumber": 543,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-edit-dist\": \"最良候補の名前の編集距離\","
+        "content": "    \"core-views/remove-prop\": \"削除\","
       },
       {
         "lineNumber": 544,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/remove-prop\": \"削除\","
+        "content": "    \"core-views/split-into-col\": \"複数のカラムに分割\","
       },
       {
         "lineNumber": 545,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/split-into-col\": \"複数のカラムに分割\","
+        "content": "    \"core-views/cache-responses\": \"レスポンスをキャッシュ\","
       },
       {
         "lineNumber": 546,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/cache-responses\": \"レスポンスをキャッシュ\","
+        "content": "    \"core-views/boolean\": \"論理値\","
       },
       {
         "lineNumber": 547,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/boolean\": \"論理値\","
+        "content": "    \"core-views/to-be-recon\": \"照合対象\","
       },
       {
         "lineNumber": 548,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/to-be-recon\": \"照合対象\","
+        "content": "    \"core-views/copy-recon\": \"照合データをコピー…\","
       },
       {
         "lineNumber": 549,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-recon\": \"照合データをコピー…\","
+        "content": "    \"core-views/judg-hist\": \"判断履歴\","
       },
       {
         "lineNumber": 550,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/judg-hist\": \"判断履歴\","
+        "content": "    \"core-views/expand-all\": \"すべてのカラムを開く\","
       },
       {
         "lineNumber": 551,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/expand-all\": \"すべてのカラムを開く\","
+        "content": "    \"core-views/judg-actions\": \"判断アクション\","
       },
       {
         "lineNumber": 552,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/judg-actions\": \"判断アクション\","
+        "content": "    \"core-views/next\": \"次へ\","
       },
       {
         "lineNumber": 553,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/next\": \"次へ\","
+        "content": "    \"core-views/rows\": \"行\","
       },
       {
         "lineNumber": 554,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/rows\": \"行\","
+        "content": "    \"core-views/follow-by\": \"区切り文字：元のカラム名 +\","
       },
       {
         "lineNumber": 555,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/follow-by\": \"区切り文字：元のカラム名 +\","
+        "content": "    \"core-views/false-true\": \"falseが先\","
       },
       {
         "lineNumber": 556,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/false-true\": \"falseが先\","
+        "content": "    \"core-views/unicode-facet\": \"文字コードファセット\","
       },
       {
         "lineNumber": 557,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/unicode-facet\": \"文字コードファセット\","
+        "content": "    \"core-views/transp-cell-col\": \"行のセルを列に転置（等間隔で横持ち化）\","
       },
       {
         "lineNumber": 558,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transp-cell-col\": \"行のセルを列に転置（等間隔で横持ち化）\","
+        "content": "    \"core-views/transform\": \"変換\","
       },
       {
         "lineNumber": 559,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transform\": \"変換\","
+        "content": "    \"core-views/split-into\": \"分割先\","
       },
       {
         "lineNumber": 560,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/split-into\": \"分割先\","
+        "content": "    \"core-views/configure-col\": \"このカラムの環境設定\","
       },
       {
         "lineNumber": 561,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/configure-col\": \"このカラムの環境設定\","
+        "content": "    \"core-views/one-topic2\": \"選択した行で、同内容のセルの各グループから、新しい項目を作成する\","
       },
       {
         "lineNumber": 562,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/one-topic2\": \"選択した行で、同内容のセルの各グループから、新しい項目を作成する\","
+        "content": "    \"core-views/to-number\": \"数値に\","
       },
       {
         "lineNumber": 563,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/to-number\": \"数値に\","
+        "content": "    \"core-views/re-trans\": \"再帰的な変換：\","
       },
       {
         "lineNumber": 564,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/re-trans\": \"再帰的な変換：\","
+        "content": "    \"core-views/spec-new-val\": \"新しい値カラム名を指定してください。\","
       },
       {
         "lineNumber": 565,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/spec-new-val\": \"新しい値カラム名を指定してください。\","
+        "content": "    \"core-views/edit-cells\": \"セル編集\","
       },
       {
         "lineNumber": 566,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/edit-cells\": \"セル編集\","
+        "content": "    \"core-views/sort\": \"ソート\","
       },
       {
         "lineNumber": 567,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/sort\": \"ソート\","
+        "content": "    \"core-views/match-all-cells\": \"この項目をこのセルと同じ全セルにマッチ\","
       },
       {
         "lineNumber": 568,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-all-cells\": \"この項目をこのセルと同じ全セルにマッチ\","
+        "content": "    \"core-views/col-at-most\": \"最大のカラム（空白はそのまま）\","
       },
       {
         "lineNumber": 569,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/col-at-most\": \"最大のカラム（空白はそのまま）\","
+        "content": "    \"core-views/warning-sel-judg\": \"コピー先の判断の種類を選択してください.\","
       },
       {
         "lineNumber": 570,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-sel-judg\": \"コピー先の判断の種類を選択してください.\","
+        "content": "    \"core-views/remove-sort\": \"ソートを削除\","
       },
       {
         "lineNumber": 571,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/remove-sort\": \"ソートを削除\","
+        "content": "    \"core-views/common-transform\": \"よく使う変換\","
       },
       {
         "lineNumber": 572,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/common-transform\": \"よく使う変換\","
+        "content": "    \"core-views/reg-exp\": \"正規表現\","
       },
       {
         "lineNumber": 573,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reg-exp\": \"正規表現\","
+        "content": "    \"core-views/forward\": \"前に\","
       },
       {
         "lineNumber": 574,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/forward\": \"前に\","
+        "content": "    \"core-views/judg-actions2\": \"判断アクションの型\","
       },
       {
         "lineNumber": 575,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/judg-actions2\": \"判断アクションの型\","
+        "content": "    \"core-views/note-col\": \"付記カラム（オプション）\","
       },
       {
         "lineNumber": 576,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/note-col\": \"付記カラム（オプション）\","
+        "content": "    \"core-views/cannot-same\": \"付記カラムはキーカラムや値カラムと同じにすることはできません。\","
       },
       {
         "lineNumber": 577,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/cannot-same\": \"付記カラムはキーカラムや値カラムと同じにすることはできません。\","
+        "content": "    \"core-views/split-col\": \"カラムの分割\","
       },
       {
         "lineNumber": 578,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/split-col\": \"カラムの分割\","
+        "content": "    \"core-views/http-headers\": \"URLフェッチに使うHTTPヘッダ:\","
       },
       {
         "lineNumber": 579,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/http-headers\": \"URLフェッチに使うHTTPヘッダ:\","
+        "content": "    \"core-views/match-cell\": \"このセルにマッチ\","
       },
       {
         "lineNumber": 580,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-cell\": \"このセルにマッチ\","
+        "content": "    \"core-views/latest-first\": \"遅いもの順\","
       },
       {
         "lineNumber": 581,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/latest-first\": \"遅いもの順\","
+        "content": "    \"core-views/reconcile-tooltip\": \"外部のデータベースの項目とこの列のセルをマッチさせる\","
       },
       {
         "lineNumber": 582,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reconcile-tooltip\": \"外部のデータベースの項目とこの列のセルをマッチさせる\","
+        "content": "    \"core-views/guess-cell\": \"セルタイプを推測\","
       },
       {
         "lineNumber": 583,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/guess-cell\": \"セルタイプを推測\","
+        "content": "    \"core-views/enter-separator\": \"区切り文字を入力してください\","
       },
       {
         "lineNumber": 584,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/enter-separator\": \"区切り文字を入力してください\","
+        "content": "    \"core-views/new-topic\": \"各セルから新しい項目を作成\","
       },
       {
         "lineNumber": 585,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/new-topic\": \"各セルから新しい項目を作成\","
+        "content": "    \"core-views/add-by-urls\": \"URLでカラムを追加\","
       },
       {
         "lineNumber": 586,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-by-urls\": \"URLでカラムを追加\","
+        "content": "    \"core-views/show\": \"表示\","
       },
       {
         "lineNumber": 587,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/show\": \"表示\","
+        "content": "    \"core-views/add-col-col\": \"このカラムに基づき新しいカラムを追加\","
       },
       {
         "lineNumber": 588,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-col-col\": \"このカラムに基づき新しいカラムを追加\","
+        "content": "    \"core-views/best-score\": \"最良候補(best candidate)のスコア\","
       },
       {
         "lineNumber": 589,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-score\": \"最良候補(best candidate)のスコア\","
+        "content": "    \"core-views/match-recon\": \"照合判断のマッチ\","
       },
       {
         "lineNumber": 590,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-recon\": \"照合判断のマッチ\","
+        "content": "    \"core-views/flagged-rows\": \"旗付き行\","
       },
       {
         "lineNumber": 591,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/flagged-rows\": \"旗付き行\","
+        "content": "    \"core-views/no-settings\": \"この属性の設定はありません.\","
       },
       {
         "lineNumber": 592,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/no-settings\": \"この属性の設定はありません.\","
+        "content": "    \"core-views/transp-cell-row\": \"列のセルを行に転置（縦持ち化）\","
       },
       {
         "lineNumber": 593,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transp-cell-row\": \"列のセルを行に転置（縦持ち化）\","
+        "content": "    \"core-views/qa-results2\": \"QA結果\","
       },
       {
         "lineNumber": 594,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/qa-results2\": \"QA結果\","
+        "content": "    \"core-views/text-length-facet\": \"文字数ファセット\","
       },
       {
         "lineNumber": 595,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text-length-facet\": \"文字数ファセット\","
+        "content": "    \"core-views/not-valid-number\": \"有効な数値でない.\","
       },
       {
         "lineNumber": 596,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/not-valid-number\": \"有効な数値でない.\","
+        "content": "    \"core-views/reconcile\": \"照合（名寄せ）\","
       },
       {
         "lineNumber": 597,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/reconcile\": \"照合（名寄せ）\","
+        "content": "    \"core-views/trim-all\": \"先頭と末尾の空白を削除\","
       },
       {
         "lineNumber": 598,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/trim-all\": \"先頭と末尾の空白を削除\","
+        "content": "    \"core-views/starred-rows\": \"星付きの行\","
       },
       {
         "lineNumber": 599,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/starred-rows\": \"星付きの行\","
+        "content": "    \"core-views/extend-not-reconciled\": \"この処理ができるのは照合カラムだけです.\","
       },
       {
         "lineNumber": 600,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/extend-not-reconciled\": \"この処理ができるのは照合カラムだけです.\","
+        "content": "    \"core-views/by-sep\": \"文字で分割\","
       },
       {
         "lineNumber": 601,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/by-sep\": \"文字で分割\","
+        "content": "    \"core-views/custom-facets\": \"カスタムファセット\","
       },
       {
         "lineNumber": 602,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/custom-facets\": \"カスタムファセット\","
+        "content": "    \"core-views/numbers\": \"数字\","
       },
       {
         "lineNumber": 603,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/numbers\": \"数字\","
+        "content": "    \"core-views/store-err\": \"エラーを保存\","
       },
       {
         "lineNumber": 604,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/store-err\": \"エラーを保存\","
+        "content": "    \"core-views/facet-error\": \"エラーファセット\","
       },
       {
         "lineNumber": 605,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-error\": \"エラーファセット\","
+        "content": "    \"core-views/warning-other-col\": \"コピー先のカラムを選択してください.\","
       },
       {
         "lineNumber": 606,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-other-col\": \"コピー先のカラムを選択してください.\","
+        "content": "    \"core-views/best-type-match\": \"最良候補の型のマッチ\","
       },
       {
         "lineNumber": 607,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-type-match\": \"最良候補の型のマッチ\","
+        "content": "    \"core-views/facet\": \"ファセット\","
       },
       {
         "lineNumber": 608,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet\": \"ファセット\","
+        "content": "    \"core-views/key-col\": \"キーカラム名\","
       },
       {
         "lineNumber": 609,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/key-col\": \"キーカラム名\","
+        "content": "    \"core-views/display-null\": \"null値を表示/非表示\","
       },
       {
         "lineNumber": 610,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/display-null\": \"null値を表示/非表示\","
+        "content": "    \"core-views/on-error\": \"エラー\","
       },
       {
         "lineNumber": 611,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/on-error\": \"エラー\","
+        "content": "    \"core-views/match-this-cell\": \"この項目をこのセルだけにマッチ\","
       },
       {
         "lineNumber": 612,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/match-this-cell\": \"この項目をこのセルだけにマッチ\","
+        "content": "    \"core-views/not-valid-date\": \"有効な日付でない.\","
       },
       {
         "lineNumber": 613,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/not-valid-date\": \"有効な日付でない.\","
+        "content": "    \"core-views/text-filter\": \"テキストフィルター\","
       },
       {
         "lineNumber": 614,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text-filter\": \"テキストフィルター\","
+        "content": "    \"core-views/warning-no-property\": \"属性を最初に選択してください.\","
       },
       {
         "lineNumber": 615,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-no-property\": \"属性を最初に選択してください.\","
+        "content": "    \"core-views/contain-names\": \"（中身は元のカラム名になります）\","
       },
       {
         "lineNumber": 616,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/contain-names\": \"（中身は元のカラム名になります）\","
+        "content": "    \"core-views/best-cand-score\": \"最良候補のスコア\","
       },
       {
         "lineNumber": 617,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand-score\": \"最良候補のスコア\","
+        "content": "    \"core-views/sel-col-val\": \"キーカラムと値カラムは違う列を選択してください。\","
       },
       {
         "lineNumber": 618,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/sel-col-val\": \"キーカラムと値カラムは違う列を選択してください。\","
+        "content": "    \"core-views/what-separator\": \"どんな区切り文字で値を分けますか？\","
       },
       {
         "lineNumber": 619,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/what-separator\": \"どんな区切り文字で値を分けますか？\","
+        "content": "    \"core-views/new-col-name\": \"新しいカラム名\","
       },
       {
         "lineNumber": 620,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/new-col-name\": \"新しいカラム名\","
+        "content": "    \"core-views/split-cells\": \"多値のセルを分割\","
       },
       {
         "lineNumber": 621,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/split-cells\": \"多値のセルを分割\","
+        "content": "    \"core-views/titlecase\": \"頭だけ大文字に\","
       },
       {
         "lineNumber": 622,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/titlecase\": \"頭だけ大文字に\","
+        "content": "    \"core-views/fill-down\": \"下方向の空白を埋める\","
       },
       {
         "lineNumber": 623,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/fill-down\": \"下方向の空白を埋める\","
+        "content": "    \"core-views/spec-col-name\": \"新しいカラム名を指定してください。\","
       },
       {
         "lineNumber": 624,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/spec-col-name\": \"新しいカラム名を指定してください。\","
+        "content": "    \"core-views/search-for\": \"検索内容\","
       },
       {
         "lineNumber": 625,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/search-for\": \"検索内容\","
+        "content": "    \"core-views/timeline-facet\": \"タイムラインファセット\","
       },
       {
         "lineNumber": 626,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/timeline-facet\": \"タイムラインファセット\","
+        "content": "    \"core-views/sort-by\": \"ソート基準\","
       },
       {
         "lineNumber": 627,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/sort-by\": \"ソート基準\","
+        "content": "    \"core-views/ignore-blank\": \"空白セルを無視する\","
       },
       {
         "lineNumber": 628,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/ignore-blank\": \"空白セルを無視する\","
+        "content": "    \"core-views/transp-cell\": \"列を行に転置\","
       },
       {
         "lineNumber": 629,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transp-cell\": \"列を行に転置\","
+        "content": "    \"core-views/best-cand-name\": \"最良候補の名前はマッチ？\","
       },
       {
         "lineNumber": 630,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand-name\": \"最良候補の名前はマッチ？\","
+        "content": "    \"core-views/blanks\": \"空白\","
       },
       {
         "lineNumber": 631,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/blanks\": \"空白\","
+        "content": "    \"core-views/copy-to-col\": \"カラムにコピー\","
       },
       {
         "lineNumber": 632,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/copy-to-col\": \"カラムにコピー\","
+        "content": "    \"core-views/how-split\": \"カラムの分割するには\","
       },
       {
         "lineNumber": 633,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/how-split\": \"カラムの分割するには\","
+        "content": "    \"core-views/lowercase\": \"小文字に\","
       },
       {
         "lineNumber": 634,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/lowercase\": \"小文字に\","
+        "content": "    \"core-views/transp-into\": \"縦持ちに変換する\","
       },
       {
         "lineNumber": 635,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/transp-into\": \"縦持ちに変換する\","
+        "content": "    \"core-views/facet-star\": \"星ファセット\","
       },
       {
         "lineNumber": 636,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/facet-star\": \"星ファセット\","
+        "content": "    \"core-views/collapse-all\": \"すべてのカラムをたたむ\","
       },
       {
         "lineNumber": 637,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-all\": \"すべてのカラムをたたむ\","
+        "content": "    \"core-views/best-cand\": \"最良候補と各セルをマッチさせる\","
       },
       {
         "lineNumber": 638,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand\": \"最良候補と各セルをマッチさせる\","
+        "content": "    \"core-views/records\": \"レコード\","
       },
       {
         "lineNumber": 639,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/records\": \"レコード\","
+        "content": "    \"core-views/date\": \"日付\","
       },
       {
         "lineNumber": 640,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/date\": \"日付\","
+        "content": "    \"core-views/edit-cell\": \"このセルを編集\","
       },
       {
         "lineNumber": 641,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/edit-cell\": \"このセルを編集\","
+        "content": "    \"core-views/to-col\": \"この列まで\","
       },
       {
         "lineNumber": 642,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/to-col\": \"この列まで\","
+        "content": "    \"core-views/collapse-right\": \"右側をすべてたたむ\","
       },
       {
         "lineNumber": 643,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-right\": \"右側をすべてたたむ\","
+        "content": "    \"core-views/best-cand-word-sim\": \"最良候補の名前の単語類似率\","
       },
       {
         "lineNumber": 644,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/best-cand-word-sim\": \"最良候補の名前の単語類似率\","
+        "content": "    \"core-views/set-blank\": \"空白をセット\","
       },
       {
         "lineNumber": 645,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/set-blank\": \"空白をセット\","
+        "content": "    \"core-views/numeric-facet\": \"数値ファセット\","
       },
       {
         "lineNumber": 646,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/numeric-facet\": \"数値ファセット\","
+        "content": "    \"core-views/edit-rows\": \"行を編集\","
       },
       {
         "lineNumber": 647,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/edit-rows\": \"行を編集\","
+        "content": "    \"core-views/filtered-cell2\": \"選択したセルとマッチさせる項目を検索\","
       },
       {
         "lineNumber": 648,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/filtered-cell2\": \"選択したセルとマッチさせる項目を検索\","
+        "content": "    \"core-views/edit-col\": \"カラムを編集\","
       },
       {
         "lineNumber": 649,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/edit-col\": \"カラムを編集\","
+        "content": "    \"core-views/how-many-rows\": \"何行ごとに列に転置しますか？\","
       },
       {
         "lineNumber": 650,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/how-many-rows\": \"何行ごとに列に転置しますか？\","
+        "content": "    \"core-views/unflag-rows\": \"旗を外す\","
       },
       {
         "lineNumber": 651,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/unflag-rows\": \"旗を外す\","
+        "content": "    \"core-views/to-date\": \"日付に\","
       },
       {
         "lineNumber": 652,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/to-date\": \"日付に\","
+        "content": "    \"core-views/move-to-beg\": \"先頭にカラムを移動\","
       },
       {
         "lineNumber": 653,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/move-to-beg\": \"先頭にカラムを移動\","
+        "content": "    \"core-views/blank-out-empty\": \"セルを空白に\","
       },
       {
         "lineNumber": 654,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/blank-out-empty\": \"セルを空白に\","
+        "content": "    \"core-views/numeric-log-facet\": \"対数ファセット\","
       },
       {
         "lineNumber": 655,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/numeric-log-facet\": \"対数ファセット\","
+        "content": "    \"core-views/data-type\": \"データの型:\","
       },
       {
         "lineNumber": 656,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/data-type\": \"データの型:\","
+        "content": "    \"core-views/prepend-name\": \"カラム名を（区切り文字をつけて）値の前に付加する\","
       },
       {
         "lineNumber": 657,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/prepend-name\": \"カラム名を（区切り文字をつけて）値の前に付加する\","
+        "content": "    \"core-views/unescape-html\": \"HTMLをアンエスケープ(unescape)\","
       },
       {
         "lineNumber": 658,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/unescape-html\": \"HTMLをアンエスケープ(unescape)\","
+        "content": "    \"core-views/how-split-cells\": \"複数の値を持つセルの分割方法\","
       },
       {
         "lineNumber": 659,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/how-split-cells\": \"複数の値を持つセルの分割方法\","
+        "content": "    \"core-views/collapse-this\": \"カラムをたたむ\","
       },
       {
         "lineNumber": 660,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/collapse-this\": \"カラムをたたむ\","
+        "content": "    \"core-views/use-values-as-identifiers\": \"値を識別子として使用\","
       },
       {
         "lineNumber": 661,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/use-values-as-identifiers\": \"値を識別子として使用\","
+        "content": "    \"core-views/use-values-as-identifiers2\": \"値を識別子として照合済みとしてマーク\","
       },
       {
         "lineNumber": 662,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/use-values-as-identifiers2\": \"値を識別子として照合済みとしてマーク\","
+        "content": "    \"core-views/choose-reconciliation-service\": \"照合サービスを選ぶ\","
       },
       {
         "lineNumber": 663,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/choose-reconciliation-service\": \"照合サービスを選ぶ\","
+        "content": "    \"core-views/choose-reconciliation-service-alert\": \"最初に照合サービスを選択してください。\","
       },
       {
         "lineNumber": 664,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/choose-reconciliation-service-alert\": \"最初に照合サービスを選択してください。\","
+        "content": "    \"core-views/replace\": \"置換\","
       },
       {
         "lineNumber": 665,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/replace\": \"置換\","
+        "content": "    \"core-views/text-to-find\": \"検索:\","
       },
       {
         "lineNumber": 666,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/text-to-find\": \"検索:\","
+        "content": "    \"core-views/replacement-text\": \"この文字列に置換:\","
       },
       {
         "lineNumber": 667,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/replacement-text\": \"この文字列に置換:\","
+        "content": "    \"core-views/case-insensitive\": \"大文字・小文字を区別しない\","
       },
       {
         "lineNumber": 668,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/case-insensitive\": \"大文字・小文字を区別しない\","
+        "content": "    \"core-views/whole-word\": \"単語全体\","
       },
       {
         "lineNumber": 669,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/whole-word\": \"単語全体\","
+        "content": "    \"core-views/finding-info1\": \"各文字に置換文字を追加する場合は空白のまま.\","
       },
       {
         "lineNumber": 670,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/finding-info1\": \"各文字に置換文字を追加する場合は空白のまま.\","
+        "content": "    \"core-views/finding-info2\": \"改行などの特殊文字や複雑なパターンを検索する場合は正規表現が使えます.\","
       },
       {
         "lineNumber": 671,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/finding-info2\": \"改行などの特殊文字や複雑なパターンを検索する場合は正規表現が使えます.\","
+        "content": "    \"core-views/replacement-info\": \"正規表現に()を使ったグループがある場合、$0がマッチ全体を、$1,$2…が各グループを返します.\","
       },
       {
         "lineNumber": 672,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/replacement-info\": \"正規表現に()を使ったグループがある場合、$0がマッチ全体を、$1,$2…が各グループを返します.\","
+        "content": "    \"core-views/replace-dont-escape\": \"改行文字には\\\\n、タブ文字には\\\\tを使います。「\\\\n」や「\\\\t」を検索するには「\\\\\\\\n」や「\\\\\\\\t」を使います（エスケープ文字）.\","
       },
       {
         "lineNumber": 673,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/replace-dont-escape\": \"改行文字には\\\\n、タブ文字には\\\\tを使います。「\\\\n」や「\\\\t」を検索するには「\\\\\\\\n」や「\\\\\\\\t」を使います（エスケープ文字）.\","
+        "content": "    \"core-views/warning-regex\": \"正規表現が無効です.\","
       },
       {
         "lineNumber": 674,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/warning-regex\": \"正規表現が無効です.\","
+        "content": "    \"core-buttons/unselect-all\": \"全選択解除\","
       },
       {
         "lineNumber": 675,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/unselect-all\": \"全選択解除\","
+        "content": "    \"core-buttons/merge-close\": \"マージして閉じる\","
       },
       {
         "lineNumber": 676,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/merge-close\": \"マージして閉じる\","
+        "content": "    \"core-buttons/import-proj\": \"インポート\","
       },
       {
         "lineNumber": 677,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/import-proj\": \"インポート\","
+        "content": "    \"core-buttons/dont-reconcile\": \"セルを照合しない\","
       },
       {
         "lineNumber": 678,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/dont-reconcile\": \"セルを照合しない\","
+        "content": "    \"core-buttons/download\": \"ダウンロード\","
       },
       {
         "lineNumber": 679,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/download\": \"ダウンロード\","
+        "content": "    \"core-buttons/export\": \"出力\","
       },
       {
         "lineNumber": 680,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/export\": \"出力\","
+        "content": "    \"core-buttons/conf-pars-opt\": \"パースオプションを設定する \u0026raquo;\","
       },
       {
         "lineNumber": 681,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/conf-pars-opt\": \"パースオプションを設定する \u0026raquo;\","
+        "content": "    \"core-buttons/reset-template\": \"テンプレートをリセット\","
       },
       {
         "lineNumber": 682,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/reset-template\": \"テンプレートをリセット\","
+        "content": "    \"core-buttons/apply\": \"適用\","
       },
       {
         "lineNumber": 683,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/apply\": \"適用\","
+        "content": "    \"core-buttons/cancel\": \"キャンセル\","
       },
       {
         "lineNumber": 684,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/cancel\": \"キャンセル\","
+        "content": "    \"core-buttons/close\": \"閉じる\","
       },
       {
         "lineNumber": 685,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/close\": \"閉じる\","
+        "content": "    \"core-buttons/deselect-all\": \"全選択解除\","
       },
       {
         "lineNumber": 686,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/deselect-all\": \"全選択解除\","
+        "content": "    \"core-buttons/select\": \"選択\","
       },
       {
         "lineNumber": 687,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/select\": \"選択\","
+        "content": "    \"core-buttons/merge-cluster\": \"マージし再クラスタリング\","
       },
       {
         "lineNumber": 688,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/merge-cluster\": \"マージし再クラスタリング\","
+        "content": "    \"core-buttons/reset-all\": \"すべてリセット\","
       },
       {
         "lineNumber": 689,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/reset-all\": \"すべてリセット\","
+        "content": "    \"core-buttons/next\": \"次へ \u0026raquo;\","
       },
       {
         "lineNumber": 690,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/next\": \"次へ \u0026raquo;\","
+        "content": "    \"core-buttons/esc\": \"Esc\","
       },
       {
         "lineNumber": 691,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/esc\": \"Esc\","
+        "content": "    \"core-buttons/select-all\": \"全選択\","
       },
       {
         "lineNumber": 692,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/select-all\": \"全選択\","
+        "content": "    \"core-buttons/preview\": \"プレビュー\","
       },
       {
         "lineNumber": 693,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/preview\": \"プレビュー\","
+        "content": "    \"core-buttons/match\": \"マッチ\","
       },
       {
         "lineNumber": 694,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/match\": \"マッチ\","
+        "content": "    \"core-buttons/startover\": \"\u0026laquo; 最初からやり直す\","
       },
       {
         "lineNumber": 695,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/startover\": \"\u0026laquo; 最初からやり直す\","
+        "content": "    \"core-buttons/remove-all\": \"すべて削除\","
       },
       {
         "lineNumber": 696,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/remove-all\": \"すべて削除\","
+        "content": "    \"core-buttons/export-cluster\": \"クラスタを出力\","
       },
       {
         "lineNumber": 697,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/export-cluster\": \"クラスタを出力\","
+        "content": "    \"core-buttons/add-std-svc\": \"サービスを追加\","
       },
       {
         "lineNumber": 698,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/add-std-svc\": \"サービスを追加\","
+        "content": "    \"core-buttons/enter\": \"Enter\","
       },
       {
         "lineNumber": 699,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/enter\": \"Enter\","
+        "content": "    \"core-buttons/transpose\": \"転置\","
       },
       {
         "lineNumber": 700,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/transpose\": \"転置\","
+        "content": "    \"core-buttons/start-recon\": \"照合を開始\","
       },
       {
         "lineNumber": 701,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/start-recon\": \"照合を開始\","
+        "content": "    \"core-buttons/perform-op\": \"実行\","
       },
       {
         "lineNumber": 702,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/perform-op\": \"実行\","
+        "content": "    \"core-buttons/copy\": \"コピー\","
       },
       {
         "lineNumber": 703,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/copy\": \"コピー\","
+        "content": "    \"core-buttons/update-preview\": \"プレビューをアップデート\","
       },
       {
         "lineNumber": 704,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/update-preview\": \"プレビューをアップデート\","
+        "content": "    \"core-buttons/ok\": \"\u0026nbsp;\u0026nbsp;OK\u0026nbsp;\u0026nbsp;\","
       },
       {
         "lineNumber": 705,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/ok\": \"\u0026nbsp;\u0026nbsp;OK\u0026nbsp;\u0026nbsp;\","
+        "content": "    \"core-buttons/create-project\": \"プロジェクトを作成 \u0026raquo;\","
       },
       {
         "lineNumber": 706,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/create-project\": \"プロジェクトを作成 \u0026raquo;\","
+        "content": "    \"core-buttons/new-topic\": \"新しい項目\","
       },
       {
         "lineNumber": 707,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/new-topic\": \"新しい項目\","
+        "content": "    \"core-buttons/upload\": \"アップロード\","
       },
       {
         "lineNumber": 708,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/upload\": \"アップロード\","
+        "content": "    \"core-buttons/refresh\": \"再読み込み\","
       },
       {
         "lineNumber": 709,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/refresh\": \"再読み込み\","
+        "content": "    \"core-buttons/reselect-files\": \"\u0026laquo; ファイルを再選択\","
       },
       {
         "lineNumber": 710,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/reselect-files\": \"\u0026laquo; ファイルを再選択\","
+        "content": "    \"core-buttons/add-service\": \"サービスを追加\","
       },
       {
         "lineNumber": 711,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/add-service\": \"サービスを追加\","
+        "content": "    \"core-buttons/apply-to-all\": \"同じ内容の全セルに適用\","
       },
       {
         "lineNumber": 712,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/apply-to-all\": \"同じ内容の全セルに適用\","
+        "content": "    \"core-buttons/add-url\": \"URLを追加\","
       },
       {
         "lineNumber": 713,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/add-url\": \"URLを追加\","
+        "content": "    \"core-buttons/unselect\": \"選択解除\","
       },
       {
         "lineNumber": 714,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/unselect\": \"選択解除\","
+        "content": "    \"core-buttons/pick-record\": \"レコード要素を選択\","
       },
       {
         "lineNumber": 715,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-buttons/pick-record\": \"レコード要素を選択\","
+        "content": "    \"core-index/metaDatas\": \"プロジェクトのメタデータ\","
       },
       {
         "lineNumber": 716,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-index/metaDatas\": \"プロジェクトのメタデータ\","
+        "content": "    \"core-views/replace-smartquotes\": \"スマート置換\","
       },
       {
         "lineNumber": 717,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/replace-smartquotes\": \"スマート置換\","
+        "content": "    \"core-dialogs/no-clustering-functions-and-distances\": \"クラスタリング関数が読み込めませんでした。\","
       },
       {
         "lineNumber": 718,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-dialogs/no-clustering-functions-and-distances\": \"クラスタリング関数が読み込めませんでした。\","
+        "content": "    \"core-recon/add-std-srv\": \"標準サービスを追加\","
       },
       {
         "lineNumber": 719,
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-recon/add-std-srv\": \"標準サービスを追加\","
-      },
-      {
-        "lineNumber": 720,
-        "author": {
-          "gitId": "-"
-        },
         "content": "    \"core-views/blank-rows\": \"空白行\","
       },
       {
-        "lineNumber": 721,
+        "lineNumber": 720,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    \"core-views/blank-values\": \"カラムの空白値\","
       },
       {
-        "lineNumber": 722,
+        "lineNumber": 721,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    \"core-views/blank-records\": \"カラムの空白レコード\","
       },
       {
-        "lineNumber": 723,
+        "lineNumber": 722,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/non-blank-values\": \"カラムの非空白値\","
       },
       {
-        "lineNumber": 724,
+        "lineNumber": 723,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/non-blank-records\": \"カラムの非空白レコード\","
       },
       {
-        "lineNumber": 725,
+        "lineNumber": 724,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-index/tags\": \"タグ:\","
       },
       {
-        "lineNumber": 726,
+        "lineNumber": 725,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-index/title\": \"タイトル:\","
       },
       {
-        "lineNumber": 727,
+        "lineNumber": 726,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-index/license\": \"ライセンス:\","
       },
       {
-        "lineNumber": 728,
+        "lineNumber": 727,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-index/homepage\": \"ホームページ:\","
       },
       {
-        "lineNumber": 729,
+        "lineNumber": 728,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-index/image\": \"写真:\","
       },
       {
-        "lineNumber": 730,
+        "lineNumber": 729,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-dialogs/record-fields\": \"１行以上の列がレコードを構成します。詳しくは、https://github.com/OpenRefine/OpenRefine/wiki/Variables#record\","
       },
       {
-        "lineNumber": 731,
+        "lineNumber": 730,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/join-col\": \"カラムの結合\","
       },
       {
-        "lineNumber": 732,
+        "lineNumber": 731,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join\": \"カラムの結合\","
       },
       {
-        "lineNumber": 733,
+        "lineNumber": 732,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-before-column-picker\": \"結合するカラムの選択\","
       },
       {
-        "lineNumber": 734,
+        "lineNumber": 733,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-before-options\": \"オプション\","
       },
       {
-        "lineNumber": 735,
+        "lineNumber": 734,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-field-separator\": \"区切り文字 :\","
       },
       {
-        "lineNumber": 736,
+        "lineNumber": 735,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-field-separator-advice\": \"区切り文字を入力してください（指定しないと直接結合されます）\","
       },
       {
-        "lineNumber": 737,
+        "lineNumber": 736,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-replace-nulls\": \"nullを置換…\","
       },
       {
-        "lineNumber": 738,
+        "lineNumber": 737,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-skip-nulls\": \"nullをスキップ。\","
       },
       {
-        "lineNumber": 739,
+        "lineNumber": 738,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-replace-nulls-advice\": \"置換文字を入力してください（指定しないと空白で置換されます）\","
       },
       {
-        "lineNumber": 740,
+        "lineNumber": 739,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-write-selected-column\": \"結果を選択したカラムに書き込む。\","
       },
       {
-        "lineNumber": 741,
+        "lineNumber": 740,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-copy-to-new-column\": \"結果を書き込むカラムの名前…\","
       },
       {
-        "lineNumber": 742,
+        "lineNumber": 741,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-delete-joined-columns\": \"結合したカラムの削除。\","
       },
       {
-        "lineNumber": 743,
+        "lineNumber": 742,
         "author": {
           "gitId": "-"
         },
         "content": "    \"core-views/column-join-dont-escape\": \"区切りや置換の文字は、改行なら\\\\n, タブは\\\\t, \\\\nなら\\\\\\\\n, \\\\t なら\\\\\\\\tです。\""
       },
       {
-        "lineNumber": 744,
+        "lineNumber": 743,
         "author": {
           "gitId": "-"
         },
@@ -12580,7 +12566,7 @@
     ],
     "authorContributionMap": {
       "jamessspanggg": 2,
-      "-": 742
+      "-": 741
     }
   },
   {
@@ -15427,7 +15413,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/search-fb-topic\": \"在Freebase中寻找与筛选后的单元格相匹配的主题:\","
+        "content": "    \"core-views/search-fb-topic\": \"搜索与所有已过滤单元格匹配的项目：\","
       },
       {
         "lineNumber": 407,
@@ -15504,7 +15490,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/recon-text-fb\": \"Reconcile text in this column with topics on Freebase\","
+        "content": "    \"core-views/recon-text-fb\": \"使此列中的文本与另一个数据源中的项目一致\","
       },
       {
         "lineNumber": 418,
