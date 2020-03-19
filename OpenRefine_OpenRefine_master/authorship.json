@@ -12582,10 +12582,17 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-views/add-id-col\": \"$1 に項目識別カラムを追加\""
+        "content": "    \"core-views/add-id-col\": \"$1 に項目識別カラムを追加\","
       },
       {
         "lineNumber": 746,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-dialogs/lb-formats-quotation\": \"常に引用符付き\""
+      },
+      {
+        "lineNumber": 747,
         "author": {
           "gitId": "-"
         },
@@ -12594,7 +12601,7 @@
     ],
     "authorContributionMap": {
       "jamessspanggg": 2,
-      "-": 744
+      "-": 745
     }
   },
   {
