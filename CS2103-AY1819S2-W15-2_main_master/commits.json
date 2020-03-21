@@ -23,8 +23,8 @@
         ]
       },
       {
-        "insertions": 5,
-        "deletions": 5,
+        "insertions": 75,
+        "deletions": 60,
         "date": "2019-02-15",
         "commitResults": [
           {
@@ -61,12 +61,145 @@
             "messageBody": "",
             "insertions": 3,
             "deletions": 3
+          },
+          {
+            "hash": "12f3079d457e5445e3f330dc2cddf0819d422047",
+            "messageTitle": "Update UserGuide",
+            "messageBody": "",
+            "insertions": 70,
+            "deletions": 55
           }
         ]
       },
       {
-        "insertions": 495,
-        "deletions": 185,
+        "insertions": 23,
+        "deletions": 24,
+        "date": "2019-02-16",
+        "commitResults": [
+          {
+            "hash": "265618533cfba62a1f91b61fd1600edb9f5d43d9",
+            "messageTitle": "Remove trailing white spaces",
+            "messageBody": "",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "8a9c066cac4d8577dddf59136fc4f8b121a94240",
+            "messageTitle": "Remove trailing white spaces",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "fc043f3206649eba1275248f4c8835eccf6bda65",
+            "messageTitle": "Remove trailing white spaces",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "86ec258b2ca294278f4b30391bb88943ba7d7c49",
+            "messageTitle": "Remove trailing whitespaces",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "84c72d99746d8f1ce4458df5a11583617791f909",
+            "messageTitle": "Align doc properly",
+            "messageBody": "",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "41eb0041a4236d8267d21a9990f0979fd81e22db",
+            "messageTitle": "Format user guide",
+            "messageBody": "",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "7258f526aa5058379e4bd0250fa2099d54627861",
+            "messageTitle": "Formatting",
+            "messageBody": "",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 90,
+        "deletions": 76,
+        "date": "2019-02-18",
+        "commitResults": [
+          {
+            "hash": "4c020f744f1799adc1b817f5ac119ecea6f95471",
+            "messageTitle": "Update UserGuide",
+            "messageBody": "",
+            "insertions": 70,
+            "deletions": 55
+          },
+          {
+            "hash": "d07168710030827814381d68bea25c00155dc165",
+            "messageTitle": "Remove trailing whitespaces",
+            "messageBody": "",
+            "insertions": 2,
+            "deletions": 3
+          },
+          {
+            "hash": "e116a0baea6ea1e2e11463825cc27e24615b95f2",
+            "messageTitle": "Align doc properly",
+            "messageBody": "",
+            "insertions": 6,
+            "deletions": 6
+          },
+          {
+            "hash": "f71990725c5abec6c9394cf9e1c8ee7e520c67e6",
+            "messageTitle": "Format user guide",
+            "messageBody": "",
+            "insertions": 10,
+            "deletions": 10
+          },
+          {
+            "hash": "4de77275e383ae5eb620fd5469ad7b4d2b9e1a45",
+            "messageTitle": "Formatting",
+            "messageBody": "",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-02-19",
+        "commitResults": [
+          {
+            "hash": "47f8d48ca34e3335b1103185c3459a6a9fbd4a3e",
+            "messageTitle": "Remove trailing whitespaces",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 1,
+        "deletions": 1,
+        "date": "2019-02-28",
+        "commitResults": [
+          {
+            "hash": "318c64550bb80a9cae8e1cb4a0663f7e7dc002b3",
+            "messageTitle": "Update delete command",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 497,
+        "deletions": 187,
         "date": "2019-03-03",
         "commitResults": [
           {
@@ -84,6 +217,34 @@
             "deletions": 4
           },
           {
+            "hash": "8e61bb45a76b34cf6cf0df41db4a06740a117e5b",
+            "messageTitle": "Add new Ui Mockup",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "f349e4fd2dca283453cb6e92d0f92eac9a151b44",
+            "messageTitle": "Delete Ui.png",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "a2ed644199516b0c02fdd2e6fa5c59f3680d4d72",
+            "messageTitle": "Add Ui.png mockup",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          },
+          {
+            "hash": "24ca365f93184054323cdeb247cdbd112b4a4038",
+            "messageTitle": "Add Ui Mockup in README.adoc",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
             "hash": "ed6f80102640dc35673e6886cdda41c17082e775",
             "messageTitle": "Make changes to UI to display expense card",
             "messageBody": "",
@@ -96,6 +257,13 @@
             "messageBody": "",
             "insertions": 10,
             "deletions": 40
+          },
+          {
+            "hash": "a8c53ce34541ab55d61d75ed4c75f2c21d7523a0",
+            "messageTitle": "Fix typo",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
           },
           {
             "hash": "51b688992e79999052a888e5d2314f062ffe03c9",
@@ -282,6 +450,62 @@
         ]
       },
       {
+        "insertions": 348,
+        "deletions": 178,
+        "date": "2019-03-12",
+        "commitResults": [
+          {
+            "hash": "da62ce6864da0b2b14dbf0a9b9de77d669cda3dc",
+            "messageTitle": "Remove extra Ui.png",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 1
+          },
+          {
+            "hash": "e1b5004a1529f833a04ab255924cbb8c49e568b9",
+            "messageTitle": "Update Travis link with our updated org name",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "4a5c21ae32326d28db00645dc5a8f3ffcea4eef2",
+            "messageTitle": "Update Travis link with updated org name",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 2
+          },
+          {
+            "hash": "4e6ff5d5baef4b324e320a5e0127784b9dada3ba",
+            "messageTitle": "Update GitHub org \u0026 Jia hui\u0027s responsibilities",
+            "messageBody": "",
+            "insertions": 2,
+            "deletions": 2
+          },
+          {
+            "hash": "9fa14995cbd2a2c4db320530ac04735f5e34782f",
+            "messageTitle": "Update Travis image link",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "40a0461d8ce3e6856083632d7dcc9fd51abdaa38",
+            "messageTitle": "Add Gradle content",
+            "messageBody": "",
+            "insertions": 172,
+            "deletions": 0
+          },
+          {
+            "hash": "247b273d9042b9f63eae760fe9f31ae4d59f6771",
+            "messageTitle": "Update gradlew",
+            "messageBody": "",
+            "insertions": 171,
+            "deletions": 171
+          }
+        ]
+      },
+      {
         "insertions": 1,
         "deletions": 1,
         "date": "2019-03-14",
@@ -317,10 +541,17 @@
         ]
       },
       {
-        "insertions": 96,
-        "deletions": 16,
+        "insertions": 97,
+        "deletions": 17,
         "date": "2019-03-16",
         "commitResults": [
+          {
+            "hash": "b84faf6cdccfdd74e776e94ba716eca12f9f0615",
+            "messageTitle": "Add EOF line on selectedexpense.html",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
           {
             "hash": "501258cb1fdfbc9598d347ec0a37380f41967b3d",
             "messageTitle": "Update expense list to display expenses in descending order of date",
@@ -373,10 +604,17 @@
         ]
       },
       {
-        "insertions": 195,
+        "insertions": 196,
         "deletions": 23,
         "date": "2019-03-18",
         "commitResults": [
+          {
+            "hash": "40c34ef173b41c2d9e91ab54638cc21de6436920",
+            "messageTitle": "Add break line to import statement",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 0
+          },
           {
             "hash": "e92b10cb1dd3d5ad2464696ed3ba6af65c520bea",
             "messageTitle": "Refactor, update ListExpense command to display in terms of categories",
@@ -419,6 +657,13 @@
         "deletions": 7,
         "date": "2019-03-20",
         "commitResults": [
+          {
+            "hash": "a6f6d6cc61e6e61af28bf0caa98a0ca2bcb70aa7",
+            "messageTitle": "Update UI Mockup",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 0
+          },
           {
             "hash": "11ff641bb0449088e54191e73cae7e859b5b029c",
             "messageTitle": "Add ListExpenseCommandParserTest",
@@ -604,8 +849,8 @@
         ]
       },
       {
-        "insertions": 395,
-        "deletions": 132,
+        "insertions": 397,
+        "deletions": 134,
         "date": "2019-03-30",
         "commitResults": [
           {
@@ -635,12 +880,26 @@
             "messageBody": "",
             "insertions": 1,
             "deletions": 64
+          },
+          {
+            "hash": "320b6cb0c6d086a0d80efbdc8a1be81d8d641846",
+            "messageTitle": "Add EOF line",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "ff928c9ac867f8a0e3a43dbd45799615ddafae59",
+            "messageTitle": "Add EOF line",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       },
       {
-        "insertions": 112,
-        "deletions": 34,
+        "insertions": 117,
+        "deletions": 39,
         "date": "2019-03-31",
         "commitResults": [
           {
@@ -672,6 +931,13 @@
             "deletions": 5
           },
           {
+            "hash": "295dab80bec2b98a4f3759967994e3c9000d7c42",
+            "messageTitle": "Update README.adoc",
+            "messageBody": "",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
             "hash": "4ebc31564a14e03ba96d3994e720c5bcbc9e6ff8",
             "messageTitle": "Update Developer Guide",
             "messageBody": "",
@@ -681,8 +947,8 @@
         ]
       },
       {
-        "insertions": 122,
-        "deletions": 201,
+        "insertions": 123,
+        "deletions": 202,
         "date": "2019-04-01",
         "commitResults": [
           {
@@ -691,12 +957,19 @@
             "messageBody": "",
             "insertions": 122,
             "deletions": 201
+          },
+          {
+            "hash": "fb31c76851b2bed6f713526093429aaa97f666e1",
+            "messageTitle": "Add EOF line to finance tracker.json",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       },
       {
-        "insertions": 195,
-        "deletions": 89,
+        "insertions": 198,
+        "deletions": 92,
         "date": "2019-04-02",
         "commitResults": [
           {
@@ -712,6 +985,27 @@
             "messageBody": "",
             "insertions": 41,
             "deletions": 52
+          },
+          {
+            "hash": "663a3a95b4b39578a31bcbed0e998c1a19a5a8ad",
+            "messageTitle": "Add EOF line to financetracker.json",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "9996d813672f9974cfe91cd4d6a54f7b89cebbe7",
+            "messageTitle": "Add EOF line",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
+            "hash": "74742bcf46038e5aeb4524b7468e447c63df717e",
+            "messageTitle": "add eof line",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       },
@@ -779,8 +1073,8 @@
         ]
       },
       {
-        "insertions": 462,
-        "deletions": 26,
+        "insertions": 465,
+        "deletions": 29,
         "date": "2019-04-09",
         "commitResults": [
           {
@@ -812,17 +1106,31 @@
             "deletions": 0
           },
           {
+            "hash": "039dd564fa14ebce00247b68b89ff366f8334c10",
+            "messageTitle": "Add EOF line in demo data.json",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
+          },
+          {
             "hash": "aac8c508957e94b50b3159997c080136923188b6",
             "messageTitle": "Update ListExpenseSequenceDiagram",
             "messageBody": "",
             "insertions": 0,
             "deletions": 0
+          },
+          {
+            "hash": "6472119e5f65d19ac54241f2905c91485d5b2a4f",
+            "messageTitle": "Add EOF line",
+            "messageBody": "",
+            "insertions": 2,
+            "deletions": 2
           }
         ]
       },
       {
-        "insertions": 5,
-        "deletions": 18,
+        "insertions": 11,
+        "deletions": 24,
         "date": "2019-04-10",
         "commitResults": [
           {
@@ -831,6 +1139,20 @@
             "messageBody": "",
             "insertions": 5,
             "deletions": 18
+          },
+          {
+            "hash": "73dc529f2d66135fb1456a20343c72a025ef3349",
+            "messageTitle": "Add portfolio links",
+            "messageBody": "",
+            "insertions": 5,
+            "deletions": 5
+          },
+          {
+            "hash": "3d788e8feb16909029e9bb556596ed41adab4fd2",
+            "messageTitle": "Fix typo in AboutUs.Adoc",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       },
@@ -891,8 +1213,8 @@
         ]
       },
       {
-        "insertions": 4,
-        "deletions": 3,
+        "insertions": 5,
+        "deletions": 4,
         "date": "2019-04-14",
         "commitResults": [
           {
@@ -901,6 +1223,13 @@
             "messageBody": "",
             "insertions": 4,
             "deletions": 3
+          },
+          {
+            "hash": "1be158bc9bc12fb7305583776aa1bf7ed1637ac0",
+            "messageTitle": "Remove typo",
+            "messageBody": "",
+            "insertions": 1,
+            "deletions": 1
           }
         ]
       },
@@ -921,21 +1250,21 @@
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 5541
+    "jamessspanggg": 5569
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
-      "adoc": 230,
+      "adoc": 255,
       "yml": 1,
       "json": 570,
-      "java": 4443,
+      "java": 4446,
       "fxml": 181,
       "css": 28,
       "html": 88
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 99058.266
+    "jamessspanggg": 99585.555
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"

@@ -27,7 +27,7 @@
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "https://travis-ci.org/CS2103-AY1819S2-W15-2/main[image:https://travis-ci.org/CS2103-AY1819S2-W15-2/main.svg?branch\u003dmaster[Build Status]]"
       },
@@ -250,8 +250,8 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 5,
-      "-": 30
+      "jamessspanggg": 6,
+      "-": 29
     }
   },
   {
@@ -3124,7 +3124,7 @@
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "Personal Finance Tracker was developed by the https://github.com/orgs/CS2103-AY1819S2-W15-2/teams/developers team. +"
       },
@@ -3180,7 +3180,7 @@
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "{empty}[https://github.com/jamessspanggg[github]][\u003c\u003cjamessspanggg#,portfolio\u003e\u003e]"
       },
@@ -3194,7 +3194,7 @@
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "Role: Team Lead +"
       },
@@ -3257,7 +3257,7 @@
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "{empty}[http://github.com/jhocx[github]][\u003c\u003cjhocx#,portfolio\u003e\u003e]"
       },
@@ -3334,7 +3334,7 @@
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "{empty}[http://github.com/gohyinhao[github]][\u003c\u003cgohyinhao#,portfolio\u003e\u003e]"
       },
@@ -3411,7 +3411,7 @@
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "{empty}[http://github.com/lim-jiahui[github]][\u003c\u003clim-jiahui#,portfolio\u003e\u003e]"
       },
@@ -3446,7 +3446,7 @@
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "In charge of Commons."
       },
@@ -3488,7 +3488,7 @@
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "{empty}[http://github.com/zht96830[github]][\u003c\u003czht96830#,portfolio\u003e\u003e]"
       },
@@ -3543,8 +3543,8 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 8,
-      "-": 58
+      "jamessspanggg": 16,
+      "-": 50
     }
   },
   {
@@ -14666,7 +14666,7 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "\u003d Personal Finance Tracker - User Guide"
       },
@@ -14764,7 +14764,7 @@
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": ":repoURL: https://github.com/cs2103-ay1819s2-w15-2/main"
       },
@@ -14778,7 +14778,7 @@
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "By: `CS2103-AY1819S2-W15-2`      Since: `Feb 2019`"
       },
@@ -14806,7 +14806,7 @@
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "Personal Finance Tracker is for those who *prefer to use a desktop app for expense tracking*. More importantly, Personal Finance Tracker is *optimized for those who prefer to work with a Command Line Interface* (CLI) while still having the benefits of a Graphical User Interface (GUI). Whether if you are an expert user or a non tech savvy user, we have commands that cater towards you guys!Interested? Jump to the \u003c\u003cQuick Start\u003e\u003e to get started. Enjoy!"
       },
@@ -14841,14 +14841,14 @@
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": ".  Download the latest `main.jar` link:{repoURL}/releases[here]."
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": ".  Copy the file to the folder you want to use as the home folder for your Personal Finance Tracker."
       },
@@ -15548,7 +15548,7 @@
       {
         "lineNumber": 127,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": ""
       },
@@ -15590,7 +15590,7 @@
       {
         "lineNumber": 133,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "* If DATE is omitted, current date will be used."
       },
@@ -15611,7 +15611,7 @@
       {
         "lineNumber": 136,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": ""
       },
@@ -15632,7 +15632,7 @@
       {
         "lineNumber": 139,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": ""
       },
@@ -15646,7 +15646,7 @@
       {
         "lineNumber": 141,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": ""
       },
@@ -15688,7 +15688,7 @@
       {
         "lineNumber": 147,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "Edits an existing expense in the finance tracker. +"
       },
@@ -15828,7 +15828,7 @@
       {
         "lineNumber": 167,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "Deletes the specified expense from the finance tracker. +"
       },
@@ -15863,7 +15863,7 @@
       {
         "lineNumber": 172,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "* Deletes the expense at the specified `INDEX`."
       },
@@ -15919,7 +15919,7 @@
       {
         "lineNumber": 180,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "Deletes the 2nd expense in the finance tracker."
       },
@@ -20181,8 +20181,8 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 69,
-      "-": 719
+      "jamessspanggg": 84,
+      "-": 704
     }
   },
   {
@@ -20507,7 +20507,7 @@
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "** Tools:"
       },
@@ -20702,8 +20702,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 72,
-      "-": 1
+      "jamessspanggg": 73
     }
   },
   {
@@ -23054,6 +23053,1038 @@
     "authorContributionMap": {
       "jamessspanggg": 4,
       "-": 15
+    }
+  },
+  {
+    "path": "src/main/java/seedu/address/logic/Logic.java",
+    "fileType": "java",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.address.logic;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.nio.file.Path;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.beans.property.ReadOnlyProperty;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import javafx.collections.ObservableList;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.commons.core.GuiSettings;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.logic.commands.CommandResult;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.logic.commands.exceptions.CommandException;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.logic.parser.exceptions.ParseException;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.model.ReadOnlyFinanceTracker;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.model.budget.Budget;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.model.debt.Debt;"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.model.expense.Expense;"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.model.recurring.Recurring;"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import seedu.address.model.statistics.Statistics;"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " * API of the Logic component"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public interface Logic {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Executes the command and returns the result."
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @param commandText The command as entered by the user."
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @return the result of the command execution."
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @throws CommandException If an error occurs during command execution."
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @throws ParseException If an error occurs during parsing."
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    CommandResult execute(String commandText) throws CommandException, ParseException;"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Returns the FinanceTracker."
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @see seedu.address.model.Model#getFinanceTracker()"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ReadOnlyFinanceTracker getFinanceTracker();"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /** Returns an unmodifiable view of the filtered list of expenses */"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ObservableList\u003cExpense\u003e getFilteredExpenseList();"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /** Returns an unmodifiable view of the filtered list of debts */"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ObservableList\u003cDebt\u003e getFilteredDebtList();"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /** Returns an unmodifiable view of the filtered list of budgets */"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ObservableList\u003cBudget\u003e getFilteredBudgetList();"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    /** Returns an unmodifiable view of the filtered list of recurring expenses */"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ObservableList\u003cRecurring\u003e getFilteredRecurringList();"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Returns an unmodifiable view of the list of commands entered by the user."
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * The list is ordered from the least recent command to the most recent command."
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ObservableList\u003cString\u003e getHistory();"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Returns the user prefs\u0027 Finance Tracker file path."
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    Path getFinanceTrackerFilePath();"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Returns the user prefs\u0027 GUI settings."
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    GuiSettings getGuiSettings();"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Set the user prefs\u0027 GUI settings."
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    void setGuiSettings(GuiSettings guiSettings);"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Selected expense in the filtered expense list."
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * null if no expense is selected."
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @see seedu.address.model.Model#selectedExpenseProperty()"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ReadOnlyProperty\u003cExpense\u003e selectedExpenseProperty();"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Sets the selected expense in the filtered expense list."
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @see seedu.address.model.Model#setSelectedExpense(Expense)"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    void setSelectedExpense(Expense expense);"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Selected debt in the filtered debt list."
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * null if no debt is selected."
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @see seedu.address.model.Model#selectedDebtProperty()"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ReadOnlyProperty\u003cDebt\u003e selectedDebtProperty();"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Sets the selected debt in the filtered expense list."
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @see seedu.address.model.Model#setSelectedDebt(Debt)"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    void setSelectedDebt(Debt debt);"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Selected budget in the filtered budget list."
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * null if no budget is selected."
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @see seedu.address.model.Model#selectedBudgetProperty()"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ReadOnlyProperty\u003cBudget\u003e selectedBudgetProperty();"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Sets the selected budget in the filtered budget list."
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @see seedu.address.model.Model#setSelectedBudget(Budget)"
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 114,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    void setSelectedBudget(Budget budget);"
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Selected recurring in the filtered recurring list."
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * null if no recurring is selected."
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @see seedu.address.model.Model#selectedRecurringProperty()"
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ReadOnlyProperty\u003cRecurring\u003e selectedRecurringProperty();"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Sets the selected recurring in the filtered recurring list."
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @see seedu.address.model.Model#setSelectedRecurring(Recurring)"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    void setSelectedRecurring(Recurring recurring);"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Selected Statistics"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * null if no Statistics has been generated."
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @see seedu.address.model.Model#statisticsProperty()"
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ReadOnlyProperty\u003cStatistics\u003e statisticsProperty();"
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * Sets the selected statistics"
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * @see seedu.address.model.Model#setStatistics(Statistics)"
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    void setStatistics(Statistics statistics);"
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "jamessspanggg": 1,
+      "-": 145
     }
   },
   {
@@ -32296,7 +33327,7 @@
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": " * Deletes an expense identified using it\u0027s displayed index from the Finance Tracker."
       },
@@ -32596,8 +33627,8 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 7,
-      "-": 52
+      "jamessspanggg": 8,
+      "-": 51
     }
   },
   {
@@ -72326,7 +73357,7 @@
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
         "content": "            // otherwise we would have an infinite loop."
       },
@@ -72556,8 +73587,8 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 20,
-      "-": 51
+      "jamessspanggg": 21,
+      "-": 50
     }
   },
   {
