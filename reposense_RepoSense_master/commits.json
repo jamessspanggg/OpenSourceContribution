@@ -679,13 +679,13 @@
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 1257
+    "jamessspanggg": 1253
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "json": 82,
       "yml": 1,
-      "md": 39,
+      "md": 35,
       "pug": 62,
       "scss": 370,
       "js": 371,
