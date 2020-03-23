@@ -7820,28 +7820,28 @@
         "author": {
           "gitId": "-"
         },
-        "content": "      // TODO -- change `1` to `0` once the bug is fixed:"
+        "content": "      setTimeout(() \u003d\u003e {"
       },
       {
         "lineNumber": 1118,
         "author": {
           "gitId": "-"
         },
-        "content": "      // https://github.com/rintoj/ngx-virtual-scroller/issues/420"
+        "content": "        this.virtualScroller.scrollToPosition(this.folderNavigationScrollOffset, 0);"
       },
       {
         "lineNumber": 1119,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.virtualScroller.scrollToPosition(this.folderNavigationScrollOffset, 1);"
+        "content": "        this.folderNavigationScrollOffset \u003d 0;"
       },
       {
         "lineNumber": 1120,
         "author": {
           "gitId": "-"
         },
-        "content": "      this.folderNavigationScrollOffset \u003d 0;"
+        "content": "      }, 1);"
       },
       {
         "lineNumber": 1121,

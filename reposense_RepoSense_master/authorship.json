@@ -563,96 +563,124 @@
         "author": {
           "gitId": "-"
         },
-        "content": "after_success:"
+        "content": "cache:"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "  - git fetch --unshallow \u0026\u0026 ./gradlew run -Dargs\u003d\"-V\""
+        "content": "  npm: true,"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "  directories:"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "cache:"
+        "content": "    - $HOME/.gradle/caches/"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": "  npm: true,"
+        "content": "    - $HOME/.gradle/wrapper/"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": "  directories:"
+        "content": "    - $HOME/Library/Caches/Homebrew"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": "    - $HOME/.gradle/caches/"
+        "content": "    - $HOME/.cache"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "    - $HOME/.gradle/wrapper/"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": "    - $HOME/Library/Caches/Homebrew"
+        "content": "after_success:"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": "    - $HOME/.cache"
+        "content": "  - bash \u003c(curl -s https://codecov.io/bash)"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  - |"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
-        "content": "after_success:"
+        "content": "    if [ \"$TRAVIS_JOB_NAME\" \u003d \"Ubuntu 14.04 JDK 8\" ];"
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
-        "content": "  - bash \u003c(curl -s https://codecov.io/bash)"
+        "content": "    then"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      git fetch --all \u0026\u0026 git config --global user.email \"-\" \u0026\u0026 git config --global user.name \"-\" \u0026\u0026 ./gradlew run -Dargs\u003d\"--since d1\""
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      npm install -g surge"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      ./config/travis/deploy-surge.sh"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    fi"
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 1,
-      "-": 61
+      "jamessspanggg": 8,
+      "-": 58
     }
   },
   {
@@ -943,6 +971,414 @@
     "authorContributionMap": {
       "jamessspanggg": 6,
       "-": 34
+    }
+  },
+  {
+    "path": "config/travis/deploy-surge.sh",
+    "fileType": "sh",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "#!/bin/bash"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "# Split on \"/\", ref: http://stackoverflow.com/a/5257398/689223"
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "REPO_SLUG_ARRAY\u003d(${TRAVIS_REPO_SLUG//\\// })"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "REPO_OWNER\u003d${REPO_SLUG_ARRAY[0]}"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "REPO_NAME\u003d${REPO_SLUG_ARRAY[1]}"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "DEPLOY_PATH\u003d./reposense-report"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "DEPLOY_SUBDOMAIN_UNFORMATTED_LIST\u003d()"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "if [ \"$TRAVIS_PULL_REQUEST\" !\u003d \"false\" ]"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "then"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  DEPLOY_SUBDOMAIN_UNFORMATTED_LIST+\u003d(${TRAVIS_PULL_REQUEST}-pr)"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "elif [ -n \"${TRAVIS_TAG// }\" ] #TAG is not empty"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "then"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  #sorts the tags and picks the latest"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  #sort -V does not work on the travis machine"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  #sort -V              ref: http://stackoverflow.com/a/14273595/689223"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  #sort -t ...          ref: http://stackoverflow.com/a/4495368/689223"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  #reverse with sed     ref: http://stackoverflow.com/a/744093/689223"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  #git tags | ignore release candidates | sort versions | reverse | pick first line"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  LATEST_TAG\u003d$(git tag | grep -v rc | sort -t. -k 1,1n -k 2,2n -k 3,3n -k 4,4n | sed \u00271!G;h;$!d\u0027 | sed -n 1p)"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  echo $LATEST_TAG"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  if [ \"$TRAVIS_TAG\" \u003d\u003d \"$LATEST_TAG\" ]"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  then"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    DEPLOY_SUBDOMAIN_UNFORMATTED_LIST+\u003d(latest)"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  fi"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  DEPLOY_SUBDOMAIN_UNFORMATTED_LIST+\u003d(${TRAVIS_TAG}-tag)"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "else"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  DEPLOY_SUBDOMAIN_UNFORMATTED_LIST+\u003d(${TRAVIS_BRANCH}-branch)"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "fi"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "for DEPLOY_SUBDOMAIN_UNFORMATTED in \"${DEPLOY_SUBDOMAIN_UNFORMATTED_LIST[@]}\""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "do"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  # replaces \"/\" or \".\" with \"-\""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  # sed -r is only supported in linux, ref http://stackoverflow.com/a/2871217/689223"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  # Domain names follow the RFC1123 spec [a-Z] [0-9] [-]"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  # The length is limited to 253 characters"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  # https://en.wikipedia.org/wiki/Domain_Name_System#Domain_name_syntax"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  DEPLOY_SUBDOMAIN\u003d$(echo \"$DEPLOY_SUBDOMAIN_UNFORMATTED\" | sed -r \u0027s/[\\/|\\.]+/\\-/g\u0027)"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  if [ -z \"${DEPLOY_SUBDOMAIN}\" ] # empty deploy subdomains, skip deployment"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  then"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    continue"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  fi"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  DEPLOY_DOMAIN\u003dhttps://${DEPLOY_SUBDOMAIN}-${REPO_NAME}-${REPO_OWNER}.surge.sh"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  echo \"Deploy domain: ${DEPLOY_DOMAIN}\" # debugging purposes"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  surge --project ${DEPLOY_PATH} --domain $DEPLOY_DOMAIN;"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  if [ \"$TRAVIS_PULL_REQUEST\" !\u003d \"false\" ] # only create github statuses when it is a PR"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  then"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    # Create github statuses that redirects users to the deployed link"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    curl \"https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/statuses/${TRAVIS_PULL_REQUEST_SHA}?access_token\u003d${GITHUB_API_TOKEN}\" \\"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    -H \"Content-Type: application/json\" \\"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    -X POST \\"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    -d \"{\\\"state\\\": \\\"success\\\",\\\"context\\\": \\\"surge/deploy/${DEPLOY_SUBDOMAIN}\\\", \\\"description\\\": \\\"Deploy domain: ${DEPLOY_DOMAIN}\\\", \\\"target_url\\\": \\\"${DEPLOY_DOMAIN}\\\"}\""
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  fi"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "done"
+      }
+    ],
+    "authorContributionMap": {
+      "jamessspanggg": 57
     }
   },
   {

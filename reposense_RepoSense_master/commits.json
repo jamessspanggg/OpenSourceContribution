@@ -675,16 +675,31 @@
             "deletions": 15
           }
         ]
+      },
+      {
+        "insertions": 64,
+        "deletions": 3,
+        "date": "2020-03-23",
+        "commitResults": [
+          {
+            "hash": "07c16f1e7970b3d2585f168fa7cf663e97968bd6",
+            "messageTitle": "[#950] Use Surge as alternative for Netlify (#1165)",
+            "messageBody": "Netlify\u0027s build quota is not enough for RepoSense\u0027s build usage.\r\n\r\nLet\u0027s deploy on Surge instead, using Travis to run the build and \r\nprovide a Github Status on each PR that links users to the deployed \r\nSurge site.",
+            "insertions": 64,
+            "deletions": 3
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 1253
+    "jamessspanggg": 1317
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "json": 82,
-      "yml": 1,
+      "yml": 8,
+      "sh": 57,
       "md": 35,
       "pug": 62,
       "scss": 370,
@@ -693,7 +708,7 @@
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 8899.747
+    "jamessspanggg": 8740.525
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
