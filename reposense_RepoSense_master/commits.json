@@ -689,11 +689,25 @@
             "deletions": 3
           }
         ]
+      },
+      {
+        "insertions": 16,
+        "deletions": 38,
+        "date": "2020-03-24",
+        "commitResults": [
+          {
+            "hash": "af93ed1758c3a8f66149bd99f194248a90aec76b",
+            "messageTitle": "[#1167] Revert PR #967 while keeping zoom tab independent of summary (#1172)",
+            "messageBody": "PR #967 causes multiple bugs in zoom tab and authorship tab, due to\r\nsome data value inside the side panels are not re-rendered when prop \r\n`info` changes.\r\n\r\nFixing these bugs may delay our upcoming release, so reverting the \r\nchanges that lead to these bugs may be the best option.\r\n\r\nLet\u0027s revert that PR while only keeping the changes to make the zoom \r\ntab to be independent of summary.",
+            "insertions": 16,
+            "deletions": 38
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 1317
+    "jamessspanggg": 1333
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
@@ -701,14 +715,14 @@
       "yml": 8,
       "sh": 57,
       "md": 35,
-      "pug": 62,
+      "pug": 64,
       "scss": 370,
-      "js": 371,
+      "js": 385,
       "java": 332
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 8740.525
+    "jamessspanggg": 8718.425
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
