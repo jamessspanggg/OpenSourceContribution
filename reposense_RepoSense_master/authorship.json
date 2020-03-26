@@ -34293,79 +34293,79 @@
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "    public static final String NAME_NO_AUTHOR_WITH_COMMITS_FOUND \u003d"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    public static final String NAME_FAILED_TO_CLONE_OR_CHECKOUT \u003d \"FAILED TO CLONE OR CHECKOUT THIS REPOSITORY\";"
-      },
-      {
-        "lineNumber": 15,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": "    public static final String NAME_NO_AUTHOR_WITH_COMMITS_FOUND \u003d"
-      },
-      {
-        "lineNumber": 16,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
         "content": "            \"NO AUTHOR WITH COMMITS FOUND WITHIN THIS PERIOD OF TIME\";"
       },
       {
-        "lineNumber": 17,
+        "lineNumber": 15,
         "author": {
           "gitId": "-"
         },
         "content": "    private static final String UNKNOWN_AUTHOR_GIT_ID \u003d \"-\";"
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 16,
         "author": {
           "gitId": "-"
         },
         "content": "    private static final String STANDARD_GITHUB_EMAIL_DOMAIN \u003d \"@users.noreply.github.com\";"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 17,
         "author": {
           "gitId": "-"
         },
         "content": "    private static final String MESSAGE_UNCOMMON_EMAIL_PATTERN \u003d \"The provided email, %s, uses uncommon pattern.\";"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 18,
         "author": {
           "gitId": "-"
         },
         "content": "    private static final String MESSAGE_UNCOMMON_GLOB_PATTERN \u003d \"The provided ignore glob, %s, uses uncommon pattern.\";"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 19,
         "author": {
           "gitId": "-"
         },
         "content": "    private static final String COMMON_EMAIL_REGEX \u003d"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 20,
         "author": {
           "gitId": "-"
         },
         "content": "            \"^([a-zA-Z0-9_\\\\-\\\\.\\\\+]+)@([a-zA-Z0-9_\\\\-\\\\.]+)\\\\.([a-zA-Z]{2,5})$\";"
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 21,
         "author": {
           "gitId": "-"
         },
         "content": "    private static final String COMMON_GLOB_REGEX \u003d \"^[-a-zA-Z0-9 _/\\\\\\\\*!{}\\\\[\\\\]!(),:.]*$\";"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public static final Author UNKNOWN_AUTHOR \u003d new Author(UNKNOWN_AUTHOR_GIT_ID);"
       },
       {
         "lineNumber": 24,
@@ -34379,7 +34379,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    public static final Author UNKNOWN_AUTHOR \u003d new Author(UNKNOWN_AUTHOR_GIT_ID);"
+        "content": "    private final String gitId;"
       },
       {
         "lineNumber": 26,
@@ -34393,1214 +34393,1200 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    private final String gitId;"
+        "content": "    private transient List\u003cString\u003e emails;"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    private transient String displayName;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "-"
         },
-        "content": "    private transient List\u003cString\u003e emails;"
+        "content": "    private transient List\u003cString\u003e authorAliases;"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "-"
         },
-        "content": "    private transient String displayName;"
+        "content": "    private transient List\u003cString\u003e ignoreGlobList;"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
-        "content": "    private transient List\u003cString\u003e authorAliases;"
+        "content": "    private transient PathMatcher ignoreGlobMatcher;"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "-"
         },
-        "content": "    private transient List\u003cString\u003e ignoreGlobList;"
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
-        "content": "    private transient PathMatcher ignoreGlobMatcher;"
+        "content": "    public Author(String gitId) {"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        this.gitId \u003d gitId;"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "-"
         },
-        "content": "    public Author(String gitId) {"
+        "content": "        this.emails \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.gitId \u003d gitId;"
+        "content": "        this.displayName \u003d gitId;"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.emails \u003d new ArrayList\u003c\u003e();"
+        "content": "        this.authorAliases \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.displayName \u003d gitId;"
+        "content": "        this.ignoreGlobList \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.authorAliases \u003d new ArrayList\u003c\u003e();"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.ignoreGlobList \u003d new ArrayList\u003c\u003e();"
+        "content": "        addStandardGitHubEmail(this.emails);"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        updateIgnoreGlobMatcher();"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "-"
         },
-        "content": "        addStandardGitHubEmail(this.emails);"
+        "content": "    }"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "        updateIgnoreGlobMatcher();"
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public Author(StandaloneAuthor sa) {"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        String gitId \u003d sa.getGithubId();"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": "    public Author(StandaloneAuthor sa) {"
+        "content": "        List\u003cString\u003e emails \u003d new ArrayList\u003c\u003e(sa.getEmails());"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
-        "content": "        String gitId \u003d sa.getGithubId();"
+        "content": "        String displayName \u003d !sa.getDisplayName().isEmpty() ? sa.getDisplayName() : sa.getGithubId();"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": "        List\u003cString\u003e emails \u003d new ArrayList\u003c\u003e(sa.getEmails());"
+        "content": "        List\u003cString\u003e authorAliases \u003d sa.getAuthorNames();"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": "        String displayName \u003d !sa.getDisplayName().isEmpty() ? sa.getDisplayName() : sa.getGithubId();"
+        "content": "        List\u003cString\u003e ignoreGlobList \u003d sa.getIgnoreGlobList();"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "        List\u003cString\u003e authorAliases \u003d sa.getAuthorNames();"
+        "content": ""
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "        List\u003cString\u003e ignoreGlobList \u003d sa.getIgnoreGlobList();"
+        "content": "        this.gitId \u003d gitId;"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        this.displayName \u003d displayName;"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.gitId \u003d gitId;"
+        "content": "        this.authorAliases \u003d authorAliases;"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.displayName \u003d displayName;"
+        "content": ""
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.authorAliases \u003d authorAliases;"
+        "content": "        setEmails(emails);"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        setIgnoreGlobList(ignoreGlobList);"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "        setEmails(emails);"
+        "content": "    }"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": "        setIgnoreGlobList(ignoreGlobList);"
+        "content": ""
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public Author(Author another) {"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        this.gitId \u003d another.gitId;"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
-        "content": "    public Author(Author another) {"
+        "content": "        this.emails \u003d another.emails;"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.gitId \u003d another.gitId;"
+        "content": "        this.displayName \u003d another.gitId;"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.emails \u003d another.emails;"
+        "content": "        this.authorAliases \u003d another.authorAliases;"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.displayName \u003d another.gitId;"
+        "content": "        this.ignoreGlobList \u003d another.ignoreGlobList;"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.authorAliases \u003d another.authorAliases;"
+        "content": "        this.ignoreGlobMatcher \u003d another.ignoreGlobMatcher;"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.ignoreGlobList \u003d another.ignoreGlobList;"
+        "content": "    }"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.ignoreGlobMatcher \u003d another.ignoreGlobMatcher;"
+        "content": ""
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "     * Checks that all the strings in the {@code emails} only contains commonly used email patterns."
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "     * @throws IllegalArgumentException if any of the values do not meet the criteria."
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Checks that all the strings in the {@code emails} only contains commonly used email patterns."
+        "content": "     */"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @throws IllegalArgumentException if any of the values do not meet the criteria."
+        "content": "    private static void validateEmails(List\u003cString\u003e emails) throws IllegalArgumentException {"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "        for (String email : emails) {"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "-"
         },
-        "content": "    private static void validateEmails(List\u003cString\u003e emails) throws IllegalArgumentException {"
+        "content": "            if (!email.matches(COMMON_EMAIL_REGEX)) {"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
-        "content": "        for (String email : emails) {"
+        "content": "                throw new IllegalArgumentException(String.format(MESSAGE_UNCOMMON_EMAIL_PATTERN, email));"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "-"
         },
-        "content": "            if (!email.matches(COMMON_EMAIL_REGEX)) {"
+        "content": "            }"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "-"
         },
-        "content": "                throw new IllegalArgumentException(String.format(MESSAGE_UNCOMMON_EMAIL_PATTERN, email));"
+        "content": "        }"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "-"
         },
-        "content": "            }"
+        "content": "    }"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "     * Checks that all the strings in the {@code ignoreGlobList} only contains commonly used glob patterns."
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "     * @throws IllegalArgumentException if any of the values do not meet the criteria."
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Checks that all the strings in the {@code ignoreGlobList} only contains commonly used glob patterns."
+        "content": "     */"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "-"
         },
-        "content": "     * @throws IllegalArgumentException if any of the values do not meet the criteria."
+        "content": "    private static void validateIgnoreGlobs(List\u003cString\u003e ignoreGlobList) throws IllegalArgumentException {"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "        for (String glob : ignoreGlobList) {"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
-        "content": "    private static void validateIgnoreGlobs(List\u003cString\u003e ignoreGlobList) throws IllegalArgumentException {"
+        "content": "            if (!glob.matches(COMMON_GLOB_REGEX)) {"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "-"
         },
-        "content": "        for (String glob : ignoreGlobList) {"
+        "content": "                throw new IllegalArgumentException(String.format(MESSAGE_UNCOMMON_GLOB_PATTERN, glob));"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "-"
         },
-        "content": "            if (!glob.matches(COMMON_GLOB_REGEX)) {"
+        "content": "            }"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "-"
         },
-        "content": "                throw new IllegalArgumentException(String.format(MESSAGE_UNCOMMON_GLOB_PATTERN, glob));"
+        "content": "        }"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "-"
         },
-        "content": "            }"
+        "content": "    }"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public String getGitId() {"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return gitId;"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "-"
         },
-        "content": "    public String getGitId() {"
+        "content": "    }"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "-"
         },
-        "content": "        return gitId;"
+        "content": ""
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public List\u003cString\u003e getEmails() {"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return emails;"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "-"
         },
-        "content": "    public List\u003cString\u003e getEmails() {"
+        "content": "    }"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "-"
         },
-        "content": "        return emails;"
+        "content": ""
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public void setEmails(List\u003cString\u003e emails) {"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        validateEmails(emails);"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void setEmails(List\u003cString\u003e emails) {"
+        "content": "        this.emails \u003d new ArrayList\u003c\u003e(emails);"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "-"
         },
-        "content": "        validateEmails(emails);"
+        "content": "        addStandardGitHubEmail(this.emails);"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.emails \u003d new ArrayList\u003c\u003e(emails);"
+        "content": "    }"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "-"
         },
-        "content": "        addStandardGitHubEmail(this.emails);"
+        "content": ""
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public String getDisplayName() {"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return displayName;"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "-"
         },
-        "content": "    public String getDisplayName() {"
+        "content": "    }"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "-"
         },
-        "content": "        return displayName;"
+        "content": ""
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public void setDisplayName(String displayName) {"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        this.displayName \u003d displayName;"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void setDisplayName(String displayName) {"
+        "content": "    }"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.displayName \u003d displayName;"
+        "content": ""
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public List\u003cString\u003e getAuthorAliases() {"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return authorAliases;"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "-"
         },
-        "content": "    public List\u003cString\u003e getAuthorAliases() {"
+        "content": "    }"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "-"
         },
-        "content": "        return authorAliases;"
+        "content": ""
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public void setAuthorAliases(List\u003cString\u003e authorAliases) {"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        this.authorAliases \u003d authorAliases;"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void setAuthorAliases(List\u003cString\u003e authorAliases) {"
+        "content": "    }"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.authorAliases \u003d authorAliases;"
+        "content": ""
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public List\u003cString\u003e getIgnoreGlobList() {"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return ignoreGlobList;"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "-"
         },
-        "content": "    public List\u003cString\u003e getIgnoreGlobList() {"
+        "content": "    }"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "-"
         },
-        "content": "        return ignoreGlobList;"
+        "content": ""
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    public void setIgnoreGlobList(List\u003cString\u003e ignoreGlobList) {"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        validateIgnoreGlobs(ignoreGlobList);"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void setIgnoreGlobList(List\u003cString\u003e ignoreGlobList) {"
+        "content": "        this.ignoreGlobList \u003d new ArrayList\u003c\u003e(ignoreGlobList);"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "-"
         },
-        "content": "        validateIgnoreGlobs(ignoreGlobList);"
+        "content": "        updateIgnoreGlobMatcher();"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "-"
         },
-        "content": "        this.ignoreGlobList \u003d new ArrayList\u003c\u003e(ignoreGlobList);"
+        "content": "    }"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "-"
         },
-        "content": "        updateIgnoreGlobMatcher();"
+        "content": ""
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "     * Validates and adds a list of ignore glob into the {@code Author} class instance variable without duplicates"
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "     * and updates the ignore glob matcher."
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Validates and adds a list of ignore glob into the {@code Author} class instance variable without duplicates"
+        "content": "     */"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "-"
         },
-        "content": "     * and updates the ignore glob matcher."
+        "content": "    public void importIgnoreGlobList(List\u003cString\u003e ignoreGlobList) {"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "        validateIgnoreGlobs(ignoreGlobList);"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "-"
         },
-        "content": "    public void importIgnoreGlobList(List\u003cString\u003e ignoreGlobList) {"
+        "content": "        ignoreGlobList.forEach(ignoreGlob -\u003e {"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "-"
         },
-        "content": "        validateIgnoreGlobs(ignoreGlobList);"
+        "content": "            if (!this.ignoreGlobList.contains(ignoreGlob)) {"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "-"
         },
-        "content": "        ignoreGlobList.forEach(ignoreGlob -\u003e {"
+        "content": "                this.ignoreGlobList.add(ignoreGlob);"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "-"
         },
-        "content": "            if (!this.ignoreGlobList.contains(ignoreGlob)) {"
+        "content": "            }"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "-"
         },
-        "content": "                this.ignoreGlobList.add(ignoreGlob);"
+        "content": "        });"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "-"
         },
-        "content": "            }"
+        "content": "        updateIgnoreGlobMatcher();"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "-"
         },
-        "content": "        });"
+        "content": "    }"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "-"
         },
-        "content": "        updateIgnoreGlobMatcher();"
+        "content": ""
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "     * Returns true if this author is ignoring the {@code filePath} based on its ignore glob matcher."
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "     */"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Returns true if this author is ignoring the {@code filePath} based on its ignore glob matcher."
+        "content": "    public boolean isIgnoringFile(Path filePath) {"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "        return ignoreGlobMatcher.matches(filePath);"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "-"
         },
-        "content": "    public boolean isIgnoringFile(Path filePath) {"
+        "content": "    }"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "-"
         },
-        "content": "        return ignoreGlobMatcher.matches(filePath);"
+        "content": ""
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "        // short circuit if same object"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "-"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "        if (this \u003d\u003d other) {"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "-"
         },
-        "content": "        // short circuit if same object"
+        "content": "            return true;"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "-"
         },
-        "content": "        if (this \u003d\u003d other) {"
+        "content": "        }"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "-"
         },
-        "content": "            return true;"
+        "content": ""
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "        // instanceof handles null"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        if (!(other instanceof Author)) {"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "-"
         },
-        "content": "        // instanceof handles null"
+        "content": "            return false;"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "-"
         },
-        "content": "        if (!(other instanceof Author)) {"
+        "content": "        }"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "-"
         },
-        "content": "            return false;"
+        "content": ""
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": "        Author otherAuthor \u003d (Author) other;"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        return this.gitId.equalsIgnoreCase(otherAuthor.gitId);"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "-"
         },
-        "content": "        Author otherAuthor \u003d (Author) other;"
+        "content": "    }"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "-"
         },
-        "content": "        return this.gitId.equalsIgnoreCase(otherAuthor.gitId);"
+        "content": ""
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public int hashCode() {"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "        return gitId !\u003d null ? gitId.toLowerCase().hashCode() : 0;"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "-"
         },
-        "content": "    public int hashCode() {"
+        "content": "    }"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "-"
         },
-        "content": "        return gitId !\u003d null ? gitId.toLowerCase().hashCode() : 0;"
+        "content": ""
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    public String toString() {"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "-"
         },
-        "content": "    @Override"
+        "content": "        return gitId;"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "-"
         },
-        "content": "    public String toString() {"
+        "content": "    }"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "-"
         },
-        "content": "        return gitId;"
+        "content": ""
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "     * Updates the {@code PathMatcher} to the new ignore glob list set."
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "     * Called after a new ignore glob list is set."
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Updates the {@code PathMatcher} to the new ignore glob list set."
+        "content": "     */"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Called after a new ignore glob list is set."
+        "content": "    private void updateIgnoreGlobMatcher() {"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "        String globString \u003d \"glob:{\" + String.join(\",\", ignoreGlobList) + \"}\";"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "-"
         },
-        "content": "    private void updateIgnoreGlobMatcher() {"
+        "content": "        ignoreGlobMatcher \u003d FileSystems.getDefault().getPathMatcher(globString);"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "-"
         },
-        "content": "        String globString \u003d \"glob:{\" + String.join(\",\", ignoreGlobList) + \"}\";"
+        "content": "    }"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "-"
         },
-        "content": "        ignoreGlobMatcher \u003d FileSystems.getDefault().getPathMatcher(globString);"
+        "content": ""
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "    /**"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "     * Adds the standard github email to {@code emails} if doesn\u0027t exist."
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "-"
         },
-        "content": "    /**"
+        "content": "     */"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Adds the standard github email to {@code emails} if doesn\u0027t exist."
+        "content": "    private void addStandardGitHubEmail(List\u003cString\u003e emails) {"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "        String standardGitHubEmail \u003d getGitId() + STANDARD_GITHUB_EMAIL_DOMAIN;"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "-"
         },
-        "content": "    private void addStandardGitHubEmail(List\u003cString\u003e emails) {"
+        "content": "        if (!emails.contains(standardGitHubEmail)) {"
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "-"
         },
-        "content": "        String standardGitHubEmail \u003d getGitId() + STANDARD_GITHUB_EMAIL_DOMAIN;"
+        "content": "            emails.add(standardGitHubEmail);"
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "-"
         },
-        "content": "        if (!emails.contains(standardGitHubEmail)) {"
+        "content": "        }"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "-"
         },
-        "content": "            emails.add(standardGitHubEmail);"
+        "content": "    }"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 198,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 199,
-        "author": {
-          "gitId": "-"
-        },
         "content": "}"
       },
       {
-        "lineNumber": 200,
+        "lineNumber": 198,
         "author": {
           "gitId": "-"
         },
@@ -35608,8 +35594,8 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 3,
-      "-": 197
+      "jamessspanggg": 2,
+      "-": 196
     }
   },
   {
