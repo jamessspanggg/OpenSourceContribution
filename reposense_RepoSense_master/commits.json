@@ -703,26 +703,54 @@
             "deletions": 38
           }
         ]
+      },
+      {
+        "insertions": 261,
+        "deletions": 82,
+        "date": "2020-03-29",
+        "commitResults": [
+          {
+            "hash": "eac21ab589ebcdf79f596a94d7ff3f9c7a09e3e9",
+            "messageTitle": "[#779] Restore zoom tab (#830)",
+            "messageBody": "The zoom tab hashes are not encoded in the URL when zoom tab is \r\nopened.\r\n\r\nZoom tab will not be restorable with the URL after reloading the \r\npage.\r\n\r\nLet\u0027s add the encoding of zoom tab hashes to the URL make the zoom \r\ntab restorable after reloading the page.",
+            "insertions": 245,
+            "deletions": 79
+          },
+          {
+            "hash": "f39df542959252e9d3b88c247f11fa0c2574afe3",
+            "messageTitle": "[#873] Enable view commits option when merge group (#1100)",
+            "messageBody": "The view commits option is not available when merge group option is \r\nchecked.\r\n\r\nLet\u0027s enable the view option when merge group, as the zoom in \r\nfunction is already working with merged ramps. Let\u0027s also fix the \r\nregression from #1106 that removes the github icon when merge group \r\nand `filterGroupSelection` is \u0027groupByRepos\u0027.",
+            "insertions": 11,
+            "deletions": 1
+          },
+          {
+            "hash": "0e39bb7ffa5094e13fb120a36e3c2666f2566572",
+            "messageTitle": "[#1087] Update badges in README (#1194)",
+            "messageBody": "RepoSense\u0027s Netlify badge icon is a custom icon. We are missing \r\nacknowledgment to Surge as well.\r\n\r\nLet\u0027s update the badge to Netlify\u0027s official badge that reflects our\r\nNetlify deployment status. Let\u0027s also acknowledge Surge in helping \r\nwith our web previews.",
+            "insertions": 5,
+            "deletions": 2
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 1328
+    "jamessspanggg": 1562
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "json": 82,
       "yml": 8,
+      "md": 40,
       "sh": 57,
-      "md": 35,
-      "pug": 64,
-      "scss": 370,
-      "js": 381,
+      "pug": 80,
+      "scss": 374,
+      "js": 590,
       "java": 331
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 8718.425
+    "jamessspanggg": 8927.394
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
