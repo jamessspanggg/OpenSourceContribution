@@ -10,22 +10,58 @@
             "hash": "ca52a60802d5d6fa0d43233a9d3ae3b81546ecef",
             "messageTitle": "Modify ui of registration page",
             "messageBody": "",
-            "insertions": 69,
-            "deletions": 44
+            "fileTypesAndContributionMap": {
+              "css": {
+                "insertions": 33,
+                "deletions": 11
+              },
+              "html": {
+                "insertions": 36,
+                "deletions": 33
+              }
+            }
           },
           {
             "hash": "801a77deae87620870f43cdd8e50a391f55f619c",
             "messageTitle": "Add login page and modify registration page",
             "messageBody": "",
-            "insertions": 221,
-            "deletions": 74
+            "fileTypesAndContributionMap": {
+              "css": {
+                "insertions": 17,
+                "deletions": 11
+              },
+              "py": {
+                "insertions": 41,
+                "deletions": 10
+              },
+              "html": {
+                "insertions": 163,
+                "deletions": 53
+              }
+            }
           },
           {
             "hash": "5f8efadad132df385e60f7c1acacf0a1ede0b428",
             "messageTitle": "Modify login and registration page",
             "messageBody": "",
-            "insertions": 33,
-            "deletions": 43
+            "fileTypesAndContributionMap": {
+              "gitignore": {
+                "insertions": 1,
+                "deletions": 0
+              },
+              "py": {
+                "insertions": 28,
+                "deletions": 28
+              },
+              "html": {
+                "insertions": 2,
+                "deletions": 14
+              },
+              "sql": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
           }
         ]
       },
@@ -38,8 +74,20 @@
             "hash": "a0cd01d0775b12eff821a68f61dd90814a1e3d71",
             "messageTitle": "Add homepage and modify existing UI",
             "messageBody": "",
-            "insertions": 259,
-            "deletions": 95
+            "fileTypesAndContributionMap": {
+              "css": {
+                "insertions": 43,
+                "deletions": 1
+              },
+              "py": {
+                "insertions": 14,
+                "deletions": 7
+              },
+              "html": {
+                "insertions": 202,
+                "deletions": 87
+              }
+            }
           }
         ]
       },
@@ -52,22 +100,54 @@
             "hash": "3e5f20f511896bd105a29cec6f4927893d67a7f2",
             "messageTitle": "Add create advertisement page",
             "messageBody": "",
-            "insertions": 141,
-            "deletions": 4
+            "fileTypesAndContributionMap": {
+              "css": {
+                "insertions": 8,
+                "deletions": 1
+              },
+              "py": {
+                "insertions": 6,
+                "deletions": 0
+              },
+              "html": {
+                "insertions": 127,
+                "deletions": 3
+              }
+            }
           },
           {
             "hash": "e9fb91ffe05a648b3b7a380a10c190acd2165b69",
             "messageTitle": "Add handling of logging in with non-existent username",
             "messageBody": "",
-            "insertions": 3,
-            "deletions": 1
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 2,
+                "deletions": 0
+              },
+              "html": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
           },
           {
             "hash": "760dbc97d2e8b70fb4ff7a9e824a15ab52830554",
             "messageTitle": "Add scheduled page",
             "messageBody": "",
-            "insertions": 178,
-            "deletions": 120
+            "fileTypesAndContributionMap": {
+              "css": {
+                "insertions": 4,
+                "deletions": 16
+              },
+              "py": {
+                "insertions": 7,
+                "deletions": 0
+              },
+              "html": {
+                "insertions": 167,
+                "deletions": 104
+              }
+            }
           }
         ]
       },
@@ -80,15 +160,27 @@
             "hash": "b4a0f6a29327a0ec903bf8ed6e9ab2ffdb70ab8d",
             "messageTitle": "Abstract out navbar to a single html component",
             "messageBody": "",
-            "insertions": 114,
-            "deletions": 130
+            "fileTypesAndContributionMap": {
+              "html": {
+                "insertions": 114,
+                "deletions": 130
+              }
+            }
           },
           {
             "hash": "7e29f9cbfc6d30c17d35c7d1feaf734545956e92",
             "messageTitle": "Add car registration page",
             "messageBody": "",
-            "insertions": 60,
-            "deletions": 0
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 7,
+                "deletions": 0
+              },
+              "html": {
+                "insertions": 53,
+                "deletions": 0
+              }
+            }
           }
         ]
       },
@@ -101,15 +193,31 @@
             "hash": "0426bf57aa7ae0cfa8cb20141036f675f4e14245",
             "messageTitle": "Add view advertisement page",
             "messageBody": "",
-            "insertions": 120,
-            "deletions": 55
+            "fileTypesAndContributionMap": {
+              "css": {
+                "insertions": 9,
+                "deletions": 1
+              },
+              "py": {
+                "insertions": 15,
+                "deletions": 8
+              },
+              "html": {
+                "insertions": 96,
+                "deletions": 46
+              }
+            }
           },
           {
             "hash": "5c1b57cb4a31e008d451dcbfe381b92d64c694c3",
             "messageTitle": "Add bidding pop out box",
             "messageBody": "",
-            "insertions": 49,
-            "deletions": 2
+            "fileTypesAndContributionMap": {
+              "html": {
+                "insertions": 49,
+                "deletions": 2
+              }
+            }
           }
         ]
       },
@@ -122,29 +230,53 @@
             "hash": "dbcad1a49f6cf39403be328df93ba2b5f167da79",
             "messageTitle": "Fix init.sql variable casing",
             "messageBody": "",
-            "insertions": 72,
-            "deletions": 72
+            "fileTypesAndContributionMap": {
+              "sql": {
+                "insertions": 72,
+                "deletions": 72
+              }
+            }
           },
           {
             "hash": "53acc638fa143387accda5d921bcc88be2072da0",
             "messageTitle": "Link latest sql tables to login and register page",
             "messageBody": "",
-            "insertions": 24,
-            "deletions": 99
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 20,
+                "deletions": 40
+              },
+              "html": {
+                "insertions": 4,
+                "deletions": 59
+              }
+            }
           },
           {
             "hash": "92d3555c6471f14821c6d76f1d7b339d1f1eef2c",
             "messageTitle": "Remove password",
             "messageBody": "",
-            "insertions": 1,
-            "deletions": 1
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
           },
           {
             "hash": "54e0171e5f9820bad90e3407a7b94a46e7ef2a07",
             "messageTitle": "Registration: Allow numerics in username and disallow alphabets in phone number",
             "messageBody": "",
-            "insertions": 23,
-            "deletions": 4
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 16,
+                "deletions": 4
+              },
+              "html": {
+                "insertions": 7,
+                "deletions": 0
+              }
+            }
           }
         ]
       },
@@ -157,29 +289,61 @@
             "hash": "4513d04a4a08f649084cfb889e9954fba239966c",
             "messageTitle": "Link bid_list and advertisement_list to back end instead of dummy data",
             "messageBody": "",
-            "insertions": 68,
-            "deletions": 36
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 28,
+                "deletions": 2
+              },
+              "html": {
+                "insertions": 37,
+                "deletions": 31
+              },
+              "sql": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
           },
           {
             "hash": "5f1e807fdc61cb9a378b8916f33d6bee491ced53",
             "messageTitle": "Add queries.sql to populate all queries used in project",
             "messageBody": "",
-            "insertions": 19,
-            "deletions": 0
+            "fileTypesAndContributionMap": {
+              "sql": {
+                "insertions": 19,
+                "deletions": 0
+              }
+            }
           },
           {
             "hash": "0e2e675826775d2782bf5e0104b5b10d3edc4094",
             "messageTitle": "Add logout option",
             "messageBody": "",
-            "insertions": 8,
-            "deletions": 1
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 7,
+                "deletions": 1
+              },
+              "html": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
           },
           {
             "hash": "a75102183762bd76d31b7064f7eed83b319bed75",
             "messageTitle": "Add datetimepicker",
             "messageBody": "",
-            "insertions": 24,
-            "deletions": 6
+            "fileTypesAndContributionMap": {
+              "css": {
+                "insertions": 11,
+                "deletions": 3
+              },
+              "html": {
+                "insertions": 13,
+                "deletions": 3
+              }
+            }
           }
         ]
       },
@@ -192,43 +356,83 @@
             "hash": "09a646e10f31631b7b48c372eb6d1ad6ae000eaa",
             "messageTitle": "Add insertion to passenger table when register new user",
             "messageBody": "",
-            "insertions": 5,
-            "deletions": 0
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 5,
+                "deletions": 0
+              }
+            }
           },
           {
             "hash": "de73b7e5e3deaeb1a1b128a27593fdffe085c788",
             "messageTitle": "Set up bid button to insert entry to bids table",
             "messageBody": "",
-            "insertions": 103,
-            "deletions": 27
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 52,
+                "deletions": 10
+              },
+              "html": {
+                "insertions": 51,
+                "deletions": 17
+              }
+            }
           },
           {
             "hash": "24b141264a21803713d567a74adacfede8087fc9",
             "messageTitle": "Fix error in view advertisement page",
             "messageBody": "",
-            "insertions": 2,
-            "deletions": 2
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
           },
           {
             "hash": "e13fcceefaac4efedafc8af9d35b8adaf13e51a8",
             "messageTitle": "Disallow users to be in view-advertisement page when not registered as driver",
             "messageBody": "",
-            "insertions": 29,
-            "deletions": 17
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 29,
+                "deletions": 17
+              }
+            }
           },
           {
             "hash": "7297db7f73c53abb7588712d404a80977548d72f",
             "messageTitle": "Add error message for unregistered drivers wanting to view advertisement that he has created",
             "messageBody": "",
-            "insertions": 10,
-            "deletions": 1
+            "fileTypesAndContributionMap": {
+              "css": {
+                "insertions": 3,
+                "deletions": 0
+              },
+              "py": {
+                "insertions": 2,
+                "deletions": 1
+              },
+              "html": {
+                "insertions": 5,
+                "deletions": 0
+              }
+            }
           },
           {
             "hash": "9607cb497de0f3ac9921aec7aedaeea4020c25c1",
             "messageTitle": "Fix error and edit home and view advertisement page",
             "messageBody": "",
-            "insertions": 26,
-            "deletions": 44
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 18,
+                "deletions": 22
+              },
+              "html": {
+                "insertions": 8,
+                "deletions": 22
+              }
+            }
           }
         ]
       },
@@ -241,36 +445,80 @@
             "hash": "56d4cdbd1343b4eeefce7e8a4107970dd70eafbc",
             "messageTitle": "Fix error in scheduled_ride table",
             "messageBody": "",
-            "insertions": 4,
-            "deletions": 5
+            "fileTypesAndContributionMap": {
+              "sql": {
+                "insertions": 4,
+                "deletions": 5
+              }
+            }
           },
           {
             "hash": "777e82a5ee0b5caedfa0bb1b3b13d8a84da9b514",
             "messageTitle": "- add is_paid column to ride table - scheduled: populate data from backend instead of dummy data",
             "messageBody": "",
-            "insertions": 50,
-            "deletions": 24
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 14,
+                "deletions": 1
+              },
+              "html": {
+                "insertions": 34,
+                "deletions": 22
+              },
+              "sql": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
           },
           {
             "hash": "c042ca8c3c75d62faf46d9b3064160c4ba215997",
             "messageTitle": "Increase size of dummy data",
             "messageBody": "",
-            "insertions": 35,
-            "deletions": 3
+            "fileTypesAndContributionMap": {
+              "sql": {
+                "insertions": 35,
+                "deletions": 3
+              }
+            }
           },
           {
             "hash": "111b1f993d4046964d71ef506683bcb34a34d17c",
             "messageTitle": "Add payment page and promo code functionality",
             "messageBody": "",
-            "insertions": 160,
-            "deletions": 5
+            "fileTypesAndContributionMap": {
+              "css": {
+                "insertions": 8,
+                "deletions": 0
+              },
+              "py": {
+                "insertions": 84,
+                "deletions": 2
+              },
+              "html": {
+                "insertions": 68,
+                "deletions": 3
+              }
+            }
           },
           {
             "hash": "a8749999417a52ae9e73c1207ad462043cbb7658",
             "messageTitle": "Change quota_left to max_quota, add best promo code function",
             "messageBody": "",
-            "insertions": 27,
-            "deletions": 11
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 13,
+                "deletions": 1
+              },
+              "html": {
+                "insertions": 13,
+                "deletions": 9
+              },
+              "sql": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
           }
         ]
       },
@@ -283,43 +531,71 @@
             "hash": "d3f51efc73ce8a8f7f82a115416edf8c3db5c5fe",
             "messageTitle": "Add overflow scroll to tables",
             "messageBody": "",
-            "insertions": 8,
-            "deletions": 8
+            "fileTypesAndContributionMap": {
+              "html": {
+                "insertions": 8,
+                "deletions": 8
+              }
+            }
           },
           {
             "hash": "7fda721613ab7bbd723d6bfa724138d3fdb1105c",
             "messageTitle": "Fix error in payment page",
             "messageBody": "",
-            "insertions": 1,
-            "deletions": 1
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
           },
           {
             "hash": "66e50cfe342dd5af7b090d5df3ad5bfcd30fe1e1",
             "messageTitle": "Add constraint of only allowing passengers to bid higher than min price",
             "messageBody": "",
-            "insertions": 25,
-            "deletions": 18
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 7,
+                "deletions": 2
+              },
+              "html": {
+                "insertions": 18,
+                "deletions": 16
+              }
+            }
           },
           {
             "hash": "7671fba23fa46d8f432971447a603fadb4ac692d",
             "messageTitle": "Add payment constraint",
             "messageBody": "",
-            "insertions": 34,
-            "deletions": 0
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 34,
+                "deletions": 0
+              }
+            }
           },
           {
             "hash": "bee65a35999ec0f654a9dbf82bcbde60f63d7270",
             "messageTitle": "Fix front end ui bug in scheduled",
             "messageBody": "",
-            "insertions": 70,
-            "deletions": 67
+            "fileTypesAndContributionMap": {
+              "html": {
+                "insertions": 70,
+                "deletions": 67
+              }
+            }
           },
           {
             "hash": "48264311cf1d61eeee86319388f8f1bfd77df0ec",
             "messageTitle": "Format front end ui",
             "messageBody": "",
-            "insertions": 262,
-            "deletions": 233
+            "fileTypesAndContributionMap": {
+              "html": {
+                "insertions": 262,
+                "deletions": 233
+              }
+            }
           }
         ]
       },
@@ -332,57 +608,109 @@
             "hash": "5060ef3973b0af0e5197ebe3aa43e9cef809dceb",
             "messageTitle": "- Modify Ride table to contain rating and comment - Add review button on scheduled rides",
             "messageBody": "",
-            "insertions": 238,
-            "deletions": 87
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 47,
+                "deletions": 7
+              },
+              "html": {
+                "insertions": 185,
+                "deletions": 78
+              },
+              "sql": {
+                "insertions": 6,
+                "deletions": 2
+              }
+            }
           },
           {
             "hash": "345d2a6773b57743ad697302ebdff81dd6850ca8",
             "messageTitle": "- Move triggers on top of inserts to activate triggers before inserts - Add trigger of getting average driver and passenger rating",
             "messageBody": "",
-            "insertions": 96,
-            "deletions": 38
+            "fileTypesAndContributionMap": {
+              "sql": {
+                "insertions": 96,
+                "deletions": 38
+              }
+            }
           },
           {
             "hash": "1d90a4f61248510aec6a47efec1924d4383d5c36",
             "messageTitle": "Add review functionality",
             "messageBody": "",
-            "insertions": 27,
-            "deletions": 8
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 27,
+                "deletions": 8
+              }
+            }
           },
           {
             "hash": "0db6b30babc8b30b1ba0c8d690ef691b61cfe91a",
             "messageTitle": "Add more initial data and make rating as numeric",
             "messageBody": "",
-            "insertions": 14,
-            "deletions": 2
+            "fileTypesAndContributionMap": {
+              "sql": {
+                "insertions": 14,
+                "deletions": 2
+              }
+            }
           },
           {
             "hash": "bbb6ffb59a8e7c69d84ebb904c2ffe61b6c4231c",
             "messageTitle": "Add passenger and driver rating to front end",
             "messageBody": "",
-            "insertions": 16,
-            "deletions": 9
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 2,
+                "deletions": 2
+              },
+              "html": {
+                "insertions": 3,
+                "deletions": 0
+              },
+              "sql": {
+                "insertions": 11,
+                "deletions": 7
+              }
+            }
           },
           {
             "hash": "6e9c4b6f014f3c15c51a27fff98b4dab03145195",
             "messageTitle": "Add driver and passenger profile page",
             "messageBody": "",
-            "insertions": 103,
-            "deletions": 19
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 31,
+                "deletions": 17
+              },
+              "html": {
+                "insertions": 72,
+                "deletions": 2
+              }
+            }
           },
           {
             "hash": "57ee9351d2a4c9b647ba20f814a4748a2cad6929",
             "messageTitle": "Fix view-advertisement ui bug",
             "messageBody": "",
-            "insertions": 1,
-            "deletions": 0
+            "fileTypesAndContributionMap": {
+              "html": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
           },
           {
             "hash": "a2d5c9e9b4998a861eb1872d9d8bad2a9e74454c",
             "messageTitle": "Add more dummy data",
             "messageBody": "",
-            "insertions": 63,
-            "deletions": 0
+            "fileTypesAndContributionMap": {
+              "sql": {
+                "insertions": 63,
+                "deletions": 0
+              }
+            }
           }
         ]
       },
@@ -395,15 +723,35 @@
             "hash": "2dc5dfaf05dc1c48e7d6420ea37ecc0cf5851866",
             "messageTitle": "- Fix bug of unable to accept bids - Make advertisement disappear only after completed and reviewed",
             "messageBody": "",
-            "insertions": 2,
-            "deletions": 2
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 1,
+                "deletions": 1
+              },
+              "html": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
           },
           {
             "hash": "e430dbe56f343558adbf74b429d50f849c666a00",
             "messageTitle": "Add system auto select of winning bid",
             "messageBody": "",
-            "insertions": 75,
-            "deletions": 9
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 47,
+                "deletions": 4
+              },
+              "html": {
+                "insertions": 26,
+                "deletions": 5
+              },
+              "sql": {
+                "insertions": 2,
+                "deletions": 0
+              }
+            }
           }
         ]
       },
@@ -416,8 +764,12 @@
             "hash": "85b3bd6d6f2952e7c0ee72475efd17bb63465b1d",
             "messageTitle": "Update sql",
             "messageBody": "",
-            "insertions": 1,
-            "deletions": 1
+            "fileTypesAndContributionMap": {
+              "sql": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
           }
         ]
       },
@@ -430,8 +782,16 @@
             "hash": "7c96e8eb39c9b7db62b0d76dfc51d71ec0a15c69",
             "messageTitle": "Update sql",
             "messageBody": "",
-            "insertions": 23,
-            "deletions": 25
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 2,
+                "deletions": 2
+              },
+              "sql": {
+                "insertions": 21,
+                "deletions": 23
+              }
+            }
           }
         ]
       },
@@ -444,8 +804,12 @@
             "hash": "b096c5e30b9857b4bf3f76f4a9d16f0300ba9e6b",
             "messageTitle": "Modify best promo query",
             "messageBody": "",
-            "insertions": 12,
-            "deletions": 5
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 12,
+                "deletions": 5
+              }
+            }
           }
         ]
       },
@@ -458,22 +822,34 @@
             "hash": "ddb31f41d8c0c52dd7b879e276ac059a4d74bf2c",
             "messageTitle": "Prevent showing user\u0027s own advertisements",
             "messageBody": "",
-            "insertions": 3,
-            "deletions": 3
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
           },
           {
             "hash": "9a1a3e4577e77ac79e48667ccc7c3b9e650db30f",
             "messageTitle": "Fix get_filtered_ad bug",
             "messageBody": "",
-            "insertions": 1,
-            "deletions": 1
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
           },
           {
             "hash": "fc3bff784385f63c1a00ef5199a32a5ebdd189c8",
             "messageTitle": "Add error message when bid price lower than previous bid price",
             "messageBody": "",
-            "insertions": 16,
-            "deletions": 9
+            "fileTypesAndContributionMap": {
+              "py": {
+                "insertions": 16,
+                "deletions": 9
+              }
+            }
           }
         ]
       },
@@ -486,15 +862,27 @@
             "hash": "c8724ce5d915051c2d36a4aac2129a215e45cf03",
             "messageTitle": "Fix font size",
             "messageBody": "",
-            "insertions": 29,
-            "deletions": 29
+            "fileTypesAndContributionMap": {
+              "css": {
+                "insertions": 1,
+                "deletions": 1
+              },
+              "html": {
+                "insertions": 28,
+                "deletions": 28
+              }
+            }
           },
           {
             "hash": "1aa943c24dda2949e46969d0a560d18adce4640f",
             "messageTitle": "Update init2.sql",
             "messageBody": "",
-            "insertions": 4,
-            "deletions": 1
+            "fileTypesAndContributionMap": {
+              "sql": {
+                "insertions": 4,
+                "deletions": 1
+              }
+            }
           }
         ]
       }
