@@ -1240,27 +1240,53 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 79,
+        "deletions": 16,
+        "date": "2020-04-18",
+        "commitResults": [
+          {
+            "hash": "bc9cf8a01f1c3a08b7254521b7656222fb77cba9",
+            "messageTitle": "[#996] Add functionality to view code for entire repository (#1175)",
+            "messageBody": "There\u0027s no way of viewing the code authored for the entire repository.\r\nThis is particularly useful when users want to see the code contribution\r\nof the repository as a whole.\r\n\r\nWe can allow this functionality by enabling the code icon when merge\r\ngroup.\r\n\r\nLet\u0027s add the functionality to view code for the entire repository, when\r\nmerge group is checked.",
+            "fileTypesAndContributionMap": {
+              "pug": {
+                "insertions": 13,
+                "deletions": 7
+              },
+              "md": {
+                "insertions": 1,
+                "deletions": 0
+              },
+              "js": {
+                "insertions": 65,
+                "deletions": 9
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 13422
+    "jamessspanggg": 13491
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "gitignore": 2,
       "json": 11387,
       "yml": 10,
-      "md": 315,
+      "md": 316,
       "sh": 67,
-      "pug": 59,
+      "js": 742,
+      "pug": 67,
       "scss": 361,
-      "js": 677,
-      "java": 544
+      "java": 539
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 1454950.8
+    "jamessspanggg": 1450646.8
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
