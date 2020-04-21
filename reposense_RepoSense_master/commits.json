@@ -1266,27 +1266,53 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 25,
+        "deletions": 15,
+        "date": "2020-04-21",
+        "commitResults": [
+          {
+            "hash": "f31051249067ef181c004d360c25cc9b1a8150e4",
+            "messageTitle": "[#1170] Update total contribution to reflect based on checked file types (#1171)",
+            "messageBody": "When some filetypes are unchecked, the contribution bar length adjusts \r\nto the correct length, while the total line contribution of each group \r\ndoes not. Additionally, when toggling sorting controls to decreasing \r\norder of contribution, groups with higher total contribution are seen \r\nto be in lower position than groups with lower contribution. This may \r\ncause confusion among users.\r\n\r\nLet\u0027s update the total contribution to reflect the total contribution \r\namong those file types that are checked.",
+            "fileTypesAndContributionMap": {
+              "pug": {
+                "insertions": 2,
+                "deletions": 2
+              },
+              "md": {
+                "insertions": 3,
+                "deletions": 2
+              },
+              "js": {
+                "insertions": 20,
+                "deletions": 11
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 13442
+    "jamessspanggg": 13455
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "gitignore": 2,
       "json": 11387,
       "yml": 10,
-      "md": 316,
+      "md": 319,
       "sh": 67,
-      "js": 693,
-      "pug": 67,
+      "js": 713,
+      "pug": 57,
       "scss": 361,
       "java": 539
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 1450646.8
+    "jamessspanggg": 1437925.5
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
