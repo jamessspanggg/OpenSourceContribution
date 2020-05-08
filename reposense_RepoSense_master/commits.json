@@ -1292,27 +1292,56 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 65,
+        "deletions": 21,
+        "date": "2020-05-08",
+        "commitResults": [
+          {
+            "hash": "a1e70a75ab2b4d1266028aeb61bfd779d2b062eb",
+            "messageTitle": "[#1242] Move removal of zoom hashes to be within v_zoom component (#1243)",
+            "messageBody": "The removal of zoom hashes are done in main.js, while the removal\r\nof authorship hashes is done within the v_authorship component\r\nitself.\r\n\r\nWe can move the responsibility to remove zoom hashes to be within \r\nthe v_zoom component itself, in the \u0027beforeDestroy\u0027 hook. This \r\nwill result in a cleaner implementation and separation of concern.\r\n\r\nLet\u0027s move the removal of zoom hashes to be within v_zoom\r\ncomponent itself.",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 16,
+                "deletions": 14
+              }
+            }
+          },
+          {
+            "hash": "ecd5594aef7f5cd2492e644d0411eb73321ba8e6",
+            "messageTitle": "[#1244] Add handling of filenames wrapped in double quotes (#1247)",
+            "messageBody": "When a filename contains special characters such as double quotes\r\nor the backslash character \\, git log will escape those characters and\r\nsurround the entire file name with double quotes.\r\n\r\nCommitInfoAnalyzer is not handling these cases, which will lead to an\r\nassertion error that fails the entire analysis.\r\n\r\nLet\u0027s add the handling of such cases, removing the surrounded quotes\r\nfrom the filenames, if available.",
+            "fileTypesAndContributionMap": {
+              "java": {
+                "insertions": 49,
+                "deletions": 7
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 13455
+    "jamessspanggg": 13497
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "gitignore": 2,
       "json": 11387,
       "yml": 10,
-      "md": 319,
+      "md": 317,
       "sh": 67,
-      "js": 713,
+      "js": 715,
       "pug": 57,
       "scss": 361,
-      "java": 539
+      "java": 581
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 1437925.5
+    "jamessspanggg": 1369907.5
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
