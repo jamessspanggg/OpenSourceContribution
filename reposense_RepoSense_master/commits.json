@@ -1321,11 +1321,33 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 254,
+        "deletions": 7,
+        "date": "2020-05-12",
+        "commitResults": [
+          {
+            "hash": "838ef11f5e41638a07f26338e2e47ac0b789bf4b",
+            "messageTitle": "[#1220] Add front end tests for summary chart functionalities (#1228)",
+            "messageBody": "Our coverage for front end tests is rather low. UI regressions will be\r\nharder to discover due to this.\r\n\r\nLet\u0027s add front end tests for summary chart\u0027s functionalities such as \r\nmerge group, zoom, filter breakdown features and the restoring of \r\nsummary controls after page reloads.",
+            "fileTypesAndContributionMap": {
+              "pug": {
+                "insertions": 7,
+                "deletions": 7
+              },
+              "js": {
+                "insertions": 247,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 13485
+    "jamessspanggg": 13729
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
@@ -1334,14 +1356,14 @@
       "yml": 10,
       "md": 317,
       "sh": 67,
-      "js": 703,
-      "pug": 57,
+      "js": 940,
+      "pug": 64,
       "scss": 361,
       "java": 581
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 1369907.5
+    "jamessspanggg": 1354913.8
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
