@@ -1,112 +1,112 @@
-May 12, 2020 5:21:04 PM reposense.report.RepoCloner spawnCloneProcess
+May 13, 2020 3:58:01 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CS2103-AY1819S2-W15-2/main.git...
-May 12, 2020 5:21:04 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 3:58:01 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CS2103-AY1819S2-W15-2/main.git to complete...
-May 12, 2020 5:21:06 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 3:58:04 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CS2103-AY1819S2-W15-2/main.git completed!
-May 12, 2020 5:21:06 PM reposense.report.RepoCloner spawnCloneProcess
+May 13, 2020 3:58:04 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/jamessspanggg/ChairVisE.git...
-May 12, 2020 5:21:06 PM reposense.report.ReportGenerator analyzeRepos
+May 13, 2020 3:58:04 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [1/6] Analyzing https://github.com/CS2103-AY1819S2-W15-2/main.git (master)...
-May 12, 2020 5:21:06 PM reposense.report.ReportGenerator updateRepoConfig
+May 13, 2020 3:58:04 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CS2103-AY1819S2-W15-2/main.git (master) does not contain a standalone config file.
-May 12, 2020 5:21:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 13, 2020 3:58:04 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CS2103-AY1819S2-W15-2/main.git (master)...
-May 12, 2020 5:21:07 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 13, 2020 3:58:05 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CS2103-AY1819S2-W15-2/main.git (master)...
-May 12, 2020 5:21:07 PM reposense.authorship.FileInfoExtractor extractFileInfos
+May 13, 2020 3:58:05 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/CS2103-AY1819S2-W15-2/main.git (master)...
-May 12, 2020 5:21:15 PM reposense.report.ReportGenerator analyzeRepo
+May 13, 2020 3:58:14 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CS2103-AY1819S2-W15-2/main.git (master) completed!
-May 12, 2020 5:21:15 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 3:58:14 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/jamessspanggg/ChairVisE.git to complete...
-May 12, 2020 5:21:15 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 3:58:14 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/jamessspanggg/ChairVisE.git completed!
-May 12, 2020 5:21:15 PM reposense.report.RepoCloner spawnCloneProcess
+May 13, 2020 3:58:14 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/OpenRefine/OpenRefine.git...
-May 12, 2020 5:21:16 PM reposense.report.ReportGenerator analyzeRepos
+May 13, 2020 3:58:14 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [2/6] Analyzing https://github.com/jamessspanggg/ChairVisE.git (master)...
-May 12, 2020 5:21:16 PM reposense.report.ReportGenerator updateRepoConfig
+May 13, 2020 3:58:14 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/jamessspanggg/ChairVisE.git (master) does not contain a standalone config file.
-May 12, 2020 5:21:16 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 13, 2020 3:58:14 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/jamessspanggg/ChairVisE.git (master)...
-May 12, 2020 5:21:16 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 13, 2020 3:58:14 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/jamessspanggg/ChairVisE.git (master)...
-May 12, 2020 5:21:16 PM reposense.authorship.FileInfoExtractor extractFileInfos
+May 13, 2020 3:58:14 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/jamessspanggg/ChairVisE.git (master)...
-May 12, 2020 5:21:21 PM reposense.report.ReportGenerator analyzeRepo
+May 13, 2020 3:58:19 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/jamessspanggg/ChairVisE.git (master) completed!
-May 12, 2020 5:21:21 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 3:58:19 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/OpenRefine/OpenRefine.git to complete...
-May 12, 2020 5:21:28 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 3:58:27 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/OpenRefine/OpenRefine.git completed!
-May 12, 2020 5:21:28 PM reposense.report.RepoCloner spawnCloneProcess
+May 13, 2020 3:58:27 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/DriverUncle/TumpangMePlease.git...
-May 12, 2020 5:21:28 PM reposense.report.ReportGenerator analyzeRepos
+May 13, 2020 3:58:27 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [3/6] Analyzing https://github.com/OpenRefine/OpenRefine.git (master)...
-May 12, 2020 5:21:29 PM reposense.report.ReportGenerator updateRepoConfig
+May 13, 2020 3:58:27 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/OpenRefine/OpenRefine.git (master) does not contain a standalone config file.
-May 12, 2020 5:21:29 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 13, 2020 3:58:27 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/OpenRefine/OpenRefine.git (master)...
-May 12, 2020 5:21:29 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 13, 2020 3:58:27 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/OpenRefine/OpenRefine.git (master)...
-May 12, 2020 5:21:29 PM reposense.authorship.FileInfoExtractor extractFileInfos
+May 13, 2020 3:58:27 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/OpenRefine/OpenRefine.git (master)...
-May 12, 2020 5:22:51 PM reposense.report.ReportGenerator analyzeRepo
+May 13, 2020 3:59:53 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/OpenRefine/OpenRefine.git (master) completed!
-May 12, 2020 5:22:51 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 3:59:53 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/DriverUncle/TumpangMePlease.git to complete...
-May 12, 2020 5:22:51 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 3:59:53 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/DriverUncle/TumpangMePlease.git completed!
-May 12, 2020 5:22:51 PM reposense.report.RepoCloner spawnCloneProcess
+May 13, 2020 3:59:53 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/reposense/RepoSense.git...
-May 12, 2020 5:22:51 PM reposense.report.ReportGenerator analyzeRepos
+May 13, 2020 3:59:53 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [4/6] Analyzing https://github.com/DriverUncle/TumpangMePlease.git (master)...
-May 12, 2020 5:22:51 PM reposense.report.ReportGenerator updateRepoConfig
+May 13, 2020 3:59:53 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/DriverUncle/TumpangMePlease.git (master) does not contain a standalone config file.
-May 12, 2020 5:22:51 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 13, 2020 3:59:53 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/DriverUncle/TumpangMePlease.git (master)...
-May 12, 2020 5:22:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 13, 2020 3:59:53 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/DriverUncle/TumpangMePlease.git (master)...
-May 12, 2020 5:22:51 PM reposense.authorship.FileInfoExtractor extractFileInfos
+May 13, 2020 3:59:53 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/DriverUncle/TumpangMePlease.git (master)...
-May 12, 2020 5:22:52 PM reposense.report.ReportGenerator analyzeRepo
+May 13, 2020 3:59:54 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/DriverUncle/TumpangMePlease.git (master) completed!
-May 12, 2020 5:22:52 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 3:59:54 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/reposense/RepoSense.git to complete...
-May 12, 2020 5:22:53 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 3:59:55 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/reposense/RepoSense.git completed!
-May 12, 2020 5:22:53 PM reposense.report.RepoCloner spawnCloneProcess
+May 13, 2020 3:59:55 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/whyboris/Video-Hub-App.git...
-May 12, 2020 5:22:53 PM reposense.report.ReportGenerator analyzeRepos
+May 13, 2020 3:59:55 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [5/6] Analyzing https://github.com/reposense/RepoSense.git (master)...
-May 12, 2020 5:22:53 PM reposense.report.ReportGenerator updateRepoConfig
+May 13, 2020 3:59:56 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: Ignoring standalone config file in https://github.com/reposense/RepoSense.git (master).
-May 12, 2020 5:22:53 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 13, 2020 3:59:56 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/reposense/RepoSense.git (master)...
-May 12, 2020 5:22:54 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 13, 2020 3:59:56 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/reposense/RepoSense.git (master)...
-May 12, 2020 5:22:54 PM reposense.authorship.FileInfoExtractor extractFileInfos
+May 13, 2020 3:59:56 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/reposense/RepoSense.git (master)...
-May 12, 2020 5:23:32 PM reposense.report.ReportGenerator analyzeRepo
+May 13, 2020 4:00:35 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/reposense/RepoSense.git (master) completed!
-May 12, 2020 5:23:32 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 4:00:35 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/whyboris/Video-Hub-App.git to complete...
-May 12, 2020 5:23:32 PM reposense.report.RepoCloner waitForCloneProcess
+May 13, 2020 4:00:35 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/whyboris/Video-Hub-App.git completed!
-May 12, 2020 5:23:32 PM reposense.report.ReportGenerator analyzeRepos
+May 13, 2020 4:00:35 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [6/6] Analyzing https://github.com/whyboris/Video-Hub-App.git (master)...
-May 12, 2020 5:23:32 PM reposense.report.ReportGenerator updateRepoConfig
+May 13, 2020 4:00:35 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/whyboris/Video-Hub-App.git (master) does not contain a standalone config file.
-May 12, 2020 5:23:32 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 13, 2020 4:00:35 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/whyboris/Video-Hub-App.git (master)...
-May 12, 2020 5:23:32 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 13, 2020 4:00:35 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/whyboris/Video-Hub-App.git (master)...
-May 12, 2020 5:23:32 PM reposense.authorship.FileInfoExtractor extractFileInfos
+May 13, 2020 4:00:35 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/whyboris/Video-Hub-App.git (master)...
-May 12, 2020 5:23:36 PM reposense.report.ReportGenerator analyzeRepo
+May 13, 2020 4:00:39 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/whyboris/Video-Hub-App.git (master) completed!
-May 12, 2020 5:23:36 PM reposense.report.ReportGenerator generateReposReport
+May 13, 2020 4:00:40 PM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/travis/build/jamessspanggg/OpenSourceContribution/reposense-report
-May 12, 2020 5:23:37 PM reposense.RepoSense main
-INFO: Elapsed processing time: 2 minute(s) 32.90 second(s)
+May 13, 2020 4:00:40 PM reposense.RepoSense main
+INFO: Elapsed processing time: 2 minute(s) 38.49 second(s)
