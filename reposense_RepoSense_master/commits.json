@@ -1343,11 +1343,33 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 24,
+        "deletions": 16,
+        "date": "2020-05-19",
+        "commitResults": [
+          {
+            "hash": "d5eec7cdc96194d73cb6c4df4a3c08a85bc88c3c",
+            "messageTitle": "Fix bug when restoring zoom tab (#1261)",
+            "messageBody": "When group by authors and groups are merged, the commits are \r\nnot shown correctly in the zoom tab after reloading the page.\r\n\r\nThis occurs especially for an author with contribution in several \r\nrepositories, as the repositories of the author are treated as \r\nseparate groups (should be pushed into same group) within the\r\n\u0027restoreZoomFiltered\u0027 method. This leads to the merging of group \r\nnot being able to merge all the repositories of the author, as \r\nthey are treated as separate groups. \r\n\r\nThe searched field is also not handled by zoom tab as well, \r\nleading to the reloaded zoom tab containing commits that are\r\nnot by users that match the searched field.\r\n\r\nLet\u0027s modify the \u0027restoreZoomFiltered\u0027 method to treat the\r\nrepositories of an author to be in the same group, instead of \r\nbeing separate groups. Let\u0027s also add the handling of the\r\nsearch field when reloading the zoom tab.",
+            "fileTypesAndContributionMap": {
+              "pug": {
+                "insertions": 1,
+                "deletions": 0
+              },
+              "js": {
+                "insertions": 23,
+                "deletions": 16
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 13729
+    "jamessspanggg": 13746
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
@@ -1356,14 +1378,14 @@
       "yml": 10,
       "md": 317,
       "sh": 67,
-      "js": 940,
-      "pug": 64,
+      "js": 956,
+      "pug": 65,
       "scss": 361,
       "java": 581
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 1354913.8
+    "jamessspanggg": 1329301.6
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
