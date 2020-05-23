@@ -1365,11 +1365,40 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 17,
+        "deletions": 4,
+        "date": "2020-05-23",
+        "commitResults": [
+          {
+            "hash": "383ee786785245474c0eb49cdfc28dd20da05b71",
+            "messageTitle": "[#1259] Add index number and files changed count (#1262)",
+            "messageBody": "The authorship tab does not show the total number of files changed \r\nas well as the index of the files changed.\r\n\r\nLet\u0027s add the index of the files changed together with the files \r\nchanged count. The numbers will be reactive based on the checked \r\nfile types.",
+            "fileTypesAndContributionMap": {
+              "pug": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "61dbe2cb7d041ac2c093038148ae120581aa35fc",
+            "messageTitle": "[#1241] Restore checked file types (#1256)",
+            "messageBody": "The checked file types in summary panel is not restorable after\r\nreloading the page.\r\n\r\nThis is due to the checked file types not being saved in the hash.\r\n\r\nLet\u0027s add the checked file types hash to allow the checked file types\r\nto be restored after reloading the page.",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 14,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 13746
+    "jamessspanggg": 13763
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
@@ -1378,14 +1407,14 @@
       "yml": 10,
       "md": 317,
       "sh": 67,
-      "js": 956,
-      "pug": 65,
+      "js": 970,
+      "pug": 68,
       "scss": 361,
       "java": 581
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 1329301.6
+    "jamessspanggg": 1315097.9
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
