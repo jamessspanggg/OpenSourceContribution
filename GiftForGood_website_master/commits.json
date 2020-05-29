@@ -262,8 +262,8 @@
         ]
       },
       {
-        "insertions": 275,
-        "deletions": 6,
+        "insertions": 276,
+        "deletions": 7,
         "date": "2020-05-29",
         "commitResults": [
           {
@@ -274,6 +274,17 @@
               "js": {
                 "insertions": 275,
                 "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "6a170cf1458ffc88706a76c1e92fa1949eafb067",
+            "messageTitle": "Fix broken link in top wishes card (#128)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 1
               }
             }
           }
@@ -293,7 +304,7 @@
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 55148.55
+    "jamessspanggg": 55168.336
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"

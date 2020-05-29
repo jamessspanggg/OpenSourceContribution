@@ -141513,7 +141513,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          const wishPostHref \u003d `/wishes/${wish.wishesId}`;"
+        "content": "          const wishPostHref \u003d `/wishes/${wish.wishId}`;"
       },
       {
         "lineNumber": 108,
@@ -142848,173 +142848,180 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "import styled from \u0027styled-components\u0027;"
+        "content": "import React from \u0027react\u0027;"
       },
       {
         "lineNumber": 2,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "import AccountCircle from \u0027@kiwicom/orbit-components/lib/icons/AccountCircle\u0027;"
+        "content": "import styled from \u0027styled-components\u0027;"
       },
       {
         "lineNumber": 3,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "import { colors } from \u0027../../../utils/constants/colors\u0027;"
+        "content": "import AccountCircle from \u0027@kiwicom/orbit-components/lib/icons/AccountCircle\u0027;"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "import { colors } from \u0027../../../utils/constants/colors\u0027;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const CircularImage \u003d styled.img`"
+        "content": ""
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
-        "content": "  width: ${(props) \u003d\u003e (props.size ? props.size : \u002740px\u0027)};"
+        "content": "const CircularImage \u003d styled.img`"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "-"
         },
-        "content": "  height: ${(props) \u003d\u003e (props.size ? props.size : \u002740px\u0027)};"
+        "content": "  width: ${(props) \u003d\u003e (props.size ? props.size : \u002740px\u0027)};"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "  border-radius: 50%;"
+        "content": "  height: ${(props) \u003d\u003e (props.size ? props.size : \u002740px\u0027)};"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  object-fit: cover;"
+        "content": "  border-radius: 50%;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "`;"
+        "content": "  object-fit: cover;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "`;"
       },
       {
         "lineNumber": 12,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
         "author": {
           "gitId": "-"
         },
         "content": "const Avatar \u003d ({ size, imageUrl }) \u003d\u003e {"
       },
       {
-        "lineNumber": 13,
+        "lineNumber": 14,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  return ("
       },
       {
-        "lineNumber": 14,
+        "lineNumber": 15,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    \u003c\u003e"
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 16,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      {imageUrl ? ("
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 17,
         "author": {
           "gitId": "-"
         },
         "content": "        \u003cCircularImage size\u003d{size} src\u003d{imageUrl} /\u003e"
       },
       {
-        "lineNumber": 17,
+        "lineNumber": 18,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      ) : ("
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 19,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "        // show orbit avatar icon if profile image url not provided"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 20,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "        \u003cAccountCircle className\u003d\"default-avatar\" customColor\u003d{colors.subtleGrey} size\u003d\"large\" /\u003e"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 21,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      )}"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 22,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    \u003c/\u003e"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 23,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  );"
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 24,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "};"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 25,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": ""
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 26,
         "author": {
           "gitId": "jamessspanggg"
         },
@@ -143023,7 +143030,7 @@
     ],
     "authorContributionMap": {
       "jamessspanggg": 21,
-      "-": 4
+      "-": 5
     }
   },
   {
@@ -143033,285 +143040,292 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "import { Text } from \u0027@kiwicom/orbit-components/lib\u0027;"
+        "content": "import React from \u0027react\u0027;"
       },
       {
         "lineNumber": 2,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "import styled from \u0027styled-components\u0027;"
+        "content": "import { Text } from \u0027@kiwicom/orbit-components/lib\u0027;"
       },
       {
         "lineNumber": 3,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "import styled from \u0027styled-components\u0027;"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const SquareBox \u003d styled.div`"
+        "content": ""
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  width: calc(75px + 2vw);"
+        "content": "const SquareBox \u003d styled.div`"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  height: calc(75px + 2vw);"
+        "content": "  width: calc(75px + 2vw);"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  min-width: 75px;"
+        "content": "  height: calc(75px + 2vw);"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  min-height: 75px;"
+        "content": "  min-width: 75px;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  position: relative;"
+        "content": "  min-height: 75px;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${(props) \u003d\u003e props.src});"
+        "content": "  position: relative;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  background-size: cover;"
+        "content": "  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${(props) \u003d\u003e props.src});"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  border-radius: 1vw;"
+        "content": "  background-size: cover;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "`;"
+        "content": "  border-radius: 1vw;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "`;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const CaptionInBox \u003d styled.div`"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  position: absolute;"
+        "content": "const CaptionInBox \u003d styled.div`"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  bottom: 5%;"
+        "content": "  position: absolute;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  left: 5%;"
+        "content": "  bottom: 5%;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  overflow-x: hidden;"
+        "content": "  left: 5%;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "`;"
+        "content": "  overflow-x: hidden;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "`;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " *"
+        "content": "/**"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} imageUrl: the url of the image"
+        "content": " *"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} caption: the text displayed within the image"
+        "content": " * @param {string} imageUrl: the url of the image"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} captionSize: small, normal, large"
+        "content": " * @param {string} caption: the text displayed within the image"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} captionType: primary, secondary, info, success, warning, critical, white"
+        "content": " * @param {string} captionSize: small, normal, large"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " */"
+        "content": " * @param {string} captionType: primary, secondary, info, success, warning, critical, white"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const SquareImageBox \u003d ({ imageUrl, caption, captionSize, captionType }) \u003d\u003e {"
+        "content": " */"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return ("
+        "content": "const SquareImageBox \u003d ({ imageUrl, caption, captionSize, captionType }) \u003d\u003e {"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003cSquareBox src\u003d{imageUrl}\u003e"
+        "content": "  return ("
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cCaptionInBox\u003e"
+        "content": "    \u003cSquareBox src\u003d{imageUrl}\u003e"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cText type\u003d{captionType || \u0027white\u0027} size\u003d{captionSize || \u0027small\u0027}\u003e"
+        "content": "      \u003cCaptionInBox\u003e"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          {caption}"
+        "content": "        \u003cText type\u003d{captionType || \u0027white\u0027} size\u003d{captionSize || \u0027small\u0027}\u003e"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/Text\u003e"
+        "content": "          {caption}"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/CaptionInBox\u003e"
+        "content": "        \u003c/Text\u003e"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003c/SquareBox\u003e"
+        "content": "      \u003c/CaptionInBox\u003e"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  );"
+        "content": "    \u003c/SquareBox\u003e"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "};"
+        "content": "  );"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "};"
       },
       {
         "lineNumber": 41,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
         "author": {
           "gitId": "jamessspanggg"
         },
@@ -143319,7 +143333,8 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 41
+      "jamessspanggg": 41,
+      "-": 1
     }
   },
   {
