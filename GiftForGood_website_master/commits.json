@@ -1,0 +1,301 @@
+{
+  "authorDailyContributionsMap": {
+    "jamessspanggg": [
+      {
+        "insertions": 17,
+        "deletions": 124,
+        "date": "2020-04-16",
+        "commitResults": [
+          {
+            "hash": "a02baa3d9d265b34d0a9ef5ae32795dcf46204be",
+            "messageTitle": "Modify README.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "md": {
+                "insertions": 15,
+                "deletions": 51
+              }
+            }
+          },
+          {
+            "hash": "d2e75f8ead94b94cf8df28b47dd6a54da4374edb",
+            "messageTitle": "Remove unnecessary content",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "txt": {
+                "insertions": 0,
+                "deletions": 3
+              },
+              "json": {
+                "insertions": 0,
+                "deletions": 25
+              },
+              "html": {
+                "insertions": 0,
+                "deletions": 43
+              }
+            }
+          },
+          {
+            "hash": "b0d92918b2d95d77881f70873f9d654e8cc975ef",
+            "messageTitle": "Fix typo",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "md": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 6,
+        "deletions": 1,
+        "date": "2020-04-25",
+        "commitResults": [
+          {
+            "hash": "67d178ef6d2470adb350ba74e89fa1a4f6131bf0",
+            "messageTitle": "Add next export instructions",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "md": {
+                "insertions": 4,
+                "deletions": 0
+              },
+              "json": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 132,
+        "deletions": 3,
+        "date": "2020-05-06",
+        "commitResults": [
+          {
+            "hash": "c91dc2c473e6b3e399a108ac142ed8e1e850ef46",
+            "messageTitle": "add issue templates (#9)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "md": {
+                "insertions": 100,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "d9cda12e37f2d3dce24a7de626c79e19a224c296",
+            "messageTitle": "Add prettier code formatter (#10)",
+            "messageBody": "* add prettier support\r\n\r\n* add extra options\r\n\r\n* modify readme\r\n\r\n* set print width to 120 chars",
+            "fileTypesAndContributionMap": {
+              "md": {
+                "insertions": 8,
+                "deletions": 0
+              },
+              "json": {
+                "insertions": 22,
+                "deletions": 1
+              },
+              "js": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 15,
+        "deletions": 0,
+        "date": "2020-05-07",
+        "commitResults": [
+          {
+            "hash": "0c256292ad26a9762934c3cb5b93cdab5a02b83b",
+            "messageTitle": "add cloudinary dependencies (#77)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "json": {
+                "insertions": 15,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 1474,
+        "deletions": 11,
+        "date": "2020-05-20",
+        "commitResults": [
+          {
+            "hash": "f920bd5f03d752ab2a12d423a8dc11c25ecd061c",
+            "messageTitle": "Fix missing input field border (#102)",
+            "messageBody": "* set -webkit-appearance to none\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "de2caec47a33c9bd84175dee869035ee76cf0baa",
+            "messageTitle": "Create MIT License (#78)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "LICENSE": {
+                "insertions": 21,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "a059ebfb423bbb622c430a204dcf1a1eeffd27be",
+            "messageTitle": "Home page (#94)",
+            "messageBody": "* add basic structure of home page\r\n\r\n* remove ignore of public/\r\n\r\n* add banner image\r\n\r\n* Add top categories structure\r\n\r\n* Add images to categories\r\n\r\n* Read categories from firestore\r\n\r\n* Add wishes home page\r\n\r\n* Separate home page into donation and wish",
+            "fileTypesAndContributionMap": {
+              "babelrc": {
+                "insertions": 1,
+                "deletions": 1
+              },
+              "gitignore": {
+                "insertions": 0,
+                "deletions": 3
+              },
+              "js": {
+                "insertions": 1451,
+                "deletions": 7
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 500,
+        "deletions": 7,
+        "date": "2020-05-23",
+        "commitResults": [
+          {
+            "hash": "105065996423bf78cabeb6494b0c9ea6502569b0",
+            "messageTitle": "Add view categories page (wishes) (#108)",
+            "messageBody": "* Add basic structure of view category page (wishes)\r\n\r\n* Add handling of see more button\r\n\r\n* Add loading animation on button and allow filter to be restorable after reloading\r\n\r\n* Add infinite scroll for mobile and refactor code\r\n\r\n* Add error handling for invalid category ids",
+            "fileTypesAndContributionMap": {
+              "json": {
+                "insertions": 9,
+                "deletions": 0
+              },
+              "js": {
+                "insertions": 491,
+                "deletions": 7
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 41,
+        "deletions": 48,
+        "date": "2020-05-25",
+        "commitResults": [
+          {
+            "hash": "c84e8e5d65a24a46daf8a1573a07790e2a3c1205",
+            "messageTitle": "Minor UI fixes (#113)",
+            "messageBody": "* Modify search bar\r\n\r\n* Use badge for tags\r\n\r\n* Increase padding for wish card\r\n\r\n* Add type prop to categories component\r\n\r\n* Remove redundant styled component\r\n\r\n* Set max number of lines for titles and description",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 41,
+                "deletions": 48
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 75,
+        "deletions": 66,
+        "date": "2020-05-26",
+        "commitResults": [
+          {
+            "hash": "b578ffb546c75e5ff2adcf6856203e604d34fefc",
+            "messageTitle": "Set category tags to wrap when overflow (#115)",
+            "messageBody": "* Modify search bar\r\n\r\n* Use badge for tags\r\n\r\n* Increase padding for wish card\r\n\r\n* Add type prop to categories component\r\n\r\n* Remove redundant styled component\r\n\r\n* Set max number of lines for titles and description\r\n\r\n* Add wrapping for category tags\r\n\r\n* Remove redundant console log",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 10,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "8b0fa94d4252b15074b272d53e3abdbc8665710f",
+            "messageTitle": "Optimise loading of home page (#119)",
+            "messageBody": "- Represent each top category and it\u0027s wishes as separate states\r\n- Allow three requests to get wishes for top categories to be run in parallel\r\n- Decreased size of wishes banner (61kb) and donations banner (82kb)",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 65,
+                "deletions": 61
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 18,
+        "deletions": 7,
+        "date": "2020-05-28",
+        "commitResults": [
+          {
+            "hash": "d6e1f504e0591de2918062c67745dfa841a275c8",
+            "messageTitle": "Fix error for non unique keys for Tags component (#127)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 18,
+                "deletions": 7
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 275,
+        "deletions": 6,
+        "date": "2020-05-29",
+        "commitResults": [
+          {
+            "hash": "bec356efcda64c3313bf09762cb7eea5ee297f70",
+            "messageTitle": "Add category to view all wishes (#116)",
+            "messageBody": "* Add view all wishes\r\n\r\n* Update to use wishId\r\n\r\n* update comment\r\n\r\n* add wishId prop",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 275,
+                "deletions": 6
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "authorFinalContributionMap": {
+    "jamessspanggg": 2392
+  },
+  "authorFileTypeContributionMap": {
+    "jamessspanggg": {
+      "md": 127,
+      "json": 42,
+      "LICENSE": 21,
+      "js": 2202
+    }
+  },
+  "authorContributionVariance": {
+    "jamessspanggg": 55148.55
+  },
+  "authorDisplayNameMap": {
+    "jamessspanggg": "James Pang"
+  }
+}
