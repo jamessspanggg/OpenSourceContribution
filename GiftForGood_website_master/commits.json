@@ -289,22 +289,40 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 6,
+        "deletions": 6,
+        "date": "2020-05-31",
+        "commitResults": [
+          {
+            "hash": "bf17f4729e5ebcfe9147a29654087ea9876cfdf3",
+            "messageTitle": "use Promise.all for consecutive async functions that are not dependent (#136)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 6,
+                "deletions": 6
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 2056
+    "jamessspanggg": 2060
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
       "json": 42,
       "LICENSE": 21,
-      "js": 1866
+      "js": 1870
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 55168.336
+    "jamessspanggg": 52912.5
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
