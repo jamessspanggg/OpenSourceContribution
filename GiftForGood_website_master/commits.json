@@ -307,22 +307,51 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 56,
+        "deletions": 37,
+        "date": "2020-06-01",
+        "commitResults": [
+          {
+            "hash": "ecd99df8b9e848a2305171f2716b480c3dfb7a38",
+            "messageTitle": "Refactor wishes pagination (#131)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 31,
+                "deletions": 33
+              }
+            }
+          },
+          {
+            "hash": "822ed95d82cc38d68426f0907ee7be17bad26b4d",
+            "messageTitle": "UI Fixes (#137)",
+            "messageBody": "* Add padding for wish card\r\n\r\n* increase left and right paddings in donation card\r\n\r\n* Modify time ago format\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 25,
+                "deletions": 4
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 2060
+    "jamessspanggg": 2079
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
       "json": 42,
       "LICENSE": 21,
-      "js": 1870
+      "js": 1889
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 52912.5
+    "jamessspanggg": 51807.03
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"

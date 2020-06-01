@@ -133125,7 +133125,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  padding: 10px;"
+        "content": "  padding: 10px 20px 10px 20px;"
       },
       {
         "lineNumber": 31,
@@ -133293,7 +133293,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  margin: 10px;"
+        "content": "  margin: 10px 20px 10px 20px;"
       },
       {
         "lineNumber": 55,
@@ -135643,7 +135643,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cGrid style\u003d{{ height: \u0027100%\u0027 }} rows\u003d\"2fr 6fr 2fr\" cols\u003d\"1fr\"\u003e"
+        "content": "      \u003cGrid style\u003d{{ height: \u0027100%\u0027, paddingLeft: \u002710px\u0027, paddingRight: \u002710px\u0027 }} rows\u003d\"2fr 6fr 2fr\" cols\u003d\"1fr\"\u003e"
       },
       {
         "lineNumber": 150,
@@ -137113,7 +137113,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const [hasAllLoaded, setHasAllLoaded] \u003d useState(false);"
+        "content": "  const [shouldSeeMore, setShouldSeeMore] \u003d useState(true);"
       },
       {
         "lineNumber": 54,
@@ -137218,7 +137218,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      setHasAllLoaded(false);"
+        "content": "      setShouldSeeMore(true);"
       },
       {
         "lineNumber": 69,
@@ -137239,126 +137239,126 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      setAllWishes(newWishes);"
+        "content": "      const numberOfDocumentsReturned \u003d newWishes.length;"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      setIsPageLoading(false);"
+        "content": "      if (numberOfDocumentsReturned \u003c WISHES_BATCH_SIZE) {"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      setIsDataMounted(true); // to show see more button \u0026 no wishes message after page is mounted"
+        "content": "        // loaded all documents already, since the number of wishes returned is less than batch size"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    });"
+        "content": "        setShouldSeeMore(false);"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  }, [filter]);"
+        "content": "      }"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "      setAllWishes(newWishes);"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const getLastQueriedDocument \u003d () \u003d\u003e {"
+        "content": "      setIsPageLoading(false);"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    if (allWishes.length \u003d\u003d\u003d 0) {"
+        "content": "      setIsDataMounted(true); // to show see more button \u0026 no wishes message after page is mounted"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      return null;"
+        "content": "    });"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    }"
+        "content": "  }, [filter]);"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return allWishes[allWishes.length - 1];"
+        "content": ""
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": "  const getLastQueriedDocument \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "    if (allWishes.length \u003d\u003d\u003d 0) {"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  /**"
+        "content": "      return null;"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   * Note that this function returns WISHES_BATCH_SIZE - 1 amount of documents,"
+        "content": "    }"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   * instead of WISHES_BATCH_SIZE, as the last document is to check whether we"
+        "content": "    return allWishes[allWishes.length - 1];"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   * have loaded all wishes."
+        "content": "  };"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   */"
+        "content": ""
       },
       {
         "lineNumber": 89,
@@ -137407,892 +137407,885 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    const numberOfDocumentsReturned \u003d rawWishes.docs.length;"
+        "content": "    return rawWishes.docs;"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    if (numberOfDocumentsReturned \u003c WISHES_BATCH_SIZE) {"
+        "content": "  };"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      // loaded all documents already, since the number of wishes returned is less than batch size"
+        "content": ""
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      setHasAllLoaded(true);"
+        "content": "  const displayAllWishes \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      return rawWishes.docs;"
+        "content": "    if (allWishes.length \u003d\u003d\u003d 0) {"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    }"
+        "content": "      return isDataMounted \u0026\u0026 \u003cBlackText size\u003d\"medium\"\u003eNo wishes found.\u003c/BlackText\u003e;"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return rawWishes.docs.slice(0, WISHES_BATCH_SIZE - 1);"
+        "content": "    }"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": "    return allWishes.map((wish) \u003d\u003e {"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "      const { wishId, categories, organization, title, description, user, postedDateTime, isBumped } \u003d wish.data();"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const displayAllWishes \u003d () \u003d\u003e {"
+        "content": "      const postHref \u003d `/wishes/${wishId}`;"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    if (allWishes.length \u003d\u003d\u003d 0) {"
+        "content": "      const categoryTags \u003d categories.map((category) \u003d\u003e category.name);"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      return isDataMounted \u0026\u0026 \u003cBlackText size\u003d\"medium\"\u003eNo wishes found.\u003c/BlackText\u003e;"
+        "content": "      return ("
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    }"
+        "content": "        \u003cWishCard"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return allWishes.map((wish) \u003d\u003e {"
+        "content": "          key\u003d{wishId}"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      const { wishId, categories, organization, title, description, user, postedDateTime, isBumped } \u003d wish.data();"
+        "content": "          wishId\u003d{wishId}"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      const postHref \u003d `/wishes/${wishId}`;"
+        "content": "          name\u003d{organization.name}"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      const categoryTags \u003d categories.map((category) \u003d\u003e category.name);"
+        "content": "          title\u003d{title}"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      return ("
+        "content": "          description\u003d{description}"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cWishCard"
+        "content": "          profileImageUrl\u003d{user.profileImageUrl}"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          key\u003d{wishId}"
+        "content": "          postedDateTime\u003d{postedDateTime}"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          wishId\u003d{wishId}"
+        "content": "          postHref\u003d{postHref}"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          name\u003d{organization.name}"
+        "content": "          categoryTags\u003d{categoryTags}"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          title\u003d{title}"
-      },
-      {
-        "lineNumber": 118,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": "          description\u003d{description}"
-      },
-      {
-        "lineNumber": 119,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": "          profileImageUrl\u003d{user.profileImageUrl}"
-      },
-      {
-        "lineNumber": 120,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": "          postedDateTime\u003d{postedDateTime}"
-      },
-      {
-        "lineNumber": 121,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": "          postHref\u003d{postHref}"
-      },
-      {
-        "lineNumber": 122,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": "          categoryTags\u003d{categoryTags}"
-      },
-      {
-        "lineNumber": 123,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
         "content": "          isBumped\u003d{isBumped}"
       },
       {
-        "lineNumber": 124,
+        "lineNumber": 118,
         "author": {
           "gitId": "-"
         },
         "content": "          categoryName\u003d\"All wishes\""
       },
       {
-        "lineNumber": 125,
+        "lineNumber": 119,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "        /\u003e"
       },
       {
-        "lineNumber": 126,
+        "lineNumber": 120,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      );"
       },
       {
-        "lineNumber": 127,
+        "lineNumber": 121,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    });"
       },
       {
-        "lineNumber": 128,
+        "lineNumber": 122,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  };"
       },
       {
-        "lineNumber": 129,
+        "lineNumber": 123,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": ""
       },
       {
-        "lineNumber": 130,
+        "lineNumber": 124,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  const handleOnClickSeeMore \u003d () \u003d\u003e {"
       },
       {
-        "lineNumber": 131,
+        "lineNumber": 125,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    setIsButtonLoading(true);"
       },
       {
-        "lineNumber": 132,
+        "lineNumber": 126,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    getNextBatchOfWishes(filter, getLastQueriedDocument()).then((newWishes) \u003d\u003e {"
       },
       {
-        "lineNumber": 133,
+        "lineNumber": 127,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      if (newWishes.length \u003e 0) {"
+        "content": "      const numberOfDocumentsReturned \u003d newWishes.length;"
       },
       {
-        "lineNumber": 134,
+        "lineNumber": 128,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        setAllWishes(allWishes.concat(newWishes));"
+        "content": "      if (numberOfDocumentsReturned \u003c WISHES_BATCH_SIZE) {"
       },
       {
-        "lineNumber": 135,
+        "lineNumber": 129,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        // loaded all documents already, since the number of wishes returned is less than batch size"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        setShouldSeeMore(false);"
+      },
+      {
+        "lineNumber": 131,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      }"
       },
       {
-        "lineNumber": 136,
+        "lineNumber": 132,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      if (newWishes.length \u003e 0) {"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        setAllWishes(allWishes.concat(newWishes));"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      }"
+      },
+      {
+        "lineNumber": 135,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      setIsButtonLoading(false);"
       },
       {
-        "lineNumber": 137,
+        "lineNumber": 136,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    });"
       },
       {
-        "lineNumber": 138,
+        "lineNumber": 137,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  };"
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  const DesktopAndTabletWishes \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const DesktopAndTabletWishes \u003d () \u003d\u003e {"
+        "content": "    return ("
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return ("
+        "content": "      \u003c\u003e"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c\u003e"
+        "content": "        \u003cGrid"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cGrid"
+        "content": "          inline\u003d{true}"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          inline\u003d{true}"
+        "content": "          largeDesktop\u003d{{"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          largeDesktop\u003d{{"
+        "content": "            columns: \u00271fr 1fr 1fr\u0027,"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            columns: \u00271fr 1fr 1fr\u0027,"
+        "content": "          }}"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          }}"
+        "content": "          largeMobile\u003d{{"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          largeMobile\u003d{{"
+        "content": "            columns: \u00271fr 1fr\u0027,"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            columns: \u00271fr 1fr\u0027,"
+        "content": "          }}"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          }}"
+        "content": "          rows\u003d\"auto\""
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          rows\u003d\"auto\""
+        "content": "          gap\u003d\"20px\""
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          gap\u003d\"20px\""
+        "content": "        \u003e"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003e"
+        "content": "          {displayAllWishes()}"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          {displayAllWishes()}"
+        "content": "        \u003c/Grid\u003e"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/Grid\u003e"
+        "content": "        {isPageLoading \u0026\u0026 ("
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        {isPageLoading \u0026\u0026 ("
+        "content": "          \u003cPageLoadingContainer\u003e"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cPageLoadingContainer\u003e"
+        "content": "            \u003cLoading loading\u003d{isPageLoading} type\u003d\"pageLoader\" /\u003e"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            \u003cLoading loading\u003d{isPageLoading} type\u003d\"pageLoader\" /\u003e"
+        "content": "          \u003c/PageLoadingContainer\u003e"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003c/PageLoadingContainer\u003e"
+        "content": "        )}"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        )}"
+        "content": "        \u003cbr /\u003e"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cbr /\u003e"
+        "content": "        {shouldSeeMore \u0026\u0026 isDataMounted \u0026\u0026 ("
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        {!hasAllLoaded \u0026\u0026 isDataMounted \u0026\u0026 ("
+        "content": "          \u003cButtonContainer\u003e"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cButtonContainer\u003e"
+        "content": "            \u003cButton asComponent\u003d{SeeMoreButton} onClick\u003d{handleOnClickSeeMore} loading\u003d{isButtonLoading}\u003e"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            \u003cButton asComponent\u003d{SeeMoreButton} onClick\u003d{handleOnClickSeeMore} loading\u003d{isButtonLoading}\u003e"
+        "content": "              \u003cBlackText style\u003d{{ padding: \u00275px\u0027 }} size\u003d\"medium\"\u003e"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "              \u003cBlackText style\u003d{{ padding: \u00275px\u0027 }} size\u003d\"medium\"\u003e"
+        "content": "                See more"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                See more"
+        "content": "              \u003c/BlackText\u003e"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "              \u003c/BlackText\u003e"
+        "content": "            \u003c/Button\u003e"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            \u003c/Button\u003e"
+        "content": "          \u003c/ButtonContainer\u003e"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003c/ButtonContainer\u003e"
+        "content": "        )}"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        )}"
+        "content": "      \u003c/\u003e"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/\u003e"
+        "content": "    );"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    );"
+        "content": "  };"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": ""
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  const MobileWishes \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const MobileWishes \u003d () \u003d\u003e {"
+        "content": "    return ("
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return ("
+        "content": "      \u003cInfiniteScroll"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cInfiniteScroll"
+        "content": "        pageStart\u003d{0}"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        pageStart\u003d{0}"
+        "content": "        loadMore\u003d{handleOnClickSeeMore}"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        loadMore\u003d{handleOnClickSeeMore}"
+        "content": "        hasMore\u003d{shouldSeeMore}"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        hasMore\u003d{!hasAllLoaded}"
+        "content": "        loader\u003d{\u003cLoading type\u003d\"pageLoader\" key\u003d{0} /\u003e}"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        loader\u003d{\u003cLoading type\u003d\"pageLoader\" key\u003d{0} /\u003e}"
+        "content": "      \u003e"
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003e"
+        "content": "        \u003cGrid"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cGrid"
+        "content": "          inline\u003d{true}"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          inline\u003d{true}"
+        "content": "          largeMobile\u003d{{"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          largeMobile\u003d{{"
+        "content": "            columns: \u00271fr 1fr\u0027,"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            columns: \u00271fr 1fr\u0027,"
+        "content": "          }}"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          }}"
+        "content": "          rows\u003d\"auto\""
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          rows\u003d\"auto\""
+        "content": "          gap\u003d\"20px\""
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          gap\u003d\"20px\""
+        "content": "          columns\u003d\"1fr\""
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          columns\u003d\"1fr\""
+        "content": "        \u003e"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003e"
+        "content": "          {displayAllWishes()}"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          {displayAllWishes()}"
+        "content": "        \u003c/Grid\u003e"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/Grid\u003e"
+        "content": "      \u003c/InfiniteScroll\u003e"
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/InfiniteScroll\u003e"
+        "content": "    );"
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    );"
+        "content": "  };"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": ""
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  return ("
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return ("
+        "content": "    \u003cViewAllWishesContainer\u003e"
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003cViewAllWishesContainer\u003e"
+        "content": "      \u003cCategories type\u003d\"wishes\" /\u003e"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cCategories type\u003d\"wishes\" /\u003e"
+        "content": "      \u003cGrid"
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cGrid"
+        "content": "        columnGap\u003d\"20px\""
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        columnGap\u003d\"20px\""
+        "content": "        desktop\u003d{{"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        desktop\u003d{{"
+        "content": "          columns: \u00271fr 6fr\u0027,"
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          columns: \u00271fr 6fr\u0027,"
+        "content": "        }}"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        }}"
+        "content": "        rows\u003d\"1fr auto\""
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        rows\u003d\"1fr auto\""
+        "content": "      \u003e"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003e"
+        "content": "        \u003cGridSectionContainer\u003e"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cGridSectionContainer\u003e"
+        "content": "          \u003cWishesFilterBy filter\u003d{filter} setFilter\u003d{setFilter} /\u003e"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cWishesFilterBy filter\u003d{filter} setFilter\u003d{setFilter} /\u003e"
+        "content": "        \u003c/GridSectionContainer\u003e"
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/GridSectionContainer\u003e"
+        "content": "        \u003cGridSectionContainer\u003e"
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cGridSectionContainer\u003e"
+        "content": "          \u003cBlackText style\u003d{{ marginBottom: \u002710px\u0027 }} size\u003d\"large\"\u003e"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cBlackText style\u003d{{ marginBottom: \u002710px\u0027 }} size\u003d\"large\"\u003e"
+        "content": "            All Wishes"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            All Wishes"
+        "content": "          \u003c/BlackText\u003e"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003c/BlackText\u003e"
+        "content": "          \u003cWishesContainer\u003e{isLargeMobile ? \u003cDesktopAndTabletWishes /\u003e : \u003cMobileWishes /\u003e}\u003c/WishesContainer\u003e"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cWishesContainer\u003e{isLargeMobile ? \u003cDesktopAndTabletWishes /\u003e : \u003cMobileWishes /\u003e}\u003c/WishesContainer\u003e"
+        "content": "        \u003c/GridSectionContainer\u003e"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/GridSectionContainer\u003e"
+        "content": "      \u003c/Grid\u003e"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/Grid\u003e"
+        "content": "    \u003c/ViewAllWishesContainer\u003e"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003c/ViewAllWishesContainer\u003e"
+        "content": "  );"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  );"
+        "content": "};"
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "};"
-      },
-      {
-        "lineNumber": 221,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
         "content": ""
       },
       {
-        "lineNumber": 222,
+        "lineNumber": 221,
         "author": {
           "gitId": "jamessspanggg"
         },
@@ -138300,7 +138293,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 221,
+      "jamessspanggg": 220,
       "-": 1
     }
   },
@@ -138684,7 +138677,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const [hasAllLoaded, setHasAllLoaded] \u003d useState(false);"
+        "content": "  const [shouldSeeMore, setShouldSeeMore] \u003d useState(true);"
       },
       {
         "lineNumber": 55,
@@ -138789,7 +138782,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      setHasAllLoaded(false);"
+        "content": "      setShouldSeeMore(true);"
       },
       {
         "lineNumber": 70,
@@ -138810,126 +138803,126 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      setAllWishes(newWishes);"
+        "content": "      const numberOfDocumentsReturned \u003d newWishes.length;"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      setIsPageLoading(false);"
+        "content": "      if (numberOfDocumentsReturned \u003c WISHES_BATCH_SIZE) {"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      setIsDataMounted(true); // to show see more button \u0026 no wishes message after page is mounted"
+        "content": "        // loaded all documents already, since the number of wishes returned is less than batch size"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    });"
+        "content": "        setShouldSeeMore(false);"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  }, [filter]);"
+        "content": "      }"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "      setAllWishes(newWishes);"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const getLastQueriedDocument \u003d () \u003d\u003e {"
+        "content": "      setIsPageLoading(false);"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    if (allWishes.length \u003d\u003d\u003d 0) {"
+        "content": "      setIsDataMounted(true); // to show see more button \u0026 no wishes message after page is mounted"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      return null;"
+        "content": "    });"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    }"
+        "content": "  }, [filter]);"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return allWishes[allWishes.length - 1];"
+        "content": ""
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": "  const getLastQueriedDocument \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "    if (allWishes.length \u003d\u003d\u003d 0) {"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  /**"
+        "content": "      return null;"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   * Note that this function returns WISHES_BATCH_SIZE - 1 amount of documents,"
+        "content": "    }"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   * instead of WISHES_BATCH_SIZE, as the last document is to check whether we"
+        "content": "    return allWishes[allWishes.length - 1];"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   * have loaded all wishes."
+        "content": "  };"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   */"
+        "content": ""
       },
       {
         "lineNumber": 90,
@@ -138978,899 +138971,892 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    const numberOfDocumentsReturned \u003d rawWishes.docs.length;"
+        "content": "    return rawWishes.docs;"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    if (numberOfDocumentsReturned \u003c WISHES_BATCH_SIZE) {"
+        "content": "  };"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      // loaded all documents already, since the number of wishes returned is less than batch size"
+        "content": ""
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      setHasAllLoaded(true);"
+        "content": "  const displayAllWishes \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      return rawWishes.docs;"
+        "content": "    if (allWishes.length \u003d\u003d\u003d 0) {"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    }"
+        "content": "      return isDataMounted \u0026\u0026 \u003cBlackText size\u003d\"medium\"\u003eNo wishes found.\u003c/BlackText\u003e;"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return rawWishes.docs.slice(0, WISHES_BATCH_SIZE - 1);"
+        "content": "    }"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
-      },
-      {
-        "lineNumber": 104,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 105,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": "  const displayAllWishes \u003d () \u003d\u003e {"
-      },
-      {
-        "lineNumber": 106,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": "    if (allWishes.length \u003d\u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 107,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": "      return isDataMounted \u0026\u0026 \u003cBlackText size\u003d\"medium\"\u003eNo wishes found.\u003c/BlackText\u003e;"
-      },
-      {
-        "lineNumber": 108,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 109,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
         "content": "    return allWishes.map((wish) \u003d\u003e {"
       },
       {
-        "lineNumber": 110,
+        "lineNumber": 104,
         "author": {
           "gitId": "-"
         },
         "content": "      const { wishId, categories, organization, title, description, user, postedDateTime, isBumped } \u003d wish.data();"
       },
       {
-        "lineNumber": 111,
+        "lineNumber": 105,
         "author": {
           "gitId": "-"
         },
         "content": "      const postHref \u003d `/wishes/${wishId}`;"
       },
       {
-        "lineNumber": 112,
+        "lineNumber": 106,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      const categoryTags \u003d categories.map((category) \u003d\u003e category.name);"
       },
       {
-        "lineNumber": 113,
+        "lineNumber": 107,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      return ("
       },
       {
-        "lineNumber": 114,
+        "lineNumber": 108,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "        \u003cWishCard"
       },
       {
-        "lineNumber": 115,
+        "lineNumber": 109,
         "author": {
           "gitId": "-"
         },
         "content": "          key\u003d{wishId}"
       },
       {
-        "lineNumber": 116,
+        "lineNumber": 110,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          wishId\u003d{wishId}"
       },
       {
-        "lineNumber": 117,
+        "lineNumber": 111,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          name\u003d{organization.name}"
       },
       {
-        "lineNumber": 118,
+        "lineNumber": 112,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          title\u003d{title}"
       },
       {
-        "lineNumber": 119,
+        "lineNumber": 113,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          description\u003d{description}"
       },
       {
-        "lineNumber": 120,
+        "lineNumber": 114,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          profileImageUrl\u003d{user.profileImageUrl}"
       },
       {
-        "lineNumber": 121,
+        "lineNumber": 115,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          postedDateTime\u003d{postedDateTime}"
       },
       {
-        "lineNumber": 122,
+        "lineNumber": 116,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          postHref\u003d{postHref}"
       },
       {
-        "lineNumber": 123,
+        "lineNumber": 117,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          categoryTags\u003d{categoryTags}"
       },
       {
-        "lineNumber": 124,
+        "lineNumber": 118,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          isBumped\u003d{isBumped}"
       },
       {
-        "lineNumber": 125,
+        "lineNumber": 119,
         "author": {
           "gitId": "-"
         },
         "content": "          categoryId\u003d{category.id}"
       },
       {
-        "lineNumber": 126,
+        "lineNumber": 120,
         "author": {
           "gitId": "-"
         },
         "content": "          categoryName\u003d{category.name}"
       },
       {
-        "lineNumber": 127,
+        "lineNumber": 121,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "        /\u003e"
       },
       {
-        "lineNumber": 128,
+        "lineNumber": 122,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      );"
       },
       {
-        "lineNumber": 129,
+        "lineNumber": 123,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    });"
       },
       {
-        "lineNumber": 130,
+        "lineNumber": 124,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  };"
       },
       {
-        "lineNumber": 131,
+        "lineNumber": 125,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": ""
       },
       {
-        "lineNumber": 132,
+        "lineNumber": 126,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  const handleOnClickSeeMore \u003d () \u003d\u003e {"
       },
       {
-        "lineNumber": 133,
+        "lineNumber": 127,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    setIsButtonLoading(true);"
       },
       {
-        "lineNumber": 134,
+        "lineNumber": 128,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    getNextBatchOfWishes(category.id, filter, getLastQueriedDocument()).then((newWishes) \u003d\u003e {"
       },
       {
-        "lineNumber": 135,
+        "lineNumber": 129,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      if (newWishes.length \u003e 0) {"
+        "content": "      const numberOfDocumentsReturned \u003d newWishes.length;"
       },
       {
-        "lineNumber": 136,
+        "lineNumber": 130,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        setAllWishes(allWishes.concat(newWishes));"
+        "content": "      if (numberOfDocumentsReturned \u003c WISHES_BATCH_SIZE) {"
       },
       {
-        "lineNumber": 137,
+        "lineNumber": 131,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        // loaded all documents already, since the number of wishes returned is less than batch size"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        setShouldSeeMore(false);"
+      },
+      {
+        "lineNumber": 133,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      }"
       },
       {
-        "lineNumber": 138,
+        "lineNumber": 134,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      if (numberOfDocumentsReturned \u003e 0) {"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        setAllWishes(allWishes.concat(newWishes));"
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      }"
+      },
+      {
+        "lineNumber": 137,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      setIsButtonLoading(false);"
       },
       {
-        "lineNumber": 139,
+        "lineNumber": 138,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    });"
       },
       {
-        "lineNumber": 140,
+        "lineNumber": 139,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  };"
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  const DesktopAndTabletWishes \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const DesktopAndTabletWishes \u003d () \u003d\u003e {"
+        "content": "    return ("
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return ("
+        "content": "      \u003c\u003e"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c\u003e"
+        "content": "        \u003cGrid"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cGrid"
+        "content": "          inline\u003d{true}"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          inline\u003d{true}"
+        "content": "          largeDesktop\u003d{{"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          largeDesktop\u003d{{"
+        "content": "            columns: \u00271fr 1fr 1fr\u0027,"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            columns: \u00271fr 1fr 1fr\u0027,"
+        "content": "          }}"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          }}"
+        "content": "          largeMobile\u003d{{"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          largeMobile\u003d{{"
+        "content": "            columns: \u00271fr 1fr\u0027,"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            columns: \u00271fr 1fr\u0027,"
+        "content": "          }}"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          }}"
+        "content": "          rows\u003d\"auto\""
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          rows\u003d\"auto\""
+        "content": "          gap\u003d\"20px\""
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          gap\u003d\"20px\""
+        "content": "        \u003e"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003e"
+        "content": "          {displayAllWishes()}"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          {displayAllWishes()}"
+        "content": "        \u003c/Grid\u003e"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/Grid\u003e"
+        "content": "        {isPageLoading \u0026\u0026 ("
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        {isPageLoading \u0026\u0026 ("
+        "content": "          \u003cPageLoadingContainer\u003e"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cPageLoadingContainer\u003e"
+        "content": "            \u003cLoading loading\u003d{isPageLoading} type\u003d\"pageLoader\" /\u003e"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            \u003cLoading loading\u003d{isPageLoading} type\u003d\"pageLoader\" /\u003e"
+        "content": "          \u003c/PageLoadingContainer\u003e"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003c/PageLoadingContainer\u003e"
+        "content": "        )}"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        )}"
+        "content": "        \u003cbr /\u003e"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cbr /\u003e"
+        "content": "        {shouldSeeMore \u0026\u0026 isDataMounted \u0026\u0026 ("
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        {!hasAllLoaded \u0026\u0026 isDataMounted \u0026\u0026 ("
+        "content": "          \u003cButtonContainer\u003e"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cButtonContainer\u003e"
+        "content": "            \u003cButton asComponent\u003d{SeeMoreButton} onClick\u003d{handleOnClickSeeMore} loading\u003d{isButtonLoading}\u003e"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            \u003cButton asComponent\u003d{SeeMoreButton} onClick\u003d{handleOnClickSeeMore} loading\u003d{isButtonLoading}\u003e"
+        "content": "              \u003cBlackText style\u003d{{ padding: \u00275px\u0027 }} size\u003d\"medium\"\u003e"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "              \u003cBlackText style\u003d{{ padding: \u00275px\u0027 }} size\u003d\"medium\"\u003e"
+        "content": "                See more"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                See more"
+        "content": "              \u003c/BlackText\u003e"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "              \u003c/BlackText\u003e"
+        "content": "            \u003c/Button\u003e"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            \u003c/Button\u003e"
+        "content": "          \u003c/ButtonContainer\u003e"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003c/ButtonContainer\u003e"
+        "content": "        )}"
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        )}"
+        "content": "      \u003c/\u003e"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/\u003e"
+        "content": "    );"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    );"
+        "content": "  };"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": ""
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  const MobileWishes \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const MobileWishes \u003d () \u003d\u003e {"
+        "content": "    return ("
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return ("
+        "content": "      \u003cInfiniteScroll"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cInfiniteScroll"
+        "content": "        pageStart\u003d{0}"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        pageStart\u003d{0}"
+        "content": "        loadMore\u003d{handleOnClickSeeMore}"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        loadMore\u003d{handleOnClickSeeMore}"
+        "content": "        hasMore\u003d{shouldSeeMore}"
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        hasMore\u003d{!hasAllLoaded}"
+        "content": "        loader\u003d{\u003cLoading type\u003d\"pageLoader\" key\u003d{0} /\u003e}"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        loader\u003d{\u003cLoading type\u003d\"pageLoader\" key\u003d{0} /\u003e}"
+        "content": "      \u003e"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003e"
+        "content": "        \u003cGrid"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cGrid"
+        "content": "          inline\u003d{true}"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          inline\u003d{true}"
+        "content": "          largeMobile\u003d{{"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          largeMobile\u003d{{"
+        "content": "            columns: \u00271fr 1fr\u0027,"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            columns: \u00271fr 1fr\u0027,"
+        "content": "          }}"
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          }}"
+        "content": "          rows\u003d\"auto\""
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          rows\u003d\"auto\""
+        "content": "          gap\u003d\"20px\""
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          gap\u003d\"20px\""
+        "content": "          columns\u003d\"1fr\""
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          columns\u003d\"1fr\""
+        "content": "        \u003e"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003e"
+        "content": "          {displayAllWishes()}"
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          {displayAllWishes()}"
+        "content": "        \u003c/Grid\u003e"
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/Grid\u003e"
+        "content": "      \u003c/InfiniteScroll\u003e"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/InfiniteScroll\u003e"
+        "content": "    );"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    );"
+        "content": "  };"
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": ""
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  return ("
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return ("
+        "content": "    \u003cViewCategoryContainer\u003e"
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003cViewCategoryContainer\u003e"
+        "content": "      \u003cCategories type\u003d\"wishes\" /\u003e"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cCategories type\u003d\"wishes\" /\u003e"
+        "content": "      \u003cGrid"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cGrid"
+        "content": "        columnGap\u003d\"20px\""
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        columnGap\u003d\"20px\""
+        "content": "        desktop\u003d{{"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        desktop\u003d{{"
+        "content": "          columns: \u00271fr 6fr\u0027,"
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          columns: \u00271fr 6fr\u0027,"
+        "content": "        }}"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        }}"
+        "content": "        rows\u003d\"1fr auto\""
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        rows\u003d\"1fr auto\""
+        "content": "      \u003e"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003e"
+        "content": "        \u003cGridSectionContainer\u003e"
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cGridSectionContainer\u003e"
+        "content": "          \u003cWishesFilterBy category\u003d{category} filter\u003d{filter} setFilter\u003d{setFilter} /\u003e"
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cWishesFilterBy category\u003d{category} filter\u003d{filter} setFilter\u003d{setFilter} /\u003e"
+        "content": "        \u003c/GridSectionContainer\u003e"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/GridSectionContainer\u003e"
+        "content": "        \u003cGridSectionContainer\u003e"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cGridSectionContainer\u003e"
+        "content": "          \u003cBlackText style\u003d{{ marginBottom: \u002710px\u0027 }} size\u003d\"large\"\u003e"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cBlackText style\u003d{{ marginBottom: \u002710px\u0027 }} size\u003d\"large\"\u003e"
+        "content": "            {category.name}"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            {category.name}"
+        "content": "          \u003c/BlackText\u003e"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003c/BlackText\u003e"
+        "content": "          \u003cWishesContainer\u003e{isLargeMobile ? \u003cDesktopAndTabletWishes /\u003e : \u003cMobileWishes /\u003e}\u003c/WishesContainer\u003e"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cWishesContainer\u003e{isLargeMobile ? \u003cDesktopAndTabletWishes /\u003e : \u003cMobileWishes /\u003e}\u003c/WishesContainer\u003e"
+        "content": "        \u003c/GridSectionContainer\u003e"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/GridSectionContainer\u003e"
+        "content": "      \u003c/Grid\u003e"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/Grid\u003e"
+        "content": "    \u003c/ViewCategoryContainer\u003e"
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003c/ViewCategoryContainer\u003e"
+        "content": "  );"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  );"
+        "content": "};"
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "};"
-      },
-      {
-        "lineNumber": 223,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
         "content": ""
       },
       {
-        "lineNumber": 224,
+        "lineNumber": 223,
         "author": {
           "gitId": "jamessspanggg"
         },
@@ -139878,7 +139864,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 219,
+      "jamessspanggg": 218,
       "-": 5
     }
   },
@@ -148272,24 +148258,171 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "export const getTimeDifferenceFromNow \u003d (timeInMilliSeconds) \u003d\u003e {"
+        "content": "moment.updateLocale(\u0027en\u0027, {"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  let momentTime \u003d moment.unix(timeInMilliSeconds / 1000);"
+        "content": "  relativeTime: {"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return momentTime.fromNow();"
+        "content": "    future: \u0027in %s\u0027,"
       },
       {
         "lineNumber": 6,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    past: \u0027%s\u0027,"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    s: \u0027just now\u0027,"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    ss: \u0027%ds\u0027,"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    m: \u00271m\u0027,"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    mm: \u0027%dm\u0027,"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    h: \u00271h\u0027,"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    hh: \u0027%dh\u0027,"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    d: \u00271d\u0027,"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    dd: \u0027%dd\u0027,"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    w: \u00271w\u0027,"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    ww: \u0027%dw\u0027,"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    M: \u00271mo\u0027,"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    MM: \u0027%dmo\u0027,"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    y: \u00271yr\u0027,"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    yy: \u0027%dyr\u0027,"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  },"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "});"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "export const getTimeDifferenceFromNow \u003d (timeInMilliSeconds) \u003d\u003e {"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  let momentTime \u003d moment(timeInMilliSeconds);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  return momentTime.fromNow();"
+      },
+      {
+        "lineNumber": 27,
         "author": {
           "gitId": "jamessspanggg"
         },
@@ -148297,7 +148430,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 6
+      "jamessspanggg": 27
     }
   },
   {
