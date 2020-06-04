@@ -336,22 +336,51 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 594,
+        "deletions": 6,
+        "date": "2020-06-04",
+        "commitResults": [
+          {
+            "hash": "3b5e6eb1d75b22edcdcf82308112d2e96116a0e1",
+            "messageTitle": "Add view category pages for donations (#130)",
+            "messageBody": "* Install axios\r\n\r\n* Add DonationsAPI Implementation\r\n\r\n* TopDonations.js: Update to use api call\r\n\r\n* DonationAPI: Minor Fixes\r\n\r\n* Remove dummyData\r\n\r\n* Optimise the loading of donations\r\n\r\n* DonationsAPI: Change all category name to category id\r\n\r\n* Install uuid\r\n\r\n* DonationsAPI: Change upload image name\r\n\r\n* DonationsAPI: Change update() to take image name from firebase storage\r\n\r\n* DonationsAPI: Optimize update() function\r\n\r\n* DonationsAPI: Optimize create() function\r\n\r\n* DonationsAPI: Optimize create() function\r\n\r\n* Optimize complete() function\r\n\r\n* DonationsAPI: Refractor variable names\r\n\r\n* Add view categories for donations\r\n\r\n* Refactor pagination\r\n\r\n* Refactor based on comments\r\n\r\nCo-authored-by: Jin Ying \u003ckenneth.jyt@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 593,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "a996181f793f037f1a6e4076e3643a08105ca6ea",
+            "messageTitle": "Fix resizing of avatar (#147)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 2078
+    "jamessspanggg": 2654
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
-      "json": 42,
+      "json": 29,
       "LICENSE": 21,
-      "js": 1888
+      "js": 2477
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 51807.03
+    "jamessspanggg": 54566.406
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
