@@ -117767,9 +117767,9 @@
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "  if (rawCategory.docs.length \u003d\u003d\u003d 0) {"
+        "content": "  if (!rawCategory.exists) {"
       },
       {
         "lineNumber": 26,
@@ -117788,9 +117788,9 @@
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "  return rawCategory.docs[0].data();"
+        "content": "  return rawCategory.data();"
       },
       {
         "lineNumber": 29,
@@ -117899,7 +117899,8 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 43
+      "jamessspanggg": 41,
+      "-": 2
     }
   },
   {
@@ -119044,9 +119045,9 @@
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "  if (rawCategory.docs.length \u003d\u003d\u003d 0) {"
+        "content": "  if (!rawCategory.exists) {"
       },
       {
         "lineNumber": 26,
@@ -119065,9 +119066,9 @@
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "  return rawCategory.docs[0].data();"
+        "content": "  return rawCategory.data();"
       },
       {
         "lineNumber": 29,
@@ -119176,8 +119177,8 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 42,
-      "-": 1
+      "jamessspanggg": 40,
+      "-": 3
     }
   },
   {
