@@ -365,22 +365,51 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 8,
+        "date": "2020-06-06",
+        "commitResults": [
+          {
+            "hash": "f6de54b0cf1e25cf23306f827896be33fcb6449b",
+            "messageTitle": "Let loading animation continue until page changes (#153)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 0,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "3b4576b08dbd1469cac8f407f464c9c3d20bbc3a",
+            "messageTitle": "Fix shallow routing mistake (#154)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 2650
+    "jamessspanggg": 2652
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
       "json": 29,
       "LICENSE": 21,
-      "js": 2473
+      "js": 2475
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 54566.406
+    "jamessspanggg": 52628.098
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
