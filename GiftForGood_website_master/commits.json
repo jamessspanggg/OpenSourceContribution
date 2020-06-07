@@ -394,22 +394,55 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 582,
+        "deletions": 17,
+        "date": "2020-06-07",
+        "commitResults": [
+          {
+            "hash": "b6f07f97f81c17255fccfc6fbce162486d258b9c",
+            "messageTitle": "Add edit profile for donors (#152)",
+            "messageBody": "* Add edit profile for donors",
+            "fileTypesAndContributionMap": {
+              "gitkeep": {
+                "insertions": 0,
+                "deletions": 0
+              },
+              "js": {
+                "insertions": 207,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "12f869aad200469a9d208995f14790177bac6e00",
+            "messageTitle": "Add donor profile (#144)",
+            "messageBody": "* Add donor profile page\r\n\r\n* Reuse components\r\n\r\n* Add donation post status tag",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 375,
+                "deletions": 16
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 2652
+    "jamessspanggg": 3201
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
       "json": 29,
       "LICENSE": 21,
-      "js": 2475
+      "js": 3024
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 52628.098
+    "jamessspanggg": 56852.12
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
