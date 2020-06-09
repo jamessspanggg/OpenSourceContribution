@@ -1398,14 +1398,14 @@
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 13721
+    "jamessspanggg": 13416
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "gitignore": 2,
-      "json": 11387,
+      "json": 11379,
       "yml": 10,
-      "md": 317,
+      "md": 20,
       "sh": 67,
       "js": 942,
       "pug": 65,
