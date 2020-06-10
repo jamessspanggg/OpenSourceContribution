@@ -427,22 +427,66 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 180,
+        "deletions": 85,
+        "date": "2020-06-10",
+        "commitResults": [
+          {
+            "hash": "03a6df4f699a193cab40446cb3b37212da7b60a6",
+            "messageTitle": "Update Banner UI (#158)",
+            "messageBody": "* Store banner images on cloudinary\r\n\r\n* Add basic structure of updated banner\r\n\r\n* Add pointer cursor for banner image\r\n\r\n* Fix black color banner background issue\r\n\r\n* Fix issue with not swiping at first load\r\n\r\n* Reuse carousel scroll button\r\n\r\n* Change swipe interval to 3 seconds\r\n\r\n* Add searchbar on top left of navbar\r\n\r\n* Remove unused code\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "json": {
+                "insertions": 24,
+                "deletions": 0
+              },
+              "js": {
+                "insertions": 148,
+                "deletions": 83
+              }
+            }
+          },
+          {
+            "hash": "d5a0d2327490e25a16f5d7d002b875b479fac290",
+            "messageTitle": "Use org name and npo profile image in wish card (#155)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "af5fdea0ce152fd23ac1a10c46da17d4688edd65",
+            "messageTitle": "Add missing valid period (#159)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 6,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 3201
+    "jamessspanggg": 3300
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
-      "json": 29,
+      "json": 53,
       "LICENSE": 21,
-      "js": 3024
+      "js": 3099
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 56852.12
+    "jamessspanggg": 54647.773
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
