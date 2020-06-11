@@ -471,22 +471,40 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 5,
+        "deletions": 0,
+        "date": "2020-06-11",
+        "commitResults": [
+          {
+            "hash": "243174f9ce8b53aa35bed0f7c778cebec4337f06",
+            "messageTitle": "Add missing valid period in donor past donations (#163)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 5,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 3300
+    "jamessspanggg": 3305
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
       "json": 53,
       "LICENSE": 21,
-      "js": 3099
+      "js": 3104
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 54647.773
+    "jamessspanggg": 53782.617
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
