@@ -123908,7 +123908,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "import React from \u0027react\u0027;"
+        "content": "import React, { useState, useEffect } from \u0027react\u0027;"
       },
       {
         "lineNumber": 2,
@@ -123950,35 +123950,35 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "import { defaultPostImagePath } from \u0027../../../utils/constants/imagePaths\u0027;"
+        "content": "import { useRouter } from \u0027next/router\u0027;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "import { useRouter } from \u0027next/router\u0027;"
+        "content": "import media from \u0027@kiwicom/orbit-components/lib/utils/mediaQuery\u0027;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "import media from \u0027@kiwicom/orbit-components/lib/utils/mediaQuery\u0027;"
+        "content": "import { PENDING } from \u0027../../../utils/constants/postStatus\u0027;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "import { PENDING } from \u0027../../../utils/constants/postStatus\u0027;"
+        "content": "import DonationCardStatus from \u0027./DonationCardStatus\u0027;"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "import DonationCardStatus from \u0027./DonationCardStatus\u0027;"
+        "content": "import { colors } from \u0027../../../utils/constants/colors\u0027;"
       },
       {
         "lineNumber": 12,
@@ -124263,555 +124263,555 @@
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "`;"
+        "content": "  background-color: ${colors.imageLoadingBackground};"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "`;"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const CardImage \u003d styled.div`"
+        "content": ""
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "  background-image: url(${(props) \u003d\u003e props.imageUrl});"
+        "content": "const CardImage \u003d styled.img`"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  background-size: cover;"
+        "content": "  height: 100%;"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  background-position: center;"
+        "content": "  width: 100%;"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  height: 100%;"
+        "content": "`;"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  width: 100%;"
+        "content": ""
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "`;"
+        "content": "const CardDescriptionContainer \u003d styled.div`"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  margin: 10px 20px 10px 20px;"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const CardDescriptionContainer \u003d styled.div`"
+        "content": "  display: flex;"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  margin: 10px 20px 10px 20px;"
+        "content": "  flex-direction: column;"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  display: flex;"
+        "content": "`;"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  flex-direction: column;"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "`;"
+        "content": "const CardDescriptionFooterContainer \u003d styled.div`"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  bottom: 0;"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const CardDescriptionFooterContainer \u003d styled.div`"
+        "content": "  text-align: start;"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  bottom: 0;"
+        "content": "`;"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  text-align: start;"
+        "content": ""
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "`;"
+        "content": "const ClickableDiv \u003d styled.a`"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  position: absolute;"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const ClickableDiv \u003d styled.a`"
+        "content": "  width: 100%;"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  position: absolute;"
+        "content": "  height: 100%;"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  width: 100%;"
+        "content": "  top: 0;"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  height: 100%;"
+        "content": "  left: 0;"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  top: 0;"
+        "content": "  z-index: 1;"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  left: 0;"
+        "content": "`;"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  z-index: 1;"
+        "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "`;"
+        "content": "const CardDescription \u003d ({ title, description }) \u003d\u003e {"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  return ("
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const CardDescription \u003d ({ title, description }) \u003d\u003e {"
+        "content": "    \u003cStack direction\u003d\"column\" spacing\u003d\"tight\"\u003e"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return ("
+        "content": "      \u003cText size\u003d\"normal\" weight\u003d\"bold\"\u003e"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003cStack direction\u003d\"column\" spacing\u003d\"tight\"\u003e"
+        "content": "        {title}"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cText size\u003d\"normal\" weight\u003d\"bold\"\u003e"
+        "content": "      \u003c/Text\u003e"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        {title}"
+        "content": "      \u003cTwoLineTextContainer\u003e{description}\u003c/TwoLineTextContainer\u003e"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/Text\u003e"
+        "content": "    \u003c/Stack\u003e"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cTwoLineTextContainer\u003e{description}\u003c/TwoLineTextContainer\u003e"
+        "content": "  );"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003c/Stack\u003e"
+        "content": "};"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  );"
+        "content": ""
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "};"
+        "content": "const CardDescriptionFooter \u003d ({ validPeriod, locations }) \u003d\u003e {"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  return ("
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const CardDescriptionFooter \u003d ({ validPeriod, locations }) \u003d\u003e {"
+        "content": "    \u003c\u003e"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return ("
+        "content": "      \u003cGreyText size\u003d\"small\"\u003eValid period: {validPeriod || \u0027N.A.\u0027}\u003c/GreyText\u003e"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003c\u003e"
+        "content": "      \u003cGreyText size\u003d\"small\"\u003eLocations: {locations}\u003c/GreyText\u003e"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cGreyText size\u003d\"small\"\u003eValid period: {validPeriod || \u0027N.A.\u0027}\u003c/GreyText\u003e"
+        "content": "    \u003c/\u003e"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cGreyText size\u003d\"small\"\u003eLocations: {locations}\u003c/GreyText\u003e"
+        "content": "  );"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003c/\u003e"
+        "content": "};"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  );"
+        "content": ""
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "};"
+        "content": "/**"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": " *"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "/**"
+        "content": " * @param {string} name is the donor\u0027s user name"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " *"
+        "content": " * @param {string} title is the title of the donation"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} name is the donor\u0027s user name"
+        "content": " * @param {string} description is the description of the donation"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} title is the title of the donation"
+        "content": " * @param {string} profileImageUrl is the url to the avatar image of the donor user"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} description is the description of the donation"
+        "content": " * @param {string} coverImageUrl is the url to the cover image of the donation post"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} profileImageUrl is the url to the avatar image of the donor user"
+        "content": " * @param {string} postedDateTime is the time posted for donation in milliseconds"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} coverImageUrl is the url to the cover image of the donation post"
+        "content": " * @param {string} postHref is the link url to direct users to after clicking the donation card"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} postedDateTime is the time posted for donation in milliseconds"
+        "content": " * @param {string} locations is the location names of the donation post"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} postHref is the link url to direct users to after clicking the donation card"
+        "content": " * @param {string} status is the current status of the donation post, if not provided, the status won\u0027t be shown in card"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} locations is the location names of the donation post"
-      },
-      {
-        "lineNumber": 112,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
-        "content": " * @param {string} status is the current status of the donation post, if not provided, the status won\u0027t be shown in card"
-      },
-      {
-        "lineNumber": 113,
-        "author": {
-          "gitId": "jamessspanggg"
-        },
         "content": " * @param {string} validPeriod is the validity period of the donation post"
       },
       {
-        "lineNumber": 114,
+        "lineNumber": 112,
         "author": {
           "gitId": "-"
         },
         "content": " * @param {string} categoryId is the category id"
       },
       {
-        "lineNumber": 115,
+        "lineNumber": 113,
         "author": {
           "gitId": "-"
         },
         "content": " * @param {string} categoryName is the category name of the donation currently displayed in"
       },
       {
-        "lineNumber": 116,
+        "lineNumber": 114,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": " */"
       },
       {
-        "lineNumber": 117,
+        "lineNumber": 115,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "const DonationCard \u003d ({"
       },
       {
-        "lineNumber": 118,
+        "lineNumber": 116,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  name,"
       },
       {
-        "lineNumber": 119,
+        "lineNumber": 117,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  title,"
       },
       {
-        "lineNumber": 120,
+        "lineNumber": 118,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  description,"
       },
       {
-        "lineNumber": 121,
+        "lineNumber": 119,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  profileImageUrl,"
       },
       {
-        "lineNumber": 122,
+        "lineNumber": 120,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  coverImageUrl,"
       },
       {
-        "lineNumber": 123,
+        "lineNumber": 121,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  postedDateTime,"
       },
       {
-        "lineNumber": 124,
+        "lineNumber": 122,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  postHref,"
       },
       {
-        "lineNumber": 125,
+        "lineNumber": 123,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  locations,"
       },
       {
-        "lineNumber": 126,
+        "lineNumber": 124,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  status \u003d null,"
       },
       {
-        "lineNumber": 127,
+        "lineNumber": 125,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  validPeriod,"
       },
       {
-        "lineNumber": 128,
+        "lineNumber": 126,
         "author": {
           "gitId": "-"
         },
         "content": "  categoryId,"
       },
       {
-        "lineNumber": 129,
+        "lineNumber": 127,
         "author": {
           "gitId": "-"
         },
         "content": "  categoryName,"
       },
       {
-        "lineNumber": 130,
+        "lineNumber": 128,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "}) \u003d\u003e {"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "  const [hasImage, setHasImage] \u003d useState(true);"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "  const [imageUrl, setImageUrl] \u003d useState(coverImageUrl);"
       },
       {
         "lineNumber": 131,
@@ -124830,215 +124830,369 @@
       {
         "lineNumber": 133,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "  const handleOnClickDonationPost \u003d (event) \u003d\u003e {"
+        "content": ""
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    event.preventDefault();"
+        "content": "  const handleOnClickDonationPost \u003d (event) \u003d\u003e {"
       },
       {
         "lineNumber": 135,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
-        "content": "    router.push({"
+        "content": "    event.preventDefault();"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "-"
         },
-        "content": "      pathname: postHref,"
+        "content": "    router.push({"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "-"
         },
-        "content": "      query: { categoryId: categoryId, categoryName: categoryName },"
+        "content": "      pathname: postHref,"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "-"
         },
-        "content": "    });"
+        "content": "      query: { categoryId: categoryId, categoryName: categoryName },"
       },
       {
         "lineNumber": 139,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "  };"
+        "content": "    });"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return ("
+        "content": "  };"
       },
       {
         "lineNumber": 141,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "    \u003cCardContainer\u003e"
+        "content": ""
       },
       {
         "lineNumber": 142,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "      \u003cGrid style\u003d{{ height: \u0027100%\u0027 }} rows\u003d\"1fr 3fr 2fr\" cols\u003d\"1fr\"\u003e"
+        "content": "  const handleImageOnError \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 143,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "        \u003cCardHeaderContainer\u003e"
+        "content": "    setHasImage(false);"
       },
       {
         "lineNumber": 144,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "          \u003cCardHeader name\u003d{name} imageUrl\u003d{profileImageUrl} timeAgo\u003d{timeAgo} /\u003e"
+        "content": "  };"
       },
       {
         "lineNumber": 145,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "        \u003c/CardHeaderContainer\u003e"
+        "content": ""
       },
       {
         "lineNumber": 146,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "        \u003cCardImageContainer\u003e"
+        "content": "  useEffect(() \u003d\u003e {"
       },
       {
         "lineNumber": 147,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "          \u003cCardImage imageUrl\u003d{coverImageUrl || defaultPostImagePath} /\u003e"
+        "content": "    if (coverImageUrl) {"
       },
       {
         "lineNumber": 148,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "          {/* status label will only be shown if status is provided and it is not pending */}"
+        "content": "      setHasImage(true);"
       },
       {
         "lineNumber": 149,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "          {status !\u003d null \u0026\u0026 status !\u003d PENDING \u0026\u0026 \u003cDonationCardStatus status\u003d{status} /\u003e}"
+        "content": "      // Checks if its Firebase URL"
       },
       {
         "lineNumber": 150,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "        \u003c/CardImageContainer\u003e"
+        "content": "      if (!coverImageUrl.includes(\u0027blob:\u0027)) {"
       },
       {
         "lineNumber": 151,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "        \u003cCardDescriptionContainer\u003e"
+        "content": "        const lastIndexOfDot \u003d coverImageUrl.lastIndexOf(\u0027.\u0027);"
       },
       {
         "lineNumber": 152,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "          \u003cCardDescription title\u003d{title} description\u003d{description} /\u003e"
+        "content": "        const newSmallImageUrl \u003d"
       },
       {
         "lineNumber": 153,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "          \u003cCardDescriptionFooterContainer\u003e"
+        "content": "          coverImageUrl.substring(0, lastIndexOfDot) + \u0027_500x500\u0027 + coverImageUrl.substring(lastIndexOfDot);"
       },
       {
         "lineNumber": 154,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "            \u003cCardDescriptionFooter validPeriod\u003d{validPeriod} locations\u003d{locations} /\u003e"
+        "content": "        setImageUrl(newSmallImageUrl);"
       },
       {
         "lineNumber": 155,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "          \u003c/CardDescriptionFooterContainer\u003e"
+        "content": "      } else {"
       },
       {
         "lineNumber": 156,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "        \u003c/CardDescriptionContainer\u003e"
+        "content": "        setImageUrl(coverImageUrl);"
       },
       {
         "lineNumber": 157,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "      \u003c/Grid\u003e"
+        "content": "      }"
       },
       {
         "lineNumber": 158,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "      \u003cClickableDiv href\u003d{postHref} onClick\u003d{handleOnClickDonationPost} /\u003e"
+        "content": "    }"
       },
       {
         "lineNumber": 159,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "    \u003c/CardContainer\u003e"
+        "content": "  }, [coverImageUrl]);"
       },
       {
         "lineNumber": 160,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": "  );"
+        "content": ""
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "};"
+        "content": "  return ("
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "    \u003cCardContainer\u003e"
       },
       {
         "lineNumber": 163,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      \u003cGrid style\u003d{{ height: \u0027100%\u0027 }} rows\u003d\"1fr 3fr 2fr\" cols\u003d\"1fr\"\u003e"
+      },
+      {
+        "lineNumber": 164,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        \u003cCardHeaderContainer\u003e"
+      },
+      {
+        "lineNumber": 165,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          \u003cCardHeader name\u003d{name} imageUrl\u003d{profileImageUrl} timeAgo\u003d{timeAgo} /\u003e"
+      },
+      {
+        "lineNumber": 166,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        \u003c/CardHeaderContainer\u003e"
+      },
+      {
+        "lineNumber": 167,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        \u003cCardImageContainer\u003e"
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "          {hasImage ? \u003cCardImage src\u003d{imageUrl} loading\u003d\"lazy\" onError\u003d{handleImageOnError} /\u003e : null}"
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 170,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          {/* status label will only be shown if status is provided and it is not pending */}"
+      },
+      {
+        "lineNumber": 171,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          {status !\u003d null \u0026\u0026 status !\u003d PENDING \u0026\u0026 \u003cDonationCardStatus status\u003d{status} /\u003e}"
+      },
+      {
+        "lineNumber": 172,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        \u003c/CardImageContainer\u003e"
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        \u003cCardDescriptionContainer\u003e"
+      },
+      {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          \u003cCardDescription title\u003d{title} description\u003d{description} /\u003e"
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          \u003cCardDescriptionFooterContainer\u003e"
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "            \u003cCardDescriptionFooter validPeriod\u003d{validPeriod} locations\u003d{locations} /\u003e"
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          \u003c/CardDescriptionFooterContainer\u003e"
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        \u003c/CardDescriptionContainer\u003e"
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      \u003c/Grid\u003e"
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      \u003cClickableDiv href\u003d{postHref} onClick\u003d{handleOnClickDonationPost} /\u003e"
+      },
+      {
+        "lineNumber": 181,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    \u003c/CardContainer\u003e"
+      },
+      {
+        "lineNumber": 182,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  );"
+      },
+      {
+        "lineNumber": 183,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "};"
+      },
+      {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 185,
         "author": {
           "gitId": "jamessspanggg"
         },
@@ -125046,8 +125200,8 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 154,
-      "-": 9
+      "jamessspanggg": 148,
+      "-": 37
     }
   },
   {
@@ -153688,12 +153842,19 @@
         "author": {
           "gitId": "-"
         },
+        "content": "  imageLoadingBackground: \u0027#f0f1f1\u0027,"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "-"
+        },
         "content": "};"
       }
     ],
     "authorContributionMap": {
       "jamessspanggg": 5,
-      "-": 38
+      "-": 39
     }
   },
   {
