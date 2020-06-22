@@ -8347,7 +8347,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-index-parser/store-source\": \"ソースファイル\u003cbr/\u003e（ファイル名やURL）を\u003cbr/\u003e各行に保存する\","
+        "content": "    \"core-index-parser/store-source\": \"ファイルのソース\","
       },
       {
         "lineNumber": 128,
@@ -12736,10 +12736,66 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-index-import/files-selected\": \"$2 {{plural:$2|file|files}} の $1 が選択されました\""
+        "content": "    \"core-index-import/files-selected\": \"$2 {{plural:$2|file|files}} の $1 が選択されました\","
       },
       {
         "lineNumber": 755,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-views/by-number-rev-example\": \"[11AbcDef, 22]\","
+      },
+      {
+        "lineNumber": 756,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-views/by-number-example\": \"[11, AbcDef22]\","
+      },
+      {
+        "lineNumber": 757,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-views/by-case-example\": \"[11Abc, Def22]\","
+      },
+      {
+        "lineNumber": 758,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-views/goto-page\": \"$2ページの$1\","
+      },
+      {
+        "lineNumber": 759,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-views/by-case-rev-example\": \"[11A, bcD, ef22]\","
+      },
+      {
+        "lineNumber": 760,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-views/by-rev\": \"逆順で分割\","
+      },
+      {
+        "lineNumber": 761,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-views/by-number\": \"数字から文字へ\","
+      },
+      {
+        "lineNumber": 762,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \"core-views/by-case\": \"小文字から大文字へ\""
+      },
+      {
+        "lineNumber": 763,
         "author": {
           "gitId": "-"
         },
@@ -12748,7 +12804,7 @@
     ],
     "authorContributionMap": {
       "jamessspanggg": 2,
-      "-": 753
+      "-": 761
     }
   },
   {
