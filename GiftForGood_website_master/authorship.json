@@ -124697,9 +124697,9 @@
       {
         "lineNumber": 114,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": " * @param {string} coverImageUrl is the url to the cover image of the donation post"
+        "content": " * @param {object | string} coverImageUrl is the url(s) to the cover image of the donation post"
       },
       {
         "lineNumber": 115,
@@ -124867,7 +124867,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "  const [imageUrl, setImageUrl] \u003d useState(coverImageUrl);"
+        "content": "  const [imageUrl, setImageUrl] \u003d useState(null);"
       },
       {
         "lineNumber": 139,
@@ -124965,304 +124965,297 @@
         "author": {
           "gitId": "-"
         },
-        "content": "  };"
+        "content": "    setImageUrl(coverImageUrl.raw);"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    setHasImage(true);"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "-"
         },
-        "content": "  useEffect(() \u003d\u003e {"
+        "content": "  };"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "-"
         },
-        "content": "    if (coverImageUrl) {"
+        "content": ""
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "-"
         },
-        "content": "      setHasImage(true);"
+        "content": "  useEffect(() \u003d\u003e {"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "-"
         },
-        "content": "      // Checks if its Firebase URL"
+        "content": "    if (coverImageUrl) {"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "-"
         },
-        "content": "      if (!coverImageUrl.includes(\u0027blob:\u0027)) {"
+        "content": "      setHasImage(true);"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "-"
         },
-        "content": "        const lastIndexOfDot \u003d coverImageUrl.lastIndexOf(\u0027.\u0027);"
+        "content": "      // Checks if its Firebase URL"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "-"
         },
-        "content": "        const newSmallImageUrl \u003d"
+        "content": "      if (typeof coverImageUrl \u003d\u003d\u003d \u0027object\u0027 \u0026\u0026 coverImageUrl !\u003d\u003d null) {"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "-"
         },
-        "content": "          coverImageUrl.substring(0, lastIndexOfDot) + \u0027_500x500\u0027 + coverImageUrl.substring(lastIndexOfDot);"
+        "content": "        setImageUrl(coverImageUrl.small);"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "-"
         },
-        "content": "        setImageUrl(newSmallImageUrl);"
+        "content": "      } else {"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "-"
         },
-        "content": "      } else {"
+        "content": "        setImageUrl(coverImageUrl);"
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "-"
         },
-        "content": "        setImageUrl(coverImageUrl);"
+        "content": "      }"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "-"
         },
-        "content": "      }"
+        "content": "    } else {"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "-"
         },
-        "content": "    } else {"
+        "content": "      setHasImage(false);"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "-"
         },
-        "content": "      setHasImage(false);"
+        "content": "    }"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": "  }, [coverImageUrl]);"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "-"
         },
-        "content": "  }, [coverImageUrl]);"
-      },
-      {
-        "lineNumber": 170,
-        "author": {
-          "gitId": "-"
-        },
         "content": ""
       },
       {
-        "lineNumber": 171,
+        "lineNumber": 170,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  return ("
       },
       {
-        "lineNumber": 172,
+        "lineNumber": 171,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    \u003cCardContainer\u003e"
       },
       {
-        "lineNumber": 173,
+        "lineNumber": 172,
         "author": {
           "gitId": "-"
         },
         "content": "      \u003cGrid style\u003d{{ height: \u0027100%\u0027 }} desktop\u003d{{ rows: \u00271fr 3fr 2fr\u0027 }} cols\u003d\"1fr\"\u003e"
       },
       {
-        "lineNumber": 174,
+        "lineNumber": 173,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "        \u003cCardHeaderContainer\u003e"
       },
       {
-        "lineNumber": 175,
+        "lineNumber": 174,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          \u003cCardHeader name\u003d{name} imageUrl\u003d{profileImageUrl} timeAgo\u003d{timeAgo} /\u003e"
       },
       {
-        "lineNumber": 176,
+        "lineNumber": 175,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "        \u003c/CardHeaderContainer\u003e"
       },
       {
-        "lineNumber": 177,
+        "lineNumber": 176,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "        \u003cCardImageContainer\u003e"
       },
       {
-        "lineNumber": 178,
+        "lineNumber": 177,
         "author": {
           "gitId": "-"
         },
         "content": "          {hasImage ? \u003cCardImage src\u003d{imageUrl} loading\u003d\"lazy\" onError\u003d{handleImageOnError} /\u003e : null}"
       },
       {
-        "lineNumber": 179,
+        "lineNumber": 178,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 180,
+        "lineNumber": 179,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          {/* status label will only be shown if status is provided and it is not pending */}"
       },
       {
-        "lineNumber": 181,
+        "lineNumber": 180,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          {status !\u003d null \u0026\u0026 status !\u003d PENDING \u0026\u0026 \u003cDonationCardStatus status\u003d{status} /\u003e}"
       },
       {
-        "lineNumber": 182,
+        "lineNumber": 181,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "        \u003c/CardImageContainer\u003e"
       },
       {
-        "lineNumber": 183,
+        "lineNumber": 182,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "        \u003cCardDescriptionContainer\u003e"
       },
       {
-        "lineNumber": 184,
+        "lineNumber": 183,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          \u003cCardDescription title\u003d{title} description\u003d{description} /\u003e"
       },
       {
-        "lineNumber": 185,
+        "lineNumber": 184,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          \u003cCardDescriptionFooterContainer\u003e"
       },
       {
-        "lineNumber": 186,
+        "lineNumber": 185,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "            \u003cCardDescriptionFooter validPeriod\u003d{validPeriod} locations\u003d{locations} /\u003e"
       },
       {
-        "lineNumber": 187,
+        "lineNumber": 186,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "          \u003c/CardDescriptionFooterContainer\u003e"
       },
       {
-        "lineNumber": 188,
+        "lineNumber": 187,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "        \u003c/CardDescriptionContainer\u003e"
       },
       {
-        "lineNumber": 189,
+        "lineNumber": 188,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      \u003c/Grid\u003e"
       },
       {
-        "lineNumber": 190,
+        "lineNumber": 189,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "      \u003cClickableDiv href\u003d{postHref} onClick\u003d{handleOnClickDonationPost} /\u003e"
       },
       {
-        "lineNumber": 191,
+        "lineNumber": 190,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "    \u003c/CardContainer\u003e"
       },
       {
-        "lineNumber": 192,
+        "lineNumber": 191,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "  );"
       },
       {
-        "lineNumber": 193,
+        "lineNumber": 192,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": "};"
       },
       {
-        "lineNumber": 194,
+        "lineNumber": 193,
         "author": {
           "gitId": "jamessspanggg"
         },
         "content": ""
       },
       {
-        "lineNumber": 195,
+        "lineNumber": 194,
         "author": {
           "gitId": "jamessspanggg"
         },
@@ -125270,7 +125263,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 147,
+      "jamessspanggg": 146,
       "-": 48
     }
   },
