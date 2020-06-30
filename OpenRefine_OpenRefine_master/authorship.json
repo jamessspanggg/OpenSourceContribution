@@ -2548,7 +2548,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    \"core-index-import/locate\": \"Locate an existing Refine project file (.tar or .tar.gz or .zip):\","
+        "content": "    \"core-index-import/locate\": \"Locate an existing Refine project file (.tar or .tar.gz):\","
       },
       {
         "lineNumber": 56,
