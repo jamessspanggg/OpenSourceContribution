@@ -1,0 +1,585 @@
+{
+  "authorDailyContributionsMap": {
+    "jamessspanggg": [
+      {
+        "insertions": 276,
+        "deletions": 24,
+        "date": "2020-06-19",
+        "commitResults": [
+          {
+            "hash": "b470ada8a3cb1e2319be817b35893b324676f11f",
+            "messageTitle": "Add prettier formatter",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "gitignore": {
+                "insertions": 2,
+                "deletions": 0
+              },
+              "json": {
+                "insertions": 83,
+                "deletions": 4
+              },
+              "js": {
+                "insertions": 12,
+                "deletions": 19
+              }
+            }
+          },
+          {
+            "hash": "38b88f586ece0ceee0563fe17bc095e8b1ad0a71",
+            "messageTitle": "Add basic home page layout",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 179,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 601,
+        "deletions": 163,
+        "date": "2020-06-20",
+        "commitResults": [
+          {
+            "hash": "aa9f6f6ed8f76308515de4b900a5307a160f8400",
+            "messageTitle": "Modify layout of home page",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 194,
+                "deletions": 163
+              }
+            }
+          },
+          {
+            "hash": "e1a4c1dde1bc31e0b63e9a870431f0b3ccf7e55a",
+            "messageTitle": "Add payment and order page (#4)",
+            "messageBody": "* Add basic order summary page\r\n\r\n* Add payment page\r\n\r\n* Add payment product card and routes",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 407,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 403,
+        "deletions": 172,
+        "date": "2020-06-22",
+        "commitResults": [
+          {
+            "hash": "6e3e96359ce4a2ccf302a7d361942c8c6357b902",
+            "messageTitle": "Call apis to get merchants in home page (#10)",
+            "messageBody": "* Call apis to get merchants\r\n\r\n* Add proxy\r\n\r\n* Add merchant link to merchant card",
+            "fileTypesAndContributionMap": {
+              "json": {
+                "insertions": 2,
+                "deletions": 1
+              },
+              "js": {
+                "insertions": 30,
+                "deletions": 61
+              }
+            }
+          },
+          {
+            "hash": "19b518f7173b6aaa9b2916039cde8ec7864f573f",
+            "messageTitle": "Link APIs to payment and order page (#14)",
+            "messageBody": "* Add credit card and cvv no field\r\n\r\n* Link payment page  with api\r\n\r\n* Add message when payment error occurs\r\n\r\n* Add the passing of props from payment to order summary\r\n\r\n* Link order summary with apis",
+            "fileTypesAndContributionMap": {
+              "json": {
+                "insertions": 31,
+                "deletions": 8
+              },
+              "js": {
+                "insertions": 170,
+                "deletions": 56
+              }
+            }
+          },
+          {
+            "hash": "e423cd4ce98b7ca36baad29f597c3b3617459edc",
+            "messageTitle": "Add profile endpoint and basic structure of profile",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 69,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "26c06d9238c68f813cae4d3a568460edb3820f87",
+            "messageTitle": "Add QR Code Support (#19)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "json": {
+                "insertions": 16,
+                "deletions": 0
+              },
+              "js": {
+                "insertions": 85,
+                "deletions": 45
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 744,
+        "deletions": 239,
+        "date": "2020-06-23",
+        "commitResults": [
+          {
+            "hash": "9cd95e6a6eea5a515293a7be5683d9cade6a28d7",
+            "messageTitle": "Add profile page",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 206,
+                "deletions": 38
+              }
+            }
+          },
+          {
+            "hash": "160780e451cb381666afe0ec612aa353f4fe6059",
+            "messageTitle": "Modify top bar to have drop down",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 34,
+                "deletions": 12
+              }
+            }
+          },
+          {
+            "hash": "9a8b58684037121c42a05f4bc6a691bb5471228d",
+            "messageTitle": "Add breadcrumbs for payment",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 31,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "fd899793442949453366c4d167e34e16411d01a5",
+            "messageTitle": "Add prettier command and run it",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 54,
+                "deletions": 45
+              },
+              "json": {
+                "insertions": 29,
+                "deletions": 8
+              }
+            }
+          },
+          {
+            "hash": "0b640d0f99040b604fdf995358ec73c65fe5b9aa",
+            "messageTitle": "Add scan page",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 94,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "0591f682707533c693c08a285ff3289657d14784",
+            "messageTitle": "Use expo barcode scanner instead of camera",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 127,
+                "deletions": 75
+              },
+              "json": {
+                "insertions": 5,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "169b1c593d07df39fc3162ea69331546302beffb",
+            "messageTitle": "Link update to apis",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 43,
+                "deletions": 22
+              }
+            }
+          },
+          {
+            "hash": "c38b2d1bd1537dc921c3e5a8c8bc4ad0a886dc13",
+            "messageTitle": "Add updating of profile image",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 93,
+                "deletions": 8
+              }
+            }
+          },
+          {
+            "hash": "e1542c3178ccfc955d89f600b5bd0e23cf8a8f26",
+            "messageTitle": "Update",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 28,
+                "deletions": 18
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 111,
+        "deletions": 87,
+        "date": "2020-06-24",
+        "commitResults": [
+          {
+            "hash": "4b77358f1a06b5f30a3112a667516a030f48c230",
+            "messageTitle": "Direct user to home page after log out (#36)",
+            "messageBody": "* fix logout bug",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 8,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "6479b7419e8a4fa6fbca327963a0dac82a6380e4",
+            "messageTitle": "James UI fixes (#37)",
+            "messageBody": "- Fix breadcrumbs in payment page\r\n- Modify entire merchant card to be clickable\r\n- Fix issue with profile page warnings",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 32,
+                "deletions": 21
+              }
+            }
+          },
+          {
+            "hash": "2a2233bb7b2676f8efd73a368606af552dbf8e9d",
+            "messageTitle": "Use res.data.success for checking response status (#38)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 7,
+                "deletions": 8
+              }
+            }
+          },
+          {
+            "hash": "de41c3a5f7f24ab283626789ca4cf845083ae13b",
+            "messageTitle": "Add frying pan images",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {}
+          },
+          {
+            "hash": "786e80a567e062345f8b97a9c0a45f0f8d200afe",
+            "messageTitle": "Only show qr code to owner and run prettier (#49)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 61,
+                "deletions": 51
+              }
+            }
+          },
+          {
+            "hash": "5022fb0bcd8601dc4c15c8f1c474ad6b8092e1cd",
+            "messageTitle": "Standardise My Shop breadcrumb",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 551,
+        "deletions": 324,
+        "date": "2020-06-25",
+        "commitResults": [
+          {
+            "hash": "5bd43fcb785a0b5e0ab8185cdea61f5b7a865ace",
+            "messageTitle": "Modify product modal to a product page (#51)",
+            "messageBody": "* Modify product modal to a page\r\n\r\n* Modify UI of invalid qr code",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 144,
+                "deletions": 171
+              }
+            }
+          },
+          {
+            "hash": "08fd2a231baf51e40443fa8b1e98cd6ee71ffa97",
+            "messageTitle": "Add top half of dashboard (#56)",
+            "messageBody": "* Add basic structure for the top of dashboard\r\n\r\n* Fix issue with invalid user id message\r\n\r\n* Fix issue of selected sidebar",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 407,
+                "deletions": 153
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 256,
+        "deletions": 199,
+        "date": "2020-06-26",
+        "commitResults": [
+          {
+            "hash": "1ac3386d8094f5aa7fffb897efa64d92e72a8c73",
+            "messageTitle": "Modify contactus page",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 50,
+                "deletions": 49
+              }
+            }
+          },
+          {
+            "hash": "8db7bea3eba7155302b060840f30dc6d692cc1e1",
+            "messageTitle": "Run prettier",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 58,
+                "deletions": 65
+              }
+            }
+          },
+          {
+            "hash": "cf7fbd6800aba50cff8486db82a2bd402e6fcc11",
+            "messageTitle": "Fix top bar rhs absolute issue",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 10,
+                "deletions": 22
+              }
+            }
+          },
+          {
+            "hash": "f0cc20f1cdfc6f20047eeefdeb2b896d3000f88a",
+            "messageTitle": "Modify Merchant Locator Page (#60)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 138,
+                "deletions": 63
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 125,
+        "deletions": 108,
+        "date": "2020-06-28",
+        "commitResults": [
+          {
+            "hash": "c49ac4b56cc2d6a016d203e506f2b473c47803de",
+            "messageTitle": "Hide tab bar for payment",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 4,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "f566efb6b6efd974b33c40722e2dc739522d95e2",
+            "messageTitle": "Add top and bottom bar",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 0,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "4f0bd3ccaeb42b12e6b26820c0c94f8d4c00c9be",
+            "messageTitle": "Use local storage to store all added products and show at cart page (#70)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 121,
+                "deletions": 106
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 475,
+        "deletions": 112,
+        "date": "2020-06-29",
+        "commitResults": [
+          {
+            "hash": "4c4daad42e00e45291ad3672a7f236484327f733",
+            "messageTitle": "Fix error of wrong total price in sales history",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 3,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "9e187eaac48795e529d37d48de5be38ef2841f14",
+            "messageTitle": "Add slight space before login",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "04288a9eb21dee8bbb740db57b07fec3c57e9995",
+            "messageTitle": "Payment page functionalities (#71)",
+            "messageBody": "* Link payment functionalities\r\n\r\n* Fixed bug in clearing local storage\r\n\r\n* Add remove cart function",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 75,
+                "deletions": 13
+              }
+            }
+          },
+          {
+            "hash": "0ae77103f4a224fe1803b277333741d523058659",
+            "messageTitle": "Modify dashboard and payment page",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 5,
+                "deletions": 25
+              }
+            }
+          },
+          {
+            "hash": "27449f7585d8f91fc9507e5b8845f18472d3102e",
+            "messageTitle": "Add order summary page (mobile) (#72)",
+            "messageBody": "* Link payment functionalities\r\n\r\n* Fixed bug in clearing local storage\r\n\r\n* Add remove cart function\r\n\r\n* Add order summary page\r\n\r\n* Radio button for different checkout\r\n\r\n* minor bug fix\r\n\r\n* Remove redundant icons and routes\r\n\r\n* Modify payment page\r\n\r\nCo-authored-by: JeremyLoye \u003cjeremyloye@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 304,
+                "deletions": 29
+              },
+              "json": {
+                "insertions": 6,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "3353c4da6de621caba6dba97825d442f76b37adf",
+            "messageTitle": "Add basic breadcrumbs (#79)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 81,
+                "deletions": 42
+              }
+            }
+          }
+        ]
+      },
+      {
+        "insertions": 394,
+        "deletions": 187,
+        "date": "2020-06-30",
+        "commitResults": [
+          {
+            "hash": "835bca612d429c04340cb4f348ebbbf94c80d3b2",
+            "messageTitle": "Update credit card UI in mobile visa direct (#81)",
+            "messageBody": "* Update credit card UI\r\n\r\n* Modify payment page credit card\r\n\r\n* Standardise spacing in breadcrumbs",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 254,
+                "deletions": 180
+              },
+              "json": {
+                "insertions": 86,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "9c12bf05fd8aeeed9845812844ed7913f7f29ff3",
+            "messageTitle": "Add expiry date field on credit card (#82)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 34,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "d2c3cc48483930812d8ac57cca607f34937561a0",
+            "messageTitle": "Fix image alignment issue",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "79f1fc7ed92c47d505949f818a8bfa51e1b63a9f",
+            "messageTitle": "Add optional bin number field in signup",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 18,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "authorFinalContributionMap": {
+    "jamessspanggg": 2722
+  },
+  "authorFileTypeContributionMap": {
+    "jamessspanggg": {
+      "js": 2472,
+      "json": 248,
+      "gitignore": 2
+    }
+  },
+  "authorContributionVariance": {
+    "jamessspanggg": 95923.57
+  },
+  "authorDisplayNameMap": {
+    "jamessspanggg": "James Pang"
+  }
+}
