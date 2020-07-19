@@ -507,22 +507,55 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 2302,
+        "deletions": 28,
+        "date": "2020-07-19",
+        "commitResults": [
+          {
+            "hash": "f52b3d39fd1812c3e52ea834c680c01660a9c9d6",
+            "messageTitle": "Add basic chat features (#165)",
+            "messageBody": "* Add basic ui of chat with dummy data\r\n\r\n* Add handling of chats in mobile devices\r\n\r\n* Add support for chat images\r\n\r\n* Add ui for calendar type message\r\n\r\n* Integrate chat apis to front end\r\n\r\n* Add sending images and calendars using api\r\n\r\n* Add infinite scroller that loads previous messages\r\n\r\n* Add infinite scroller for list of chats to load more\r\n\r\n* Add complete post functionality\r\n\r\n* Add unread count on list of chats\r\n\r\n* Add enter to send messages\r\n\r\n* Add scrolling to bottom when message sent by logged in user\r\n\r\n* Add border for selected chat\r\n\r\n* Disable complete button when post has already completed\r\n\r\n* Add simple post status on chat\r\n\r\n* Add basic new chat tips\r\n\r\n* Allow selected chats to be restorable after refresh page\r\n\r\n* Add appreciation message modal\r\n\r\n* Only allow jpeg, jpg and png upload in chat\r\n\r\n* Use react-linkify to detect links in chat\r\n\r\n* impose 25mb limit on file upload in chat\r\n\r\n* Add confirm completion modal\r\n\r\n* Add newline for appreciation message and handle multiline chat messages\r\n\r\n* Add autoresized text area and dynamically calculate input row",
+            "fileTypesAndContributionMap": {
+              "json": {
+                "insertions": 97,
+                "deletions": 0
+              },
+              "js": {
+                "insertions": 2204,
+                "deletions": 27
+              }
+            }
+          },
+          {
+            "hash": "60e383479cc11c7de494c676ab6737a071adc118",
+            "messageTitle": "Remove desktop conditional property (#187)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 2508
+    "jamessspanggg": 4807
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
-      "json": 53,
+      "json": 150,
       "LICENSE": 21,
-      "js": 2307
+      "js": 4509
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 47767.145
+    "jamessspanggg": 87943.336
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"

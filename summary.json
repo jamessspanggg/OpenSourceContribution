@@ -1,7 +1,7 @@
 {
   "repoSenseVersion": "2791ec30bf",
-  "reportGeneratedTime": "Sat Jul 18 17:58:53 2020 UTC",
-  "reportGenerationTime": " 2 minute(s) 48.74 second(s)",
+  "reportGeneratedTime": "Sun Jul 19 16:26:52 2020 UTC",
+  "reportGenerationTime": " 2 minute(s) 53.56 second(s)",
   "repos": [
     {
       "location": {
@@ -86,7 +86,7 @@
   ],
   "errorList": [],
   "sinceDate": "2019-02-08",
-  "untilDate": "2020-07-18",
+  "untilDate": "2020-07-19",
   "isSinceDateProvided": true,
   "isUntilDateProvided": false
 }
