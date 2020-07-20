@@ -540,22 +540,117 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 109,
+        "deletions": 74,
+        "date": "2020-07-20",
+        "commitResults": [
+          {
+            "hash": "e346a39a02139b2ff2e269e41fce663d10b7e0a0",
+            "messageTitle": "Potential fix for iphone auto zoom in (#189)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 10,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "b176191c8da4d7f01912d0c4ca48e5facae0c875",
+            "messageTitle": "Fix overflow of chat message (#190)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "c2bf0d4d639ecf858aaccfe0d357f85f3564ab20",
+            "messageTitle": "Focus textarea after clicking send button (#191)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 4,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "666d57c2ed948c69d2c8e1e6c42b5fcac019128e",
+            "messageTitle": "Only scroll to bottom if it is a newly sent msg by logged in user (#193)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 6,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "8e57b9f43e30804e992f86b0c9622c8938ad48cd",
+            "messageTitle": "Prevent images in chat to be longer than viewport height (#192)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 67,
+                "deletions": 17
+              }
+            }
+          },
+          {
+            "hash": "d4734e05d17853fd85e06d4b39377c59200c0fba",
+            "messageTitle": "Add missing return key word (#194)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "4c5587d02e2a6077da8f2ff050c75ce0ac05359b",
+            "messageTitle": "Remove using window.innerHeight (#196)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 19,
+                "deletions": 52
+              }
+            }
+          },
+          {
+            "hash": "fc255beb917f7d633c2fb5641b844cbcf498245a",
+            "messageTitle": "Remove smooth scrolling in scrollIntoView (#195)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 4807
+    "jamessspanggg": 4842
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
       "json": 150,
       "LICENSE": 21,
-      "js": 4509
+      "js": 4544
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 87943.336
+    "jamessspanggg": 87156.055
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"

@@ -120073,290 +120073,297 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  }"
+        "content": "    word-break: break-word;"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  }"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  .default-avatar {"
+        "content": ""
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    width: 40px;"
+        "content": "  .default-avatar {"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    height: 40px;"
+        "content": "    width: 40px;"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  }"
+        "content": "    height: 40px;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  }"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  #scrollableCategory::-webkit-scrollbar, .scrollableDonation::-webkit-scrollbar {"
+        "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    display: none;"
+        "content": "  #scrollableCategory::-webkit-scrollbar, .scrollableDonation::-webkit-scrollbar {"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
-        "content": "  }"
+        "content": "    display: none;"
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "jamessspanggg"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "  }"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  .carousel .slide {"
+        "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    background: ${colors.bannerBackground};"
+        "content": "  .carousel .slide {"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  }"
+        "content": "    background: ${colors.bannerBackground};"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  }"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  .control-dots {"
+        "content": ""
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    padding-inline-start: 0px; "
+        "content": "  .control-dots {"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  }"
+        "content": "    padding-inline-start: 0px; "
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "-"
+          "gitId": "jamessspanggg"
         },
-        "content": "`;"
+        "content": "  }"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "`;"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
-        "content": "const tokens \u003d getTokens();"
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "const tokens \u003d getTokens();"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "class MyApp extends App {"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": "  render() {"
+        "content": "class MyApp extends App {"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
-        "content": "    const { Component, pageProps } \u003d this.props;"
+        "content": "  render() {"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
-        "content": "    return ("
+        "content": "    const { Component, pageProps } \u003d this.props;"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": "      \u003cProvider store\u003d{store}\u003e"
+        "content": "    return ("
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003cThemeProvider theme\u003d{{ orbit: tokens }}\u003e"
+        "content": "      \u003cProvider store\u003d{store}\u003e"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": "          \u003c\u003e"
+        "content": "        \u003cThemeProvider theme\u003d{{ orbit: tokens }}\u003e"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": "            \u003cGlobalStyle /\u003e"
+        "content": "          \u003c\u003e"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
-        "content": "            \u003cComponent {...pageProps} /\u003e"
+        "content": "            \u003cGlobalStyle /\u003e"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
-        "content": "          \u003c/\u003e"
+        "content": "            \u003cComponent {...pageProps} /\u003e"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
-        "content": "        \u003c/ThemeProvider\u003e"
+        "content": "          \u003c/\u003e"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
-        "content": "      \u003c/Provider\u003e"
+        "content": "        \u003c/ThemeProvider\u003e"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "-"
         },
-        "content": "    );"
+        "content": "      \u003c/Provider\u003e"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": "  }"
+        "content": "    );"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "  }"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
-        "content": "const makeStore \u003d () \u003d\u003e store;"
+        "content": ""
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": "const wrapper \u003d createWrapper(makeStore);"
+        "content": "const makeStore \u003d () \u003d\u003e store;"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "const wrapper \u003d createWrapper(makeStore);"
       },
       {
         "lineNumber": 64,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
@@ -120364,7 +120371,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 27,
+      "jamessspanggg": 28,
       "-": 37
     }
   },
@@ -137848,7 +137855,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "import styled, { css } from \u0027styled-components\u0027;"
+        "content": "import styled from \u0027styled-components\u0027;"
       },
       {
         "lineNumber": 3,
@@ -137869,129 +137876,185 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const ChatBubbleImage \u003d styled.img`"
+        "content": "// note that the max height of the image is set to 80% of the chat dialog messages\u0027 height,"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  max-width: min(400px, 90%);"
+        "content": "// to prevent any image message that is longer than the chat dialog height."
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  width: fit-content;"
+        "content": "const ChatBubbleImage \u003d styled.img`"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  padding: 5px 5px 5px 5px;"
+        "content": "  max-width: min(400px, 90%);"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  border-radius: 5px;"
+        "content": "  width: auto;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  background-color: ${(props) \u003d\u003e"
+        "content": "  height: auto;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    props.isByLoggedInUser ? colors.myChatBubbleBackground : colors.oppositeChatBubbleBackground};"
+        "content": "  max-height: calc(0.8 * calc(100vh - ${({ offsetHeight }) \u003d\u003e offsetHeight}px));"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "`;"
+        "content": "  object-fit: cover;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  padding: 5px 5px 5px 5px;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "/**"
+        "content": "  border-radius: 5px;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " *"
+        "content": "  background-color: ${(props) \u003d\u003e"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} imageUrl is the imageUrl to display in the chat bubble"
+        "content": "    props.isByLoggedInUser ? colors.myChatBubbleBackground : colors.oppositeChatBubbleBackground};"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " * @param {string} isByLoggedInUser is whether the image is sent by logged in user"
+        "content": "`;"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": " */"
+        "content": ""
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const ChatBubbleForImage \u003d ({ imageUrl, isByLoggedInUser }) \u003d\u003e {"
+        "content": "/**"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return \u003cChatBubbleImage isByLoggedInUser\u003d{isByLoggedInUser} src\u003d{imageUrl} /\u003e;"
+        "content": " *"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "};"
+        "content": " * @param {string} imageUrl is the imageUrl to display in the chat bubble"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": " * @param {string} isByLoggedInUser is whether the image is sent by logged in user"
       },
       {
         "lineNumber": 23,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": " * @param {string} offsetHeight is the height occupied by other components in ChatDialog,"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": " *                              except the ChatDialogMessages component"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": " *"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "const ChatBubbleForImage \u003d ({ imageUrl, isByLoggedInUser, offsetHeight }) \u003d\u003e {"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  return \u003cChatBubbleImage isByLoggedInUser\u003d{isByLoggedInUser} src\u003d{imageUrl} offsetHeight\u003d{offsetHeight} /\u003e;"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "};"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
         "author": {
           "gitId": "jamessspanggg"
         },
@@ -137999,7 +138062,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 23
+      "jamessspanggg": 31
     }
   },
   {
@@ -139849,7 +139912,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "import React, { useState, forwardRef } from \u0027react\u0027;"
+        "content": "import React, { useState, forwardRef, useRef } from \u0027react\u0027;"
       },
       {
         "lineNumber": 2,
@@ -140115,77 +140178,77 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "`;"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  /* "
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const ChatDialogInputRow \u003d ({ selectedChatId, setSelectedChatId, isNewChat, setIsNewChat, postType, postId }, ref) \u003d\u003e {"
+        "content": "     To prevent auto zoom in on iphones, since inputs with font size that are less than 16px will be auto zoomed in."
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const [inputMessage, setInputMessage] \u003d useState(\u0027\u0027);"
+        "content": "     Solution taken from: https://thingsthemselves.com/no-input-zoom-in-safari-on-iphone-the-pixel-perfect-way/"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const [alertMessage, setAlertMessage] \u003d useState(\u0027\u0027);"
+        "content": "   */"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const router \u003d useRouter();"
+        "content": "  font-size: 16px;"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  width: 133.333333333%;"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const handleSendTextMessage \u003d () \u003d\u003e {"
+        "content": "  margin-right: calc(-33.333333333% + 48px) !important;"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    if (inputMessage.trim().length \u003c\u003d 0) {"
+        "content": "  transform: scale(0.75);"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      return; // no content being sent if empty or all spaces"
+        "content": "  transform-origin: left;"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    }"
+        "content": "`;"
       },
       {
         "lineNumber": 50,
@@ -140199,521 +140262,612 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    const message \u003d inputMessage.trim(); // remove trailing spaces"
+        "content": "const ChatDialogInputRow \u003d ({ selectedChatId, setSelectedChatId, isNewChat, setIsNewChat, postType, postId }, ref) \u003d\u003e {"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    // clear input message before send as opposed to after sending the message, to prevent duplicated messages"
+        "content": "  const [inputMessage, setInputMessage] \u003d useState(\u0027\u0027);"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    // being sent when spam enter button"
+        "content": "  const [alertMessage, setAlertMessage] \u003d useState(\u0027\u0027);"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    setInputMessage(\u0027\u0027);"
+        "content": "  const textAreaRef \u003d useRef(null);"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    if (isNewChat) {"
+        "content": "  const router \u003d useRouter();"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      sendFirstMessage(message).then((chat) \u003d\u003e {"
+        "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        // need to get the chat id from the newly created chat to select chat id"
+        "content": "  const handleSendTextMessage \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        setSelectedChatId(chat.chatId);"
+        "content": "    if (inputMessage.trim().length \u003c\u003d 0) {"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        setIsNewChat(false);"
+        "content": "      return; // no content being sent if empty or all spaces"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      });"
+        "content": "    }"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    } else {"
+        "content": ""
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      api.chats.sendTextMessage(selectedChatId, message).then(() \u003d\u003e {});"
+        "content": "    const message \u003d inputMessage.trim(); // remove trailing spaces"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    }"
+        "content": "    // clear input message before send as opposed to after sending the message, to prevent duplicated messages"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": "    // being sent when spam enter button"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "    setInputMessage(\u0027\u0027);"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const closeAlert \u003d () \u003d\u003e {"
+        "content": "    textAreaRef.current.focus();"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    setAlertMessage(\u0027\u0027);"
+        "content": "    if (isNewChat) {"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": "      sendFirstMessage(message).then((chat) \u003d\u003e {"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "        // need to get the chat id from the newly created chat to select chat id"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const sendFirstMessage \u003d async (message) \u003d\u003e {"
+        "content": "        setSelectedChatId(chat.chatId);"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    const method \u003d postType \u003d\u003d\u003d donations ? \u0027sendInitialTextMessageForDonation\u0027 : \u0027sendInitialTextMessageForWish\u0027;"
+        "content": "        setIsNewChat(false);"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    const [rawChat, rawFirstMessage] \u003d await api.chats[method](postId, message);"
+        "content": "      });"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    router.push(`/chat/${rawChat.data().chatId}`);"
+        "content": "    } else {"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return rawChat.data();"
+        "content": "      api.chats.sendTextMessage(selectedChatId, message).then(() \u003d\u003e {});"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": "    }"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  };"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const handleEnterInputter \u003d (event) \u003d\u003e {"
+        "content": ""
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    // enter pressed, send message (except shift + enter)"
+        "content": "  const closeAlert \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    if (event.keyCode \u003d\u003d 13) {"
+        "content": "    setAlertMessage(\u0027\u0027);"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      if (!event.shiftKey) {"
+        "content": "  };"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        event.preventDefault(); // prevent enter from adding a new line in text area"
+        "content": ""
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        handleSendTextMessage();"
+        "content": "  const sendFirstMessage \u003d async (message) \u003d\u003e {"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      }"
+        "content": "    const method \u003d postType \u003d\u003d\u003d donations ? \u0027sendInitialTextMessageForDonation\u0027 : \u0027sendInitialTextMessageForWish\u0027;"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    }"
+        "content": "    const [rawChat, rawFirstMessage] \u003d await api.chats[method](postId, message);"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": "    router.push(`/chat/${rawChat.data().chatId}`);"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "    return rawChat.data();"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return ("
+        "content": "  };"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003cInputRowContainer ref\u003d{ref}\u003e"
+        "content": ""
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      {alertMessage.length \u003e 0 \u0026\u0026 ("
+        "content": "  const handleEnterInputter \u003d (event) \u003d\u003e {"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cAlertWrapper\u003e"
+        "content": "    // enter pressed, send message (except shift + enter)"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cAlert icon type\u003d\"critical\" title\u003d\"Something has gone wrong\" closable onClose\u003d{closeAlert}\u003e"
+        "content": "    if (event.keyCode \u003d\u003d 13) {"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            {alertMessage}"
+        "content": "      if (!event.shiftKey) {"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003c/Alert\u003e"
+        "content": "        event.preventDefault(); // prevent enter from adding a new line in text area"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/AlertWrapper\u003e"
+        "content": "        handleSendTextMessage();"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      )}"
+        "content": "      }"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cStack direction\u003d\"row\" justify\u003d\"between\" align\u003d\"center\"\u003e"
+        "content": "    }"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cChatImageUpload"
+        "content": "  };"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          postType\u003d{postType}"
+        "content": ""
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          postId\u003d{postId}"
+        "content": "  return ("
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          selectedChatId\u003d{selectedChatId}"
+        "content": "    \u003cInputRowContainer ref\u003d{ref}\u003e"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          setSelectedChatId\u003d{setSelectedChatId}"
+        "content": "      {alertMessage.length \u003e 0 \u0026\u0026 ("
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          setIsNewChat\u003d{setIsNewChat}"
+        "content": "        \u003cAlertWrapper\u003e"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          setAlertMessage\u003d{setAlertMessage}"
+        "content": "          \u003cAlert icon type\u003d\"critical\" title\u003d\"Something has gone wrong\" closable onClose\u003d{closeAlert}\u003e"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          onCloseAlert\u003d{closeAlert}"
+        "content": "            {alertMessage}"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          isNewChat\u003d{isNewChat}"
+        "content": "          \u003c/Alert\u003e"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        /\u003e"
+        "content": "        \u003c/AlertWrapper\u003e"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cStyledTextareaAutosize"
+        "content": "      )}"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          minRows\u003d{1}"
+        "content": "      \u003cStack direction\u003d\"row\" justify\u003d\"between\" align\u003d\"center\"\u003e"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          maxRows\u003d{5}"
+        "content": "        \u003cChatImageUpload"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          autoFocus\u003d{true}"
+        "content": "          postType\u003d{postType}"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          placeholder\u003d\"Type your messages here...\""
+        "content": "          postId\u003d{postId}"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          id\u003d\"chat-input\""
+        "content": "          selectedChatId\u003d{selectedChatId}"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          value\u003d{inputMessage}"
+        "content": "          setSelectedChatId\u003d{setSelectedChatId}"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          onChange\u003d{(e) \u003d\u003e setInputMessage(e.target.value)}"
+        "content": "          setIsNewChat\u003d{setIsNewChat}"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          onKeyDown\u003d{handleEnterInputter}"
+        "content": "          setAlertMessage\u003d{setAlertMessage}"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        /\u003e"
+        "content": "          onCloseAlert\u003d{closeAlert}"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cButton size\u003d\"small\" onClick\u003d{handleSendTextMessage} asComponent\u003d{ChatButton}\u003e"
+        "content": "          isNewChat\u003d{isNewChat}"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          Send"
+        "content": "        /\u003e"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/Button\u003e"
+        "content": "        \u003cStyledTextareaAutosize"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/Stack\u003e"
+        "content": "          ref\u003d{textAreaRef}"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003c/InputRowContainer\u003e"
+        "content": "          minRows\u003d{1}"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  );"
+        "content": "          maxRows\u003d{5}"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "};"
+        "content": "          autoFocus\u003d{true}"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "          placeholder\u003d\"Type your messages here...\""
       },
       {
         "lineNumber": 125,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          id\u003d\"chat-input\""
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          value\u003d{inputMessage}"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          onChange\u003d{(e) \u003d\u003e setInputMessage(e.target.value)}"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          onKeyDown\u003d{handleEnterInputter}"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        /\u003e"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        \u003cButton size\u003d\"small\" onClick\u003d{handleSendTextMessage} asComponent\u003d{ChatButton}\u003e"
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          Send"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        \u003c/Button\u003e"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      \u003c/Stack\u003e"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    \u003c/InputRowContainer\u003e"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  );"
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "};"
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 138,
         "author": {
           "gitId": "jamessspanggg"
         },
@@ -140721,7 +140875,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 125
+      "jamessspanggg": 138
     }
   },
   {
@@ -141265,7 +141419,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      messagesEndRef.current.scrollIntoView({ behavior: \u0027smooth\u0027 });"
+        "content": "      messagesEndRef.current.scrollIntoView();"
       },
       {
         "lineNumber": 78,
@@ -141300,717 +141454,752 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    setChatMessageDocs((prevChatMessageDocs) \u003d\u003e {"
+        "content": "    let isNewlySentMessage \u003d false;"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      const newChatMessage \u003d chatMessageDoc.data();"
+        "content": "    setChatMessageDocs((prevChatMessageDocs) \u003d\u003e {"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      const lastChatMessageDoc \u003d prevChatMessageDocs[prevChatMessageDocs.length - 1];"
+        "content": "      const newChatMessage \u003d chatMessageDoc.data();"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      // insert chat message doc to correct position"
+        "content": "      const lastChatMessageDoc \u003d prevChatMessageDocs[prevChatMessageDocs.length - 1];"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      if (lastChatMessageDoc \u0026\u0026 lastChatMessageDoc.data().dateTime \u003c\u003d newChatMessage.dateTime) {"
+        "content": "      // insert chat message doc to the back if it is a newly sent message"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        return [...prevChatMessageDocs, chatMessageDoc];"
+        "content": "      if (lastChatMessageDoc \u0026\u0026 lastChatMessageDoc.data().dateTime \u003c\u003d newChatMessage.dateTime) {"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      }"
+        "content": "        isNewlySentMessage \u003d true;"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      return [chatMessageDoc, ...prevChatMessageDocs];"
+        "content": "        return [...prevChatMessageDocs, chatMessageDoc];"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    });"
+        "content": "      }"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    scrollToBottomIfSentByLoggedInUser(chatMessageDoc.data());"
+        "content": "      return [chatMessageDoc, ...prevChatMessageDocs];"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": "    });"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "    if (isNewlySentMessage) {"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  /**"
+        "content": "      scrollToBottomIfSentByLoggedInUser(chatMessageDoc.data());"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   * A hacky way to determine if we should load more after the first batch,"
+        "content": "    }"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   * since the subscription method does not tell whether the first load of chat"
+        "content": "  };"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   * messages are less than one CHAT_MESSAGES_BATCH_SIZE"
+        "content": ""
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "   */"
+        "content": "  /**"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const disableFurtherLoadsIfMessagesLessThanOneBatch \u003d () \u003d\u003e {"
+        "content": "   * A hacky way to determine if we should load more after the first batch,"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    api.chats.getChatMessages(selectedChatId).then((rawNewChatMessages) \u003d\u003e {"
+        "content": "   * since the subscription method does not tell whether the first load of chat"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      if (rawNewChatMessages.docs.length \u003c CHAT_MESSAGES_BATCH_SIZE) {"
+        "content": "   * messages are less than one CHAT_MESSAGES_BATCH_SIZE"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        // loaded all chat messages"
+        "content": "   */"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        setShouldSeeMore(false);"
+        "content": "  const disableFurtherLoadsIfMessagesLessThanOneBatch \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      }"
+        "content": "    api.chats.getChatMessages(selectedChatId).then((rawNewChatMessages) \u003d\u003e {"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    });"
+        "content": "      if (rawNewChatMessages.docs.length \u003c CHAT_MESSAGES_BATCH_SIZE) {"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": "        // loaded all chat messages"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "        setShouldSeeMore(false);"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const handleOnSeeMore \u003d () \u003d\u003e {"
+        "content": "      }"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    api.chats.getChatMessages(selectedChatId, chatMessageDocs[0]).then((rawNewChatMessages) \u003d\u003e {"
+        "content": "    });"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      // need to reverse the new chat message docs since the order of the array is latest -\u003e oldest, but in our"
+        "content": "  };"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      // array the order is oldest -\u003e latest"
+        "content": ""
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      const newChatMessageDocs \u003d rawNewChatMessages.docs.reverse();"
+        "content": "  const handleOnSeeMore \u003d () \u003d\u003e {"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      setChatMessageDocs([...newChatMessageDocs, ...chatMessageDocs]);"
+        "content": "    api.chats.getChatMessages(selectedChatId, chatMessageDocs[0]).then((rawNewChatMessages) \u003d\u003e {"
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      if (newChatMessageDocs.length \u003c CHAT_MESSAGES_BATCH_SIZE) {"
+        "content": "      // need to reverse the new chat message docs since the order of the array is latest -\u003e oldest, but in our"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        // loaded all chat messages"
+        "content": "      // array the order is oldest -\u003e latest"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        setShouldSeeMore(false);"
+        "content": "      const newChatMessageDocs \u003d rawNewChatMessages.docs.reverse();"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      }"
+        "content": "      setChatMessageDocs([...newChatMessageDocs, ...chatMessageDocs]);"
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    });"
+        "content": "      if (newChatMessageDocs.length \u003c CHAT_MESSAGES_BATCH_SIZE) {"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  };"
+        "content": "        // loaded all chat messages"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "        setShouldSeeMore(false);"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  // get all heights of components within the chatDialog, only inputRowHeight is passed in as"
+        "content": "      }"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  // the height is not constant"
+        "content": "    });"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const { chatDialogBackButton, chatDialogSeePostRow, chatDialogUserRow, chatDialogMessagesPadding } \u003d isTablet"
+        "content": "  };"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    ? desktopHeights"
+        "content": ""
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    : mobileHeights;"
+        "content": "  // get all heights of components within the chatDialog, only inputRowHeight is passed in as"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "  // the height is not constant"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const sumOfOtherComponentHeights \u003d"
+        "content": "  const { chatDialogBackButton, chatDialogSeePostRow, chatDialogUserRow, chatDialogMessagesPadding } \u003d isTablet"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    chatDialogBackButton + chatDialogSeePostRow + chatDialogUserRow + chatDialogMessagesPadding + inputRowHeight;"
+        "content": "    ? desktopHeights"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "    : mobileHeights;"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  // offsetHeight is used to calculate the amount of height left for the ChatDialogMessages to occupy"
+        "content": ""
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const offsetHeight \u003d navBarHeight + sumOfOtherComponentHeights;"
+        "content": "  const sumOfOtherComponentHeights \u003d"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "    chatDialogBackButton + chatDialogSeePostRow + chatDialogUserRow + chatDialogMessagesPadding + inputRowHeight;"
       },
       {
         "lineNumber": 133,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  // display tips before first message is being sent for a wish"
+        "content": ""
       },
       {
         "lineNumber": 134,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  if (isNewChat \u0026\u0026 !selectedChatId \u0026\u0026 postType \u003d\u003d\u003d wishes) {"
+        "content": "  const offsetHeight \u003d navBarHeight + sumOfOtherComponentHeights;"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return ("
+        "content": ""
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cCardSection\u003e"
+        "content": "  // display tips before first message is being sent for a wish"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cMessageContainer offsetHeight\u003d{offsetHeight}\u003e"
+        "content": "  if (isNewChat \u0026\u0026 !selectedChatId \u0026\u0026 postType \u003d\u003d\u003d wishes) {"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cNewChatTips postType\u003d{postType} /\u003e"
+        "content": "    return ("
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/MessageContainer\u003e"
+        "content": "      \u003cCardSection\u003e"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/CardSection\u003e"
+        "content": "        \u003cMessageContainer offsetHeight\u003d{offsetHeight}\u003e"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    );"
+        "content": "          \u003cNewChatTips postType\u003d{postType} /\u003e"
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  }"
+        "content": "        \u003c/MessageContainer\u003e"
       },
       {
         "lineNumber": 143,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "      \u003c/CardSection\u003e"
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return ("
+        "content": "    );"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003cCardSection\u003e"
+        "content": "  }"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cMessageContainer offsetHeight\u003d{offsetHeight}\u003e"
+        "content": ""
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cInfiniteScroll"
+        "content": "  return ("
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          loadMore\u003d{handleOnSeeMore}"
+        "content": "    \u003cCardSection\u003e"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          hasMore\u003d{shouldSeeMore}"
+        "content": "      \u003cMessageContainer offsetHeight\u003d{offsetHeight}\u003e"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          isReverse"
+        "content": "        \u003cInfiniteScroll"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          initialLoad\u003d{false}"
+        "content": "          loadMore\u003d{handleOnSeeMore}"
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          useWindow\u003d{false}"
+        "content": "          hasMore\u003d{shouldSeeMore}"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          loader\u003d{\u003cLoading type\u003d\"pageLoader\" key\u003d{0} /\u003e}"
+        "content": "          isReverse"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003e"
+        "content": "          initialLoad\u003d{false}"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cStack direction\u003d\"column\"\u003e"
+        "content": "          useWindow\u003d{false}"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            {chatMessageDocs \u0026\u0026"
+        "content": "          loader\u003d{\u003cLoading type\u003d\"pageLoader\" key\u003d{0} /\u003e}"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "              chatMessageDocs.map((messageDoc, index) \u003d\u003e {"
+        "content": "        \u003e"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                const message \u003d messageDoc.data();"
+        "content": "          \u003cStack direction\u003d\"column\"\u003e"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                // right side is logged in user\u0027s messages, left side is opposite user\u0027s"
+        "content": "            {chatMessageDocs \u0026\u0026"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                return message.sender.id \u003d\u003d\u003d loggedInUser.user.userId ? ("
+        "content": "              chatMessageDocs.map((messageDoc, index) \u003d\u003e {"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                  \u003cRightMessageSection"
+        "content": "                const message \u003d messageDoc.data();"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                    key\u003d{index}"
+        "content": "                // right side is logged in user\u0027s messages, left side is opposite user\u0027s"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                    message\u003d{message}"
+        "content": "                return message.sender.id \u003d\u003d\u003d loggedInUser.user.userId ? ("
       },
       {
         "lineNumber": 164,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                    loggedInUser\u003d{loggedInUser}"
+        "content": "                  \u003cRightMessageSection"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                    selectedChatId\u003d{selectedChatId}"
+        "content": "                    key\u003d{index}"
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                  /\u003e"
+        "content": "                    message\u003d{message}"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                ) : ("
+        "content": "                    loggedInUser\u003d{loggedInUser}"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                  \u003cLeftMessageSection"
+        "content": "                    selectedChatId\u003d{selectedChatId}"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                    key\u003d{index}"
+        "content": "                    offsetHeight\u003d{offsetHeight}"
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                    message\u003d{message}"
+        "content": "                  /\u003e"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                    loggedInUser\u003d{loggedInUser}"
+        "content": "                ) : ("
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                    selectedChatId\u003d{selectedChatId}"
+        "content": "                  \u003cLeftMessageSection"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                  /\u003e"
+        "content": "                    key\u003d{index}"
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "                );"
+        "content": "                    message\u003d{message}"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "              })}"
+        "content": "                    loggedInUser\u003d{loggedInUser}"
       },
       {
         "lineNumber": 176,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            \u003cdiv ref\u003d{messagesEndRef} /\u003e"
+        "content": "                    selectedChatId\u003d{selectedChatId}"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003c/Stack\u003e"
+        "content": "                    offsetHeight\u003d{offsetHeight}"
       },
       {
         "lineNumber": 178,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/InfiniteScroll\u003e"
+        "content": "                  /\u003e"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/MessageContainer\u003e"
+        "content": "                );"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003c/CardSection\u003e"
+        "content": "              })}"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  );"
+        "content": "            \u003cdiv ref\u003d{messagesEndRef} /\u003e"
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "};"
+        "content": "          \u003c/Stack\u003e"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "        \u003c/InfiniteScroll\u003e"
       },
       {
         "lineNumber": 184,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      \u003c/MessageContainer\u003e"
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    \u003c/CardSection\u003e"
+      },
+      {
+        "lineNumber": 186,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  );"
+      },
+      {
+        "lineNumber": 187,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "};"
+      },
+      {
+        "lineNumber": 188,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 189,
         "author": {
           "gitId": "jamessspanggg"
         },
@@ -142018,7 +142207,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 184
+      "jamessspanggg": 189
     }
   },
   {
@@ -144388,402 +144577,458 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "const getMessageContent \u003d (messageContentType, content, isByLoggedInUser, sender, loggedInUser, selectedChatId) \u003d\u003e {"
+        "content": "const getMessageContent \u003d ("
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  if (messageContentType \u003d\u003d\u003d \u0027text\u0027) {"
+        "content": "  messageContentType,"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return \u003cChatBubbleForText text\u003d{content} isByLoggedInUser\u003d{isByLoggedInUser} /\u003e;"
+        "content": "  content,"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  }"
+        "content": "  isByLoggedInUser,"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  if (messageContentType \u003d\u003d\u003d \u0027image\u0027) {"
+        "content": "  sender,"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return \u003cChatBubbleForImage imageUrl\u003d{content} isByLoggedInUser\u003d{isByLoggedInUser} /\u003e;"
+        "content": "  loggedInUser,"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  }"
+        "content": "  selectedChatId,"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  if (messageContentType \u003d\u003d\u003d \u0027calendar\u0027) {"
+        "content": "  offsetHeight"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    const dateTimes \u003d content.split(\u0027,\u0027); // dateTimes are separated by comma delimiter"
+        "content": ") \u003d\u003e {"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    return ("
+        "content": "  if (messageContentType \u003d\u003d\u003d \u0027text\u0027) {"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cChatBubbleForCalendar"
+        "content": "    return \u003cChatBubbleForText text\u003d{content} isByLoggedInUser\u003d{isByLoggedInUser} /\u003e;"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        dateTimes\u003d{dateTimes}"
+        "content": "  }"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        isByLoggedInUser\u003d{isByLoggedInUser}"
+        "content": "  if (messageContentType \u003d\u003d\u003d \u0027image\u0027) {"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        sender\u003d{sender}"
+        "content": "    return \u003cChatBubbleForImage imageUrl\u003d{content} isByLoggedInUser\u003d{isByLoggedInUser} offsetHeight\u003d{offsetHeight} /\u003e;"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        loggedInUser\u003d{loggedInUser}"
+        "content": "  }"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        selectedChatId\u003d{selectedChatId}"
+        "content": "  if (messageContentType \u003d\u003d\u003d \u0027calendar\u0027) {"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      /\u003e"
+        "content": "    const dateTimes \u003d content.split(\u0027,\u0027); // dateTimes are separated by comma delimiter"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    );"
+        "content": "    return ("
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  }"
+        "content": "      \u003cChatBubbleForCalendar"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  // unknown message content type"
+        "content": "        dateTimes\u003d{dateTimes}"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return \u003cdiv\u003eN.A.\u003c/div\u003e;"
+        "content": "        isByLoggedInUser\u003d{isByLoggedInUser}"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "};"
+        "content": "        sender\u003d{sender}"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "        loggedInUser\u003d{loggedInUser}"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "export const LeftMessageSection \u003d ({ message, loggedInUser, selectedChatId }) \u003d\u003e {"
+        "content": "        selectedChatId\u003d{selectedChatId}"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const { content, sender, dateTime, contentType } \u003d message;"
+        "content": "      /\u003e"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return ("
+        "content": "    );"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003cLeftMessageSectionContainer\u003e"
+        "content": "  }"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cStack direction\u003d\"row\" grow\u003d{false}\u003e"
+        "content": "  // unknown message content type"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cProfileAvatar imageUrl\u003d{sender.profileImageUrl.small || sender.profileImageUrl.raw} width\u003d{25} height\u003d{25} /\u003e"
+        "content": "  return \u003cdiv\u003eN.A.\u003c/div\u003e;"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cLeftColumnStackContainer\u003e"
+        "content": "};"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cStack direction\u003d\"column\" spacing\u003d\"extraTight\"\u003e"
+        "content": ""
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            {getMessageContent(contentType, content, false, sender, loggedInUser, selectedChatId)}"
+        "content": "export const LeftMessageSection \u003d ({ message, loggedInUser, selectedChatId, offsetHeight }) \u003d\u003e {"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            \u003cGreyText size\u003d\"tiny\"\u003e{getTimeDifferenceFromNow(dateTime)}\u003c/GreyText\u003e"
+        "content": "  const { content, sender, dateTime, contentType } \u003d message;"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003c/Stack\u003e"
+        "content": "  return ("
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/LeftColumnStackContainer\u003e"
+        "content": "    \u003cLeftMessageSectionContainer\u003e"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/Stack\u003e"
+        "content": "      \u003cStack direction\u003d\"row\" grow\u003d{false}\u003e"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003c/LeftMessageSectionContainer\u003e"
+        "content": "        \u003cProfileAvatar imageUrl\u003d{sender.profileImageUrl.small || sender.profileImageUrl.raw} width\u003d{25} height\u003d{25} /\u003e"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  );"
+        "content": "        \u003cLeftColumnStackContainer\u003e"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "};"
+        "content": "          \u003cStack direction\u003d\"column\" spacing\u003d\"extraTight\"\u003e"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": ""
+        "content": "            {getMessageContent(contentType, content, false, sender, loggedInUser, selectedChatId, offsetHeight)}"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "export const RightMessageSection \u003d ({ message, loggedInUser, selectedChatId }) \u003d\u003e {"
+        "content": "            \u003cGreyText size\u003d\"tiny\"\u003e{getTimeDifferenceFromNow(dateTime)}\u003c/GreyText\u003e"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  const { content, sender, dateTime, contentType } \u003d message;"
+        "content": "          \u003c/Stack\u003e"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  return ("
+        "content": "        \u003c/LeftColumnStackContainer\u003e"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003cStack direction\u003d\"column\" align\u003d\"end\" spaceAfter\u003d\"none\" grow\u003d{false}\u003e"
+        "content": "      \u003c/Stack\u003e"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003cRightMessageSectionContainer\u003e"
+        "content": "    \u003c/LeftMessageSectionContainer\u003e"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003cStack direction\u003d\"row\"\u003e"
+        "content": "  );"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cRightColumnStackContainer\u003e"
+        "content": "};"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            \u003cStack direction\u003d\"column\" spacing\u003d\"extraTight\" align\u003d\"end\"\u003e"
+        "content": ""
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "              {getMessageContent(contentType, content, true, sender, loggedInUser, selectedChatId)}"
+        "content": "export const RightMessageSection \u003d ({ message, loggedInUser, selectedChatId, offsetHeight }) \u003d\u003e {"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "              \u003cGreyText size\u003d\"tiny\"\u003e{getTimeDifferenceFromNow(dateTime)}\u003c/GreyText\u003e"
+        "content": "  const { content, sender, dateTime, contentType } \u003d message;"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "            \u003c/Stack\u003e"
+        "content": "  return ("
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003c/RightColumnStackContainer\u003e"
+        "content": "    \u003cStack direction\u003d\"column\" align\u003d\"end\" spaceAfter\u003d\"none\" grow\u003d{false}\u003e"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "          \u003cProfileAvatar imageUrl\u003d{sender.profileImageUrl.small || sender.profileImageUrl.raw} width\u003d{25} height\u003d{25} /\u003e"
+        "content": "      \u003cRightMessageSectionContainer\u003e"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "        \u003c/Stack\u003e"
+        "content": "        \u003cStack direction\u003d\"row\"\u003e"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "      \u003c/RightMessageSectionContainer\u003e"
+        "content": "          \u003cRightColumnStackContainer\u003e"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    \u003c/Stack\u003e"
+        "content": "            \u003cStack direction\u003d\"column\" spacing\u003d\"extraTight\" align\u003d\"end\"\u003e"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "  );"
+        "content": "              {getMessageContent(contentType, content, true, sender, loggedInUser, selectedChatId, offsetHeight)}"
       },
       {
         "lineNumber": 98,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "              \u003cGreyText size\u003d\"tiny\"\u003e{getTimeDifferenceFromNow(dateTime)}\u003c/GreyText\u003e"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "            \u003c/Stack\u003e"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          \u003c/RightColumnStackContainer\u003e"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "          \u003cProfileAvatar imageUrl\u003d{sender.profileImageUrl.small || sender.profileImageUrl.raw} width\u003d{25} height\u003d{25} /\u003e"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "        \u003c/Stack\u003e"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "      \u003c/RightMessageSectionContainer\u003e"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "    \u003c/Stack\u003e"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "jamessspanggg"
+        },
+        "content": "  );"
+      },
+      {
+        "lineNumber": 106,
         "author": {
           "gitId": "jamessspanggg"
         },
@@ -144791,7 +145036,7 @@
       }
     ],
     "authorContributionMap": {
-      "jamessspanggg": 98
+      "jamessspanggg": 106
     }
   },
   {
@@ -144964,7 +145209,7 @@
         "author": {
           "gitId": "jamessspanggg"
         },
-        "content": "    isShow ? \u0027unset\u0027 : \u0027none\u0027;"
+        "content": "    return isShow ? \u0027unset\u0027 : \u0027none\u0027;"
       },
       {
         "lineNumber": 25,
@@ -158011,7 +158256,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "            user.profileImageUrl ? ("
+        "content": "            user.profileImageUrl.raw ? ("
       },
       {
         "lineNumber": 63,
