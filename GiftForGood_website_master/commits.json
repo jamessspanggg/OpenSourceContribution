@@ -635,22 +635,40 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 3,
+        "deletions": 1,
+        "date": "2020-07-21",
+        "commitResults": [
+          {
+            "hash": "feb288c2fc7ca070e4f80267bde6858015282b67",
+            "messageTitle": "Remove textarea autofocus in mobile and tablet (#199)",
+            "messageBody": "* Remove autofocus in textarea when mobile or tablet\r\n\r\n* Fix media query mistake",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 3,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 4842
+    "jamessspanggg": 4844
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
       "json": 150,
       "LICENSE": 21,
-      "js": 4544
+      "js": 4546
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 87156.055
+    "jamessspanggg": 86305.2
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
