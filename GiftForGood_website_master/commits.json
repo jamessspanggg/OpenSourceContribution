@@ -653,22 +653,55 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 315,
+        "deletions": 25,
+        "date": "2020-07-22",
+        "commitResults": [
+          {
+            "hash": "e3755e0f693dd6c6a3be10a8a67cd77fa2190ff5",
+            "messageTitle": "Chat fixes (#202)",
+            "messageBody": "* Add scroll to bottom of chat dialog when mounted\r\n\r\n* Overwrite and use custom react-infinite-scroller\r\n\r\n* Add new line support for mobile return key\r\n\r\n* Utilise react-stay-scrolled to scroll to bottom of messages and maintain scroll position\r\n\r\n* Fix issue of scrollerRef when creating new chat\r\n\r\n* Add credits to infinite scroller\r\n\r\n* Modify infinite scroller",
+            "fileTypesAndContributionMap": {
+              "json": {
+                "insertions": 24,
+                "deletions": 9
+              },
+              "js": {
+                "insertions": 288,
+                "deletions": 13
+              }
+            }
+          },
+          {
+            "hash": "9350e49f46301e4a1f2266838db8b2a93893482b",
+            "messageTitle": "Use objectID instead of donationID (#203)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 4844
+    "jamessspanggg": 5143
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
-      "json": 150,
+      "json": 173,
       "LICENSE": 21,
-      "js": 4546
+      "js": 4822
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 86305.2
+    "jamessspanggg": 86151.6
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
