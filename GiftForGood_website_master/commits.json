@@ -704,22 +704,55 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 47,
+        "deletions": 30,
+        "date": "2020-07-24",
+        "commitResults": [
+          {
+            "hash": "94fc01237606a6eece9530759467c30579dda28f",
+            "messageTitle": "Make height of chat page exactly fit into mobile (#205)",
+            "messageBody": "* Make height of chat page exactly fit into mobile\r\n\r\n* Switch to use arrow functions\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 42,
+                "deletions": 13
+              }
+            }
+          },
+          {
+            "hash": "8a84d1e8bf743e42eac576a228388f08e56c3deb",
+            "messageTitle": "Remove react-stay-scrolled package (#207)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "json": {
+                "insertions": 0,
+                "deletions": 10
+              },
+              "js": {
+                "insertions": 5,
+                "deletions": 7
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 5153
+    "jamessspanggg": 5170
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
-      "json": 173,
+      "json": 163,
       "LICENSE": 21,
-      "js": 4832
+      "js": 4859
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 85322.98
+    "jamessspanggg": 84469.85
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
