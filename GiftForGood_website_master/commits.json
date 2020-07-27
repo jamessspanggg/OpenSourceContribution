@@ -755,22 +755,73 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 184,
+        "deletions": 157,
+        "date": "2020-07-27",
+        "commitResults": [
+          {
+            "hash": "8afde6d7f4f3702984366b87a4a972c4db85916c",
+            "messageTitle": "Use shallow routing and remove re-routing when select chat (#209)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 51,
+                "deletions": 127
+              }
+            }
+          },
+          {
+            "hash": "b553d83acfc1be0ca4a508dfb14915dcf85a49d8",
+            "messageTitle": "Add button to conditionally show chat post details (#214)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 66,
+                "deletions": 29
+              }
+            }
+          },
+          {
+            "hash": "baaf3458d33dbf9bdba6217d88e36606c9caff6b",
+            "messageTitle": "Add system generatedmessage and logistics api (#213)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 46,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "a10517eb3019e6528a961e97afbdbc53f0138d16",
+            "messageTitle": "Add handling of back and forward button (#215)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 21,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 5172
+    "jamessspanggg": 5202
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
       "json": 163,
       "LICENSE": 21,
-      "js": 4861
+      "js": 4891
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 82905.02
+    "jamessspanggg": 82793.51
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
