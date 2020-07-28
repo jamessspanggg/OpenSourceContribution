@@ -806,22 +806,51 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 25,
+        "deletions": 3,
+        "date": "2020-07-28",
+        "commitResults": [
+          {
+            "hash": "7c93d24bf799c48bd5da0e1eba827aeff90d1a72",
+            "messageTitle": "Handle chat when user is not email verified and chatting for a same type of post (#216)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 24,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "da17a23b1bd7b88fd738063987eae82c7cfe8c3a",
+            "messageTitle": "Only allow upload of jpeg, jpg and png for donation card (#218)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 5202
+    "jamessspanggg": 5225
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
       "json": 163,
       "LICENSE": 21,
-      "js": 4891
+      "js": 4914
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 82793.51
+    "jamessspanggg": 82018.5
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
