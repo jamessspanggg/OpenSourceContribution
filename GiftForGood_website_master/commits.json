@@ -835,22 +835,51 @@
             }
           }
         ]
+      },
+      {
+        "insertions": 77,
+        "deletions": 12,
+        "date": "2020-07-29",
+        "commitResults": [
+          {
+            "hash": "9b6eb27239d37769eac488819040c40589ec4785",
+            "messageTitle": "Modify dimensions field in donation card (#219)",
+            "messageBody": "* Add 140 char limit to dimension and wordbreak property\r\n\r\n* Add help prompt in dimensions input",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 9,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "ac425799952d402733f53168bf416254a1229903",
+            "messageTitle": "Add word break to all cards and post details (#217)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 68,
+                "deletions": 10
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "jamessspanggg": 5225
+    "jamessspanggg": 5289
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
       "json": 163,
       "LICENSE": 21,
-      "js": 4914
+      "js": 4978
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 82018.5
+    "jamessspanggg": 81239.34
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
