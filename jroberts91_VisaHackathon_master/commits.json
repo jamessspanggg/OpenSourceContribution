@@ -2,8 +2,6 @@
   "authorDailyContributionsMap": {
     "jamessspanggg": [
       {
-        "insertions": 276,
-        "deletions": 24,
         "date": "2020-06-19",
         "commitResults": [
           {
@@ -39,8 +37,6 @@
         ]
       },
       {
-        "insertions": 601,
-        "deletions": 163,
         "date": "2020-06-20",
         "commitResults": [
           {
@@ -68,8 +64,6 @@
         ]
       },
       {
-        "insertions": 403,
-        "deletions": 172,
         "date": "2020-06-22",
         "commitResults": [
           {
@@ -131,8 +125,6 @@
         ]
       },
       {
-        "insertions": 744,
-        "deletions": 239,
         "date": "2020-06-23",
         "commitResults": [
           {
@@ -245,8 +237,6 @@
         ]
       },
       {
-        "insertions": 111,
-        "deletions": 87,
         "date": "2020-06-24",
         "commitResults": [
           {
@@ -313,8 +303,6 @@
         ]
       },
       {
-        "insertions": 551,
-        "deletions": 324,
         "date": "2020-06-25",
         "commitResults": [
           {
@@ -342,8 +330,6 @@
         ]
       },
       {
-        "insertions": 256,
-        "deletions": 199,
         "date": "2020-06-26",
         "commitResults": [
           {
@@ -393,8 +379,6 @@
         ]
       },
       {
-        "insertions": 125,
-        "deletions": 108,
         "date": "2020-06-28",
         "commitResults": [
           {
@@ -433,8 +417,6 @@
         ]
       },
       {
-        "insertions": 475,
-        "deletions": 112,
         "date": "2020-06-29",
         "commitResults": [
           {
@@ -510,8 +492,6 @@
         ]
       },
       {
-        "insertions": 394,
-        "deletions": 187,
         "date": "2020-06-30",
         "commitResults": [
           {
@@ -565,9 +545,6 @@
         ]
       }
     ]
-  },
-  "authorFinalContributionMap": {
-    "jamessspanggg": 2722
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {

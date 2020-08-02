@@ -2,8 +2,6 @@
   "authorDailyContributionsMap": {
     "jamessspanggg": [
       {
-        "insertions": 17,
-        "deletions": 124,
         "date": "2020-04-16",
         "commitResults": [
           {
@@ -50,8 +48,6 @@
         ]
       },
       {
-        "insertions": 6,
-        "deletions": 1,
         "date": "2020-04-25",
         "commitResults": [
           {
@@ -72,8 +68,6 @@
         ]
       },
       {
-        "insertions": 132,
-        "deletions": 3,
         "date": "2020-05-06",
         "commitResults": [
           {
@@ -109,8 +103,6 @@
         ]
       },
       {
-        "insertions": 15,
-        "deletions": 0,
         "date": "2020-05-07",
         "commitResults": [
           {
@@ -127,8 +119,6 @@
         ]
       },
       {
-        "insertions": 1474,
-        "deletions": 11,
         "date": "2020-05-20",
         "commitResults": [
           {
@@ -175,8 +165,6 @@
         ]
       },
       {
-        "insertions": 500,
-        "deletions": 7,
         "date": "2020-05-23",
         "commitResults": [
           {
@@ -197,8 +185,6 @@
         ]
       },
       {
-        "insertions": 41,
-        "deletions": 48,
         "date": "2020-05-25",
         "commitResults": [
           {
@@ -215,8 +201,6 @@
         ]
       },
       {
-        "insertions": 75,
-        "deletions": 66,
         "date": "2020-05-26",
         "commitResults": [
           {
@@ -244,8 +228,6 @@
         ]
       },
       {
-        "insertions": 18,
-        "deletions": 7,
         "date": "2020-05-28",
         "commitResults": [
           {
@@ -262,8 +244,6 @@
         ]
       },
       {
-        "insertions": 276,
-        "deletions": 7,
         "date": "2020-05-29",
         "commitResults": [
           {
@@ -291,8 +271,6 @@
         ]
       },
       {
-        "insertions": 6,
-        "deletions": 6,
         "date": "2020-05-31",
         "commitResults": [
           {
@@ -309,8 +287,6 @@
         ]
       },
       {
-        "insertions": 56,
-        "deletions": 37,
         "date": "2020-06-01",
         "commitResults": [
           {
@@ -338,8 +314,6 @@
         ]
       },
       {
-        "insertions": 594,
-        "deletions": 6,
         "date": "2020-06-04",
         "commitResults": [
           {
@@ -367,8 +341,6 @@
         ]
       },
       {
-        "insertions": 2,
-        "deletions": 8,
         "date": "2020-06-06",
         "commitResults": [
           {
@@ -396,8 +368,6 @@
         ]
       },
       {
-        "insertions": 582,
-        "deletions": 17,
         "date": "2020-06-07",
         "commitResults": [
           {
@@ -429,8 +399,6 @@
         ]
       },
       {
-        "insertions": 180,
-        "deletions": 85,
         "date": "2020-06-10",
         "commitResults": [
           {
@@ -473,8 +441,6 @@
         ]
       },
       {
-        "insertions": 5,
-        "deletions": 0,
         "date": "2020-06-11",
         "commitResults": [
           {
@@ -491,8 +457,6 @@
         ]
       },
       {
-        "insertions": 22,
-        "deletions": 3,
         "date": "2020-06-19",
         "commitResults": [
           {
@@ -509,8 +473,6 @@
         ]
       },
       {
-        "insertions": 2302,
-        "deletions": 28,
         "date": "2020-07-19",
         "commitResults": [
           {
@@ -542,8 +504,6 @@
         ]
       },
       {
-        "insertions": 109,
-        "deletions": 74,
         "date": "2020-07-20",
         "commitResults": [
           {
@@ -637,8 +597,6 @@
         ]
       },
       {
-        "insertions": 3,
-        "deletions": 1,
         "date": "2020-07-21",
         "commitResults": [
           {
@@ -655,8 +613,6 @@
         ]
       },
       {
-        "insertions": 315,
-        "deletions": 25,
         "date": "2020-07-22",
         "commitResults": [
           {
@@ -688,8 +644,6 @@
         ]
       },
       {
-        "insertions": 10,
-        "deletions": 0,
         "date": "2020-07-23",
         "commitResults": [
           {
@@ -706,8 +660,6 @@
         ]
       },
       {
-        "insertions": 47,
-        "deletions": 30,
         "date": "2020-07-24",
         "commitResults": [
           {
@@ -739,8 +691,6 @@
         ]
       },
       {
-        "insertions": 6,
-        "deletions": 4,
         "date": "2020-07-26",
         "commitResults": [
           {
@@ -757,8 +707,6 @@
         ]
       },
       {
-        "insertions": 184,
-        "deletions": 157,
         "date": "2020-07-27",
         "commitResults": [
           {
@@ -808,8 +756,6 @@
         ]
       },
       {
-        "insertions": 25,
-        "deletions": 3,
         "date": "2020-07-28",
         "commitResults": [
           {
@@ -837,8 +783,6 @@
         ]
       },
       {
-        "insertions": 77,
-        "deletions": 12,
         "date": "2020-07-29",
         "commitResults": [
           {
@@ -864,22 +808,46 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-08-02",
+        "commitResults": [
+          {
+            "hash": "d6967f4b382311a915f7ec7a95a26b3cd04558fa",
+            "messageTitle": "Fix chat already exists error after sending first text msg (#226)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "9af8e09de998be99c31a369830a50a97a782c6ac",
+            "messageTitle": "Reword others reason placeholder (#228)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
-  },
-  "authorFinalContributionMap": {
-    "jamessspanggg": 5289
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
       "json": 163,
       "LICENSE": 21,
-      "js": 4978
+      "js": 4980
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 81239.34
+    "jamessspanggg": 78451.69
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"

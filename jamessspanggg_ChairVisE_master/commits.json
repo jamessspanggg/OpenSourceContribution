@@ -2,8 +2,6 @@
   "authorDailyContributionsMap": {
     "jamessspanggg": [
       {
-        "insertions": 1,
-        "deletions": 1,
         "date": "2019-08-31",
         "commitResults": [
           {
@@ -20,8 +18,6 @@
         ]
       },
       {
-        "insertions": 7731,
-        "deletions": 8521,
         "date": "2019-09-07",
         "commitResults": [
           {
@@ -60,8 +56,6 @@
         ]
       },
       {
-        "insertions": 115,
-        "deletions": 7,
         "date": "2019-09-14",
         "commitResults": [
           {
@@ -97,8 +91,6 @@
         ]
       },
       {
-        "insertions": 2,
-        "deletions": 2,
         "date": "2019-09-19",
         "commitResults": [
           {
@@ -115,8 +107,6 @@
         ]
       },
       {
-        "insertions": 56,
-        "deletions": 14,
         "date": "2019-10-06",
         "commitResults": [
           {
@@ -155,8 +145,6 @@
         ]
       },
       {
-        "insertions": 2,
-        "deletions": 2,
         "date": "2019-10-10",
         "commitResults": [
           {
@@ -173,8 +161,6 @@
         ]
       },
       {
-        "insertions": 41,
-        "deletions": 12,
         "date": "2019-10-11",
         "commitResults": [
           {
@@ -199,8 +185,6 @@
         ]
       },
       {
-        "insertions": 89,
-        "deletions": 19,
         "date": "2019-10-12",
         "commitResults": [
           {
@@ -240,8 +224,6 @@
         ]
       },
       {
-        "insertions": 33,
-        "deletions": 19,
         "date": "2019-10-14",
         "commitResults": [
           {
@@ -291,8 +273,6 @@
         ]
       },
       {
-        "insertions": 8,
-        "deletions": 5,
         "date": "2019-10-17",
         "commitResults": [
           {
@@ -309,8 +289,6 @@
         ]
       },
       {
-        "insertions": 212,
-        "deletions": 0,
         "date": "2019-10-25",
         "commitResults": [
           {
@@ -327,8 +305,6 @@
         ]
       },
       {
-        "insertions": 227,
-        "deletions": 2,
         "date": "2019-10-27",
         "commitResults": [
           {
@@ -356,8 +332,6 @@
         ]
       },
       {
-        "insertions": 39,
-        "deletions": 2,
         "date": "2019-10-30",
         "commitResults": [
           {
@@ -385,9 +359,6 @@
         ]
       }
     ]
-  },
-  "authorFinalContributionMap": {
-    "jamessspanggg": 761
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
