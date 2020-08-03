@@ -835,6 +835,44 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-08-03",
+        "commitResults": [
+          {
+            "hash": "592456b449940e248233cee087f14b30e5e9ff6f",
+            "messageTitle": "Remove usage of reviews and ratings, while retaining the components in case future we need to use (#224)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 11,
+                "deletions": 73
+              }
+            }
+          },
+          {
+            "hash": "a5a952c22f2c09f70c79961afa1b428706c4d387",
+            "messageTitle": "Remove distance in card header (#235)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 3,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "3743d76960bba04efff0263ad5feae76f92ccf7c",
+            "messageTitle": "Use dynamic import for footers (#238)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 14,
+                "deletions": 14
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -843,11 +881,11 @@
       "md": 127,
       "json": 163,
       "LICENSE": 21,
-      "js": 4980
+      "js": 4966
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 78451.69
+    "jamessspanggg": 77758.4
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
