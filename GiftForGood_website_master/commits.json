@@ -873,6 +873,77 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-08-10",
+        "commitResults": [
+          {
+            "hash": "b8868d09457b9df7ea3d0d36ac84231064c6ce0a",
+            "messageTitle": "Add profile page links to all avatar details (#249)",
+            "messageBody": "* Add profile page links to card avatar details\r\n\r\n* Add profile page link to chat avatar details\r\n\r\n* Add profile page link to post details\u0027 avatar details",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 105,
+                "deletions": 16
+              }
+            }
+          },
+          {
+            "hash": "5091051173ddcfd59aaabec9d2d8027258a78b98",
+            "messageTitle": "Reword profile panel header (#248)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "344dd2b386e879346931b5692063cdd06d671511",
+            "messageTitle": "Allow multiline description for posts (#250)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 15,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "97e81682d9531067363d1d1a83f4d88707a74faf",
+            "messageTitle": "Chat view post section changes (#251)",
+            "messageBody": "* Allow view post section to be clickable\r\n\r\n* Darken color of see post button",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 15,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "606a34d797c54c93bb39904bceb4325b5ab3a3e1",
+            "messageTitle": "Disable login and register buttons appropriately (#253)",
+            "messageBody": "* Disallow login button when logging in the other way\r\n\r\n* Disable other register button when registering",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 11,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "b4682b41a5eeeebe838209458957bebc0930bbbe",
+            "messageTitle": "Fix for chat messages with weird order (#254)",
+            "messageBody": "* Potential fix for chat messages with weird order\r\n\r\n* Add console.log to debug if it hits the condition\r\n\r\n* Reorder console.log\r\n\r\n* Reorganise code\r\n\r\n* Add comments to the updateChatMessages callback\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 23,
+                "deletions": 3
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -881,11 +952,11 @@
       "md": 127,
       "json": 163,
       "LICENSE": 21,
-      "js": 4966
+      "js": 5109
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 77758.4
+    "jamessspanggg": 73512.125
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
