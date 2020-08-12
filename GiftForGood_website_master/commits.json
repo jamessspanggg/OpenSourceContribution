@@ -944,6 +944,44 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-08-12",
+        "commitResults": [
+          {
+            "hash": "9b9dcedfc99dbbf33a292f0c093c165cac132646",
+            "messageTitle": "Remove delivery cost message in see post row (#277)",
+            "messageBody": "Co-authored-by: Tan Jin Ying \u003ckenneth.jyt@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 2,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "3a28454aa2ed24788d79aec84d6f44b389542455",
+            "messageTitle": "Reword confirm completion message (#278)",
+            "messageBody": "* Reword ocmfirm completion message\r\n\r\n* Reword description\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e\r\nCo-authored-by: Tan Jin Ying \u003ckenneth.jyt@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 4,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "026c29996f9ab97378b7a0fff0feb941b26e62c4",
+            "messageTitle": "Fix chat issues (#247)",
+            "messageBody": "* Modify message section keys to not use index and prevent loadMore from calling concurrently\r\n\r\n* Add check to prevent load more even though hasMore is false\r\n\r\n* Handle adjusting of scrollTop value when loaded more items (Safari)\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 19,
+                "deletions": 7
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -952,11 +990,11 @@
       "md": 127,
       "json": 163,
       "LICENSE": 21,
-      "js": 5109
+      "js": 5121
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 73512.125
+    "jamessspanggg": 72325.36
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
