@@ -982,19 +982,35 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-08-19",
+        "commitResults": [
+          {
+            "hash": "d1f54cc7d30619608bd8d4c94ec15d147ddd416e",
+            "messageTitle": "Use correct userId field for preview panels (#297)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 3,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 127,
-      "json": 163,
+      "json": 162,
       "LICENSE": 21,
-      "js": 5112
+      "js": 5114
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 72325.36
+    "jamessspanggg": 68553.086
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
