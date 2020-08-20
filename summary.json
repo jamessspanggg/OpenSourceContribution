@@ -1,7 +1,7 @@
 {
   "repoSenseVersion": "5ceec1862d",
-  "reportGeneratedTime": "Wed Aug 19 18:14:46 2020 UTC",
-  "reportGenerationTime": " 3 minute(s) 21.40 second(s)",
+  "reportGeneratedTime": "Thu Aug 20 16:45:22 2020 UTC",
+  "reportGenerationTime": " 2 minute(s) 54.67 second(s)",
   "repos": [
     {
       "location": {
@@ -81,7 +81,7 @@
     }
   ],
   "sinceDate": "2019-02-08",
-  "untilDate": "2020-08-19",
+  "untilDate": "2020-08-20",
   "isSinceDateProvided": true,
   "isUntilDateProvided": false
 }
