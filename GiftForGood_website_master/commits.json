@@ -998,6 +998,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-08-25",
+        "commitResults": [
+          {
+            "hash": "5c245970fd759d332489d397ddca79e2680b6017",
+            "messageTitle": "Impose 25mb upload limit (#299)",
+            "messageBody": "* Impose 25mb limit to create donation and display error alerts\r\n\r\n* Add file size limit for npo and donor edit profile page\r\n\r\n* Refactor file size limit as constant\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 79,
+                "deletions": 25
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1006,11 +1022,11 @@
       "md": 127,
       "json": 162,
       "LICENSE": 21,
-      "js": 5108
+      "js": 5180
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 68553.086
+    "jamessspanggg": 65604.695
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
