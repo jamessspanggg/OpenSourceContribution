@@ -1052,6 +1052,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-08-30",
+        "commitResults": [
+          {
+            "hash": "907a9125b97d0a4e97651120c10227f2022229cd",
+            "messageTitle": "Use React Context and useReducer for shared props in Chat (#302)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 283,
+                "deletions": 232
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1060,11 +1076,11 @@
       "md": 127,
       "json": 162,
       "LICENSE": 21,
-      "js": 5190
+      "js": 5238
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 63774.69
+    "jamessspanggg": 64800.746
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
