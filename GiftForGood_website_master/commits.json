@@ -1122,19 +1122,55 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-09-06",
+        "commitResults": [
+          {
+            "hash": "281ed806e842d88616a135899df8e144895e3780",
+            "messageTitle": "Add pre tag to bumpable wish card description (#333)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 3,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "31b7c59400f774624f4c2618c2ac185abd3584d4",
+            "messageTitle": "Upgrade next to 9.5, add all public env vars with NEXT_PUBLIC_ (#332)",
+            "messageBody": "* Upgrade next to 9.5, add all public env vars with NEXT_PUBLIC_\r\n\r\n* Add missing env\r\n\r\n* Update algolia to new env\r\n\r\n* Update yml file with new env names\r\n\r\n* Fix searchbar for nextjs 9.5\r\n\r\n* Add default imageUrl\r\n\r\n* Update to latest next@9.5.3\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "yml": {
+                "insertions": 4,
+                "deletions": 4
+              },
+              "js": {
+                "insertions": 23,
+                "deletions": 46
+              },
+              "json": {
+                "insertions": 2633,
+                "deletions": 430
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "md": 113,
-      "json": 162,
+      "yml": 4,
+      "json": 2756,
       "LICENSE": 21,
-      "js": 5458
+      "js": 5484
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 62860.02
+    "jamessspanggg": 127431.836
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
