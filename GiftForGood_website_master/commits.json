@@ -1157,6 +1157,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-09-07",
+        "commitResults": [
+          {
+            "hash": "d1804776b86f9c10903068d3b8a04182ac2a2141",
+            "messageTitle": "About us page (#312)",
+            "messageBody": "* Add about us page UI\r\n\r\n* extract members as constant\r\n\r\n* Separate teams and refactor code\r\n\r\n* Add member descriptions and banner descriptions",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 292,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "dc488bf00df898b51b3330a25f2c93e56d2e5c90",
+            "messageTitle": "Add missing page links in drawer (#334)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 15,
+                "deletions": 6
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1166,11 +1193,11 @@
       "yml": 4,
       "json": 2756,
       "LICENSE": 21,
-      "js": 5484
+      "js": 5653
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 127431.836
+    "jamessspanggg": 126907.516
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
