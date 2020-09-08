@@ -1184,6 +1184,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-09-08",
+        "commitResults": [
+          {
+            "hash": "e476335e638667637a522f76d72e2540eac6828a",
+            "messageTitle": "Add roxanne details (#338)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 7,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "ae223823abfe489b6124eea2fae77acdc1f89ab4",
+            "messageTitle": "Fix search page bug (#336)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1193,11 +1220,11 @@
       "yml": 4,
       "json": 2756,
       "LICENSE": 21,
-      "js": 5653
+      "js": 5660
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 126907.516
+    "jamessspanggg": 126079.71
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
