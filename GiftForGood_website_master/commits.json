@@ -1211,20 +1211,51 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-09-10",
+        "commitResults": [
+          {
+            "hash": "67d85005225caaead48365d5e89007178cb49134",
+            "messageTitle": "Minor changes based on comments (#345)",
+            "messageBody": "* Add delivery partners to drawer\r\n\r\n* Add in hello@giftforgood.io in contact us page\r\n\r\n* Update FAQ\r\n\r\n* Reword delivery message\r\n\r\n* Add link to delivery partners in system generated message\r\n\r\n* Reword auth error\r\n\r\n* Update contact us page",
+            "fileTypesAndContributionMap": {
+              "md": {
+                "insertions": 14,
+                "deletions": 4
+              },
+              "js": {
+                "insertions": 19,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "f0fdcda8561e86ef4d39d34b61fc6020b9bd95ba",
+            "messageTitle": "Remove Avatar component (#346)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 4,
+                "deletions": 30
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
-      "md": 113,
+      "md": 127,
       "yml": 4,
       "json": 2756,
       "LICENSE": 21,
-      "js": 5660
+      "js": 5656
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 126079.71
+    "jamessspanggg": 124426.5
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
