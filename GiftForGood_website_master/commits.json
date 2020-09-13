@@ -1242,6 +1242,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-09-13",
+        "commitResults": [
+          {
+            "hash": "43bd9130d49a2d2901825a28d05072bc7e8bc3a2",
+            "messageTitle": "Add credits page (#351)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 551,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1251,11 +1267,11 @@
       "yml": 4,
       "json": 2756,
       "LICENSE": 21,
-      "js": 5656
+      "js": 6177
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 124426.5
+    "jamessspanggg": 123481.15
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
