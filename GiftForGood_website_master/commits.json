@@ -1258,20 +1258,36 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-09-14",
+        "commitResults": [
+          {
+            "hash": "9bc9c090ddcc1d1907d22c63d524427ad291b649",
+            "messageTitle": "Add contact page link in NPO edit profile (#358)",
+            "messageBody": "* Add contact page link\r\n\r\n* Add external property\r\n\r\n* Run prettier\r\n\r\n* Add missing link",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 8,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
-      "md": 127,
+      "md": 126,
       "yml": 4,
       "json": 2756,
       "LICENSE": 21,
-      "js": 6177
+      "js": 6185
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 123481.15
+    "jamessspanggg": 122708.34
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
