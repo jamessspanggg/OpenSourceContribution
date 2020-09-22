@@ -1290,6 +1290,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-09-22",
+        "commitResults": [
+          {
+            "hash": "24cf7696c6ea8b1ce8f33e71264316025c393d88",
+            "messageTitle": "Modify about us page mobile view (#366)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 49,
+                "deletions": 3
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1299,11 +1315,11 @@
       "yml": 4,
       "json": 2756,
       "LICENSE": 21,
-      "js": 6180
+      "js": 6226
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 120472.62
+    "jamessspanggg": 116892.8
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
