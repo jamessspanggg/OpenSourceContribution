@@ -1288,6 +1288,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-09-27",
+        "commitResults": [
+          {
+            "hash": "611dec25b3fbfe8916471edfe795f75b38fcd803",
+            "messageTitle": "Add optional check for quotes in diff file regex (#1330)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "java": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1301,11 +1317,11 @@
       "js": 907,
       "pug": 55,
       "scss": 350,
-      "java": 581
+      "java": 582
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 1315097.9
+    "jamessspanggg": 982065.06
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
