@@ -1304,6 +1304,26 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-09-30",
+        "commitResults": [
+          {
+            "hash": "08a546085e882b2d2dd261129c72b3f9b15ab9a6",
+            "messageTitle": "[#1322] Fix loading page rendering issue (#1334)",
+            "messageBody": "The contents within `v-resizer` show at the beginning of page load.\r\n\r\nThis is because we write our code directly to `index.pug` instead of\r\na separate file, e.g. app.pug. The generated HTML file from \r\n`index.pug` contains some body HTML code, which is recognized by the \r\nbrowser and displayed first before the JS code is loaded.\r\n\r\nLet\u0027s move the v-if conditional out of v-resizer to a Vue template,\r\nsince the Vue template tag is not recognizable by the browser.",
+            "fileTypesAndContributionMap": {
+              "pug": {
+                "insertions": 64,
+                "deletions": 65
+              },
+              "js": {
+                "insertions": 0,
+                "deletions": 6
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1315,13 +1335,13 @@
       "md": 19,
       "sh": 67,
       "js": 907,
-      "pug": 55,
+      "pug": 56,
       "scss": 350,
       "java": 582
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 982065.06
+    "jamessspanggg": 976234.5
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
