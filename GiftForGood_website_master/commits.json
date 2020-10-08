@@ -1306,6 +1306,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-08",
+        "commitResults": [
+          {
+            "hash": "4bc9aca96ed44dd017424bf105cd912b271e07f5",
+            "messageTitle": "Add duplicate wish feature (#375)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 56,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "50a3e509a7d30b3e8b53938d18fd44ec24d809be",
+            "messageTitle": "Redirect back to chat after login (#377)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 26,
+                "deletions": 15
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1315,11 +1342,11 @@
       "yml": 4,
       "json": 2756,
       "LICENSE": 21,
-      "js": 6224
+      "js": 6298
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 116892.8
+    "jamessspanggg": 106810.38
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
