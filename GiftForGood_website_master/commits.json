@@ -1333,6 +1333,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-25",
+        "commitResults": [
+          {
+            "hash": "58912fa96ae48b3258ad8642d4edccb1036152a2",
+            "messageTitle": "Add meta description for SEO purposes (#381)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 4,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "d464d704f5bcd741c337fc6404cd7c1579d39e2c",
+            "messageTitle": "Add verified tag to NPO profile (#382)",
+            "messageBody": "* Add verified tag to profile\r\n\r\n* Add email verified check",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 19,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1342,11 +1369,11 @@
       "yml": 4,
       "json": 2756,
       "LICENSE": 21,
-      "js": 6296
+      "js": 6318
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 106810.38
+    "jamessspanggg": 97855.1
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
