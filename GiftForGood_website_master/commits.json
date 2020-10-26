@@ -1360,6 +1360,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-26",
+        "commitResults": [
+          {
+            "hash": "10deef40b44cb07ef0bed4a7aff76964f16ab00c",
+            "messageTitle": "Remove check for email verified (#388)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1373,7 +1389,7 @@
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 97855.1
+    "jamessspanggg": 97374.01
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
