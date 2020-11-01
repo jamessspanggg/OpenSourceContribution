@@ -1376,6 +1376,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-01",
+        "commitResults": [
+          {
+            "hash": "24b917973b9ec3e4bef04368a6b925f630fd52d3",
+            "messageTitle": "Upgrade next to v10.0.0 (#392)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "json": {
+                "insertions": 1500,
+                "deletions": 698
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1383,13 +1399,13 @@
     "jamessspanggg": {
       "md": 126,
       "yml": 4,
-      "json": 2756,
+      "json": 3669,
       "LICENSE": 21,
       "js": 6318
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 97374.01
+    "jamessspanggg": 117149.29
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
