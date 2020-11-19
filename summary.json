@@ -1,7 +1,7 @@
 {
   "repoSenseVersion": "6cbe6df008",
-  "reportGeneratedTime": "Wed Nov 18 19:02:44 2020 UTC",
-  "reportGenerationTime": " 2 minute(s) 55.19 second(s)",
+  "reportGeneratedTime": "Thu Nov 19 19:03:19 2020 UTC",
+  "reportGenerationTime": " 2 minute(s) 58.43 second(s)",
   "zoneId": "UTC",
   "reportTitle": "RepoSense Report",
   "repos": [
@@ -83,7 +83,7 @@
     }
   ],
   "sinceDate": "2019-02-08",
-  "untilDate": "2020-11-18",
+  "untilDate": "2020-11-19",
   "isSinceDateProvided": true,
   "isUntilDateProvided": false
 }
