@@ -1340,24 +1340,48 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-21",
+        "commitResults": [
+          {
+            "hash": "81ee3e4bc37e13f7978141d2a6bdbd177273e283",
+            "messageTitle": "[#1345] Authorship: Add last modified date to each LoC if specified (#1348)",
+            "messageBody": "The last modified date of each line of code is not present in the\r\n`authorship.json`.\r\n\r\nIt would be beneficial for tutors to use the last modified date of\r\neach line of code to do further processing.\r\n\r\nLet\u0027s add the last modified date of each line of code within the\r\n`authorship.json`. This functionality will only be enabled when the\r\nuser specifies the flag \u0027--last-modified-date\u0027 or \u0027-l\u0027 in short.",
+            "fileTypesAndContributionMap": {
+              "java": {
+                "insertions": 152,
+                "deletions": 74
+              },
+              "md": {
+                "insertions": 13,
+                "deletions": 2
+              },
+              "json": {
+                "insertions": 31184,
+                "deletions": 15592
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
       "gitignore": 2,
-      "json": 11373,
+      "json": 22564,
       "yml": 11,
-      "md": 19,
+      "md": 32,
       "sh": 67,
       "js": 906,
       "pug": 56,
       "scss": 350,
-      "java": 561
+      "java": 712
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 974306.75
+    "jamessspanggg": 4852564.0
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
