@@ -1392,20 +1392,40 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-12-07",
+        "commitResults": [
+          {
+            "hash": "cd226c840d6791515fc36d29af88bb783766fa44",
+            "messageTitle": "Refactor FAQ page (#404)",
+            "messageBody": "* First rough draft of faq page\r\n\r\n* Add banner and animations\r\n\r\n* Fix margins\r\n\r\n* Add navs, modify banner to solid colors\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "md": {
+                "insertions": 0,
+                "deletions": 245
+              },
+              "js": {
+                "insertions": 1082,
+                "deletions": 39
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "jamessspanggg": {
-      "md": 126,
+      "md": 113,
       "yml": 4,
-      "json": 3669,
+      "json": 1781,
       "LICENSE": 21,
-      "js": 6209
+      "js": 7291
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 117149.29
+    "jamessspanggg": 107176.555
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
