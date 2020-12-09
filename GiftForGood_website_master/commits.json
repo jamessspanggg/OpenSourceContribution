@@ -1412,6 +1412,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-12-09",
+        "commitResults": [
+          {
+            "hash": "4d726bc40d75ff2d42f824629880deeb37f9e036",
+            "messageTitle": "Add padding for top wishes (#408)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "22b5e8d660b3ebe04707c05f12867830988429ec",
+            "messageTitle": "Fix unique key errors (#407)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 5,
+                "deletions": 4
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1421,11 +1448,11 @@
       "yml": 4,
       "json": 1781,
       "LICENSE": 21,
-      "js": 7291
+      "js": 7296
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 107176.555
+    "jamessspanggg": 106313.36
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
