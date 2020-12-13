@@ -1439,6 +1439,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-12-13",
+        "commitResults": [
+          {
+            "hash": "66090804d4e6da5509ca85c3b073c60ebb883ad2",
+            "messageTitle": "Add redirect url after logging in (#406)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "41e81d746943dd5972264872c1497947df2ba943",
+            "messageTitle": "Fix chrome issue with negative scrollTop (#412)",
+            "messageBody": "Co-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 3,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1448,11 +1475,11 @@
       "yml": 4,
       "json": 1781,
       "LICENSE": 21,
-      "js": 7296
+      "js": 7299
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 106313.36
+    "jamessspanggg": 104634.68
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
