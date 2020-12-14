@@ -1466,6 +1466,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-12-14",
+        "commitResults": [
+          {
+            "hash": "e73f393fea4fabdd718f230dfef14ca65df012d9",
+            "messageTitle": "Revert \"Add redirect url after logging in (#406)\"",
+            "messageBody": "This reverts commit 66090804d4e6da5509ca85c3b073c60ebb883ad2.\n",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 1,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1475,11 +1491,11 @@
       "yml": 4,
       "json": 1781,
       "LICENSE": 21,
-      "js": 7299
+      "js": 7298
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 104634.68
+    "jamessspanggg": 104223.09
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
