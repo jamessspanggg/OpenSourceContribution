@@ -1482,6 +1482,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-12-16",
+        "commitResults": [
+          {
+            "hash": "e380f0f9717d1ba3fa1e47adf77d2ca41da1996c",
+            "messageTitle": "Add how it works section in home page (#402)",
+            "messageBody": "* Add how it works section in home page\r\n\r\n* Add basic undo button\r\n\r\n* adjust height of undo div\r\n\r\n* reset current slide when close slide show\r\n\r\n* Update colors\r\n\r\n* Utilise max width container\r\n\r\n* Change text to teal\r\n\r\n* Fix console errors\r\n\r\n* Fix top wishes undefined key\r\n\r\n* Update image paths\r\n\r\n* Fix issue mentioned\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 451,
+                "deletions": 13
+              }
+            }
+          },
+          {
+            "hash": "9ee58fa023c8ec4c701defc806a872bf914a1d9d",
+            "messageTitle": "Add mark as delivered button in chat (#379)",
+            "messageBody": "* Add mark as delivered button in chat\r\n\r\n* Add chatStatus api and change frontend accordingly\r\n\r\n* Add status badge in chat cards\r\n\r\n* Change based on comments\r\n\r\n* Refactor based on comments\r\n\r\n* Use refactored colors\r\n\r\n* Fix mistake with merge conflcit\r\n\r\nCo-authored-by: Marcus Koh \u003ckohchihao@gmail.com\u003e",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 214,
+                "deletions": 28
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1491,11 +1518,11 @@
       "yml": 4,
       "json": 1781,
       "LICENSE": 21,
-      "js": 7298
+      "js": 7930
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 104223.09
+    "jamessspanggg": 105037.58
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
