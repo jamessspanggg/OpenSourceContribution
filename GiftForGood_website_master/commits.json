@@ -1509,6 +1509,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-12-27",
+        "commitResults": [
+          {
+            "hash": "a321a7341dce69b7761afff6ab45e15aae5ea58c",
+            "messageTitle": "Refactor top and bottom nav for mobile (#413)",
+            "messageBody": "* First draft of refactoring top and bottom nav\r\n\r\n* Add mobile search bar onClick and others\r\n\r\n* Add empty row\r\n\r\n* Add wish and donation icon\r\n\r\n* Add closing of drawer after logout\r\n\r\n* Add red cta background",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 276,
+                "deletions": 130
+              }
+            }
+          },
+          {
+            "hash": "e8d231b2d3cb89811e12f63d16a55e8201c1eabb",
+            "messageTitle": "Add redirect page to original page after login (#416)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "js": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1518,11 +1545,11 @@
       "yml": 4,
       "json": 1781,
       "LICENSE": 21,
-      "js": 7928
+      "js": 8122
     }
   },
   "authorContributionVariance": {
-    "jamessspanggg": 105037.58
+    "jamessspanggg": 101169.19
   },
   "authorDisplayNameMap": {
     "jamessspanggg": "James Pang"
