@@ -1,192 +1,192 @@
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:11 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jan 29, 2021 9:08:31 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias jamessspanggg found. The alias will belong to the last author - jamessspanggg
-Jan 28, 2021 9:12:12 PM reposense.report.RepoCloner spawnCloneProcess
+Jan 29, 2021 9:08:32 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/GiftForGood/website.git...
-Jan 28, 2021 9:12:12 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:08:32 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/GiftForGood/website.git to complete...
-Jan 28, 2021 9:12:13 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:08:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/GiftForGood/website.git completed!
-Jan 28, 2021 9:12:13 PM reposense.report.RepoCloner spawnCloneProcess
+Jan 29, 2021 9:08:33 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CS2103-AY1819S2-W15-2/main.git...
-Jan 28, 2021 9:12:13 PM reposense.report.ReportGenerator analyzeRepos
+Jan 29, 2021 9:08:33 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [1/9] Analyzing https://github.com/GiftForGood/website.git (master)...
-Jan 28, 2021 9:12:13 PM reposense.report.ReportGenerator updateRepoConfig
+Jan 29, 2021 9:08:33 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/GiftForGood/website.git (master) does not contain a standalone config file.
-Jan 28, 2021 9:12:13 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jan 29, 2021 9:08:33 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/GiftForGood/website.git (master)...
-Jan 28, 2021 9:12:13 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jan 29, 2021 9:08:33 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/GiftForGood/website.git (master)...
-Jan 28, 2021 9:12:13 PM reposense.authorship.FileInfoExtractor extractFileInfos
+Jan 29, 2021 9:08:33 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/GiftForGood/website.git (master)...
-Jan 28, 2021 9:12:21 PM reposense.report.ReportGenerator analyzeRepo
+Jan 29, 2021 9:08:41 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/GiftForGood/website.git (master) completed!
-Jan 28, 2021 9:12:21 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:08:41 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CS2103-AY1819S2-W15-2/main.git to complete...
-Jan 28, 2021 9:12:21 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:08:41 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CS2103-AY1819S2-W15-2/main.git completed!
-Jan 28, 2021 9:12:21 PM reposense.report.RepoCloner spawnCloneProcess
+Jan 29, 2021 9:08:41 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/jamessspanggg/ChairVisE.git...
-Jan 28, 2021 9:12:21 PM reposense.report.ReportGenerator analyzeRepos
+Jan 29, 2021 9:08:41 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [2/9] Analyzing https://github.com/CS2103-AY1819S2-W15-2/main.git (master)...
-Jan 28, 2021 9:12:22 PM reposense.report.ReportGenerator updateRepoConfig
+Jan 29, 2021 9:08:41 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CS2103-AY1819S2-W15-2/main.git (master) does not contain a standalone config file.
-Jan 28, 2021 9:12:22 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jan 29, 2021 9:08:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CS2103-AY1819S2-W15-2/main.git (master)...
-Jan 28, 2021 9:12:22 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jan 29, 2021 9:08:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CS2103-AY1819S2-W15-2/main.git (master)...
-Jan 28, 2021 9:12:22 PM reposense.authorship.FileInfoExtractor extractFileInfos
+Jan 29, 2021 9:08:41 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/CS2103-AY1819S2-W15-2/main.git (master)...
-Jan 28, 2021 9:12:29 PM reposense.report.ReportGenerator analyzeRepo
+Jan 29, 2021 9:08:49 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CS2103-AY1819S2-W15-2/main.git (master) completed!
-Jan 28, 2021 9:12:29 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:08:49 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/jamessspanggg/ChairVisE.git to complete...
-Jan 28, 2021 9:12:29 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:08:49 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/jamessspanggg/ChairVisE.git completed!
-Jan 28, 2021 9:12:29 PM reposense.report.RepoCloner spawnCloneProcess
+Jan 29, 2021 9:08:49 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/OpenRefine/OpenRefine.git...
-Jan 28, 2021 9:12:29 PM reposense.report.ReportGenerator analyzeRepos
+Jan 29, 2021 9:08:49 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [3/9] Analyzing https://github.com/jamessspanggg/ChairVisE.git (master)...
-Jan 28, 2021 9:12:30 PM reposense.report.ReportGenerator updateRepoConfig
+Jan 29, 2021 9:08:49 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/jamessspanggg/ChairVisE.git (master) does not contain a standalone config file.
-Jan 28, 2021 9:12:30 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jan 29, 2021 9:08:49 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/jamessspanggg/ChairVisE.git (master)...
-Jan 28, 2021 9:12:30 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jan 29, 2021 9:08:49 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/jamessspanggg/ChairVisE.git (master)...
-Jan 28, 2021 9:12:30 PM reposense.authorship.FileInfoExtractor extractFileInfos
+Jan 29, 2021 9:08:49 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/jamessspanggg/ChairVisE.git (master)...
-Jan 28, 2021 9:12:34 PM reposense.report.ReportGenerator analyzeRepo
+Jan 29, 2021 9:08:53 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/jamessspanggg/ChairVisE.git (master) completed!
-Jan 28, 2021 9:12:34 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:08:53 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/OpenRefine/OpenRefine.git to complete...
-Jan 28, 2021 9:12:42 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:09:02 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/OpenRefine/OpenRefine.git completed!
-Jan 28, 2021 9:12:42 PM reposense.report.RepoCloner spawnCloneProcess
+Jan 29, 2021 9:09:02 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/jroberts91/VisaHackathon.git...
-Jan 28, 2021 9:12:42 PM reposense.report.ReportGenerator analyzeRepos
+Jan 29, 2021 9:09:02 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [4/9] Analyzing https://github.com/OpenRefine/OpenRefine.git (master)...
-Jan 28, 2021 9:12:43 PM reposense.report.ReportGenerator updateRepoConfig
+Jan 29, 2021 9:09:02 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/OpenRefine/OpenRefine.git (master) does not contain a standalone config file.
-Jan 28, 2021 9:12:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jan 29, 2021 9:09:02 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/OpenRefine/OpenRefine.git (master)...
-Jan 28, 2021 9:12:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jan 29, 2021 9:09:02 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/OpenRefine/OpenRefine.git (master)...
-Jan 28, 2021 9:12:43 PM reposense.authorship.FileInfoExtractor extractFileInfos
+Jan 29, 2021 9:09:02 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/OpenRefine/OpenRefine.git (master)...
-Jan 28, 2021 9:14:23 PM reposense.report.ReportGenerator analyzeRepo
+Jan 29, 2021 9:10:40 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/OpenRefine/OpenRefine.git (master) completed!
-Jan 28, 2021 9:14:23 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:10:40 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/jroberts91/VisaHackathon.git to complete...
-Jan 28, 2021 9:14:23 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:10:40 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/jroberts91/VisaHackathon.git completed!
-Jan 28, 2021 9:14:24 PM reposense.report.RepoCloner spawnCloneProcess
+Jan 29, 2021 9:10:40 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/DriverUncle/TumpangMePlease.git...
-Jan 28, 2021 9:14:24 PM reposense.report.ReportGenerator analyzeRepos
+Jan 29, 2021 9:10:40 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [5/9] Analyzing https://github.com/jroberts91/VisaHackathon.git (master)...
-Jan 28, 2021 9:14:24 PM reposense.report.ReportGenerator updateRepoConfig
+Jan 29, 2021 9:10:40 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/jroberts91/VisaHackathon.git (master) does not contain a standalone config file.
-Jan 28, 2021 9:14:24 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jan 29, 2021 9:10:40 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/jroberts91/VisaHackathon.git (master)...
-Jan 28, 2021 9:14:24 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jan 29, 2021 9:10:40 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/jroberts91/VisaHackathon.git (master)...
-Jan 28, 2021 9:14:24 PM reposense.authorship.FileInfoExtractor extractFileInfos
+Jan 29, 2021 9:10:40 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/jroberts91/VisaHackathon.git (master)...
-Jan 28, 2021 9:14:26 PM reposense.report.ReportGenerator analyzeRepo
+Jan 29, 2021 9:10:43 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/jroberts91/VisaHackathon.git (master) completed!
-Jan 28, 2021 9:14:26 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:10:43 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/DriverUncle/TumpangMePlease.git to complete...
-Jan 28, 2021 9:14:26 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:10:43 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/DriverUncle/TumpangMePlease.git completed!
-Jan 28, 2021 9:14:26 PM reposense.report.RepoCloner spawnCloneProcess
+Jan 29, 2021 9:10:43 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/reposense/RepoSense.git...
-Jan 28, 2021 9:14:26 PM reposense.report.ReportGenerator analyzeRepos
+Jan 29, 2021 9:10:43 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [6/9] Analyzing https://github.com/DriverUncle/TumpangMePlease.git (master)...
-Jan 28, 2021 9:14:26 PM reposense.report.ReportGenerator updateRepoConfig
+Jan 29, 2021 9:10:43 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/DriverUncle/TumpangMePlease.git (master) does not contain a standalone config file.
-Jan 28, 2021 9:14:26 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jan 29, 2021 9:10:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/DriverUncle/TumpangMePlease.git (master)...
-Jan 28, 2021 9:14:26 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jan 29, 2021 9:10:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/DriverUncle/TumpangMePlease.git (master)...
-Jan 28, 2021 9:14:26 PM reposense.authorship.FileInfoExtractor extractFileInfos
+Jan 29, 2021 9:10:43 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/DriverUncle/TumpangMePlease.git (master)...
-Jan 28, 2021 9:14:27 PM reposense.report.ReportGenerator analyzeRepo
+Jan 29, 2021 9:10:43 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/DriverUncle/TumpangMePlease.git (master) completed!
-Jan 28, 2021 9:14:27 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:10:43 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/reposense/RepoSense.git to complete...
-Jan 28, 2021 9:14:30 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:10:47 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/reposense/RepoSense.git completed!
-Jan 28, 2021 9:14:30 PM reposense.report.RepoCloner spawnCloneProcess
+Jan 29, 2021 9:10:47 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/thenewboston-developers/Website.git...
-Jan 28, 2021 9:14:30 PM reposense.report.ReportGenerator analyzeRepos
+Jan 29, 2021 9:10:47 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [7/9] Analyzing https://github.com/reposense/RepoSense.git (master)...
-Jan 28, 2021 9:14:30 PM reposense.report.ReportGenerator updateRepoConfig
+Jan 29, 2021 9:10:47 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: Ignoring standalone config file in https://github.com/reposense/RepoSense.git (master).
-Jan 28, 2021 9:14:30 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jan 29, 2021 9:10:47 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/reposense/RepoSense.git (master)...
-Jan 28, 2021 9:14:30 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jan 29, 2021 9:10:47 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/reposense/RepoSense.git (master)...
-Jan 28, 2021 9:14:30 PM reposense.authorship.FileInfoExtractor extractFileInfos
+Jan 29, 2021 9:10:47 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/reposense/RepoSense.git (master)...
-Jan 28, 2021 9:14:36 PM reposense.report.ReportGenerator analyzeRepo
+Jan 29, 2021 9:10:52 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/reposense/RepoSense.git (master) completed!
-Jan 28, 2021 9:14:36 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:10:52 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/thenewboston-developers/Website.git to complete...
-Jan 28, 2021 9:14:36 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:10:52 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/thenewboston-developers/Website.git completed!
-Jan 28, 2021 9:14:36 PM reposense.report.RepoCloner spawnCloneProcess
+Jan 29, 2021 9:10:52 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/whyboris/Video-Hub-App.git...
-Jan 28, 2021 9:14:36 PM reposense.report.ReportGenerator analyzeRepos
+Jan 29, 2021 9:10:52 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [8/9] Analyzing https://github.com/thenewboston-developers/Website.git (development)...
-Jan 28, 2021 9:14:36 PM reposense.report.ReportGenerator updateRepoConfig
+Jan 29, 2021 9:10:53 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/thenewboston-developers/Website.git (development) does not contain a standalone config file.
-Jan 28, 2021 9:14:36 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jan 29, 2021 9:10:53 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/thenewboston-developers/Website.git (development)...
-Jan 28, 2021 9:14:36 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jan 29, 2021 9:10:53 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/thenewboston-developers/Website.git (development)...
-Jan 28, 2021 9:14:36 PM reposense.authorship.FileInfoExtractor extractFileInfos
+Jan 29, 2021 9:10:53 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/thenewboston-developers/Website.git (development)...
-Jan 28, 2021 9:14:44 PM reposense.report.ReportGenerator analyzeRepo
+Jan 29, 2021 9:11:00 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/thenewboston-developers/Website.git (development) completed!
-Jan 28, 2021 9:14:44 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:11:00 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/whyboris/Video-Hub-App.git to complete...
-Jan 28, 2021 9:14:44 PM reposense.report.RepoCloner waitForCloneProcess
+Jan 29, 2021 9:11:00 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/whyboris/Video-Hub-App.git completed!
-Jan 28, 2021 9:14:44 PM reposense.report.ReportGenerator analyzeRepos
+Jan 29, 2021 9:11:00 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [9/9] Analyzing https://github.com/whyboris/Video-Hub-App.git (master)...
-Jan 28, 2021 9:14:44 PM reposense.report.ReportGenerator analyzeRepos
+Jan 29, 2021 9:11:00 PM reposense.report.ReportGenerator analyzeRepos
 SEVERE: Branch master does not exist in https://github.com/whyboris/Video-Hub-App.git! Analysis terminated.
 reposense.git.exception.GitBranchException: reposense.system.CommandRunnerProcessException: Error returned from command git rev-parse --verify masteron path repos/whyboris_Video-Hub-App/Video-Hub-App_bare :
 fatal: Needed a single revision
@@ -197,7 +197,7 @@ fatal: Needed a single revision
 	at reposense.report.ReportGenerator.generateReposReport(ReportGenerator.java:114)
 	at reposense.RepoSense.main(RepoSense.java:79)
 
-Jan 28, 2021 9:14:44 PM reposense.report.ReportGenerator generateReposReport
+Jan 29, 2021 9:11:00 PM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/travis/build/jamessspanggg/OpenSourceContribution/reposense-report
-Jan 28, 2021 9:14:44 PM reposense.RepoSense main
-INFO: Elapsed processing time: 2 minute(s) 32.85 second(s)
+Jan 29, 2021 9:11:00 PM reposense.RepoSense main
+INFO: Elapsed processing time: 2 minute(s) 28.96 second(s)
